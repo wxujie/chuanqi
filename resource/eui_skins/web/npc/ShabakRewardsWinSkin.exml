@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShabakRewardsWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="641" height="326">
+	<e:Image id="dragDropUI" source="bg_newNpc_png"/>
+	<e:Button id="btn_close" label="" y="-11.02" width="60" x="624.02">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="沙巴克攻城结束后，城主可通过我来领取专属奖励！" x="30" y="40" size="20" textColor="0xe5ddcf" stroke="2"/>
+	<e:Label text="沙巴克所属行会：" x="30" y="74" size="20" textColor="0xE5DDCF" stroke="2"/>
+	<e:Label text="当前沙巴克城主：" x="30" y="107" size="20" textColor="0xE5DDCF" stroke="2"/>
+	<e:Label text="城主奖励：" x="34" y="206" size="20" textColor="0xff7700"/>
+	<e:Label id="guildName" text="暂无" x="187" y="75" size="20" stroke="2" textColor="0x28ee01"/>
+	<e:Label id="playerName" text="暂无" x="187" y="108" size="20" stroke="2" textColor="0x28EE01"/>
+	<e:Image width="330" height="77.5" x="30" y="230" source="bg_sixiang_3" scale9Grid="5,6,8,9" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:List id="rewardsList" x="35.5" y="238" itemRendererSkinName="ItemBaseSkin">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:List>
+	<e:Group x="492" y="272">
+		<e:Image x="12" y="14" source="npc_lingxing"/>
+		<e:Label id="receiveLab" text="领取奖励" x="43" y="11" textColor="0xeee104" size="20" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout gap="6"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

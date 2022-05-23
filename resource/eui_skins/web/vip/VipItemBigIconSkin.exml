@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipItemBigIconSkin" width="284" height="199" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="icon" source="vip_json.tq_p_1_1" x="0" y="0"/>
+</e:Skin>

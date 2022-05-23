@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Welcome2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect top="0" right="0" bottom="0" left="0"/>
+		<e:Group width="485" height="679" horizontalCenter="0" verticalCenter="-30" touchChildren="false" touchEnabled="false">
+	<e:Image source="hyhy_bg_png"/>
+			<e:Button id="closeBtn" label="" horizontalCenter="0.5" verticalCenter="258.5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hyhy_btn_png" source.down="hyhy_btn_png" source.disabled="hyhy_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="timeLabel" text="Label" y="634" size="22" textColor="0x28ee01" stroke="2" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

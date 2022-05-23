@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DimensionBossSkin" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="984" height="676">
+    <e:Image id="dragDropUI" source="kf_bg1_png" />
+    <e:Image source="kf_kfsl" x="409" y="33" touchEnabled="false" />
+    <e:Group left="60" right="60" height="556" y="90">
+        <e:Group width="594" height="556" touchEnabled="false">
+            <e:Image id="bg_boss" source="kf_cy_bg1_png" touchEnabled="false" />
+            <e:Group horizontalCenter="0" y="55">
+                <e:Image source="kf_cy_bg2" />
+                <e:Image id="imgBossName" source="kf_cy_cysl" y="5"  x="145"/>
+            </e:Group>
+            <e:Button id="btn_go" label="参与" skinName="Btn9Skin" y="500" horizontalCenter="0.5" />
+            <app:RedDotControl id="redPoint" width="20" height="20" y="495" horizontalCenter="50" />
+            <e:Label id="actTime" text="活动时间：12:00:00-12:30:00" y="20" size="20" stroke="2" textColor="0x28ee01"
+                     horizontalCenter="0" />
+            <e:Label id="actTime2" text="活动时间：\n\n12:00:00-12:30:00\n12:00:00-12:30:00\n12:00:00-12:30:00" y="115"
+                     size="16" stroke="2" textAlign="left" lineSpacing="5" x="30" textColor="0x28ee01" />
+					<e:Label id="txt_refresh" text="剩余时间：15：30" x="355" y="498" size="16" textColor="0x28ee01" stroke="1"/>
+            <e:Label id="labTips" text="所有奖励回到原服时邮件发放" y="522" size="16" stroke="2" textColor="0xff7700" x="355" />
+            <e:ProgressBar id="hpBar" slideDuration="0" y="460" skinName="bloodBarSkin3" value="0" width="396"
+                           horizontalCenter="0" />
+            <e:Image id="imgDead" source="kf_cy_bg4" y="115" x="435" />
+        </e:Group>
+        <e:Group x="594">
+            <app:DimensionBossListItem id="rewardItem1" skinName="DimensionBossListItemSkin" width="270" height="182"
+                                       y="0" />
+            <app:DimensionBossListItem id="rewardItem2" skinName="DimensionBossListItemSkin" width="270" height="182"
+                                       y="186" />
+            <app:DimensionBossListItem id="rewardItem3" skinName="DimensionBossListItemSkin" width="270" height="182"
+                                       y="372" />
+        </e:Group>
+    </e:Group>
+    <app:RuleTipsButton id="helpBtn" label="Button" x="90" y="120" ruleId="96" />
+    <e:Button id="closeBtn" label="" width="61" height="57" x="903" y="28">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2"
+                         source.down="apay_x2" source.disabled="apay_x2" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+</e:Skin>

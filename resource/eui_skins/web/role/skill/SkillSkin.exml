@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillSkin" width="391" height="453" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="container" width="383" height="448" x="-1.5" y="-0.5" anchorOffsetX="0" anchorOffsetY="0" scaleX="1"
+	         scaleY="1">
+		<!--<e:Scroller name="scroller" x="1" height="415" anchorOffsetX="0" anchorOffsetY="0" y="4" scaleX="1" scaleY="1"
+		                width="354" />
+		<e:List name="list" anchorOffsetX="0" x="2" y="2" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:layout>
+				<e:VerticalLayout gap="0" />
+			</e:layout>
+		</e:List>
+		<e:VSlider name="verticalSlider" x="354" value="0" width="20" height="415" minimum="0" maximum="415">
+			<e:Skin minWidth="20" minHeight="10">
+				<e:Image id="track" source="shuxinghuadong_1" scale9Grid="2,2,16,15" width="20" height="100%" verticalCenter="0" />
+				<e:Image id="trackHighlight" source="shuxinghuadong_1" scale9Grid="2,2,16,15" width="20" verticalCenter="0" />
+				<e:Image id="thumb" source="shuxinghuadong_2" rotation="0" x="2" width="16" height="40" scale9Grid="7,21,2,1" />
+			</e:Skin>
+		</e:VSlider>
+		-->
+		<e:Scroller name="scroller" x="3" height="439" anchorOffsetX="0" anchorOffsetY="0" width="378" y="7" scaleX="1"
+		            scaleY="1" />
+		<e:List name="list" anchorOffsetX="0" x="9" y="6" anchorOffsetY="0" width="78"  useVirtualLayout="false" itemRendererSkinName="RoleSkilltemSkin">
+			<!--<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+					<e:Object a="null"/>
+				</e:Array>
+			</e:ArrayCollection>-->
+			<!--<e:layout>
+				<e:VerticalLayout  gap="2"/>
+			</e:layout>-->
+		</e:List>
+		<e:VSlider name="verticalSlider" x="359" value="0" width="20" height="415" minimum="0" maximum="415" y="2" visible="false">
+			<e:Skin minWidth="20" minHeight="10">
+				<e:Image id="track" source="shuxinghuadong_1" scale9Grid="2,2,16,15" width="20" height="100%" verticalCenter="0" />
+				<e:Image id="trackHighlight" source="shuxinghuadong_1" scale9Grid="2,2,16,15" width="20" verticalCenter="0" />
+				<e:Image id="thumb" source="shuxinghuadong_2" rotation="0" x="2" width="16" height="40" scale9Grid="7,21,2,1" />
+			</e:Skin>
+		</e:VSlider>
+	</e:Group>
+	<e:Label id="txt_get" text="" x="273" y="398" size="16" textAlign="left" textColor="0x32FC00" multiline="false" scaleX="1" scaleY="1" italic="false"  anchorOffsetX="0" visible="false"/>
+</e:Skin>

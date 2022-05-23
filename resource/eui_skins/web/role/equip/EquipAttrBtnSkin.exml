@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipAttrBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="show,hide" >
+	<e:Image source="role_sx_btn1"/>
+	<e:Image id="iconDisplay" source="role_sx_btnsx" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image includeIn="hide" source="role_sx_btn2"/>
+</e:Skin>

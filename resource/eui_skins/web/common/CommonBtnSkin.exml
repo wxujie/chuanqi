@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonBtnSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing" states="up,down">
+	<e:Image id="bg" smoothing="false" horizontalCenter="0" verticalCenter="0" source="" />
+	<e:Image id="bg0" smoothing="false" horizontalCenter="0" verticalCenter="0" source="" visible.up="false"/>
+	<app:RedDotControl id="redDot" width="20" height="20" x="39.67" y="1.99" visible="false" />
+</e:Skin>

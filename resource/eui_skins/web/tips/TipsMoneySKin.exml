@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsMoneySKin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="strGrp" width="335">
+		<e:Image source="9s_bg_2" scale9Grid="3,3,24,24" width="100%" height="100%"/>
+		<e:Label id="descLab" text="" y="14" size="20" width="312" left="8" textColor="0xe5ddcf" lineSpacing="2" stroke="2"/>
+	</e:Group>
+</e:Skin>

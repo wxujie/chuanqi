@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildDevoteViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="431" height="478">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin4Skin"/>
+	<e:Group width="370" height="382" x="30" y="56">
+		<e:Group width="370" height="186">
+			<e:Image id="bg0" source="kbg_3_1_png" x="1" y="-1"  width="345"  height="188" scale9Grid="38,38,14,23"  visible="false"/>
+			<e:Image  source="mail_bg" scale9Grid="14,15,1,1" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="goldLb0" text="捐献20000绑定元宝" size="20"  verticalCenter="-69" horizontalCenter="4" stroke="2" textColor="0xe0ae75"/>
+			<e:Label id="txt0Get" text="" x="123" y="52.5" size="20"   textColor="0xe5ddcf" stroke="2"/>
+			<e:Label id="goldDayNum0" text="" y="149" size="18"   stroke="2" right="10" textColor="0xe0ae75"/>
+			<e:Label id="txt0Money" text="" x="125.5" y="82" size="18"   textColor="0xe0ae75" stroke="2"/>
+			<e:Label id="goldAddCionLb0" text="" x="173.5" y="83.5" size="18"   textColor="0x28ee01" stroke="2"/>
+			<e:Label id="txt0Devote" text="" x="234" y="82.5" size="18"   textColor="0xe0ae75" stroke="2"/>
+			<e:Label id="goldAddDevoteLb0" text="" x="282" y="83" size="18"   textColor="0x28ee01" stroke="2"/>
+			<e:Button id="goldDevoteBtn0" label="" x="130" y="131.5" skinName="Btn9Skin" />
+			<e:Image source="guild_jxfgx" x="41" y="36.5" />
+			<e:Image source="guild_jxiconk" x="36" y="49"/>
+			<e:Image id="goldIcon0" source="13010" x="40" y="52"/>
+		</e:Group>
+		<e:Group width="370" height="187" x="0" y="201">
+			<e:Image id="bg1" source="kbg_3_1_png" x="1" y="-1"  width="345"  height="188" scale9Grid="38,38,14,23"  visible="false"/>
+			<e:Image  source="mail_bg" scale9Grid="15,15,1,1" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="goldLb1" text="" size="20"  verticalCenter="-76.5" horizontalCenter="15" textColor="0xe0ae75" stroke="2"/>
+			<e:Label id="txt1Get" text="" x="123.5" y="47" size="20"   textColor="0xe5ddcf" stroke="2"/>
+			<e:Label id="goldDayNum1" text="" y="146" size="18"  stroke="2" right="10" textColor="0xe0ae75"/>
+			<e:Label id="txt1Money" text="" x="124.5" y="75.5" size="18"  stroke="2" textColor="0xe0ae75"/>
+			<e:Label id="goldAddCionLb1" text="" x="170" y="76" size="18"   stroke="2" textColor="0x28ee01"/>
+			<e:Label id="txt1Devote" text="" x="234" y="76.5" size="18"  stroke="2" textColor="0xe0ae75"/>
+			<e:Label id="goldAddDevoteLb1" text="" x="281" y="77" size="18"  stroke="2" textColor="0x28ee01"/>
+			<e:Button id="goldDevoteBtn1" label="" x="130" y="126.5" skinName="Btn9Skin" />
+			<e:Image source="guild_jxfgx" x="31" y="30.5" />
+			<e:Image source="guild_jxiconk" x="36.35" y="46.98"/>
+			<e:Image id="goldIcon1" source="13010" x="39.7" y="50.65"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

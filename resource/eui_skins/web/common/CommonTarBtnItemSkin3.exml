@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonTarBtnItemSkin3" width="85" height="33" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" states="up,down" >
+	<e:Image source="sz_tab_1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label anchorOffsetX="0" width="73" anchorOffsetY="0" horizontalCenter="0.5" size="15" verticalAlign="middle" textAlign="center" stroke="1" lineSpacing="13" verticalCenter="3" textColor.down="0xffb014" textColor.up="0xb29d70" text="" visible="false"/>
+	<e:Image id="barText" source="sz_tab_t1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" source="sz_tab_2" visible.down="false"/>
+	<app:RedDotControl id="redDot" width="20" height="20" x="68.5" touchChildren="false" touchEnabled="false" y="-2" visible="false"/>
+</e:Skin>

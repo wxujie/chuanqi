@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeRefiningAttrItemSkin" width="232" height="23" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="txt_next" text="生命值上限：+2" x="16" y="3" size="15"  anchorOffsetX="0" anchorOffsetY="0" height="17" textAlign="left" textColor="0x28ee01"/>
+	<e:Image id="iconFlat" y="9.2" right="44" source="forge_t2" visible="false"/>
+	<e:Image id="iconUp" source="forge_t3" x="173.2" y="4.6" scaleY="1" visible="false"/>
+	<e:Image id="iconDown" source="forge_t1" x="173" y="6" scaleY="1" visible="false"/>
+</e:Skin>

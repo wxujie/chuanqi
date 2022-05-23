@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OtherPlayerSkin" width="417" height="611" xmlns:e="http://ns.egret.com/eui" xmlns:app="*"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app1="app.*">
+	<!--<app1:RoleView id = "OtherPlayer_View" x="0" y="0" skinName="RoleViewSkin"/>-->
+</e:Skin>

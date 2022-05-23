@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GhostSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing"
+        width="912" height="646">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin1Skin" />
+	<e:Image source="com_bg_kuang_4_png" x="171" y="52.32" />
+	<e:TabBar id="optTab" x="25" y="61" itemRendererSkinName="TradeLineTabSkin" anchorOffsetX="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="-3" />
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object a="null"/>
+				<e:Object a="null"/>
+				<e:Object a="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+	<e:Image id="dotImage" source="common_hongdian" x="153" y="64" visible="false"/>
+	<e:Group id="infoGroup" width="709" height="550" x="181" y="61" anchorOffsetX="0">
+		<e:Image source="bg_sm" anchorOffsetX="0" width="703" />
+		<e:Group id="group1" anchorOffsetX="0" width="701" height="441">
+			<e:Label id="info1_desc1" text="" x="25" y="27" stroke="2" size="22" textColor="0xeee104" />
+			<e:Label id="info1_desc2" text="" x="25" y="68" stroke="2" size="22" textColor="0xe5ddcf" />
+			<e:Label id="info1_desc3" text="" x="36" y="454" stroke="2" size="22" textColor="0xE5DDCF" />
+			<e:Label id="txt_get" text="" size="22" textAlign="left" textColor="0x32FC00" multiline="false" italic="false"
+			         x="577" y="486" />
+			<e:Group id="info1_Item" width="200" height="86" x="341" y="449" visible="false">
+				<app:ItemBase x="10" y="0" skinName="ItemBaseSkin" name="item0" />
+				<e:Label text="" stroke="2" size="20" textColor="0xE5DDCF" width="120" textAlign="center" y="64" x="-21"
+				         name="itemName0" />
+				<app:ItemBase x="100" y="0" skinName="ItemBaseSkin" name="item1" />
+				<e:Label text="" stroke="2" size="20" textColor="0xE5DDCF" width="120" textAlign="center" y="64" x="69"
+				         name="itemName1" />
+			</e:Group>
+			<e:List id="info1_List" width="683" height="323" x="19" y="109" itemRendererSkinName="ResonateItemSkin"
+			        anchorOffsetX="0"></e:List>
+			<e:List id="listCost" width="200" x="342" anchorOffsetY="0" y="450">
+				<e:layout>
+				<e:VerticalLayout verticalAlign="contentJustify" gap="2"/>
+				</e:layout>
+			</e:List>
+			<e:CheckBox id="checkYes" x="36" name="tabRed" y="514" skinName="CheckBox3"/>
+			<e:Label id="lbMoney" text="神魔结晶不足时使用元宝代替，50元宝/个" x="68" y="518" size="18" textColor="0xE68246"/>
+		</e:Group>
+		<e:Group id="group2" anchorOffsetX="0" width="701" height="548" anchorOffsetY="0" visible="false">
+			<e:Scroller id="scroller" width="696" height="532" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" x="0" y="5" scrollPolicyH="off">
+				<e:Group width="690">
+					<e:Label id="info2_desc1" text="" x="23" y="15" size="22" stroke="2" textColor="0xeee104" />
+					<e:Label id="info2_desc2" text="" x="23" y="55" stroke="2" size="22" textColor="0xE5DDCF" />
+					<e:List id="info2_list" width="655" x="24" y="97" anchorOffsetX="0" itemRendererSkinName="ResonateItem2Skin">
+						<e:layout>
+							<e:VerticalLayout gap="14" />
+						</e:layout>
+					</e:List>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="group3" anchorOffsetX="0" width="701" height="538" anchorOffsetY="0" visible="false">
+			<e:Image source="sm_t7" x="133" y="148" />
+			<e:List id="info3_list" width="649" x="26" y="240" anchorOffsetX="0" itemRendererSkinName="ResonateItem2Skin"
+			        anchorOffsetY="0" height="302">
+				<e:layout>
+					<e:VerticalLayout gap="0" />
+				</e:layout>
+			</e:List>
+			<e:Label id="info3_desc" text="" x="25" y="27" stroke="2" size="22" textColor="0xEEE104" />
+			<e:Label id="info3_desc1" text="" x="25" y="68" stroke="2" size="22" textColor="0xE5DDCF" />
+			<e:Label id="info3_desc2" text="" x="25" y="113" stroke="2" size="22" textColor="0xEEE104" />
+			<e:Label id="info3_desc4" text="" x="25" y="154" stroke="2" size="22" textColor="0xE5DDCF" />
+			<e:Label id="info3_desc5" text="" x="25" y="203" stroke="2" size="22" textColor="0xEEE104" />
+		</e:Group>
+		<e:Group id="group4" anchorOffsetX="0" width="701" height="549" anchorOffsetY="0" visible="false">
+			<e:Image source="sm_p1" y="161" x="26" />
+			<e:Image source="sm_p1" y="204" x="26" />
+			<e:Image source="sm_p1" y="248" x="26" />
+			<e:Image source="sm_p1" y="289" x="26" />
+			<e:Image source="sm_p1" y="331" x="26" />
+			<e:Image x="52" y="161"  name="img1" source="t_shenmo_1"/>
+			<e:Image x="52" y="203" source="t_shenmo_2"  name="img2"/>
+			<e:Image x="52" y="245" source="t_shenmo_3"  name="img3"/>
+			<e:Image x="52" y="287" source="t_shenmo_4"  name="img4"/>
+			<e:Image x="52" y="329" source="t_shenmo_5"  name="img5"/>
+			<e:Button id="receiveBtn" label="" x="283" skinName="Btn9Skin" y="486"/>
+			<e:ProgressBar width="182" height="20" x="141" y="161" value="0" name="bar1">
+			<e:Skin>
+				<e:Image source="sm_jyt1" scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0" />
+				<e:Image id="thumb" height="100%" source="sm_jyt2"  />
+				<e:Label id="labelDisplay" textAlign="center" stroke="2" verticalAlign="middle"
+				size="20"   textColor="0xe5ddcf"
+				horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:ProgressBar>
+			<e:ProgressBar width="182" height="20" x="141" y="203" value="0" name="bar2">
+				<e:Skin>
+				<e:Image source="sm_jyt1" scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0"/>
+				<e:Image id="thumb" height="100%" source="sm_jyt2"/>
+				<e:Label id="labelDisplay" textAlign="center" stroke="2" verticalAlign="middle" size="20"  textColor="0xe5ddcf" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:ProgressBar>
+			<e:ProgressBar width="182" height="20" x="141" y="244" value="0" name="bar3">
+				<e:Skin>
+				<e:Image source="sm_jyt1" scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0"/>
+				<e:Image id="thumb" height="100%" source="sm_jyt2"/>
+				<e:Label id="labelDisplay" textAlign="center" stroke="2" verticalAlign="middle" size="20"  textColor="0xe5ddcf" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:ProgressBar>
+			<e:ProgressBar width="182" height="20" x="141" y="287" value="0" name="bar4">
+				<e:Skin>
+				<e:Image source="sm_jyt1" scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0"/>
+				<e:Image id="thumb" height="100%" source="sm_jyt2"/>
+				<e:Label id="labelDisplay" textAlign="center" stroke="2" verticalAlign="middle" size="20"  textColor="0xe5ddcf" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:ProgressBar>
+			<e:ProgressBar width="182" height="20" x="141" y="329" value="0" name="bar5">
+				<e:Skin>
+				<e:Image source="sm_jyt1" scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0"/>
+				<e:Image id="thumb" height="100%" source="sm_jyt2"/>
+				<e:Label id="labelDisplay" textAlign="center" stroke="2" verticalAlign="middle" size="20"  textColor="0xe5ddcf" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:ProgressBar>
+			<e:Label id="info4_desc" text="" x="25" y="27" stroke="2" size="22" lineSpacing="18" anchorOffsetY="0" height="126" anchorOffsetX="0" width="665" scaleX="1" scaleY="1" textColor="0xe5ddcf"/>
+			<e:Label id="info4_desc1" text="" x="10" y="441" stroke="2" size="22" textColor="0xEEE104" lineSpacing="18" anchorOffsetY="0" anchorOffsetX="0" width="680" scaleX="1" scaleY="1" textAlign="center"/>
+			<e:Label text="" x="365" y="161" stroke="2" size="22" lineSpacing="18" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" textColor="0xe5ddcf" name="lab1"/>
+			<e:Label text="" x="365" y="203" stroke="2" size="22" lineSpacing="18" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" textColor="0xE5DDCF" name="lab2"/>
+			<e:Label text="" x="365" y="246" stroke="2" size="22" lineSpacing="18" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" textColor="0xE5DDCF" name="lab3"/>
+			<e:Label text="" x="365" y="286" stroke="2" size="22" lineSpacing="18" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" textColor="0xE5DDCF" name="lab4"/>
+			<e:Label text="" x="365" y="330" stroke="2" size="22" lineSpacing="18" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" textColor="0xE5DDCF" name="lab5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

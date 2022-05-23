@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsActorSkin" width="422" height="59" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="effGrp" x="181" y="58" touchEnabled="false" touchChildren="false"/>
+	<!--<e:Image source="fightnum_bg"/>
+	<e:Image id="jobImg" source="fightnum_z" y="13" left="24"/>-->
+	<e:Group width="224" height="58" x="190" y="14">
+		<e:Scroller height="29" x="2" y="3" scaleX="1" scaleY="1">
+			<e:Group id="attrStrGrp"/>
+		</e:Scroller>
+		<e:Image x="66" y="7" source="sx_num_p"/>
+		<e:Scroller height="24" x="86.5" y="4.5" scaleX="1" scaleY="1" visible="false">
+			<e:Group id="tarNumGrp"/>
+		</e:Scroller>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="-6"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

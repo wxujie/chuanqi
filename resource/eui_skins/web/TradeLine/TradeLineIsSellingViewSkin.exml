@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TradeLineIsSellingViewSkin" width="869" height="558" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="56" source="com_bg_kuang_xian1" scale9Grid="10,9,3,3"/>
+	<e:Group width="857" horizontalCenter="0" top="4" bottom="512">
+		<e:Image source="common_liebiaoding_bg" scale9Grid="90,5,546,32" width="857"/>
+		<e:Image x="295" source="common_liebiaoding_fenge"/>
+		<e:Image x="500" source="common_liebiaoding_fenge"/>
+		<e:Image x="695" source="common_liebiaoding_fenge"/>
+		<e:Label text="商品名称" textColor="0xF0C896" size="23" horizontalCenter="-274.5" verticalCenter="-0.5" stroke="2"/>
+		<e:Label text="剩余时间" textColor="0xF0C896" size="23" horizontalCenter="-20.5" verticalCenter="0.5" stroke="2"/>
+		<e:Label text="价格" textColor="0xF0C896" size="23" horizontalCenter="168.5" verticalCenter="0.5" stroke="2"/>
+		<e:Label text="下架" textColor="0xF0C896" size="23" horizontalCenter="347.5" verticalCenter="0.5" stroke="2"/>
+	</e:Group>
+	<e:Scroller id="itemScroller" width="855" height="445" x="7" y="52">
+		<e:List id="sellList" itemRendererSkinName="TradeLineIsSellingItemViewSkin">
+			<e:layout>
+				<e:VerticalLayout gap="2"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="curSell" text="" size="21" textColor="0xf0c896" left="54" bottom="16" visible="false"/>
+	<e:Button id="allShelf" label="全部下架" skinName="Btn9Skin" right="41" bottom="7" visible="false"/>
+</e:Skin>

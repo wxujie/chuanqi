@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn10Skin" width="74" height="26" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down">
+	<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="m_chat_btn"/>
+	<e:Image id="iconDisplay" verticalCenter="-0.5" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="17.5" source="chat_json.shangjiantou" visible="false"/>
+	<e:Label id="labelDisplay" text="附近" size="14" textColor="0xfff2be" bold="true" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="-6.5" verticalCenter="0.5" visible="false"/>
+	<e:Image x="20.2" y="4.4" source="m_chat_t_fasong"/>
+</e:Skin>

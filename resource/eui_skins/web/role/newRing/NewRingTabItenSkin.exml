@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewRingTabItenSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" states="up,down" >
+	<e:Image source="icon_ring_xuanzhong" visible.up="false"/>
+	<e:Image id="iconDark" source="btn_sj_1_d" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="iconLight" source="btn_sj_1_u" horizontalCenter="0" verticalCenter="0" visible.up="false"/>
+	<app:RedDotControl id="redPoint" right="5" top="5"/>
+</e:Skin>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityWlelfareViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="1027" height="690">
+	<e:Image id="dragDropUI"  source="apay_bg2_png"/>
+	<e:Image x="80" y="115" width="154" height="538" source="com_bg_kuang_6_png" scale9Grid="17,18,2,4"/>
+	<e:Image id="bgImg1" x="239" y="115" width="707" height="405" scale9Grid="18,15,4,3" alpha="0.7" source="flqd_bg0"/>
+	<e:Image id="bgImg2" x="239" y="557" width="707" height="96" source="com_bg_kuang_6_png" scale9Grid="18,15,4,3"/>
+    <e:Button id="btnClose" label="" width="61" height="57"  x="931" y="56">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="imgTitle" y="55.31" horizontalCenter="-3.5" touchEnabled="false" x="238" scaleX="1" scaleY="1" source="biaoti_fuli"/>
+	<e:Group width="707" height="538" x="239" y="115" touchEnabled="false">
+		<e:Group id="group_10005" width="707" height="538" x="0" y="0">
+			<e:Scroller id="CalendaScroller" y="2" x="-2">
+			<e:List id="listCalenda" width="705" height="403" itemRendererSkinName="SignItemViewSkin" x="-2" y="2">
+				<e:layout>
+					<e:TileLayout horizontalGap="5" horizontalAlign="center" verticalGap="5" paddingLeft="1"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>	
+			<e:BitmapLabel id="bmpLb_curM" width="79" height="31" x="29" y="38" font="signNum_1_fnt" text="10月" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+			<e:TabBar id="tabItem" x="2.66" y="409.68" itemRendererSkinName="ActWleFareTabSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:HorizontalLayout gap="1"/>
+				</e:layout>
+			</e:TabBar>
+			<e:Scroller x="25.04" y="459.95" width="481.33" anchorOffsetY="0" height="69.67" anchorOffsetX="0">
+				<e:List id="itemList" itemRendererSkinName="ItemBaseSkin" anchorOffsetX="0" width="372" x="-9" y="0" anchorOffsetY="0" height="64.33">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Button id="btnSign" label="签到" x="565" y="416" skinName="Btn9Skin" visible="false">
+			</e:Button>
+			<e:Button id="btnGetGift" label="领取奖励" width="113" height="46" x="551.66" y="483.68" scaleX="1" scaleY="1" skinName="Btn9Skin">
+			</e:Button>
+			<e:Image id="imgYiGet" width="95" height="68" x="563.22" y="467.14" source="apay_yilingqu" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<app:RedDotControl id="redDotSign" width="20" height="20" x="663.08" y="411.99" visible="false"/>
+			<app:RuleTipsButton id="btnHelp0" label="Button" x="476.08" y="408.98" ruleId="68" scaleX="1" scaleY="1"/>
+			<e:Label id="bmpLb_signNum" text="本月已签到15天" size="18" textColor="0xff7700" stroke="2" verticalCenter="193" horizontalCenter="255"/>
+		</e:Group>
+		<e:Group id="group_10007" width="707" height="538" visible="false">
+			<e:Image source="yk_bg_png" width="707"/>
+			<e:Image source="wlelfare_json.yk_biaoqian_0" x="250.99" y="198.65"/>
+			<e:Image id="imgCardIcon" x="231" y="46" source=""/>
+			<e:Image id="imgMonthCardTitle" x="289.98" y="192" source="yk_biaoqian_1"/>
+			<e:Image id="imgMonthCardDay" x="619" y="222" source="wlelfare_json.yk_30tian2"/>
+			<e:Button id="btnBuy" label="68元购买" x="261" y="459" anchorOffsetX="0" width="180" anchorOffsetY="0" height="83">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image  horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="yk_btn" source.down="yk_btn" source.disabled="yk_btn"/>
+					<e:Label id="labelDisplay" verticalCenter="-2" size="20" textColor="0x1f0000" bold="true"  horizontalCenter="4"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="lbDesc" text="购买月卡不计入首充" x="24" y="507" size="20" textColor="0x735505"  visible="false"/>
+			<e:Label id="lbDay" text="剩余28天" x="546" y="508" size="20" textColor="0x16b500" />
+			<e:List id="listCardDesc" width="504.55" x="105" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="27.5">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout verticalAlign="contentJustify"/>
+				</e:layout>
+			</e:List>
+			<app:RuleTipsButton id="btnHelp" label="Button" x="17.67" y="14.43" ruleId="19"/>
+		</e:Group>
+		<e:Group id="group_10011" width="707" height="538" visible="false">
+			<e:Image source="fl_jhm_bg_png" width="707" height="538"/>
+			<e:Button id="btnPaste" label="" x="555" y="334.33" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="fl_jhm_btn_2" source.down="fl_jhm_btn_2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btnGetAward" label="" x="363" y="412">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="fl_jhm_btn_1" source.down="fl_jhm_btn_1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:EditableText id="InputCode" width="284" text="" x="259.65" size="20" height="30" verticalAlign="middle" y="338.99" textAlign="center" maxChars="120" anchorOffsetX="0" anchorOffsetY="0"  prompt="&lt;请输入激活码&gt;" textColor="0xf9efef"/>
+		</e:Group>
+		<e:Group id="group_yqs" width="707" height="538" visible="false">
+			<e:Image source="yqs_bg_png" />
+			<app:RuleTipsButton id="btnHelp_yqs" label="Button" ruleId="91" x="660" y="20" />
+			<e:Group x="175.5" y="30">
+				<e:Image id="cash_imgTree" source="btnbg_png"  anchorOffsetX="160" anchorOffsetY="330"  x="160" y="330"/>
+			</e:Group>
+			<e:Group id="cash_effGrp" verticalCenter="70" horizontalCenter="-10"/>
+			<e:Image source="yqs_wz" x="95" y="40" />
+			<e:Label id="cash_txtCondition" text="官职达到六品开启摇钱树功能" y="412" size="18" width="250" textAlign="center" x="229" textColor="0xe5ddcf" stroke="2"/>
+			<e:Label id="cash_txtAward" text="可获得：       3300000(有10%的几率暴击)" size="17" x="250" y="414" textColor="0xe5ddcf" stroke="2"/>
+			<e:Label id="cash_txtCost" text="消耗：      300(优先消耗摇钱树叶)" size="17" y="510" x="250" textColor="0xe5ddcf" stroke="2"/>
+			<e:Image id="cash_imgAward" x="311" y="402" source="icon_bangding"/>
+			<e:Image id="cast_imgCost" x="291" y="499" source="icon_yuanbao"/>
+			<e:Label id="cash_txtTime" text="剩余次数：10" y="467" size="17" x="440" textColor="0xe5ddcf" stroke="2"/>
+			<e:Button id="btnCash" label=""  y="444"  horizontalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="yqs_btn" source.down="yqs_btn"/>
+					<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" stroke="2"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<app:RedDotControl id="cash_redPoint" y="444" horizontalCenter="50" visible="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="infoGrp" width="707" height="538" x="239" y="115" touchEnabled="false">
+		<e:Image source="com_bg_kuang_6_png" scale9Grid="17,18,2,4" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+	</e:Group>
+	<e:Scroller id="tabScroller" x="83" y="118"   width="147" height="536">
+		<e:TabBar id="tabBarMenu" itemRendererSkinName="ActivityPayButtonSkin">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="-3"/>
+			</e:layout>
+		</e:TabBar>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrystalIdentifyWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="912" height="646">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin1Skin"/>
+	<app:RuleTipsButton label="Button" ruleId="31" top="14" left="31"/>
+	<e:Group width="853" horizontalCenter="-1.5" top="63" bottom="31" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="playList" top="0" horizontalCenter="1" bottom="0" itemRendererSkinName="CrystalIdentifyItemSkin">
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" paddingRight="0" horizontalGap="4" requestedColumnCount="2" verticalGap="4"/>
+		</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

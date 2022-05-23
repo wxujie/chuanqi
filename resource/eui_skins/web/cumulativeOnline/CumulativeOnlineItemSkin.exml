@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CumulativeOnlineItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:app="app.*" width="140" height="300">
+	<e:Group id="descGrp" horizontalCenter="0" y="12">
+		<e:Image  source="lj_tt1"/>
+		<e:Label id="txtDesc" text="在线10小时" size="15" textAlign="center" width="100"
+		         horizontalCenter="0" stroke="1"  textColor="0xeee104" verticalCenter="0"/>
+	</e:Group>
+	<app:ItemBase id="ItemData" skinName="ItemBaseSkin" horizontalCenter="0" y="50"/>
+	<e:Group id="effGrp" y="80" horizontalCenter="0"  touchChildren="false" touchEnabled="false"/>
+	<e:Image id="receiveImg" source="apay_yilingqu" y="45" touchEnabled="false" horizontalCenter="0.5" />
+	<e:Label id="txtTimer" text="在线10小时" size="15" y="130" textAlign="center" width="100"
+	         horizontalCenter="1" stroke="1"  textColor="0x28ee01"/>
+	<e:Image id="imgBar" horizontalCenter="1" y="195"  source="lj_jdt3"/>
+	<e:Button id="getBtn" label="领取奖励" y="255" horizontalCenter="0" skinName="Btn9Skin" scaleX="0.9" scaleY="0.9" />
+	<app:RedDotControl id="redPoint" width="20" height="20" y="248"  horizontalCenter="46"/>
+</e:Skin>

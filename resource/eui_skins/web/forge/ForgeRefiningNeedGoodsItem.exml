@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeRefiningNeedGoodsItem" width="75" height="124" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<app:ItemBase id="itembase" x="8" y="6" skinName="ItemBaseSkin"/>
+	<e:Label id="lbGoodsNum" text="30" y="76" size="20" textColor="0xf0c896" horizontalCenter="1.5"  textAlign="center"/>
+	<e:Label id="lbIsMoney" text="元宝替换" y="102" size="14" textColor="0x28ee01"  textAlign="center" horizontalCenter="1.5" visible="false"/>
+</e:Skin>

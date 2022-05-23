@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleGhostSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing"
+        width="384" height="448">
+	<e:Image x="3" y="2" source="bg_shenmo"/>
+	<e:Group id="infoGroup" width="361" height="430" x="17" y="11" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="icon_shenmo_1" x="140" y="14"/>
+		<e:Image x="268" y="104" source="icon_shenmo_3"/>
+		<e:Image x="217" y="250" source="icon_shenmo_5"/>
+		<e:Image x="64" y="251" source="icon_shenmo_4"/>
+		<e:Image x="14" y="104" source="icon_shenmo_2"/>
+		<e:Image source="t_shenmo_1" x="158" y="78"/>
+		<e:Image x="286" y="172" source="t_shenmo_3"/>
+		<e:Image x="238" y="317" source="t_shenmo_5" />
+		<e:Image x="78" y="324" source="t_shenmo_4" />
+		<e:Image x="31" y="171" source="t_shenmo_2" />
+		<e:Label text="" x="150" y="4" stroke="2" size="18" textColor="0x28ee01" width="50" textAlign="center" name="lv1"/>
+		<e:Label text="" x="22" y="91" stroke="2" size="18" textColor="0x28EE01" width="50" textAlign="center" name="lv2"/>
+		<e:Label text="" x="278" y="91" stroke="2" size="18" textColor="0x28EE01" width="50" textAlign="center" name="lv3"/>
+		<e:Label text="" x="74" y="236" stroke="2" size="18" textColor="0x28EE01" width="50" textAlign="center" name="lv4"/>
+		<e:Label text="" x="229" y="236" stroke="2" size="18" textColor="0x28EE01" width="50" textAlign="center" name="lv5"/>
+		<e:Label id="descLabel" text="" y="358" anchorOffsetX="0" width="359" size="22" textAlign="center" stroke="2" textColor="0xeee104" x="1"/>
+		<e:Button id="button" label="" width="113" height="46" horizontalCenter="0" verticalCenter="195">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" source="btn_apay"/>
+				<e:Label id="labelDisplay" text="button" size="18" horizontalCenter="0" verticalCenter="0"   textColor="0xf0c896" stroke="2"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<app:RedDotControl showMessages="GhostMgr.post_31_1;GhostMgr.post_31_2" updateShowFunctions="GhostMgr.getRed" x="221" y="387" visible="false"/>
+	</e:Group>
+	
+</e:Skin>

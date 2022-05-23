@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InspireItemSkin" width="265" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="43" y="5" anchorOffsetX="0" width="218" anchorOffsetY="0" height="61" source="boss_gw_bg2"/>
+	<e:Image smoothing="false" source="boss_gw_bg" anchorOffsetX="0" scaleX="0.8" scaleY="0.8" y="1"/>
+	<e:Image id="icon" source="boss_gw_jb" x="0" y="7" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="money" x="123" y="33" source="13123" scaleX="0.6" scaleY="0.5"/>
+	<e:Label id="txtAdd" text="60" x="73" y="14" size="18"  textColor="0x28ee01"/>
+	<e:Label id="txtConsume" text="消耗：      5000" x="73" y="39" size="18"  textColor="0xe2b68a"/>
+</e:Skin>

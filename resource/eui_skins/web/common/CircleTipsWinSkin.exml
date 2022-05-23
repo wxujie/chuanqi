@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CircleTipsWinSkin" width="432" height="272" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="circleEffGrp" horizontalCenter="0" verticalCenter="0">
+	</e:Group>
+	<e:Group id="closeGrp" bottom="30" horizontalCenter="0" width="134" height="51"/>
+</e:Skin>

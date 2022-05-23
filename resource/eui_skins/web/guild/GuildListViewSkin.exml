@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildListViewSkin" width="910" height="645" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin7Skin"/>
+	<e:Button id="creatGuildBtn" label="" x="644" y="565" skinName="Btn9Skin"/>
+	<e:Button id="onekeyAppBtn" label="" x="766" y="564" skinName="Btn9Skin"/>
+	<e:Image id="bg1" x="24.5" y="57" width="861.5" height="492" source="com_bg_kuang_6_png" scale9Grid="18,17,3,2" anchorOffsetX="0" anchorOffsetY="0"/>
+	<app:RuleTipsButton label="Button" x="577" y="571" ruleId="20"/>
+	<e:Group width="856" height="488" x="27.2" y="61" >
+		<e:Label id="noListTipsLb" text=""  textAlign="center" verticalAlign="middle" horizontalCenter="0" verticalCenter="0" textColor="0xDCD2BE" stroke="1" visible="false"/>
+		<e:Scroller id="scroller" width="856" height="488"  scrollPolicyH="off">
+			<e:List id="gList" itemRendererSkinName="GuildNoGuildListItemViewSkin">
+				<e:layout>
+					<e:VerticalLayout gap="1" paddingLeft="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

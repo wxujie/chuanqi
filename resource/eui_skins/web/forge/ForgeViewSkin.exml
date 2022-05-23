@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeViewSkin" width="869" height="558" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="238" height="499" source="kbg_3_1_png" scale9Grid="42,45,3,4" horizontalCenter="308.5" bottom="57"/>
+	<e:Image source="forge_bg" horizontalCenter="-123" bottom="57"/>
+	<e:Image id="obtain" source="forge_huode" horizontalCenter="-116" bottom="448"/>
+	<e:Group width="712" height="44" horizontalCenter="6.5" bottom="7">
+		<e:Button id="recycle" label="回 收" x="9" y="1" skinName="Btn9Skin"/>
+		<e:Button id="bulkRecycle" label="批量回收" x="127" y="2" skinName="Btn9Skin"/>
+		<e:Button id="historyRecord" label="历史记录" x="246.3" y="2" skinName="Btn9Skin"/>
+		<e:Button id="forge" label="锻造" x="362.8" y="2" skinName="Btn9Skin"/>
+		<e:Button id="forgeTen" label="锻造10次" x="480" y="2" skinName="Btn9Skin"/>
+		<e:Button id="rule" label="说明" x="598.8" y="2" skinName="Btn9Skin"/>
+	</e:Group>
+	<e:Group id="oneGrp" verticalCenter="-79" horizontalCenter="-119">
+		<e:Image source="forge_equip1" scaleX="1" scaleY="1"/>
+		<e:Image id="itemQua" source="quality_0" horizontalCenter="-1" verticalCenter="-1"/>
+		<e:Image id="itemIcon" horizontalCenter="-1" verticalCenter="-1" source="11000"/>
+	</e:Group>
+	<e:Image source="forge_t" bottom="513" horizontalCenter="310.5"/>
+	<e:Scroller id="scroller" width="219" height="411" horizontalCenter="309" bottom="97">
+		<e:List id="forgeList" width="219" height="411" itemRendererSkinName="ItemBaseSkin" horizontalCenter="309" bottom="97">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="3" horizontalGap="19" verticalGap="11"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:List id="rewardList" itemRendererSkinName="ForgeRewardItemSkin" horizontalCenter="-109" bottom="298" visible="false">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="5"/>
+		</e:layout>
+	</e:List>
+	<e:Label id="txt_get" text="" x="529" y="475" size="16" textAlign="left" textColor="0x32FC00" multiline="false" scaleX="1" scaleY="1" italic="false"  anchorOffsetX="0"/>
+</e:Skin>

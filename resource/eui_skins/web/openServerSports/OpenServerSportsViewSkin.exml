@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenServerSportsViewSkin" width="707" height="538" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" source="" top="0" horizontalCenter="0"/>
+	<e:Label id="timeLab" text="剩余时间：" x="161" y="18" size="22" textColor="0xffe500" stroke="2"/>
+	<e:Label id="actTime" text="" x="267" y="18" size="22" stroke="2" textColor="0x28ee01"/>
+	<e:Label id="descLab" text="活动内容：" x="159.5" y="48" size="22" textColor="0xFFE500" stroke="2"/>
+	<e:Label id="actDesc" text="" x="267" y="48" size="22" stroke="2" textColor="0xe7c590" width="385"/>
+	<e:Label id="curValue" text="" x="159.5" y="94" size="22" textColor="0xffe500" stroke="2"/>
+	<e:Image y="121" source="kf_jj_bqbg" horizontalCenter="0" scale9Grid="15,5,627,32" width="705"/>
+	<e:Image y="122" source="common_liebiaoding_fenge" horizontalCenter="-143"/>
+	<e:Image y="122" source="common_liebiaoding_fenge" horizontalCenter="151"/>
+	<e:Label id="sportsName" text="达标目标" y="130" size="22" stroke="2" textColor="0xd1b974" horizontalCenter="-242"/>
+	<e:Label text="奖  励" y="130" size="22" stroke="2" textColor="0xD1B974" horizontalCenter="-2"/>
+	<e:Label text="操  作" y="130" size="22" stroke="2" textColor="0xD1B974" horizontalCenter="240.5"/>
+	<e:Scroller id="sportsScroller" horizontalCenter="1" verticalCenter="80" height="372">
+		<e:List id="sportsList" itemRendererSkinName="OpenServerSportsItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

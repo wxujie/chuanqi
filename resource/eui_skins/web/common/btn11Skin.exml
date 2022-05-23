@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Main.Btn11Skin" width="84" height="28" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" states="up,down,disabled" >
+	<e:Image horizontalCenter.disabled="0" horizontalCenter.down="0" verticalCenter.disabled="0" verticalCenter.down="0" source.up="bg_lakai_1" scale9Grid.up="10,9,1,1" anchorOffsetX.up="0" width.up="84" anchorOffsetY.up="0" height.up="28" source.down="bg_lakai_1" width.down="84" height.down="28" scale9Grid.down="10,10,1,1" x.up="0" y.up="0" width="84" height="28" source="bg_lakai_1" scale9Grid="10,10,1,1"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" width.down="84" height.down="28" source.up="bg_quyu_1" width.up="84" height.up="28" scale9Grid.up="9,9,1,1" source.down="bg_quyu_2" scale9Grid.down="9,9,1,1" width="84" source="bg_quyu_1" height="28" scale9Grid="9,9,1,1" source.disabled="bg_quyu_2"/>
+	<e:Image id="iconDisplay" pixelHitTest="true" verticalCenter="0" horizontalCenter="0" source="t_b_quanti"/>
+	<app:RedDotControl id="red" right="0" top="0"/>
+</e:Skin>

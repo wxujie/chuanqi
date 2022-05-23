@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleAttrItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="232" height="28">
+	<e:Image smoothing="false" x="105.68" anchorOffsetX="0" y="3" scale9Grid="116,11,5,7" source="role_sx_bg2" width="120"/>
+	<e:Label id="txt_name" text="药品回复率:" x="1" y="5" size="18" anchorOffsetX="0" textColor="0xE0AE75"  stroke="2"/>
+	<e:Label id="txt_value" text="1000" x="110" y="5" size="18" textColor="0xc3af98"  verticalAlign="middle" stroke="2"/>
+</e:Skin>

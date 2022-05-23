@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityWlelfareCardItemView" width="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="labelDisplay" text="每天免费领取30000" x="33.98" y="0" size="20"  textColor="0x5084fa" multiline="true" anchorOffsetX="0" width="364"/>
+	<e:Image source="wlelfare_json.yk_dian" x="8" y="1"/>
+</e:Skin>

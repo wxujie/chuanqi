@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildTarBtnItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        states="down,up"  width="147" height="59">
+	<e:Image id="select" smoothing="false" includeIn="up" source="tab_01_2" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="selected" includeIn="down" source="tab_01_1"/>
+	<e:Label id="labelDisplay" text="" size="22" horizontalCenter="0" verticalCenter="0" textColor="0xEBC592" bold="false" textAlign="center" verticalAlign="middle"  stroke="2"/>
+	<app:RedDotControl id="redDot" width="20" height="20" top="1" right="-5"/>
+</e:Skin>

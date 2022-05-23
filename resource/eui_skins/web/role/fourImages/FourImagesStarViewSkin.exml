@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FourImagesStarViewSkin" width="25" height="23" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="star_0" source="common_xx_bg" x="0" y="0"/>
+	<e:Image id="star_1" source="common_xx" x="0" y="0" visible="false"/>
+</e:Skin>

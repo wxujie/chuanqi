@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RuleButton"  width="32" height="32" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled" >
+	<e:Image id="buttonIcon"  source.down="rule_btn" source.disabled="rule_btn" source.up="rule_btn" source="rule_btn"  scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

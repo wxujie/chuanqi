@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliShunwangWeixinGiftSkin" width="868" height="545" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*">
+    <e:Image source="bg_wxlb_shunwang_png" />
+    <e:EditableText id="InputCode" width="280" text="" x="322" size="20" height="30" verticalAlign="middle" y="472"
+                    textAlign="center" maxChars="120" prompt="&lt;请输入激活码>" textColor="0xF9EFEF" />
+	<e:Button id="wxBuyBtn" label="" x="640" y="460" icon="fl_jhm_btn_1" skinName="Btn0Skin" width="137" height="56"/>
+</e:Skin>

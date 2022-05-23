@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SynthesisTabSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" states="clickUp,clickDown" >
+	<e:Group width="139" height="51">
+		<e:Image source="tab_01_2"/>
+		<e:Image includeIn="clickDown" source="tab_01_3"/>
+		<e:Label id="equipName" text="魔龙装备" size="22" horizontalCenter="0.5" top="16" textColor="0xf0c896" x="23" y="11" stroke="2" textColor.clickDown="0xe5ddcf"/>
+		<app:RedDotControl id="redPoint" right="2" top="1" visible="false"/>
+	</e:Group>
+	<e:List id="list" y="48" visible.clickUp="false" itemRendererSkinName.clickDown="SynthesisTab2Skin" x.clickDown="2" includeIn="clickDown" width="130" x="5">
+	</e:List>
+</e:Skin>

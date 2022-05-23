@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CumulativeOnlineItemSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:app="app.*">
+    <e:Image  source="lj_frame"/>
+	<app:ItemBase id="ItemData" skinName="ItemBaseSkin" horizontalCenter="0" y="90"/>
+    <e:Group id="effGrp" y="120" horizontalCenter="0"  touchEnabled="false" touchChildren="false"/>
+    <e:Image id="receiveImg" source="apay_yilingqu" y="86" touchEnabled="false" horizontalCenter="0" />
+    <e:Button id="getBtn" label="领取奖励" y="170" horizontalCenter="-0.5" skinName="Btn9Skin" scaleX="0.9" scaleY="0.9" />
+    <app:RedDotControl id="redPoint" width="20" height="20" y="163"  horizontalCenter="46.5"/>
+</e:Skin>

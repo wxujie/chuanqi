@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DimensionBossRoleInfoSkin" width="225" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Group left="0" top="0" bottom="0" right="0" touchEnabled="false" touchChildren="false">
+        <e:Image source="9s_tipsbg" top="0" bottom="0" right="0" left="0" scale9Grid="7,6,11,11" />
+        <e:Image source="9s_tipsk" top="0" bottom="0" right="0" left="0" scale9Grid="7,6,11,11" />
+        <e:Image source="kf_cy_gsj" x="30" y="25" />
+        <e:Image source="kf_cy_ydj" x="30" y="105" />
+        <e:Image source="kf_cy_cyj" x="30" y="185" />
+        <e:Label id="labRoleNum" text="当前玩家数量：100" size="20" textColor="0x28EE01" stroke="1" x="20" y="250" />
+    </e:Group>
+    <e:List id="list1" itemRendererSkinName="ItemBaseSkin" x="120" y="10">
+        <e:layout>
+            <e:HorizontalLayout/>
+        </e:layout>
+        <e:ArrayCollection>
+            <e:Array>
+                <e:Object />
+            </e:Array>
+        </e:ArrayCollection>
+    </e:List>
+    <e:List id="list2" itemRendererSkinName="ItemBaseSkin" x="120" y="90">
+        <e:layout>
+            <e:HorizontalLayout/>
+        </e:layout>
+        <e:ArrayCollection>
+            <e:Array>
+                <e:Object />
+            </e:Array>
+        </e:ArrayCollection>
+    </e:List>
+    <e:List id="list3" itemRendererSkinName="ItemBaseSkin" x="120" y="170">
+        <e:layout>
+            <e:HorizontalLayout/>
+        </e:layout>
+        <e:ArrayCollection>
+            <e:Array>
+                <e:Object />
+            </e:Array>
+        </e:ArrayCollection>
+    </e:List>
+</e:Skin>

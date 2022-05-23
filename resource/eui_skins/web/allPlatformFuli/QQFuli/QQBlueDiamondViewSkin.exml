@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QQBlueDiamondViewSkin" width="1027" height="690" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image id="dragDropUI" source="apay_bg2_png" />
+	<e:Image y="57" horizontalCenter="0" touchEnabled="false" x="238" source="biaoti_lztequan" />
+	<e:Group y="110" horizontalCenter="0">
+		<e:Image id="bgImage" source="banner_lztequan" />
+		<e:Label id="blueLinkLab" text="更多蓝钻特权，请关注蓝钻官网" size="14" textColor="0x28EE01" x="666" y="8" />
+		<e:Image id="blueOpenBtn" x="705" y="30" width="181" height="36" source="lz_ktlzbt"  scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="blueOpenBtn2" x="705" y="65" width="181" height="36" source="lz_ktnflzbt" scaleX="0.8" scaleY="0.8"/>
+		<e:Image x="0" y="102" width="192" height="451" source="com_bg_kuang_6_png" scale9Grid="17,18,2,4" />
+		<e:Image x="194" y="102" width="680" height="451" source="com_bg_kuang_6_png" scale9Grid="17,18,2,4" />
+		<e:Scroller id="btnScroller" width="186" height="440" y="107" x="3">
+			<e:TabBar id="tabBar" width="200" height="200" itemRendererSkinName="QQLobbyPrivilegesTabSkin">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" gap="8" />
+				</e:layout>
+			</e:TabBar>
+		</e:Scroller>
+		<e:Group id="infoGroup" width="680" height="451" x="194" y="102" anchorOffsetX="0" anchorOffsetY="0"
+		         touchEnabled="false">
+			<e:Scroller id="otherScroller" width="668" height="450" x="6" visible="false">
+				<e:List id="otherList" itemRendererSkinName="QQBlueGiftItemSkin">
+					<e:layout>
+						<e:VerticalLayout paddingTop="3" paddingLeft="5" />
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Scroller id="otherScroller2" width="684" height="450" visible="false">
+				<e:List id="otherList2" itemRendererSkinName="QQBlueOverviewItemSkin">
+					<e:layout>
+						<e:VerticalLayout gap="2" />
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group id="noviceGrp" visible="false">
+				<e:Image source="qqdt_meir_erji_png" />
+				<e:Image id="noviceTitleImg" horizontalCenter="0" top="40" source="lz_lzxinshou_dabiaoti" />
+				<e:Button id="receiveBtn" label="" scaleX="0.85" scaleY="0.85" bottom="14" horizontalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="fc_btn_2"
+							         source.down="fc_btn_2" source.disabled="fc_btn_2" />
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="blueTipsImg" x="259" y="377.23" source="lz_ktlzbt" />
+				<e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="0" bottom="23" visible="false" />
+				<app:RedDotControl id="redPoint" x="390" y="370" visible="false" />
+				<e:List id="noviceList" itemRendererSkinName="ItemBaseSkin" horizontalCenter="0" verticalCenter="-5">
+					<e:layout>
+						<e:HorizontalLayout/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+			<e:Group id="dayGrp">
+				<e:Scroller id="otherScroller3" width="432" height="445" x="5" y="2">
+					<e:List id="otherList3" itemRendererSkinName="QQBlueGiftItemSkin2">
+						<e:layout>
+							<e:VerticalLayout gap="2" />
+						</e:layout>
+						<e:ArrayCollection>
+							<e:Array>
+								<e:Object/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+							</e:Array>
+						</e:ArrayCollection>
+					</e:List>
+				</e:Scroller>
+				<e:Scroller id="otherScroller4" width="230" height="445" x="445" y="3">
+					<e:List id="otherList4" itemRendererSkinName="QQBlueGiftItemSkin3">
+						<e:layout>
+							<e:VerticalLayout gap="5" />
+						</e:layout>
+						<e:ArrayCollection>
+							<e:Array>
+								<e:Object/>
+								<e:Object null=""/>
+							</e:Array>
+						</e:ArrayCollection>
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2"
+				         source.down="apay_x2" source.disabled="apay_x2" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

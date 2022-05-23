@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CallSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="426" height="300">
+ <app:UIViewFrame id="dragDropUI" skinName="ViewBgWin6Skin"/>
+	<e:Label id="descLabel" text="是否消耗" y="55.5" size="22" stroke="2" anchorOffsetY="0" anchorOffsetX="0" textColor="0xE5DDCF" lineSpacing="14" horizontalCenter="0" height="171" verticalAlign="middle"/>
+	<e:Button id="okButton" label="立即前往" x="71" y="239" skinName="Btn9Skin"/>
+	<e:Button id="cancelButton" label="不   去" y="239" skinName="Btn9Skin" x="246"/>
+   
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipPrivilegeItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:app="app.*" width="350">
+    <app:ItemBase id="itemBase" skinName="ItemBaseSkin"  x="20" verticalCenter="0"/>
+    <e:Label id="labDesc" text="需要1000000元宝即可\n需要1000000元宝即可购买橙卡会员" size="18" lineSpacing="5"
+             verticalCenter="0"  left="100" right="0"/>
+</e:Skin>

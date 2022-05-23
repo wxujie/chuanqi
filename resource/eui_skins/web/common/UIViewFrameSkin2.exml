@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UIViewFrameSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"  xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"  height="379.6" width="374" states="default1,default2,default3,default,default4,default5"  height.default2="515" height.default1="450" height.default3="579.93" height.default="385" width.default4="517" height.default4="263" height.default5="640">
+	<e:Group                               anchorOffsetX="0" width="375" anchorOffsetY="0" height="380" height.default2="515.33" height.default1="453" height.default3="580.33" height.default="372" width.default4="517" height.default4="263" height.default5="580.33">
+		<e:Image anchorOffsetY="0" source="kbg_3_png" height="378.58" height.default2="514.25" height.default1="449.91" height.default3="580" height.default="386.58" scale9Grid.default3="184,174,10,10" scale9Grid.default2="146,57,87,346" source.default4="skillbg2_png" height.default4="263" height.default5="640" scale9Grid.default5="184,174,10,10"/>
+		<e:Image id="bg" x="11.46" y="44" source="get_bg" anchorOffsetY="0" height.default="330.67" visible.default4="false"/>
+		<e:Label id="txt_name" text="" x="115" y="12" fontFamily="Microsoft YaHei" size="22" textColor="0xe0c99f" width="156" textAlign="center" touchEnabled="false" visible.default4="false"/>
+		<e:Button id="btn_close" label="" x="340.88" y="8" skinName="ButtonCloseSkin" x.default4="476.88" y.default4="12"/>
+		
+	</e:Group>
+</e:Skin>

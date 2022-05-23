@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="258" height="78">
+	<e:Image id="bg" smoothing="false"  source="mail_tab_2"/>
+	<e:Image id="img_icon" smoothing="false"  source="mail_bx" verticalCenter="-18.5" horizontalCenter="87.5" visible="false"/>
+	<e:Image id="img_com" smoothing="false" x="4" y="14" source="mail_com" visible="false"/>
+	<e:Label id="txt_name" text="系统邮件" x="16" size="18" 
+	          anchorOffsetY="0" height="18" textColor="0xeee104" stroke="2" top="44"/>
+	<e:Label id="txt_desc" text="每日竞技场奖励" x="16" size="18" 
+	          stroke="2" textColor="0xe5ddcf" top="14"/>
+	<e:Image id="redImage" source="common_hongdian" right="0" top="-2" visible="false"/>
+	<e:Label id="mailState" text="已读" size="20" textColor="0xe5ddcf" stroke="2" verticalCenter="15" horizontalCenter="86"/>
+</e:Skin>

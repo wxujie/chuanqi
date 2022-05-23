@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MeridiansViewSkin" width="382" height="471" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Group name="group_2" x="0" y="0" width="385" height="468">
+		<e:Group x="0" y="0" width="377" scaleX="1" scaleY="1">
+			<e:Group name="reinGroup" width="377" height="418" x="0" y="0" scaleX="1" scaleY="1">
+				<e:Image id="bg0" smoothing="false" x="0" y="0" source="Meridians_bg" scale9Grid="48,420,288,21" />
+				<e:Image id="meridiansLine0" source="meridians_json.Meridians_xian_2" x="196" y="42" rotation="128.35" />
+				<e:Image source="meridians_json.Meridians_xian_2" x="152" y="75" rotation="354.22" id="meridiansLine1" width="61"
+				         height="16" />
+				<e:Image source="meridians_json.Meridians_xian_2" x="215" y="68" rotation="67.4" id="meridiansLine2" />
+				<e:Image source="meridians_json.Meridians_xian_2" x="234" y="127" rotation="183.73" id="meridiansLine3" width="68"
+				         scale9Grid="30,7,1,0" />
+				<e:Image source="meridians_json.Meridians_xian_2" x="179" y="123" rotation="159.98" id="meridiansLine4" width="82"
+				         scale9Grid="30,7,1,0" height="14" />
+				<e:Image source="meridians_json.Meridians_xian_2" x="198" y="176" rotation="196.94" id="meridiansLine5" width="104"
+				         scale9Grid="30,7,1,0" />
+				<e:Image source="meridians_json.Meridians_xian_2" x="155" y="186" rotation="328.51" id="meridiansLine6" width="48"
+				         scale9Grid="30,7,1,0" height="14" />
+				<e:Image source="meridians_json.Meridians_xian_2" x="169" y="184" rotation="80.91" id="meridiansLine7" width="57"
+				         scale9Grid="30,7,1,0" height="14" />
+				<e:Image source="meridians_json.Meridians_xian_2" x="171" y="231" rotation="40.25" id="meridiansLine8" width="53"
+				         scale9Grid="30,7,1,0" height="14" />
+				<app:MeridiansItemView id="meridiansitemView0" skinName="MerdiansItemSkin" width="20" height="20" x="178" y="30" />
+				<app:MeridiansItemView id="meridiansitemView1" skinName="MerdiansItemSkin" width="20" height="20" x="145" y="73" />
+				<app:MeridiansItemView id="meridiansitemView2" skinName="MerdiansItemSkin" width="20" height="20" x="201" y="68" />
+				<app:MeridiansItemView id="meridiansitemView3" skinName="MerdiansItemSkin" width="20" height="20" x="222" y="113" />
+				<app:MeridiansItemView id="meridiansitemView4" skinName="MerdiansItemSkin" width="20" height="20" x="168" y="106" />
+				<app:MeridiansItemView id="meridiansitemView5" skinName="MerdiansItemSkin" width="20" height="20" x="97" y="129" />
+				<app:MeridiansItemView id="meridiansitemView6" skinName="MerdiansItemSkin" width="20" height="20" x="183" y="159" />
+				<app:MeridiansItemView id="meridiansitemView7" skinName="MerdiansItemSkin" width="20" height="20" x="154" y="180" />
+				<app:MeridiansItemView id="meridiansitemView8" skinName="MerdiansItemSkin" width="20" height="20" x="161" y="226" />
+				<app:MeridiansItemView id="meridiansitemView9" skinName="MerdiansItemSkin" width="20" height="20" x="196" y="259" />
+				<app:MeridiansLevelView id="meridiansShowLevel" skinName="MerdiansLevelSkin" x="320" y="25" />
+				<e:Group id="roleGP" width="18" height="22" x="171" y="157" />
+				<e:Group id="tipsGP" width="18" height="22" x="171" y="157" />
+			</e:Group>
+			<e:Group name="arrGroup" width="376" height="60" x="1" y="290">
+				<e:Image smoothing="false" x="0" y="-2" height="74" source="blessing_bg2" scale9Grid="47,10,287,62" />
+				<e:List id="gCurList" name="list" x="0" y="5">
+					<e:layout>
+						<e:VerticalLayout gap="0" />
+					</e:layout>
+				</e:List>
+				<e:List id="gNextList" name="list" x="226" y="5">
+					<e:layout>
+						<e:VerticalLayout gap="0" />
+					</e:layout>
+				</e:List>
+			</e:Group>
+			<e:Group id="conditionGroup" width="369" x="4" y="393" height="48">
+				<e:Label id="txt_level" text="" x="28" y="1" size="18" textAlign="left" textColor="0xD1A977" />
+				<e:Label id="costTipsLabel" text="消耗：" x="28" y="28" size="18" textAlign="left" textColor="0xD1A977" />
+				<e:Label id="maxTipsLabel" text="消耗：" y="16" size="18" textAlign="left" textColor="0xD1A977" horizontalCenter="0"
+				         visible="false" />
+				<e:Image id="materImg" width="24" height="24" x="73" y="24" source="" />
+				<e:Label id="costLabel" text="" x="101" y="28" size="18" textAlign="left" textColor="0xD1A977" />
+				<e:Label id="txt_get_repair" text="" y="28" size="16" multiline="false" italic="false" textColor="0x32FC00"
+				         right="145" />
+			</e:Group>
+			<e:Button id="btnUp" name="btnCircle" label="冲穴" x="249" y="395" enabled="true" skinName="Btn30Skin"></e:Button>
+			<app:RedDotControl id="redDotMeridians" width="20" height="20" x="344.67" y="395.99" />
+			<e:Button id="neiGongBtn" label="" x="40" y="40" skinName="Btn0Skin" icon="btn_ngbs" />
+			<e:Group id="neiGongGrp" width="309" height="234" y="81" x="35" visible="false">
+				<e:TabBar id="ngEquiTabBar" itemRendererSkinName="NGEquipTabSkin" x="-32" y="10">
+					<e:layout>
+						<e:VerticalLayout gap="-11" />
+					</e:layout>
+				</e:TabBar>
+				<app:NGEquipView id="ngEquipView" skinName="NGEquipViewSkin" />
+				<app:NGEquipView id="ngGemstoneView" skinName="NGEquipViewSkin" />
+				<e:Button id="neiGongCloseBtn" label="Button" x="309" skinName="CloseButtonSkin" />
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

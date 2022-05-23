@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FourImagesInfoLevelViewSkin" width="228.83" height="26" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group_0" width="89" height="26" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image id="iconLv" source="t_sx_1" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="t_sx_jie" x="24" y="0"/>
+		<e:Image id="iconTitle_0" source="t_sx_qing" x="48" y="0"/>
+		<e:Image id="iconTitle_1" source="t_sx_long" x="72" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout gap="-3"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group_1" width="103" height="26" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1" id="iconLv0" source="t_sx_2"/>
+		<e:Image source="sixiang_json.t_sx_10" x="24" y="0"/>
+		<e:Image source="t_sx_jie" x="48" y="0"/>
+		<e:Image source="t_sx_qing" x="72" y="0" id="iconTitle_2"/>
+		<e:Image source="t_sx_long" x="96" y="0" id="iconTitle_3"/>
+		<e:layout>
+			<e:HorizontalLayout gap="-4"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group_2" width="205.33" height="26" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="iconLv2_0" source="t_sx_2" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="sixiang_json.t_sx_10" x="24" y="0"/>
+		<e:Image id="iconLv2_1" source="sixiang_json.t_sx_5" x="38" y="8"/>
+		<e:Image source="t_sx_jie" x="48" y="0"/>
+		<e:Image id="iconStarLv_2" x="79" y="9" source="t_sx_5"/>
+		<e:Image source="sixiang_json.t_sx_xing" x="100" y="10"/>
+		<e:Image id="iconTitle_2_0" source="t_sx_qing" x="72" y="0"/>
+		<e:Image id="iconTitle_2_1" source="t_sx_long" x="96" y="0"/>
+		<e:Image source="sixiang_json.t_sx_zhi" x="153" y="9"/>
+		<e:Image source="sixiang_json.t_sx_hun" x="191" y="11"/>
+		<e:layout>
+		<e:HorizontalLayout gap="-4"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

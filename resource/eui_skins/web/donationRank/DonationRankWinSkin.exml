@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DonationRankWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="912" height="646">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin7Skin"/>
+	<e:Group width="861" height="559" x="23.5" y="56.5" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image source="com_bg_kuang_6_png" scale9Grid="19,18,1,1" left="0" width="150" height="559" y="0"/>
+		<e:Image source="com_bg_kuang_6_png" scale9Grid="19,18,1,1" width="705" height="395" right="0" bottom="68" anchorOffsetY="0"/>
+		<e:List id="tabList" x="-1" y="0" itemRendererSkinName="TradeLineTabSkin">
+			<e:layout>
+				<e:VerticalLayout gap="-4"/>
+			</e:layout>
+		</e:List>
+		<e:Image source="jxpm_banner" right="-1" top="0"/>
+		<e:Label id="titleLab" text="" x="330" y="63" size="20" textColor="0xeee104" stroke="2"/>
+		<e:List id="itemList" x="159" y="100" itemRendererSkinName="DonationRankItemSkin" height="353">
+			<e:layout>
+				<e:VerticalLayout gap="-1"/>
+			</e:layout>
+		</e:List>
+		<e:Label id="myDonation" text="" y="502" size="20" textColor="0xe5ddcf" stroke="2" left="168"/>
+		<e:Label id="myRank" text="" y="530" size="20" textColor="0xE5DDCF" stroke="2" left="169"/>
+		<e:Button id="donationBtn" label="我要捐献" x="731" y="505" skinName="Btn9Skin" width="109" height="44"/>
+	</e:Group>
+	<e:Group id="donaTionGrp" horizontalCenter="0" verticalCenter="0" width="426" height="301" visible="false">
+		<e:Rect width="861" height="559" x="-218" y="-120" anchorOffsetX="0" anchorOffsetY="0" alpha="0"/>
+		<e:Image scaleX="1" scaleY="1" source="bg_tipstc2_png"/>
+		<e:Label id="doanaTionDescLab" text="" y="95" size="20" stroke="2" horizontalCenter="0" textColor="0xe5ddcf"/>
+		<e:Label text="捐献元宝" y="15" size="24" textColor="0xe5ddcf" stroke="2" horizontalCenter="0"/>
+		<e:Button id="sureBtn" label="立即捐献" x="60" y="239" skinName="Btn9Skin"/>
+		<e:Button id="closeBtn" label="取消捐献" x="257" y="239" skinName="Btn9Skin"/>
+		<e:Image source="bag_piliangbg_0" scale9Grid="5,5,32,32" width="155.6" height="36" y="149" horizontalCenter="0"/>
+		<e:Label id="inputNum" text="0" size="20" textColor="0xe5ddcf" stroke="2" horizontalCenter="0" verticalCenter="16.5"/>
+		<e:Button id="lessBtn" label="Button" x="91.8" y="151" skinName="Btn0Skin" icon="com_jian"/>
+		<e:Button id="addBtn" label="Button" x="303" y="151" skinName="Btn0Skin" icon="com_jia"/>
+		<e:Button id="btn_close" label="" y="-8" width="60" x="404">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="jianYiBai" label="-100" x="22" y="151" icon="com_jiabg" width="63" height="30">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="com_jiabg" source.down="com_jiabg" source.disabled="com_jiabg" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xe5ddcf" stroke="2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="addYiBai" label="+100" x="341" y="151" icon="com_jiabg" width="63" height="30">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="com_jiabg" source.down="com_jiabg" source.disabled="com_jiabg" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xe5ddcf" stroke="2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

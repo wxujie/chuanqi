@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemSlotSkin3" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="121">
+	<e:Image id="bg" horizontalCenter="0" top="0" source=""/>
+	<e:Image id="frame" x="29" y="17" source="quality_1"/>
+	<e:Image id="icon" source="11000" horizontalCenter="0" y="18"/>
+	<e:Image x="0" y="96" source=""/>
+	<e:Label id="txtName" text="物品名称" size="20"  textAlign="center" textColor="0xdee0e2" verticalCenter="45" horizontalCenter="0"/>
+</e:Skin>

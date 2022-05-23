@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicBossInfoShowSkin" width="605" height="216" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="gpBoss" width="603" height="148" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" touchChildren="false" touchThrough="false">
+		<e:Image source="boss_k_1" x="0" y="0" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Image id="bossAvatar" source="monster_json.monhead30001" x="23" y="57" scaleX="1.2" scaleY="1.2"/>
+		<e:Label id="bossName" text="白野猪" x="129" y="45" textColor="0xd2c493" size="20" bold="true" scaleX="1" scaleY="1"/>
+		<e:ProgressBar id="bossHpBar" slideDuration="0" y="79" width="420" x="132" anchorOffsetX="0" scaleX="1" scaleY="1" skinName="bloodBarSkin5" value="100" touchEnabled="false" touchChildren="false"/>
+	</e:Group>
+	<e:Group id="gpPlayer" width="307" height="85" x="298" y="128" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="true" touchChildren="false">
+		<e:Image source="boss_json.boss_k_2" x="5" y="3" scaleX="1" scaleY="1"/>
+		<e:Label text="归属者：" x="85.73" y="18" textColor="0xD2C493" size="16" bold="true" anchorOffsetX="0" width="65.34" scaleX="1" scaleY="1"/>
+		<e:Label id="playerName" text="" x="148.42000000000002" y="18.680000000000007" size="16" bold="true" anchorOffsetX="0" textColor="0xd69a3b" scaleX="1" scaleY="1"/>
+		<e:Label id="playerGuild" text="" x="139.72" y="-3.33" size="16" bold="true" anchorOffsetX="0" textColor="0xD69A3B" scaleX="1" scaleY="1" textAlign="center"/>
+		<e:Image id="playerAvatar" x="11.5" y="13.5" scaleX="1" scaleY="1" source="" touchEnabled="true"/>
+		<e:ProgressBar id="playerHpBar" slideDuration="0" y="42" width="196" x="81.5" anchorOffsetX="0" scaleX="1" scaleY="1" value="100" skinName="bloodBarSkin4"/>
+	</e:Group>
+</e:Skin>

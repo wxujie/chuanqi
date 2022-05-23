@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicBossInfoShowSkin2" width="645" height="600" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Group id="gpBoss" touchEnabled="false" touchChildren="false" touchThrough="false" horizontalCenter="0" top="60">
+        <e:Image touchEnabled="false" source="kf_cyboss_hp1" />
+        <e:Image id="bossAvatar" x="16" y="40" />
+        <e:Label id="bossName" text="" x="129" y="48" size="20" bold="true" textColor="0xff7700" stroke="2" />
+        <e:ProgressBar id="bossHpBar" slideDuration="0" y="74" width="422" x="96" skinName="bloodBarSkin6" value="0"
+                       touchEnabled="false" touchChildren="false" height="20" />
+    </e:Group>
+    <e:Group id="gpPlayer" touchEnabled="false" touchChildren="false" touchThrough="false" horizontalCenter="254" top="170">
+        <e:Image source="m_m_lock_bg" x="0" y="2" />
+        <e:Image x="73" y="4" source="m_m_lockname_bg" />
+        <e:Image id="playerAvatar" x="1" y="4" visible="true" width="60" height="60" source="" />
+        <e:ProgressBar id="playerHpBar" slideDuration="0" y="43" skinName="bloodBarSkin2" x="75" value="0"
+                       touchChildren="false" />
+        <e:Label text="归属者：" x="80" y="11" textColor="0xD2C493" size="18" bold="true" />
+        <e:Label id="playerName" size="16" stroke="2" textAlign="left" text="" y="14" x="148" />
+        <e:Label id="playerGuild" size="16" stroke="2" width="210" textAlign="center" text="" y="-10" x="90" />
+        <e:Label id="playerHpLabel" text="" y="45" size="18" x="75" width="235" textAlign="center" stroke="2"
+                 height="20" verticalAlign="middle" />
+    </e:Group>
+    <e:Group id="btnBOSS" horizontalCenter="-180" bottom="250">
+        <e:Button width="99" height="78">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image horizontalCenter="0" verticalCenter="0" source="icon_gjsl" scaleX.down="0.95"
+                             scaleY.down="0.95" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+    </e:Group>
+    <e:Group id="btnPlayer" horizontalCenter="180" bottom="250">
+        <e:Button  width="99" height="78">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image horizontalCenter="0" verticalCenter="0" source="icon_qgs" scaleX.down="0.95"
+                             scaleY.down="0.95" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+    </e:Group>
+</e:Skin>

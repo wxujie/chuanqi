@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YYWxGiftWinSkin" width="1027" height="690" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image id="dragDropUI" source="apay_bg2_png"/>
+	<e:Image touchEnabled="false" horizontalCenter="4.5" top="61" source="WX_bt"/>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2" scaleX.down="0.98" scaleY.down="0.98"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group width="868" height="545" verticalCenter="39.5" horizontalCenter="0.5">
+		<e:Image scale9Grid="60,60,12,12" source="wx_bg_png"/>
+		<e:EditableText id="cdKeyText" text="" width="399" horizontalCenter="15.5" verticalCenter="-1.5" textAlign="center" prompt="&lt;请输入激活码&gt;"/>
+		<e:Button id="btnGetAward" label="" width="137" height="56" verticalCenter="55.5" horizontalCenter="16.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:app="app.*">
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="fl_jhm_btn_1" source.down="fl_jhm_btn_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<app:ItemBase id="itemData" x="726" y="419" skinName="ItemBaseSkin"/>
+	</e:Group>
+</e:Skin>

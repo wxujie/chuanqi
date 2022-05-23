@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FashionSkin" width="384" height="447" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="sz_bg_1_png"/>
+	<e:Image x="8" y="276" anchorOffsetX="0" width="370" anchorOffsetY="0" height="151" source="sz_bg_3" visible="false"/>
+	<e:Image x="2.8" y="290.6" source="sz_bg_2" scale9Grid="22,21,1,1" width="379.8" height="155" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Scroller id="scroller" width="361" horizontalCenter="-0.5" verticalCenter="118.5" height="94" touchEnabled="false" touchChildren="true" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyV="off">
+		<e:List id="list" itemRendererSkinName="FashionNewListItem">
+			<e:layout>
+				<e:HorizontalLayout gap="-1"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group width="378" height="396.66" x="3" y="48.72" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="false">
+		<app:FashionBtnItemView id="attack" label="" x="30" y="6" scaleX="1" scaleY="1" skinName="Btn18Skin"/>
+		<app:FashionBtnItemView id="await" label="" x="30" y="80" scaleX="1" scaleY="1" skinName="Btn17Skin"/>
+		<app:FashionBtnItemView id="walk" label="" x="295.33" y="4.66" scaleX="1" scaleY="1" skinName="Btn19Skin"/>
+		<app:FashionBtnItemView id="run" label="" x="294.66" y="80" scaleX="1" scaleY="1" skinName="Btn20Skin"/>
+		<e:Button id="btn_activat" label="激 活" x="193" y="352" enabled="true" scaleX="0.75" scaleY="0.75" width="113" height="46" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+				<e:Label id="labelDisplay" textColor="0xf0c896" touchEnabled="false" size="22" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<app:RedDotControl id="activationRed" x="265.34" y="347.98" scaleX="1" scaleY="1" visible="false"/>
+		<e:Group id="lvGrp" width="85.83" height="40.33" x="283.5" y="350" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Button id="btn_upgrade" label="升 级" x="-1.5" y="2" enabled="true" scaleX="0.75" scaleY="0.75" width="113" height="46">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+					<e:Label id="labelDisplay" textColor="0xf0c896" touchEnabled="false" size="22" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<app:RedDotControl id="lvRed" x="71" y="-2.330000000000041" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<e:Button id="btn_inverse" label="" x="41.35" y="158.69">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sz_btn_6" source.down="sz_btn_6" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_along" label="" x="293.01" y="158.69">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sz_btn_5" source.down="sz_btn_5" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<!--<e:Button id="btn_activat" label="激 活" x="204.38" y="341.92" anchorOffsetX="0" anchorOffsetY="0" enabled="true" width="95.01" height="39.67">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image smoothing="false" width="100%" height="100%" source="btn_6" source.down="btn_5" source.disabled="btn_5"/>
+				<e:Label id="labelDisplay" textColor="0xe0c194" touchEnabled="false"  size="18" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>-->
+		<e:Button id="btn_wear" label="展 示" x="193" y="352" enabled="true" scaleX="0.75" scaleY="0.75" width="113" height="46" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+				<e:Label id="labelDisplay" textColor="0xf0c896" touchEnabled="false" size="22" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="txt_get" text="" x="77.65" y="358.69" size="16" textAlign="left" textColor="0x32fc00" multiline="false" scaleX="1" scaleY="1" italic="false"  anchorOffsetX="0"/>
+		<e:List id="list_cost" x="-3.66" verticalCenter="168.67" itemRendererSkinName="FourImagesCostItemSkin">
+			<e:layout>
+			<e:VerticalLayout verticalAlign="contentJustify" gap="2"/>
+			</e:layout>
+		</e:List>
+		<e:Group id="bodyContainer" x="190" y="123.32" anchorOffsetY="0" anchorOffsetX="0"/>
+	</e:Group>
+	<e:Group id="fashionAtrrGroup" x="405.69" y="-18.67"/>
+	<e:TabBar id="tabBar" itemRendererSkinName="CommonTarBtnItemSkin3" x="16.67" y="258.52">
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Label id="txt_max" text="" x="118" y="393" anchorOffsetX="0" size="18" textColor="0xF97D2A"  visible="false"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NpcRendererSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="40">
+	<e:Image width="20" height="20" x="3" source="npc_lingxing" verticalCenter="0"/>
+	<e:Label id="mfLabel" text="" x="29" y="0" size="22" textColor="0xfff606" height="40" verticalAlign="middle" textAlign="center"/>
+	<e:Group id="effGrp" y="13" right="49" visible="false"/>
+</e:Skin>

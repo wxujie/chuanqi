@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliLuDaShiLevelGiftSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" width="669" height="362">
+	<e:Scroller width="669" height="362">
+		<e:List id="list" itemRendererSkinName="FuliLuDaShiLevelGiftItemSkin">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object D="null"/>
+					<e:Object D="null"/>
+					<e:Object D="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MedalAttrItemCurSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="249.7" height="21">
+	<e:Label id="txt_cur" text="" x="17.5" y="0.5" size="18" 
+	         width="171.5"  textColor="0xf4d1a4"  height="20"/>
+	<e:Image id="arrow" smoothing="false" width="20" height="20" x="206" y="0.5" source="com_jiantoux2"/>
+</e:Skin>

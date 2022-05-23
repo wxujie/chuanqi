@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActWleFareTabSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" states="up,down"  width="90" height="32">
+	<e:Image source="flqd_tab1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="labelDisplay" text="累积2天" size="18" horizontalCenter="0" verticalCenter="0" stroke="2" textColor="0xf0c896" textColor.down="0xf0c896"/>
+	<e:Image source="flqd_tab2" horizontalCenter="0" verticalCenter="0" visible.down="false"/>
+	<app:RedDotControl id="redPoint" right="0" top="0" visible="false"/>
+</e:Skin>

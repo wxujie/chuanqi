@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TitleViewSkin" width="384" height="446" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="Act_dld_pmbt" width="384"/>
+	<e:Image x="268" y="1" source="common_liebiaoding_fenge"/>
+	<e:Label text="称   号" y="11.99" textColor="0xf0c896"  horizontalCenter="-29.5" size="22" stroke="2"/>
+	<e:Label id="lbNoTitle" text="暂无称号" y="214" textColor="0xF0C896"  horizontalCenter="-3.5" size="25" stroke="2"/>
+	<e:Label text="展  示" y="11.99" textColor="0xF0C896"  horizontalCenter="134.5" size="22" stroke="2"/>
+	<e:Scroller id="scroller" width="380" height="401" x="2" y="42.65" anchorOffsetX="0" anchorOffsetY="0" skinName="skins.ScrollerSkin1" scrollPolicyV="on">
+		<e:Group id="listTitle" anchorOffsetY="0" height="401.67">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

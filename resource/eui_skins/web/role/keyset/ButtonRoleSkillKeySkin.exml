@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ButtonRoleSkillKeySkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="58" height="52">
+	<e:Button id="btn_0" label="" x="0" y="0">
+		<e:skinName>  
+			<e:Skin states="up,down,disabled">
+			<e:Image id= "bg" source="role_json.anjian_guang" smoothing="false" visible = "false"/>
+			<e:Image source="role_json.anjian_bg" x = "6" y = "8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x = "6" y = "8" source="role_json.anjian_1"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_1" label="" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x="6" y="8" source="role_json.anjian_2"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_2" label="" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image  source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x="6" y="8" source="role_json.anjian_3"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_3" label="" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x="6" y="8" source="role_json.anjian_4"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_4" label="" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x="6" y="8" source="role_json.anjian_5"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_5" label="" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x="6" y="8" source="role_json.anjian_6"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_6" label="" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x="6" y="8" source="role_json.anjian_q"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_7" label="" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x="6" y="8" source="role_json.anjian_w"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_8" label="" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x="6" y="8" source="role_json.anjian_e"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_9" label="" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x="6" y="8" source="role_json.anjian_r"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_10" label="" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x="6" y="8" source="role_json.anjian_t"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_11" label="" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Image smoothing="false" x="6" y="8" source="role_json.anjian_y"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_12" label="设" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="bg" source="role_json.anjian_guang" smoothing="false"/>
+			<e:Image source="role_json.anjian_bg" x="6" y="8" smoothing="false" source.down="role_json.anjian_bg" source.disabled="role_json.anjian_bg"/>
+			<e:Label id="labelDisplay" touchEnabled="false"  size="18" textColor="0xA05245" bold="true" horizontalCenter="-2" verticalCenter="-8"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

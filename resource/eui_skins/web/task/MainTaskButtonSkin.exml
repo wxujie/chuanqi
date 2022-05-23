@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainTaskButtonSkin" xmlns:e="http://ns.egret.com/eui" states="up,down"  width="20" height="233">
+	<e:Image scale9Grid="2,2,16,16" scaleX.down="0.98" scaleY.down="0.98" source="m_task_btn_2bg" left="0" right="0" top="0" bottom="0"/>
+	<e:Image scaleX.down="0.98" scaleY.down="0.98" source="m_task_btn_2" verticalCenter="0.5" horizontalCenter="0.5"/>
+</e:Skin>

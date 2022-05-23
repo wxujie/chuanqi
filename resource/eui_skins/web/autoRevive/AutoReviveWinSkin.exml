@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AutoReviveWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" source="revive_zz" scale9Grid="79,79,3,3" left="0" right="0" top="0" bottom="0" touchEnabled="false"/>
+	<e:Label id="reviveCountLab" text="剩余复活次数:3" size="24" textColor="0xff6800" verticalCenter="-271" horizontalCenter="-1" visible="false"/>
+	<e:Group id="btnGrp0" verticalCenter="67" horizontalCenter="-8.5" visible="false">
+		<e:Button id="backCity0" label="立即复活      *10" skinName="BtnResurrectionSkin" icon="revive_btn2"/>
+		<e:Image id="moneyIcon0" x="132" y="33" source="icon_yuanbao" touchEnabled="false" width="30" height="30" visible="false"/>
+	</e:Group>
+	<e:Group id="btnGrp1" verticalCenter="-20" horizontalCenter="-8.5" visible="false">
+		<e:Button id="backCity1" label="立即复活      *10" skinName="BtnResurrectionSkin" icon="revive_btn2"/>
+		<e:Image id="moneyIcon1" x="132" y="33" source="icon_yuanbao" touchEnabled="false" width="30" height="30" visible="false"/>
+	</e:Group>
+	<e:Group id="btnGrp2" verticalCenter="-106" horizontalCenter="-8.5" visible="false">
+		<e:Button id="backCity2" label="立即复活      *10" skinName="BtnResurrectionSkin" icon="revive_btn2"/>
+		<e:Image id="moneyIcon2" x="132" y="33" source="icon_yuanbao" touchEnabled="false" width="30" height="30" visible="false"/>
+	</e:Group>
+	<e:Button id="powerFul" label="Button" skinName="Btn0Skin" icon="bq_icon" verticalCenter="-90" horizontalCenter="-20" visible="false"/>
+	<e:Group top="40" horizontalCenter="0">
+		<e:Image source="revive_bg"/>
+		<e:Label text="复活角色" y="16" textColor="0xeee104" size="18" stroke="2" horizontalCenter="0"/>
+		<e:Label id="killName" text="你被斩你娃儿击败了！" y="46" size="18" stroke="2" horizontalCenter="8.5" textColor="0xe5ddcf"/>
+		<e:Label id="cdTimeLab" text="10秒后场景内复活(复活特权已加速)" y="74" size="18" stroke="2" horizontalCenter="0" textColor="0x28ee01"/>
+		<e:Group id="btnGrp" verticalCenter="42.5" horizontalCenter="-2">
+			<e:layout>
+				<e:HorizontalLayout gap="55"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="reviveNumLab" text="剩余复活次数：3" y="105" size="18" stroke="2" horizontalCenter="0.5" textColor="0x28EE01" visible="false"/>
+		<e:Group id="moneyGrp" y="98" right="19" visible="false">
+			<e:Image id="moneyImg" scaleX="1" scaleY="1" source="icon_yuanbao"/>
+			<e:Label id="moneyNum" text="10" x="8" y="10" size="20" stroke="2" textColor="0xe5ddcf"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

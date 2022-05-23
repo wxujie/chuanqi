@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityFirstChargeViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="846" height="439">
+	<e:Group id="dragDropUI" anchorOffsetX="0" width="844" anchorOffsetY="0" height="437">
+	</e:Group>
+	<e:Image x="40" y="0" source="fc_bg2" touchEnabled="false"/>
+	<e:Image x="-55" y="-76" touchEnabled="false" source="fc_p_2"/>
+	<e:Group id="effGrp" x="117" y="210"/>
+	<e:Image id="imgDesc" x="160" y="20" touchEnabled="false" source="fc_t3"/>
+	<e:Button  id="btnClose" label="" width="61" height="57" y="57.55" x="738.3">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="huanying_x" source.down="huanying_x" source.disabled="huanying_x"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnCharge"  x="343" y="310" width="204" height="97">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"  source="fc_btn_1" source.down="fc_btn_1" source.disabled="fc_btn_1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnGetGfit" label="" x="343" y="310" width="204" height="97" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="fc_btn_2" source.down="fc_btn_2" source.disabled="fc_btn_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	   <e:Group y="222" x="328">
+		<e:List id="itemList" itemRendererSkinName="ItemBaseSkin">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Group>
+	<e:Group id="receiveGroup" touchChildren="false" touchEnabled="false" touchThrough="false" x="387.98" y="308.03" visible="false">
+		<e:Image source="fc_yilingqu"/>
+	</e:Group>
+	<e:Group id="itemEffGrp" x="358.8" y="252.4" touchEnabled="false" touchChildren="false">
+	</e:Group>
+	<e:ToggleButton id="btnDay1" label="第一天" x="648.36" y="173.68" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_apay" source.down="btn_apay2" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" size="20" stroke="1"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:ToggleButton id="btnDay2" label="第二天" x="648.36" y="214.68" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_apay" source.down="btn_apay2" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" size="20" stroke="1"/>
+		</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:ToggleButton id="btnDay3" label="第三天" x="648.36" y="255.68" scaleX="0.8" scaleY="0.8">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_apay" source.down="btn_apay2" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" size="20" stroke="1"/>
+		</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Group x="725.5" y="170.5">
+		<app:RedDotControl id="redPoint1" x="38" y="189"/>
+		<app:RedDotControl id="redPoint2" x="48" y="199"/>
+		<app:RedDotControl id="redPoint3" x="58" y="209"/>
+		<e:layout>
+			<e:VerticalLayout gap="25"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="label" text="您已完成首充" x="560" y="343" textColor="0x28ee01" size="20" stroke="2"/>
+	
+</e:Skin>

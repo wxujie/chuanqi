@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainBtnSkin" states="up,down,disabled" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="72" height="72">
+<e:Image id="iconDisplay" 
+	         x.down="0" y.down="1"  scaleX.down="0.95" scaleY.down="0.95"  verticalCenter="0" horizontalCenter="0" source=""/>
+	<e:Image id="redImage" width="20" height="20" right="0" top="0" touchEnabled="false" source="common_hongdian" />
+	<e:Label id="txtCount" text="" size="18" y="5" textAlign="right" textColor="0x28ee01" stroke="2" right="4" touchEnabled="false"/>
+	<e:Group id="ingGrp" y="72" horizontalCenter="2" visible="false">
+		<e:Image source="icon_shachengdjs"/>
+		<e:Label id="timeLab" text="进行中" size="18" textColor="0x28ee01" stroke="2" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

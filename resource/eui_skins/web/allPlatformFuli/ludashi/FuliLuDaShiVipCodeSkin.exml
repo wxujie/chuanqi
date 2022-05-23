@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliLuDaShiVipCodeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="dialogMask" scale9Grid="1,1,2,2" alpha="0.3" source="dialog_mask" top="0" right="0" left="0" bottom="0" />
+    <e:Group horizontalCenter="0" top="227" anchorOffsetX="0" width="352">
+        <e:Image id="bg" x="0" y="-2" scaleX="1" scaleY="1" scale9Grid="53,71,320,148" source="bg_ldschaojivip2_png" />
+        <e:Button id="dialogCloseBtn" label="" x="335" y="-10" width="60" height="60">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" xmlns:app="app.*">
+                    <e:Image horizontalCenter="0" verticalCenter="0" source="btn_guanbi3" source.down="btn_guanbi4"
+                             source.disabled="btn_guanbi4" />
+                    <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+    </e:Group>
+</e:Skin>

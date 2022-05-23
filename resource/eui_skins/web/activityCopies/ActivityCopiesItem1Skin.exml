@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityCopiesItem1Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="278" height="535">
+	<e:Image id="systemBg" horizontalCenter="0" verticalCenter="0" source="Act_hdbg1_1_png"/>
+	<e:Image source="Act_hdk1" scale9Grid="20,23,8,9" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="guild_wenzizhuangshi" scaleX="1.5" scaleY="1.5" horizontalCenter="-100" top="27"/>
+	<e:Image id="title" source="Act_biaoti_1" horizontalCenter="0" top="20"/>
+	<e:Image source="guild_wenzizhuangshi" scaleX="1.5" scaleY="1.5" horizontalCenter="100" top="27"/>
+	<e:Label id="systemJieShao" text="" x="18" y="58.5" width="243" height="278" size="20" stroke="1" lineSpacing="3" textColor="0xe0ae75"/>
+	<e:Image source="Act_jlyl" bottom="164" left="16"/>
+	<e:Image width="267" height="82.5" bottom="71" horizontalCenter="0.5" source="Act_jlyl_bg" scale9Grid="24,22,4,13"/>
+	<e:Scroller id="itemScroller" width="253" height="60" horizontalCenter="0.5" bottom="83">
+		<e:List id="itemList" itemRendererSkinName="ItemBaseSkin" width="253" bottom="83" horizontalCenter="2.5">
+		<e:layout>
+			<e:HorizontalLayout gap="14"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="enterFb" label="进 入" skinName="Btn9Skin" horizontalCenter="7.5" bottom="11"/>
+	<app:RuleTipsButton id="rule" label="Button" horizontalCenter="-108" bottom="17"/>
+	<app:RedDotControl id="redPoint" y="476.5" x="187" visible="false"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PhoneLoadingSkin" width="1344" height="750" xmlns:e="http://ns.egret.com/eui">
+<e:Group horizontalCenter="0" verticalCenter="0" width="1344" height="750">
+<e:Image id="BgImg" horizontalCenter="0" verticalCenter="0" source="mp_jzjm_png"/>
+	    <e:Group width="919" height="136" bottom="71" horizontalCenter="0.5" touchEnabled="false">
+		<e:Image source="login_jdt_t" bottom="45" horizontalCenter="0" scaleX="0.7" scaleY="0.7" x="16" y="79"/>
+		<e:Rect id="rect" width="879" height="14" fillColor="0x140500" bottom="45" y="78" right="20"/>
+		<e:Image source="login_jdt_k" bottom="39" horizontalCenter="0" scaleX="0.7" scaleY="0.7" x="11" y="75"/>
+		<e:Label id="lodingDesc" text="正在进入游戏" bottom="9" horizontalCenter="0" size="27" textColor="0xe5ddcf" stroke="2" x="378" y="101" />
+		<e:Image id="firstLoadImg" source="login_wenzi3" bottom="68" horizontalCenter="0" x="25" y="3" />
+		<e:Image id="reloadImg" source="login_wenzi1" bottom="12" horizontalCenter="337" x="645" y="97" />
+	    </e:Group>
+        <e:Image id="version1" source="zjt1_png" bottom="37" scaleX="0.75" scaleY="0.75" horizontalCenter="0"/>
+        <e:Image id="version2" source="zjt2_png" bottom="12" scaleX="0.75" scaleY="0.75" horizontalCenter="-145"/>
+        <e:Image id="version3" source="zjt3_png" scaleX="0.75" scaleY="0.75" bottom="13" horizontalCenter="145"/>
+</e:Group>
+</e:Skin>

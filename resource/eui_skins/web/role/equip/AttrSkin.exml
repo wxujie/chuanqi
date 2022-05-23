@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AttrSkin" width="306" height="568" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="attrGroup" y="0">
+		<e:Image smoothing="false" touchEnabled="false"  source="role_sx_bg_png"/>
+		<e:Scroller id="attrScroller" name="scroller" x="16" height="483" anchorOffsetX="0" anchorOffsetY="0" width="238" y="66.35" scaleX="1"
+		            scaleY="1" />
+		<e:List id="attrList" name="list" anchorOffsetX="0" x="20" y="69.35" anchorOffsetY="0">
+			<e:layout>
+				<e:VerticalLayout gap="0" />
+			</e:layout>
+		</e:List>
+		<e:VSlider name="verticalSlider" x="244" value="415" width="15" height="530" minimum="0" maximum="415" y="28" visible="false">
+			<e:Skin minWidth="20" minHeight="10">
+				<e:Image smoothing="false" id="track" source="shuxinghuadong_1" scale9Grid="2,2,16,15" width="15" height="100%"
+				         verticalCenter="0" />
+				<e:Image smoothing="false" id="trackHighlight" source="shuxinghuadong_1" scale9Grid="2,2,16,15" width="15"
+				         verticalCenter="0" />
+				<e:Image smoothing="false" id="thumb" source="shuxinghuadong_2" rotation="0" x="1" width="13" height="40"
+				         scale9Grid="0,19,16,1" />
+			</e:Skin>
+		</e:VSlider>
+	</e:Group>
+	<e:Scroller id="stateScroller" height="476" x="39" y="70" scrollPolicyH="off" width="198">
+		<e:List id="stateList" x="169" y="134" itemRendererSkinName="RoleStateItemSkin">
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btn_close" label="" x="243.66" width="60" top="-9">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="attrBtn" label="" x="44.5" y="23.5" skinName="EquipAttrBtnSkin" icon="role_sx_btnsx" width="85" height="36"/>
+	<e:Button id="stateBtn" label="" x="138" y="23.5" skinName="EquipAttrBtnSkin" icon="role_sx_btnzt" width="85" height="36"/>
+</e:Skin>

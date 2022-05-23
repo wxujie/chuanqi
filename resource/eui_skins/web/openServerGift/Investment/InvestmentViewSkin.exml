@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InvestmentViewSkin" width="707" height="538" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image source="kf_kftz_bg_png" horizontalCenter="0" />
+	<e:Label text="剩余时间：" x="47" y="21" textColor="0xffe500" size="22" stroke="2" />
+	<e:Label id="actTime" text="" x="153" y="21" textColor="0x28ee01" size="22" stroke="2" />
+	<e:Label id="buyText" text="限时购买：" x="357" y="21" textColor="0xFFE500" size="22" stroke="2" visible="false" />
+	<e:Label id="buyTime" text="" x="463" y="21" textColor="0x28ee01" size="22" stroke="2" />
+	<e:Label text="活动内容：" x="47" y="52" textColor="0xFFE500" size="22" stroke="2" />
+	<e:Label id="actDesc" text="" x="153" y="52" size="22" stroke="2" width="481" textColor="0xe7c590" />
+	<e:Scroller id="InvestmentScroller" width="700" height="372" y="163" horizontalCenter="0">
+		<e:List id="InvestmentList" itemRendererSkinName="InvestmentItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="1" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="buyGrp" bottom="0" horizontalCenter="0">
+		<e:Image id="buyBannerImg" source="kf_kftz_bg4_png" />
+		<e:Group x="240" y="35">
+			<e:BitmapLabel id="buyBannerNum" text="0" font="num_kftz_fnt" letterSpacing="-4" />
+			<e:Image source="kf_kftz_yb" />
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="bottom" gap="0" />
+			</e:layout>
+		</e:Group>
+		<e:BitmapLabel id="buyBannerDay" text="5" font="num_kftz_fnt" letterSpacing="-4" y="76" x="320" />
+		<e:Label id="buyBannerNum2" text="0" x="585" y="90" size="20" textColor="0xfe8d00" />
+		<e:Button id="receiveBtn" label="立即投资" bottom="40" right="38" width="143" height="62">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="kf_kftz_btn"
+					         source.down="kf_kftz_btn" />
+					<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0x000000" bold="true" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<app:RedDotControl id="redPoint" x="646" y="25" />
+	</e:Group>
+	<e:Image y="121" source="kf_jj_bqbg" horizontalCenter="0" scale9Grid="15,5,627,32" width="705" />
+	<e:Image y="122" source="common_liebiaoding_fenge" horizontalCenter="-170" />
+	<e:Label text="登录天数" y="132" size="22" stroke="2" textColor="0xD1B974" horizontalCenter="-269" />
+	<e:Label text="奖  励" y="132" size="22" stroke="2" textColor="0xD1B974" horizontalCenter="-2" />
+</e:Skin>

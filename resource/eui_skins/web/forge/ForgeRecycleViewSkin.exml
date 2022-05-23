@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeRecycleViewSkin" width="869" height="558" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" source="recovery_banner" touchEnabled="false" x="-10" y="-15" width="875"/>
+	<e:Group width="869" height="427" bottom="0">
+		<e:Scroller id="recycleScroller" width="869" height="427">
+			<e:List id="recycleList" itemRendererSkinName="ForgeRecycleItemViewSkin">
+				<e:layout>
+					<e:TileLayout horizontalGap="3" verticalGap="10" paddingLeft="6"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

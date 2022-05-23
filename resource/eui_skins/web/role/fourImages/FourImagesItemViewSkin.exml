@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FourImagesItemViewSkin" width="144" height="173" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image id="seletectd" x="3.65" y="7.65" source="" visible="false"/>
+	<e:Image id="icon" source="sx_icon_1" bottom="42" horizontalCenter="-1.5"/>
+	<e:Group id="listStar" width="94" height="46" x="26.98" y="122.55" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<app:FourImagesStarView width="25" height="23" x="4" y="1" skinName="FourImagesStarViewSkin"/>
+		<app:FourImagesStarView width="25" height="23" x="14" y="11" skinName="FourImagesStarViewSkin"/>
+		<app:FourImagesStarView width="25" height="23" x="24" y="21" skinName="FourImagesStarViewSkin"/>
+		<app:FourImagesStarView width="25" height="23" x="34" y="31" skinName="FourImagesStarViewSkin"/>
+		<app:FourImagesStarView width="25" height="23" x="44" y="41" skinName="FourImagesStarViewSkin"/>
+		<app:FourImagesStarView width="25" height="23" x="54" y="51" skinName="FourImagesStarViewSkin"/>
+		<app:FourImagesStarView width="25" height="23" x="64" y="61" skinName="FourImagesStarViewSkin"/>
+		<app:FourImagesStarView width="25" height="23" x="74" y="71" skinName="FourImagesStarViewSkin"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="-2" verticalGap="-3"/>
+		</e:layout>
+	</e:Group>
+	<e:BitmapLabel id="lbLevel" anchorOffsetX="0" anchorOffsetY="0" text="四阶青龙" font="sixiangfnt_fnt" verticalCenter="48.5" horizontalCenter="0.5" smoothing="true" letterSpacing="-5" visible="false"/>
+	<e:BitmapLabel id="lbTitle" anchorOffsetX="0" anchorOffsetY="0" text="" font="sixiangfnt_fnt" verticalCenter="-62.5" smoothing="true" letterSpacing="-5" horizontalCenter="-1"/>
+</e:Skin>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendViewSkin" width="912" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" height="646">
+	<w:Config id="1772801204d"/>
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin7Skin"/>
+	<e:TabBar id="tabBar" x="908" y="50"  itemRendererSkinName="CommonTarBtnWinSkin2">
+		<e:layout>
+			<e:VerticalLayout gap="-15"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Image width="862" height="496.25" x="24" y="55.75" source="com_bg_kuang_6_png" scale9Grid="20,17,1,2" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group width="873" height="567" x="19" y="51" >
+		<app:FriendViewPage id="page" width="862"  skinName="FriendViewPageSkin" x="5.66" y="2"/>
+		<e:Group id="firendGp_0" x="625" y="512" >
+			<e:Button id="addBtn" label="添  加" x="78" y="6"   skinName="Btn9Skin"/>
+			<e:Button id="operationBtn" label="操作" x="203" y="6"   skinName="Btn9Skin"/>
+			<e:layout>
+				<e:HorizontalLayout gap="13"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="firendGp_1" x="749" y="512" >
+			<e:Button id="operationBtn0" label="操  作"   skinName="Btn9Skin"/>
+		</e:Group>
+		<e:Group x="503" y="512"  id="firendGp_2">
+			<e:Button id="setColorBtn" label="设置颜色" x="15" y="6"  skinName="Btn9Skin"/>
+			<e:Button id="delConcernBtn" label="取消关注" x="236" y="6"   skinName="Btn9Skin"/>
+			<e:Button id="addConcernBtn" label="添加关注" x="125" y="6"  skinName="Btn9Skin"/>
+			<e:layout>
+				<e:HorizontalLayout gap="13"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="625" y="513"  id="firendGp_3">
+			<e:Button id="addBlackBtn" label="添  加" x="78" y="6"   skinName="Btn9Skin"/>
+			<e:Button id="blackDelBtn" label="删  除" x="203" y="6"   skinName="Btn9Skin"/>
+			<e:layout>
+				<e:HorizontalLayout gap="13"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="firendGp_4"  verticalCenter="250" horizontalCenter="241">
+			<e:Button id="allAcceptBtn" label="全部接受" x="78" y="6"   skinName="Btn9Skin"/>
+			<e:Button id="acceptBtn" label="接  受" x="203" y="6"   skinName="Btn9Skin"/>
+			<e:Button id="rejectBtn" label="拒  绝" x="213" y="16"   skinName="Btn9Skin"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="13"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="firendGp_5" x="746" y="513" >
+			<e:Button id="operationBtn5" label="操作"   skinName="Btn9Skin"/>
+		</e:Group>
+	</e:Group>
+	<app:RuleTipsButton id="ruleTipsButton" label="Button" x="60" y="574" ruleId="10" visible="false"/>
+
+</e:Skin>

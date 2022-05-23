@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RingSkin" width="384" height="556" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image  pixelHitTest="true" touchEnabled="false" scaleX="1" scaleY="1"  source="bg_ring_png"/>
+	<e:Image id="strengthen_name" x="154" y="255" source="t_ring"/>
+	<e:Image x="85" y="260" source="tbg_ring" scale9Grid="43,0,1,18" width="220"/>
+	<e:BitmapLabel id="bt_lv" text="5" anchorOffsetX="0" width="50" font="sixiangfnt_fnt" letterSpacing="-8" textAlign="center" x="113" y="256"/>
+	<e:Group width="372" height="114" x="12" y="290" anchorOffsetX="0" anchorOffsetY="0">
+	<e:Image  x="0" source="blessing_bg2" y="-7" anchorOffsetY="0" height="99"/>
+			<e:List id="itemList" x="-2" y="5" anchorOffsetX="0" width="380" anchorOffsetY="0" height="113">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="1" horizontalGap="0" verticalGap="-2" orientation="columns" />
+				</e:layout>
+			</e:List>
+	</e:Group>
+	<e:Image id="img_money" x="50" y="393" source="13123" scaleX="0.5" scaleY="0.5"  visible="false"/>
+	<e:Label id="txt_consume" text="消耗：       5000" x="12" y="400" size="16" 
+	         textColor="0xE0AE75" width="150"  visible="false"/>
+	<e:Label id="txt_max" text="强化已达最高等级" y="388" anchorOffsetX="0" size="18" textColor="0xf97d2a"
+	           horizontalCenter="0" visible="false"/>
+	<e:Button id="btn_strengthen" label="升 级" x="268" y="398" skinName="Btn30Skin" anchorOffsetX="0"/>
+	<app:RedDotControl id="redDot" width="20" height="20" x="364" touchChildren="false" touchEnabled="false" y="395" updateShowFunctions="StrengthenMgr.isCanStrengthenRing"/>
+	<e:List id="listCost" width="200" x="12" anchorOffsetY="0" y="386">
+		<e:layout>
+			<e:VerticalLayout verticalAlign="contentJustify" gap="2" />
+		</e:layout>
+	</e:List>
+	<e:Scroller width="338" height="72" x="3" anchorOffsetX="0" scrollPolicyV="off" scrollPolicyH="off" anchorOffsetY="0" y="459">
+		<e:List id="iconList" x="-1" y="36">
+		<e:layout>
+			<e:HorizontalLayout gap="-5"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="tabBar_Group" width="380" height="66" x="0" y="463" anchorOffsetX="0" anchorOffsetY="0" touchChildren="true" touchEnabled="false" visible="false">
+		<e:Button id="btn_prev" label="" x="0" y="11" scaleX="1" scaleY="1" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ring_jiantou_1" source.down="ring_jiantou_1"
+					         source.disabled="ring_jiantou_1" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_next" label="" x="359" y="12" scaleX="1" scaleY="1" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ring_jiantou_2" source.down="ring_jiantou_2"
+					         source.disabled="ring_jiantou_2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:TabBar id="tabBar" itemRendererSkinName="RingIconItemSkin" y="-4" x="22" visible="false">
+			<e:layout>
+				<e:HorizontalLayout gap="-5"/>
+			</e:layout>
+		</e:TabBar>
+	</e:Group>
+	<e:Label id="txt_get" text="" x="196" y="422" size="16" textAlign="left" textColor="0x32FC00" multiline="false" scaleX="1" scaleY="1" italic="false"  anchorOffsetX="0"/>
+	<e:Group id="mcGroup" x="195" y="171" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

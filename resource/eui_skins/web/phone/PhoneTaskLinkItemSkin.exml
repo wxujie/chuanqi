@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PhoneTaskLinkItemSkin" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled" height="40">
+    <e:Image source="m_btn_bg2"  verticalCenter="0" horizontalCenter="0"/>
+    <e:Label id="labelDisplay" size="22" horizontalCenter="0" verticalCenter="0" stroke="2" textColor="0x28ee01"
+             text="点击按钮" />
+</e:Skin>

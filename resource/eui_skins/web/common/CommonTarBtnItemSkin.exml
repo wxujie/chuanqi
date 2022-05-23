@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonTarBtnItemSkin" width="45" height="99" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Image horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" source="common_json.common_yeqian_6"/>
+	<e:Image x="0" y="0" visible.up="false" source="common_json.common_yeqian_5"/>
+	<e:Image id="tarText" scaleX="1" scaleY="1" source="friend_json.t_gxyq_hy" horizontalCenter="4.5" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ViewBgWin3Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="641" height="326">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image scaleX="1" scaleY="1" source="bg_newNpc_png" left="0" right="0" top="0" bottom="0" scale9Grid="20,19,601,290"/>
+		<e:Label id="txt_name" size="24" stroke="2" scaleX="1" scaleY="1" touchEnabled="false" top="17" horizontalCenter="0" visible="false" textColor="0xE5DDCF"/>
+		<e:Button id="btn_close" label="" y="-10" width="60" x="622" height="60" scaleX="1.2" scaleY="1.2">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:app="app.*">
+			<e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SynthesisItem2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing" width="338" height="183">
+	<e:Group width="338" height="183">
+		<e:Image source="hecheng_bg1" x="0" y="0" scaleX="1" scaleY="1" />
+		<app:SynthesisItemBase id="itemData" skinName="ItemBaseSkin" y="50" x="28" scaleX="1" scaleY="1" />
+		<e:Label id="itemName" text="炎之黄金裁决" size="20" stroke="2" textColor="0xff7700" verticalCenter="-63.5"
+		         horizontalCenter="-1" />
+		<e:Button id="syntheticBtn" label="第88天开放" horizontalCenter="0" bottom="14" x="183" y="279" scaleX="1" scaleY="1"
+		          width="113" height="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn"
+					         source.disabled="tips_btn" alpha.disabled="0.5" scaleX.down="0.95" scaleY.down="0.95" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="syntheticBtn1" label="第88天开放" horizontalCenter="-65" bottom="14" x="183" y="279" scaleX="1" scaleY="1"
+		          width="113" height="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn"
+					         source.disabled="tips_btn" alpha.disabled="0.5" scaleX.down="0.95" scaleY.down="0.95" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="syntheticBtn2" label="第88天开放" horizontalCenter="65" bottom="14" x="183" y="279" scaleX="1" scaleY="1"
+		          width="113" height="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn"
+					         source.disabled="tips_btn" alpha.disabled="0.5" scaleX.down="0.95" scaleY.down="0.95" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="limitLab" text="20转开放" size="20" stroke="2" textColor="0x28ee01" verticalCenter="54.5"
+		         horizontalCenter="1.5" />
+		<app:RedDotControl id="redPoint" x="210" y="120" />
+		<app:RedDotControl id="redPoint1" x="150" y="120" />
+		<app:RedDotControl id="redPoint2" x="280" y="120" />
+		<e:Label text="材料:" x="99.34" y="54.01" size="18" stroke="2" textColor="0xe5ddcf" />
+		<e:List id="costList" x="144" y="52" itemRendererSkinName="SynthesisItem2CostItemSkin" width="152">
+			<e:layout>
+				<e:VerticalLayout gap="5" />
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

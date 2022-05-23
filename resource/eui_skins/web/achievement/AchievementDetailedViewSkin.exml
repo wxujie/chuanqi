@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AchievementDetailedViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="426" height="301">
+	<e:Group x="0" y="0" width="426" height="301">
+		<app:UIViewFrame id="dragDropUI" x="0" y="0" skinName="ViewBgWin6Skin"/>
+		<e:Button id="btnConfim" label="确 定" x="159" y="239" width="109" height="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lbDetail" text="" x="24" textColor="0xf0c896" size="18" y="57" wordWrap="true"  height="50"  width="374" lineSpacing="6" anchorOffsetY="0"/>
+		<e:Label id="txtGift" text="" x="23" y="110" size="18" textColor="0xf9893a"/>
+		<e:Scroller width="371" height="88" x="23" y="137"  >
+			<e:List id="listGift"  height="88" itemRendererSkinName="AchieveDetailItemViewSkin" y="20" x="1">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

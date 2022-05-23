@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn21Skin" width="161" height="57" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,disabled" >
+	<e:Image horizontalCenter="0" verticalCenter="0" source="chat_tab_1" source.up="chat_tab_1" source.down="chat_tab_2" source.disabled="chat_tab_2"/>
+	<e:Label id="labelDisplay" text="全  部" size="25"  textColor="0xebc592" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

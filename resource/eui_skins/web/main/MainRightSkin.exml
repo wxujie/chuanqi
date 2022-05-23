@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainRightSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="300" height="500">
+	<e:Label id="label" width="224" text="sdfsdf" x="65" y="6" anchorOffsetX="0" anchorOffsetY="0" background="true" backgroundColor="0x353131" size="15"/>
+</e:Skin>

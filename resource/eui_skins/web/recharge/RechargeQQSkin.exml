@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeQQSkin" width="1027" height="696" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="dragDropUI" source="apay_bg2_png" x="0" y="-1" width="1027" height="696"/>
+	<e:Image source="banner_lzchongzhi" horizontalCenter="0.5" top="106"/>
+	<e:Image source="biaoti_cz" horizontalCenter="0" y="55" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="89" y="196" scale9Grid="11,12,24,20" anchorOffsetX="0" width="208" anchorOffsetY="0" height="223" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="303" y="196" scale9Grid="11,12,24,20" anchorOffsetX="0" width="208" anchorOffsetY="0" height="223" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="519" y="196" scale9Grid="11,12,24,20" anchorOffsetX="0" width="208" anchorOffsetY="0" height="223" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="734" y="196" scale9Grid="11,12,24,20" anchorOffsetX="0" width="208" anchorOffsetY="0" height="223" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="89" y="424" scale9Grid="11,12,24,20" anchorOffsetX="0" width="208" anchorOffsetY="0" height="223" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="303" y="424" scale9Grid="11,12,24,20" anchorOffsetX="0" width="208" anchorOffsetY="0" height="223" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="519" y="424" scale9Grid="11,12,24,20" anchorOffsetX="0" width="208" anchorOffsetY="0" height="223" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="734" y="424" scale9Grid="11,12,24,20" anchorOffsetX="0" width="208" anchorOffsetY="0" height="223" touchEnabled="false"/>
+	<e:Image x="158" y="258" id="icon1" source="cz_icon1" touchEnabled="false"/>
+	<e:Image x="357" y="246" id="icon2" source="cz_icon2" touchEnabled="false"/>
+	<e:Image x="551" y="243" id="icon3" source="cz_icon3" touchEnabled="false"/>
+	<e:Image x="766" y="246" id="icon4" source="cz_icon4" touchEnabled="false"/>
+	<e:Image x="129" y="474" id="icon5" source="cz_icon5" touchEnabled="false"/>
+	<e:Image x="330" y="485" id="icon6" source="cz_icon6" touchEnabled="false"/>
+	<e:Image x="542" y="474" id="icon7" source="cz_icon7" touchEnabled="false"/>
+	<e:Image x="746" y="459" id="icon8" source="cz_icon8" touchEnabled="false"/>
+	<e:Button id="buyButton1" label="10 元" x="122" y="354" skinName="Btn32Skin"/>
+	<e:Button id="buyButton2" label="10 元" x="339" y="354" skinName="Btn32Skin"/>
+	<e:Button id="buyButton3" label="10 元" x="554" y="354" skinName="Btn32Skin"/>
+	<e:Button id="buyButton4" label="10 元" x="766" y="354" skinName="Btn32Skin"/>
+	<e:Button id="buyButton5" label="10 元" x="122" y="585" skinName="Btn32Skin"/>
+	<e:Button id="buyButton6" label="10 元" x="339" y="585" skinName="Btn32Skin"/>
+	<e:Button id="buyButton7" label="10 元" x="554" y="585" skinName="Btn32Skin"/>
+	<e:Button id="buyButton8" label="10 元" x="766" y="585" skinName="Btn32Skin"/>
+	<e:Label text="" x="112" y="202" id="lab1" textColor="0xeee104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label text="" x="326" y="202" id="lab2" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label text="" x="544" y="202" id="lab3" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label text="" x="764" y="202" id="lab4" textColor="0xEEE104" stroke="2" size="24" textAlign="center" width="160"/>
+	<e:Label id="lab5" text="" x="112" y="436" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label id="lab6" text="" x="326" y="436" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label id="lab7" text="" x="544" y="436" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label id="lab8" text="" x="764" y="436" textColor="0xEEE104" stroke="2" size="24" textAlign="center" width="160"/>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2" scaleX.down="0.98" scaleY.down="0.98"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="discountGrp1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-7" horizontalCenter="-323.5" visible="false">
+		<e:Label id="discountLab1" text="" textColor="0xeee104" size="18" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+	</e:Group>
+	<e:Group id="discountGrp2" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-7" horizontalCenter="-107.5" visible="false">
+		<e:Label id="discountLab2" text="" textColor="0xEEE104" size="18" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+	</e:Group>
+	<e:Group id="discountGrp3" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-7" horizontalCenter="109.5" visible="false">
+		<e:Label id="discountLab3" text="" textColor="0xEEE104" size="18" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+	</e:Group>
+	<e:Group id="discountGrp4" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-7" horizontalCenter="326.5" visible="false">
+		<e:Label id="discountLab4" text="" textColor="0xEEE104" size="18" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+	</e:Group>
+	<e:Group id="discountGrp5" verticalCenter="226" horizontalCenter="-323.5" visible="false">
+		<e:Label id="discountLab5" text="" textColor="0xEEE104" size="18" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+	</e:Group>
+	<e:Group id="discountGrp6" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="226" horizontalCenter="-107.5" visible="false">
+		<e:Label id="discountLab6" text="" textColor="0xEEE104" size="18" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+	</e:Group>
+	<e:Group id="discountGrp7" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="226" horizontalCenter="109.5" visible="false">
+		<e:Label id="discountLab7" text="" textColor="0xEEE104" size="18" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+	</e:Group>
+	<e:Group id="discountGrp8" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="226" horizontalCenter="326.5" visible="false">
+		<e:Label id="discountLab8" text="" textColor="0xEEE104" size="18" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+	</e:Group>
+	<e:Button id="openBlue" label="" x="771.02" y="130.32" skinName="Btn0Skin" icon="lz_ktlzbt"/>
+</e:Skin>

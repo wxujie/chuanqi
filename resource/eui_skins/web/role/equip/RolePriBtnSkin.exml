@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RolePriBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"  width="39">
+	<e:Image id="_normalImg" smoothing="false"  source="role_tab2" scaleX="-1" right="0"/>
+	<e:Image id="_selectImg" smoothing="false"  source="role_tab1" scaleX="-1" right="0"/>
+	<e:Image id="_nameTf2" source="role_tab_jn2" right="-6" y="-6"/>
+	<e:Image id="_nameTf" source="role_tab_jn1" right="-6" y="-6"/>
+	<app:RedDotControl id="_redDot" width="20" height="20"  touchChildren="false" touchEnabled="false" y="-2" left="0"/>
+</e:Skin>

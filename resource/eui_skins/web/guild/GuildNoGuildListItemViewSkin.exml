@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildNoGuildListItemViewSkin" width="856" height="81" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="-1" y="0">
+		<e:Image id="bg0" y="0"   scale9Grid="14,14,1,1"  source="guild_lbbg1"/>
+		<e:Label id="guildNameLb" text="&lt;王者归来&gt;" y="11" size="24"  textColor="0xF6AF41"  stroke="2" left="123"/>
+		<e:Label id="rankLb" text="5" x="45" size="30"  fontFamily="Arial" verticalCenter="-1.5" stroke="2" textColor="0xff7700"/>
+		<e:Label id="guildLevelLb" text="5级" y="12" size="24"   left="282" textColor="0x28ee01" stroke="2"/>
+		<e:Label id="txt2" text="会长：" x="123" y="47" size="20" stroke="2"   textColor="0xe5ddcf"/>
+		<e:Label id="guildLeaderNameLb" text="耳朵渴了" y="48" size="20" stroke="2"   textColor="0x0066ff" left="181"/>
+		<e:Label id="txt0" text="人数：" x="353" y="13" size="20" stroke="2"   textColor="0xe5ddcf"/>
+		<e:Label id="isApproveLb" text="不需要审批" x="544" size="22" stroke="2"   verticalAlign="middle" verticalCenter="-15.5" textColor="0x28ee01"/>
+		<e:Label id="txt1" text="等级要求：" x="351" y="47" size="20" stroke="2"   textColor="0xe5ddcf"/>
+		<e:Label id="roleLevelLb" text="45" y="48" size="20" stroke="2"  textColor="0x28ee01" left="446"/>
+		<e:Label id="guildMemberNumLb" text="2/100" y="13" size="20" stroke="2"  textColor="0xe5ddcf" left="410"/>
+		<e:Image id="levelIcon" source="guild_pm_1" x="29" y="17"/>
+		<e:Button id="applyBtn" label="" x="740" y="17" skinName="Btn9Skin"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpItemSkin" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Button id="dropDownBtn" label="" x="474" y="511" skinName="Btn9Skin" />
+    <e:Image id="dropDownImage" source="com_ljt_2" x="567" y="526" touchEnabled="false"  visible="false"/>
+    <e:CheckBox id="pickUp" x="381" y="14" scaleX="1" scaleY="1" skinName="CheckBox2" name="pickUp"  visible="false"/>
+    <e:CheckBox id="tabRed" x="621" y="16" skinName="CheckBox2" scaleX="1" scaleY="1" name="tabRed"  visible="false"/>
+    <e:CheckBox id="pickUpAll" x="43" y="514" skinName="CheckBox2" scaleX="1" scaleY="1" name="pickUpAll" />
+    <e:CheckBox id="tabRedAll" x="262" y="514" skinName="CheckBox2" scaleX="1" scaleY="1" name="tabRedAll" />
+    <e:Group id = "list" width="725" height="434" x="2" y="63" anchorOffsetX="0" anchorOffsetY="0" touchChildren="true" touchEnabled="false">
+			<e:Scroller name="scroller" x="-2" height="430" anchorOffsetX="0" anchorOffsetY="0" y="0" scaleX="1" scaleY="1" width="727">
+			</e:Scroller>
+			<e:List name="list" anchorOffsetX="0" y="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0">
+				<e:layout>
+					<e:VerticalLayout  gap="1"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+    <e:Group id="dropDownGroup" width="120" x="468.64" bottom="50" visible="false">
+        <e:Image top="-7" bottom="-7" left="0" right="0"  source="9s_bg_2" scale9Grid="12,13,8,5"/>
+        <e:List id="dropDownList" itemRendererSkinName="Btn9Skin" y="0" horizontalCenter="0">
+</e:List>
+    </e:Group>
+</e:Skin>

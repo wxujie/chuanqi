@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliLuDaShiGiftTabSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width="185" height="59">
+	<e:Image source="YY_yq_1" horizontalCenter="0" verticalCenter="0" source.down="YY_yq_2"/>
+	<e:Label id="labelDisplay"  size="20" horizontalCenter="3" verticalCenter="0" textColor="0xEBC592" textAlign="center" verticalAlign="middle" textColor.up="0xbf9f77" textColor.down="0xdcd2be" text="" bold="true" stroke="2" strokeColor.up="0x26211a" strokeColor.down="0x523003"/>
+	<e:Image id="redPoint" source="YY_yq_jiang" top="0" left="2"/>
+</e:Skin>

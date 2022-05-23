@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankBtnItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Image horizontalCenter="0" verticalCenter="0" source="rank_tab2"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" visible.up="false" source="rank_tab1"/>
+	<e:Label id="label" text="基  础" textColor="0xF0C896" size="22" horizontalCenter="0" verticalCenter="0" stroke="2" textColor.down="0xf0c896" textColor.up="0x807b73"/>
+</e:Skin>

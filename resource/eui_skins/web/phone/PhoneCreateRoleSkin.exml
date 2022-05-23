@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PhoneCreateRoleSkin" xmlns:e="http://ns.egret.com/eui"   width="1344" height="750">
+	        <e:Rect width="100%" height="100%" fillAlpha="1"/>
+	        <e:Group id="group" width="1344" height="750" horizontalCenter="0" verticalCenter="0">
+            <e:Image id="bgImg" horizontalCenter="-1" verticalCenter="0" source="mp_login_bg_png"/>
+            <e:Label id="timeLab" text="" size="22" textColor="0x28ee01" x="530" y="677" width="300" textAlign="center"/>
+            <e:Group id="roleGrp" y="583.33" x="482" scaleX="0.9" scaleY="0.9"/>
+            <e:Group x="769" y="360">
+            <e:Button id="job1" label="战士" icon="login_zs_2" skinName="PhoneBtnCreateSkin"/>
+            <e:Button id="job2" label="法师" icon="login_fs_2" skinName="PhoneBtnCreateSkin" x="135" y="-1"/>
+            <e:Button id="job3" label="道士" icon="login_ds_2" skinName="PhoneBtnCreateSkin" x="283" y="-1"/>
+            <e:layout>
+                <e:HorizontalLayout gap="4"/>
+            </e:layout>
+            </e:Group>
+            <e:Group x="802" y="501">
+            <e:Button id="boy" label="男" icon="login_nan_2" skinName="PhoneBtnCreateSkin" x="2"/>
+            <e:Button id="girl" label="女" icon="login_nv_2" skinName="PhoneBtnCreateSkin" x="149"/>
+            <e:layout>
+                <e:HorizontalLayout gap="8"/>
+            </e:layout>
+            </e:Group>
+            <e:Group x="577" y="651.67" width="208" height="90">
+            <e:Button id="createBtn"  icon="login_btn" x="0" scaleX="0.7" scaleY="0.7">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" scaleX.down="0.98" scaleY.down="0.98"/>
+                    <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+                    </e:Skin>
+                </e:skinName>
+            </e:Button>
+            </e:Group>
+            <e:Group id="createMcGrp" x="680" y="695" touchEnabled="false" touchChildren="false" touchThrough="false"/>
+            <e:Button id="diceBtn" icon="login_suiji"  x="974" y="265" scaleX="1.2" scaleY="1.2">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                    <e:Image horizontalCenter="0" verticalCenter="0" source="login_suiji" source.down="login_suiji" scaleX.down="0.98" scaleY.down="0.98"/>
+                    <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+                    </e:Skin>
+                </e:skinName>
+            </e:Button>
+            <e:EditableText id="nameInput" width="172" text="" x="793" y="272" size="24" textAlign="center" verticalAlign="middle"/>
+            </e:Group>
+            </e:Skin>

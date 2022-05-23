@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="426" height="301">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin6Skin"/>
+	<e:Label id="strLab" text="" width="380" height="172" textAlign="left" verticalAlign="middle" size="21" verticalCenter="-10.5" horizontalCenter="0" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Button id="btnCofim" label="确定" bottom="19" x="70" width="109" height="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnClose" label="取消" bottom="18" x="260" width="109" height="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

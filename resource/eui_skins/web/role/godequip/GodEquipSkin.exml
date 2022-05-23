@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GodEquipSkin" width="384" height="448" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="Godturn_bg_png"/>
+	<e:Image x="59" y="96" name="img_0" source="Godturn_cionbg_1"/>
+	<e:Image x="59" y="251" name="img_2" source="Godturn_cionbg_3"/>
+	<e:Image x="279" y="96" name="img_1" source="Godturn_cionbg_2"/>
+	<e:Image x="279" y="251" name="img_3" source="Godturn_cionbg_4"/>
+	<e:Group id="iconGroup" x="58" y="95.66">
+		<app:ItemSlot name="item_0" x="-6" y="-1" skinName="ItemBaseSkin2" scaleX="1" scaleY="1"/>
+		<app:ItemSlot name="item_1" x="-6" y="114" skinName="ItemBaseSkin2" scaleX="1" scaleY="1"/>
+		<app:ItemSlot name="item_2" x="216" y="114" skinName="ItemBaseSkin2" scaleX="1" scaleY="1"/>
+		<app:ItemSlot name="item_3" x="216" y="-1" skinName="ItemBaseSkin2" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="160" requestedRowCount="2" requestedColumnCount="2" verticalGap="95"/>
+		</e:layout>
+		
+	</e:Group>
+	<e:Group id="group_yjh" width="384" height="169" x="0" y="260" touchEnabled="false" touchChildren="false">
+		<e:Label id="suitLv" text="已激活套装属性：共鸣1阶" size="22" stroke="2" textColor="0xeee104" y="95" horizontalCenter="0.5"/>
+		<e:Label id="attrLab" text="攻击加成：5%" size="22" stroke="2" textColor="0xEEE104" y="131" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image id="img_wjh" source="role_json.Godturn_jh_wjh" x="120" y="370"/>
+    <!--<app:ItemSlot name="icon_0" skinName="ItemSlotSkin" x="50" y="65"/>-->
+</e:Skin>

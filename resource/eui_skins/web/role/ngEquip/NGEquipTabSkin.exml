@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NGEquipTabSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"
+        width="32" height="90">
+    <e:Image source="tab_ngzb" verticalCenter="0" horizontalCenter="0" visible.down="false" />
+    <e:Image source="tab_ngzb1" verticalCenter="0" horizontalCenter="0" visible.up="false" />
+    <e:Image id="txtIcon1" source="tab_ngzbt01" horizontalCenter="0" verticalCenter="0" visible.up="false" />
+    <e:Image id="txtIcon2" source="tab_ngzbt02" horizontalCenter="0" verticalCenter="0" visible.down="false" />
+</e:Skin>

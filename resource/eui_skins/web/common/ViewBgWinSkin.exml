@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ViewBgWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="912" height="646" states="default,default2,default3,default4,default5,default6,default7"  width.default2="536" height.default2="529" width.default3="641" height.default3="326" width.default4="431" height.default4="478" width.default5="473" height.default5="346" width.default6="426" height.default6="300">
+	<e:Group width.default="100%" height.default="100%" width.default2="536" height.default2="529" left.default3="0" right.default3="0" top.default3="0" bottom.default3="0" width.default5="473" height.default5="346" width.default6="426" height.default6="301" left.default4="0" right.default4="0" top.default4="0" bottom.default4="0">
+		<e:Image scaleX="1" scaleY="1"  source="com_bg_kuang_3_png" source.default2="bag_bg_png" source.default3="bg_newNpc_png" left.default3="0" right.default3="0" top.default3="0" bottom.default3="0" scale9Grid.default3="20,19,601,290" scale9Grid.default="74,80,634,486" width.default="100%" height.default="100%" source.default4="task_k1_png" source.default5="chat_bg_tc1_2_png" source.default6="bg_tipstc2_png" source.default7="com_bg_kuang_5_png" scale9Grid.default4="169,71,92,364" top.default4="0" right.default4="0" left.default4="0" bottom.default4="0"/>
+		<e:Label id="txt_name"  size="24" stroke="2" scaleX="1" scaleY="1" touchEnabled="false"  top="17" horizontalCenter="0" visible.default2="false" visible.default3="false"  textColor="0xe5ddcf"/>
+		<e:Button id="btn_close" label="" y="-7.67" width="60"  x.default2="519.18" x.default3="623.79" y.default3="-9.01" top.default="-7" right.default="-42" x.default4="408" x.default5="455" x.default6="407" y.default4="-7" y.default5="-7" y.default6="-7" right.default7="-42" top.default7="-7">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

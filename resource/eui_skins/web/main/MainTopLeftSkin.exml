@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainTopLeftSkin" width="321" height="152" currentState="nStand" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="nStand,nWalk,nRun" >
+	<e:Image source="m_yaogan_bg" visible.nStand="false" source.nWalk="m_yaogan_bg2" y.nWalk="33" x.nWalk="13" y="19" y.nRun="19"/>
+	<e:Image id="stateImage" x="51" y="71" source="" source.nWalk="m_yaogan_zou" source.nRun="m_yaogan_pao" y.nWalk="70" y.nRun="71"/>
+	<e:Image id="stateArrow" anchorOffsetX="21" anchorOffsetY="60" y="79" x="62" source="" source.nWalk="m_yaoganjiantou_1" source.nRun="m_yaoganjiantou_2" x.nWalk="62" anchorOffsetX.nWalk="18" y.nWalk="81" y.nRun="79"/>
+	<e:Group id="petGrp" left="0" top="28" visible="false">
+		<e:Image source="cwms_bg"/>
+		<e:Button id="petFollow" label="跟 随" x="3.6" y="39" width="100" height="33">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ns1="*" xmlns:app="app.*">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="cwms_btn" source.down="cwms_btn" source.disabled="cwms_btn"/>
+			<e:Label id="labelDisplay" size="16" horizontalCenter="0" verticalCenter="0" textColor="0xcdb988" textColor.disabled="0xb9b9b9" stroke="1" bold="true"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Rect id="followRect" width="93" height="26" fillAlpha="0.7" y="42" right="107" touchEnabled="false" visible="false"/>
+		<e:Image id="petKuang" width="101" height="37" x="2.6" y="36.6" source="pet_kuang" scale9Grid="13,11,1,1" visible="false"/>
+		<e:Button id="petAck" label="攻击中" x="103" y="39" width="100" height="33">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ns1="*" xmlns:app="app.*">
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="cwms_btn" source.down="cwms_btn" source.disabled="cwms_btn" />
+				<e:Label id="labelDisplay" size="16" horizontalCenter="0" verticalCenter="0" textColor="0xcdb988" textColor.disabled="0xb9b9b9" stroke="1" bold="true" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="宠物状态" size="21" bold="true" horizontalCenter="0.5" top="9" textColor="0xcca063"/>
+	</e:Group>
+	<e:Label id="labelTime" text="" size="18" touchEnabled="false" left="6" top="6"/>
+</e:Skin>

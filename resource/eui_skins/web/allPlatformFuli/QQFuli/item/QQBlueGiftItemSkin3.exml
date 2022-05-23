@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QQBlueGiftItemSkin3" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="230" height="220">
+	<e:Image source="lztq_frame1"/>
+	<e:Image id="curImg" y="18" source="wenzi_lzhhbewlq" horizontalCenter="0"/>
+	<e:List id="rewards" itemRendererSkinName="ItemBaseSkin" top="65" horizontalCenter="0">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:List>
+	<e:Button id="receiveBtn" label="领取奖励" width="113" height="46" horizontalCenter="0.5" y="150">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:app="app.*">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" textColor.disabled="0xb9b9b9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="0.5" y="139"/>
+	<app:RedDotControl id="redPoint" x="158" y="147" visible="false"/>
+</e:Skin>

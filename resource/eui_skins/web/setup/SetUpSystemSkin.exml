@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpSystemSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" height="470">
+<e:Image source="common_json.com_fengexian" x="60" y="65"/>
+	<e:Image source="common_json.com_fengexian" x="60" y="293"/>
+	<e:Image id="rockerImg" x="60" y="413" source="com_fengexian" visible="false"/>
+			<app:SetUpCheckBoxEui id="openSound"  x="38" y="87" name="openSound" skinName="SetUpCheckBox"/>
+			<app:SetUpCheckBoxEui id="openBgSound"  x="264" y="87" skinName="SetUpCheckBox" name="openBgSound"/>
+	<app:SetUpCheckBoxEui id="highQuality" x="38" y="141" skinName="SetUpCheckBox" name="openBgSound"/>
+	<app:SetUpCheckBoxEui id="lowQuality" x="264" y="141" skinName="SetUpCheckBox" name="openBgSound"/>
+	<app:SetUpCheckBoxEui id="swimShow" x="488" y="141" skinName="SetUpCheckBox" name="openBgSound"/>
+	<app:SetUpCheckBoxEui id="closeEff" x="38" y="195" skinName="SetUpCheckBox" name="openBgSound"/>
+	<app:SetUpCheckBoxEui id="scale1" x="38" y="315" skinName="SetUpCheckBox" name="openBgSound"/>
+	<app:SetUpCheckBoxEui id="scale2" x="264" y="315" skinName="SetUpCheckBox" name="openBgSound"/>
+	<app:SetUpCheckBoxEui id="scale3" x="488" y="315" skinName="SetUpCheckBox" name="openBgSound"/>
+	<app:SetUpCheckBoxEui id="rocker1" x="38" y="435" skinName="SetUpCheckBox" name="openBgSound" visible="false"/>
+	<app:SetUpCheckBoxEui id="rocker2" x="264" y="435" skinName="SetUpCheckBox" name="openBgSound" visible="false"/>
+	
+</e:Skin>

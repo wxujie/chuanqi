@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GongGaoWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="418">
+	<e:Image id="dragDropUI" left="0" right="0" top="0" bottom="0" scale9Grid="210,141,13,20" source="bg_tipstc2_png"/>
+	<e:Button id="closeBtn" right="-39" top="-8" width="60" height="60">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="公告" size="24" textColor="0xffb746" bold="true" touchEnabled="false" horizontalCenter="0" top="14"/>
+	<e:Label id="str" text="" size="23" textColor="0xe0c99f" maxWidth="364" minHeight="174" top="58" left="27" right="27" bottom="81" anchorOffsetY="0"/>
+	<e:Button id="sureBtn" label="确 定" horizontalCenter="-4.5" bottom="18" width="109" height="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

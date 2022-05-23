@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendAddViewSkin" width="478" height="345" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<app:UIViewFrame id="dragDropUI" x="0" y="0" skinName="ViewBgWin5Skin"/>
+	<e:Image x="15" y="44" anchorOffsetX="0" width="449" source="bg_bg2" scale9Grid="4,4,28,28" anchorOffsetY="0" height="281" visible="false"/>
+	<e:Image source="ltk_4" x="63" y="141" anchorOffsetX="0" width="360" anchorOffsetY="0" height="32" scale9Grid="10,10,2,1"/>
+	<e:TextInput id="playerNameText" width="360" height="32" x="63" y="141" anchorOffsetX="0" anchorOffsetY="0" skinName="TextInputSkin"/>
+	<e:Label id="typeLb" text="" y="98" size="18" horizontalCenter="0"/>
+	<e:Button id="ConfirmBtn" label="" x="189" y="283" anchorOffsetY="0" width="109" height="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

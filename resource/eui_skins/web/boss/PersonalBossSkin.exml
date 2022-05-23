@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PersonalBossSkin" width="867" height="563" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="867" height="563" x="0" y="0">
+		<e:Image smoothing="false" source="com_bg_kuang_xian1" x="-0.67" y="-1.31" anchorOffsetX="0" width="445"
+		         anchorOffsetY="0" height="556.5" scale9Grid="6,6,8,6" scaleX="1" scaleY="1"  visible="false"/>
+		<e:Image smoothing="false" source="com_bg_kuang_xian1" x="445.71" y="-1.5" anchorOffsetX="0" width="429"
+		         anchorOffsetY="0" height="556.67" scale9Grid="6,6,8,6" scaleX="1" scaleY="1"  visible="false"/>
+		<e:Group id="item_list" width="438" height="558" x="2.98" y="3.93" anchorOffsetX="0" anchorOffsetY="0" scaleX="1"
+		         scaleY="1">
+			<e:Scroller name="scroller" x="0" height="558" anchorOffsetX="0" anchorOffsetY="0" y="0" scaleX="1" scaleY="1"
+			            width="438" />
+			<e:List name="list" anchorOffsetX="0" x="2" y="2" anchorOffsetY="0" scaleX="1" scaleY="1" itemRendererSkinName="BossItemSkin">
+				<e:layout>
+					<e:VerticalLayout gap="-2" />
+				</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Group width="426.67" height="548" x="446" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image name="bg" x="12" y="40" anchorOffsetX="0" width="403" anchorOffsetY="0" height="105"
+			         source="com_bg_kuang_xian2" scale9Grid="9,9,7,7" alpha="0.5" scaleX="1" scaleY="1" />
+			<e:Label id="txt_skill_desc" text="击杀1000只开启下一档BOSS" x="16.69" y="158.97" size="18" width="402" textColor="0xEDE6D3"
+			         anchorOffsetX="0" anchorOffsetY="0" height="20.67"  />
+			<e:Image name="bg" x="13" y="257" anchorOffsetX="0" width="403" anchorOffsetY="0" height="75"
+			         source="com_bg_kuang_xian2" scale9Grid="9,9,7,7" alpha="0.5" scaleX="1" scaleY="1" />
+			<e:Image name="bg" x="12" y="396.61" anchorOffsetX="0" width="403" anchorOffsetY="0" height="75"
+			         source="com_bg_kuang_xian2" scale9Grid="9,9,7,7" alpha="0.5" scaleX="1" scaleY="1" />
+			<e:Image source="boss_diaoluo" x="26" y="371" />
+			<e:Image source="boss_json.boss_shoutong" x="26" y="234.67" />
+			<e:Group id="drop_list" name="drop_list" width="397" height="64.34" x="16" y="398" anchorOffsetX="0"
+			         anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Scroller name="scroller" x="5" height="61" anchorOffsetX="0" anchorOffsetY="0" y="6.01" scaleX="1" scaleY="1"
+				            width="386" />
+				<e:List name="list" anchorOffsetX="0" x="5" y="9" anchorOffsetY="0" scaleX="1" scaleY="1">
+					<e:layout>
+						<e:TileLayout requestedColumnCount="6" horizontalGap="5" verticalGap="5" />
+					</e:layout>
+				</e:List>
+			</e:Group>
+			<e:Group id="award_list" name="drop_list" width="397" height="67.34" x="16" y="259.32" anchorOffsetX="0"
+			         anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Scroller name="scroller" x="5" height="58" anchorOffsetX="0" anchorOffsetY="0" y="5.01" scaleX="1" scaleY="1"
+				            width="386" />
+				<e:List name="list" anchorOffsetX="0" x="5" y="9" anchorOffsetY="0" scaleX="1" scaleY="1">
+					<e:layout>
+						<e:TileLayout requestedColumnCount="6" horizontalGap="5" verticalGap="5" />
+					</e:layout>
+				</e:List>
+			</e:Group>
+			<e:Group width="424.67" height="53.67" x="9" y="495.63" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"
+			         touchChildren="true" scaleX="1" scaleY="1">
+				<e:Image source="boss_xinxi" x="12" y="-480" />
+				<e:Scroller id="scroller" width="387" height="89.67" x="10.25" y="-447.43" anchorOffsetX="0" anchorOffsetY="0"
+				            scrollPolicyH="off">
+					<e:Group anchorOffsetY="0" height="89.67">
+						<e:Label id="txt_infos" text="" size="19" width="380" horizontalCenter="1.5" lineSpacing="5" y="8.98"
+						         x="3" scaleX="1" scaleY="1"   textColor="0xdcd2be"/>
+					</e:Group>
+				</e:Scroller>
+				<e:Image source="common_slider_bg" x="92.64" y="-309.66" width="303" />
+				<e:ProgressBar id="slider" width="298" value="50" x="95" y="-305.34" scaleX="1" scaleY="1" height="15" skinName="bar3Skin" anchorOffsetY="0"/>
+				<e:Label text="当前进度：" x="8.01" y="-308.03" size="18" width="90" textColor="0xEDE6D3" anchorOffsetX="0"
+				         anchorOffsetY="0"  />
+				<e:Label id="txt_slider" text="50%" x="209.36" y="-306.7" size="18" width="90" anchorOffsetX="0" anchorOffsetY="0"
+				         textColor="0xe50000" bold="true"  textAlign="center" verticalAlign="middle"  visible="false"/>
+				<e:Label id="txt_trans2" text="使用飞鞋传送可快速到达洞穴门口" x="25" y="19" size="18" width="273" textColor="0xEDE6D3"
+				         anchorOffsetX="0"  visible="false" />
+				<e:Label id="txt_trans" text="" x="122" y="27" size="18" textColor="0xEDE6D3" anchorOffsetX="0"
+				          />
+				<e:Button id="btn_go" label="立即挑战" skinName="Btn9Skin" x="299" y="7" />
+				<e:Image id="red" width="20" height="20" x="374" y="3" source="common_chengdian" />
+				<e:Button id="btn_go2" label="飞鞋传送" skinName="Btn9Skin" x="299" y="7" visible="false" />
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

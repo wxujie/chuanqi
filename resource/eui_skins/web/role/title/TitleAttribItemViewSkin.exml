@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TitleAttribItemViewSkin" width="249" height="20" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="txtAttrib" text="全职业攻击下限：+25" x="0" y="0" size="20" textColor="0xe0ae75" stroke="2"/>
+</e:Skin>

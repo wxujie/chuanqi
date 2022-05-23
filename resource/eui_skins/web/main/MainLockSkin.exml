@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainLockSkin" currentState="nOpen" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   states="nLock,nOpen"  height="181">
+	<e:Image source="m_lock_bg" x.nLock="-20" rotation.nOpen="90" x.nOpen="117" y.nOpen="22"/>
+	<e:ProgressBar id="hpBar" slideDuration="0" x.nLock="-13" y="1" skinName="bloodBarSkin2"  width="162"  slideDuration.nOpen="0" width.nOpen="116" x.nOpen="-5"/>
+	<e:Label id="charName"   y="29" stroke="1" text="" size="18" x="-6" width="160" textAlign="center" x.nOpen="-10" width.nOpen="122" y.nOpen="27" textAlign.nOpen="center" size.nOpen="17"/>
+	<e:Image id="iconImage" x.nLock="16" y.nLock="68" x.nOpen="15" y.nOpen="51"/>
+	
+</e:Skin>

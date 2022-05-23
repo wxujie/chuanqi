@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnTabSkin1" width="86" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" states="up,down"  width.down="86" height.down="30">
+	<e:Group id="gp" width="86" height="30" x="0" y="0">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1" source.down="qd_yeqian1" source.up="qd_yeqian1" source="qd_yeqian1"/>
+		<e:Image horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" visible.up="false" source.down="qd_yeqian2" source="qd_yeqian2"/>
+		<e:Label id="labelDisplay" text="签到26次" size="15" verticalCenter="1" horizontalCenter="1" textColor.up="0xa18a1a" stroke.up="1" fontFamily.up="Microsoft YaHei" textColor.down="0xd8970d" stroke.down="1" fontFamily.down="Microsoft YaHei"/>
+		<app:RedDotControl id="redPoint" width="20" height="20" x="71.6" y="-2" visible="false"/>
+	</e:Group>
+</e:Skin>

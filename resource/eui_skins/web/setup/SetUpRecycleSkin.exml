@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpRecycleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="701" height="555">
+	<e:Label text="特权" x="25" y="23" size="24" stroke="2" textColor="0xf0c896"/>
+	<app:SetUpCheckBoxEui id="smartRecycle" x="95" y="17" name="openSound" skinName="SetUpCheckBox"/>
+	<e:Rect id="rect" width="38" height="38" x="92.8" y="16.2" fillAlpha="0"/>
+	<e:Group id="defaultGrp" width="677" x="24" y="65" height="436" anchorOffsetY="0">
+		<e:Scroller id="boxScroller" left="0" right="0" top="0" bottom="0" scrollPolicyH="off">
+			<e:List id="boxList" itemRendererSkinName="SetUpRecycleItemSkin">
+				<e:layout>
+					<e:VerticalLayout gap="3"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="recycle" label="一键回收" x="291" y="514" skinName="Btn9Skin"/>
+	<e:Group id="effGrp" x="338" y="533" touchEnabled="false" width="0" height="0">
+	<e:Group id="clseGroup" width="35" height="35" x="-15" y="-20" visible="false"/>
+	</e:Group>
+</e:Skin>

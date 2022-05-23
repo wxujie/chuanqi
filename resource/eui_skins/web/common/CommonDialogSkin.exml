@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonDialogSkin" width="426" height="301" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="dialogMask" source="common_json.dialog_mask" scale9Grid="1,1,2,2" width="900" height="900" horizontalCenter="0.5" verticalCenter="173.5" alpha="0.5"/>
+	<e:Group width="426" horizontalCenter="0" anchorOffsetY="0" y="0">
+		<e:Image id="bg" x="0" y="-2" scaleX="1" scaleY="1" source="bg_tipstc2_png"/>
+		<e:Label id="titleLabel" x="131" y="15" anchorOffsetX="0" width="156" textAlign="center" textColor="0xE0C99F"  scaleX="1" scaleY="1" size="20" text="提示" touchEnabled="false"/>
+		<e:Button id="dialogCloseBtn" label="" x="405" y="-9" width="60" height="60">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

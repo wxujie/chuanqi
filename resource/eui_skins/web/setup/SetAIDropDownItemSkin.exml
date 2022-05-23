@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetAIDropDownItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="166" height="46" states="up,down" >
+	<e:Label id="nameLbl" text="" size="21" y="13" horizontalCenter="-17.5" textColor="0xe5ddcf" stroke="2"/>
+</e:Skin>

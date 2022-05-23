@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpAISkin" width="648" height="572" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="common_json.com_fengexian" x="60" y="71"/>
+	<e:Group id="jobGrp1" width="604" height="315" x="22" y="75" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<app:SetUpCheckBoxEui id="isMaxHp1" x="21" y="18" skinName="SetUpCheckBox"/>
+		<app:SetUpCheckBoxEui id="notPickItem1" x="21" y="88" skinName="SetUpCheckBox"/>
+		<app:SetUpCheckBoxEui id="pickItem1" x="21" y="158" skinName="SetUpCheckBox"/>
+		<app:SetUpCheckBoxEui id="ltItem1" x="21" y="228" skinName="SetUpCheckBox"/>
+	</e:Group>
+	<e:Group id="jobGrp2" width="604" height="472" x="22" y="66" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<app:SetUpCheckBoxEui id="isAutoRelease2" x="30" y="9" skinName="SetUpCheckBox"/>
+		<app:SetUpCheckBoxEui id="isPoison" x="30" y="60" skinName="SetUpCheckBox"/>
+		<app:SetUpCheckBoxEui id="ltItem2" x="30" y="120" skinName="SetUpCheckBox"/>
+		<e:Group id="petGrp" x="30" y="174" visible="false">
+			<app:SetUpCheckBoxEui id="isAutoSummon2" skinName="SetUpCheckBox" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="cureGrp" x="30" y="234" visible="false">
+			<e:CheckBox id="isCure2" scaleX="1" scaleY="1" name="isCure2" skinName="CheckBox2"/>
+			<e:Image source="com_bg_kuang_3" scale9Grid="12,13,8,5" scaleX="1" scaleY="1" height="35" anchorOffsetX="0" width="93" x="159"/>
+			<e:EditableText id="hpInput" width="61" height="25" size="24" anchorOffsetX="0" anchorOffsetY="0" textColor="0xDCD2BE" textAlign="center" restrict="0-9" maxChars="2" scaleX="1" scaleY="1" x="165" y="6"/>
+			<e:Label text="%" size="19" scaleX="1" scaleY="1" x="229" y="9"/>
+		</e:Group>
+		<app:SetUpCheckBoxEui id="isAutoHemophagy2" x="30" y="294" skinName="SetUpCheckBox" visible="false"/>
+		<app:SetUpCheckBoxEui id="isAutoMaxHp2" x="30" y="354" skinName="SetUpCheckBox" visible="false"/>
+		<app:SetUpCheckBoxEui id="notPickItem2" x="30" y="414" skinName="SetUpCheckBox" visible="false"/>
+		<app:SetUpCheckBoxEui id="pickItem2" x="30" y="474" skinName="SetUpCheckBox" visible="false"/>
+		<app:SetAIDropDownView id="isAutoReleaseArr2" x="181" y="75" skinName="SetAIDropDownSkin" visible="false"/>
+	</e:Group>
+	<e:Group id="jobGrp3" width="604" height="407" x="32" y="75" visible="false">
+		<app:SetUpCheckBoxEui id="isThunderbolt3" x="21" y="8" skinName="SetUpCheckBox"/>
+		<app:SetUpCheckBoxEui id="isIceBluster3" x="21" y="78" skinName="SetUpCheckBox"/>
+		<app:SetUpCheckBoxEui id="isRainFire3" x="21" y="143" skinName="SetUpCheckBox"/>
+		<app:SetUpCheckBoxEui id="ltItem3" x="31" y="153" skinName="SetUpCheckBox"/>
+		<app:SetUpCheckBoxEui id="isMaxHp3" x="21" y="211" skinName="SetUpCheckBox"/>
+		<app:SetUpCheckBoxEui id="notPickItem3" x="21" y="275" skinName="SetUpCheckBox"/>
+		<app:SetUpCheckBoxEui id="pickItem3" x="21" y="339" skinName="SetUpCheckBox"/>
+		<e:layout>
+			<e:VerticalLayout paddingLeft="21" paddingRight="0" paddingTop="9" gap="28"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

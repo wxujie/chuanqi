@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SevenDayItemViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="140" height="161">
+	<e:Group x="2">
+		<e:Image source="qr_p_1" y="97.2" x="-2.8"/>
+		<e:Image source="qr_p_2" x="15.2" y="4.8"/>
+		<e:Image id="isSelect" source="qr_p_3" x="9.2" y="-1.2" visible="false"/>
+		<e:Image id="dayImg" x="24" y="123" source="qr_t1_1"/>
+		<e:Image id="redPoint" x="109" y="11" source="common_hongdian" visible="false"/>
+	</e:Group>
+	<e:Image id="receive" source="qr_p_yilingqu" y="5.6" x="0.4" visible="false"/>
+</e:Skin>

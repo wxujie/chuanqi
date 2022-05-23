@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PayItemRenderSkin" width="700" height="115" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image source="apay_liebiao_bg_png" width="700" scale9Grid="82,60,493,41"/>
+	<e:Group y="12" x="74">
+		<e:Label id="desLabel" text="" x="0" y="0" size="24" textColor="0xff7700" stroke="2" scaleX="1" scaleY="1"/>
+		<e:Label id="limitLab" text="" x="160" y="4" size="18" textColor="0x28ee01" scaleX="1" scaleY="1" stroke="2"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="bottom" gap="11"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="info10002" width="151" height="115" x="535" y="0">
+		<e:Image id="moneyImage" x="33" y="13" source="icon_yuanbao"/>
+		<e:Label id="moneyLabel" text="" x="72" y="23" size="20" textColor="0xf0c896" stroke="2"/>
+	</e:Group>
+	<e:Group id="info10001" width="151" height="115" x="535" y="0" visible="false">
+		<e:Label id="needsLabel" text="" y="23" size="20" textColor="0xF0C896" horizontalCenter="-1" stroke="2"/>
+	</e:Group>
+	<e:Button id="buyButton" label="" width="113" height="46" x="557" y="51">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:List id="list" width="418" x="70" y="42" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="ItemBaseSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:List>
+	<e:Image id="endImage" source="apay_yishouwan" x="560" y="26" visible="false"/>
+	<e:Group id="discountGroup" touchChildren="false" touchEnabled="false" x="0">
+		<e:Image source="shop_jiaobiao"/>
+		<e:Image id="discountImage" source="shop_zhekou_9"/>
+		<e:Image source="shop_zhekou_bg"/>
+	</e:Group>
+	<app:RedDotControl id="redImage" x="657" y="48" visible="false"/>
+</e:Skin>

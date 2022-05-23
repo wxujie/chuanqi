@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YYChaoWanDailyItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="206" height="365">
+	<e:Image source="YY_bg3_png"/>
+	<e:Label id="title" text="" horizontalCenter="-2.5" top="14" textColor="0xFFE624" stroke="1" size="24"/>
+	<e:Image y="66" source="YY_bg4" scale9Grid="14,24,161,14" anchorOffsetY="0" height="170" horizontalCenter="0"/>
+	<e:Label id="count" text="" size="16" textColor="0x28ee01" stroke="1" horizontalCenter="-0.5" bottom="76"/>
+	<e:Button id="receiveBtn" label="立即领取" width="113" height="46" y="300.54" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:List id="rewards" itemRendererSkinName="ItemBaseSkin" verticalCenter="-47" horizontalCenter="-3">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="2" horizontalGap="16" verticalGap="19"/>
+		</e:layout>
+	</e:List>
+	<app:RedDotControl id="redPoint" x="147" y="297" visible="false"/>
+</e:Skin>

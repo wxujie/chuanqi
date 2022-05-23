@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FourImagesCostItemSkin" width="221" height="29" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label text="消耗:" x="7.67" y="7.5" size="17"  textColor="0xe5ddcf" stroke="2"/>
+	<e:Label id="txtCost" text="3124/9527" x="90" y="7.5" size="17"  anchorOffsetX="0" anchorOffsetY="0" stroke="2" textColor="0xe5ddcf"/>
+	<e:Image id="iconGoods" x="51.31" y="-4.04" source="13107" scaleX="0.6" scaleY="0.6" width="60" height="60"/>
+</e:Skin>

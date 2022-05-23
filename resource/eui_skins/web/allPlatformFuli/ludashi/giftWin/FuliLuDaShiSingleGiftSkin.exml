@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliLuDaShiSingleGiftSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" width="669" height="362">
+	<e:Image source="bg_ldsflmrlb1_png" x="4" />
+	<app:FuliLuDaShiSingleGiftItem id="giftItem1" skinName="FuliLuDaShiGiftItemSkin" x="26" y="27" />
+	<app:FuliLuDaShiSingleGiftItem id="giftItem2" skinName="FuliLuDaShiGiftItemSkin" x="346" y="27" />
+</e:Skin>

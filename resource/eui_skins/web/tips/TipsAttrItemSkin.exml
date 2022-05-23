@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsAttrItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="viewGrp" width="257" height="58">
+		<e:Image id="imgBg" verticalCenter="0" left="0" source="fightnum_bg2" x="0" y="4" scaleX="1" scaleY="1"/>
+		<e:Group left="15" verticalCenter="0" x="15" y="0" scaleX="1" scaleY="1">
+			<e:Group x="-19" y="-43" scaleX="1" scaleY="1">
+			<e:Image id="strImg" x="-10" y="13" scaleX="1" scaleY="1" source="numsx_3"/>
+			<e:BitmapLabel id="valueStr" x="137" y="15" font="num_4_fnt" text="+1500"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="-2"/>
+			</e:layout>
+			</e:Group>
+			<e:Image id="attrImg" source="sx_num_p" x="152" y="-50" scaleX="1" scaleY="1"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="1"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSkilltemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="388" height="80">
+	<e:Image source="bg_jineng_2" width="284.5" height="66.5" right="16" verticalCenter="3.5" scale9Grid="7,20,8,3" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Image id="bg" smoothing="false" x="5.5" y="5.5" source="bg_jineng_1"/>
+	<e:Image id="icon" smoothing="false" x="11.5" y="11" source="skillicon_ds1" width="60" height="60"/>
+	<e:Label id="txt_name" text="治愈术" x="98" y="16" size="20"  width="100"  stroke="2" textColor="0xe5ddcf"/>
+	<e:Label id="txt_level" text="1级" x="194" y="17" size="20"  width="80"  stroke="2" textColor="0xe5ddcf"/>
+	<e:Label id="txt_max" text="已满级" x="203" y="17" size="20"  textAlign="left" textColor="0xe5ddcf" stroke="2" visible="false"/>
+	<e:Label id="txt_desc" text="被动技能" x="98" y="50" size="18"  textColor="0xb28a52"
+	         bold="true"  visible="false"/>
+	<e:Label id="btn_key" text="快捷设置" x="98" y="50" size="18" stroke="2" textColor="0xeee104"/>
+	<e:Group id="icon_group" width="60" height="60" x="11.5" y="11"></e:Group>
+	<e:Rect id="rect" width="129" height="69" x="81" y="6" alpha="0"  visible="false"/>
+	<e:Label id="keyLab" text="" y="11.31" size="16" stroke="2" right="316" textColor="0x43ff00"/>
+	<e:Group id="phoneTipsGrp" width="388" height="80"/>
+	<e:Button id="btn_upgrade" label="升  级" x="279" enabled="true" verticalCenter="0" skinName="Btn0Skin" icon="btn_jineng_1"/>
+	<e:Image id="redDot" source="common_hongdian" x="352" y="20" touchEnabled="false" visible="false"/>
+</e:Skin>

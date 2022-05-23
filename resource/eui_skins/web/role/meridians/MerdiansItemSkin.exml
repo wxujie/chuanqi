@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MerdiansItemSkin" currentState="dark" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="60" height="60" states="open,select,dark" >
+	<w:Config id="159bef2916a"/>
+	<e:Image id="bg" verticalCenter="0" horizontalCenter="0" width="18" height="18" source="meridians_json.Meridians_dian_1" visible.open="false" visible.select="false"/>
+	<e:Image id="item" horizontalCenter="0" verticalCenter="0" source="meridians_json.Meridians_dian_2" visible.open="false" visible.dark="false" visible.select="false"/>
+	<e:Group id="effGp" width="18" height="18" x="21" y="21"/>
+	<e:Group id="effGp0" width="18" height="18" x="21" y="21"/>
+</e:Skin>

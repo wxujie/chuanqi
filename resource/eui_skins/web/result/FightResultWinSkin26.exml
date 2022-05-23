@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightResultWinSkin26" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="415"
+        height="856">
+    <e:Rect fillAlpha="0.2" width="100%" height="100%" />
+    <e:Group width="415" height="628" horizontalCenter="0" verticalCenter="-114">
+        <e:Image id="bgIcon" source="result_win" verticalCenter="0" horizontalCenter="0" />
+        <e:Image id="titleIcon" source="result_win1" verticalCenter="-158.5" left="146" />
+        <e:Group id="failGrp" horizontalCenter="1" verticalCenter="-29.5" x="77" y="186" visible="false">
+            <e:Image source="result_lost2" horizontalCenter="0" />
+            <e:Image y="60" source="result_lost3" horizontalCenter="0" />
+        </e:Group>
+        <e:Group id="listGrp" height="343" y="168" touchEnabled="false" width="280" horizontalCenter="5">
+            <e:Label id="rankLab" text="恭喜你第X个完成逃脱试炼！" size="21" width="280" stroke="2" y="90" lineSpacing="10"
+                     textColor="0x28ee01" />
+            <e:Label id="labDesc" text="您将获得以下奖励，奖励在回到原服后通过邮件发放" size="18" width="240" y="200" textColor="0xeee104"
+                     stroke="2" x="20" />
+            <e:Scroller height="63" y="246.68" width="260" x="10">
+                <e:Group>
+                    <e:List id="itemList" itemRendererSkinName="ItemBaseSkin" horizontalCenter="0" verticalCenter="0">
+                        <e:layout>
+                            <e:HorizontalLayout/>
+                        </e:layout>
+                    </e:List>
+                </e:Group>
+            </e:Scroller>
+        </e:Group>
+        <e:Label id="autoSuit" text="3秒后自动退出" size="21" horizontalCenter="5" bottom="64" x="126" y="485"
+                 textColor="0x28ee01" stroke="2" />
+        <e:Button id="suitBtn" label="领取奖励" icon="result_btn" horizontalCenter="5" bottom="92" x="77" y="420"
+                  skinName="Btn9Skin" />
+    </e:Group>
+</e:Skin>

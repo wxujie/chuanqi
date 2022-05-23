@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuLi360WinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+    <e:Image touchEnabled="false" source="bg_360dawanjia_png" />
+    <e:Label id="descLab" horizontalCenter="0.5" width="460" text="大玩家是360游戏中心的VIP高级用户，在享受游戏给您带来快乐的同时，更享受诸多特权及优质的服务"
+             size="18" y="95" textColor="0xe5ddcf" />
+    <e:Button id="btnClose" label="" y="23" x="500" scaleX="0.8" scaleY="0.8">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"
+                         source="huanying_x" source.down="huanying_x" source.disabled="huanying_x" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="btnGetGfit" label="" y="240" width="142" height="41" horizontalCenter="0.5">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="btn_lijilingqu" source.down="btn_lijilingqu"
+                         source.disabled="btn_lijilingqu" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<app:RedDotControl id="redPoint" x="353" y="235"/>
+    <e:Group horizontalCenter="0.5" y="160">
+        <e:List id="itemList" itemRendererSkinName="ItemBaseSkin">
+            <e:layout>
+                <e:HorizontalLayout horizontalAlign="center" gap="20" />
+            </e:layout>
+            <e:ArrayCollection>
+                <e:Array>
+                    <e:Object null="" />
+                    <e:Object null="" />
+                    <e:Object null="" />
+                    <e:Object null="" />
+                    <e:Object null="" />
+                </e:Array>
+            </e:ArrayCollection>
+        </e:List>
+    </e:Group>
+</e:Skin>

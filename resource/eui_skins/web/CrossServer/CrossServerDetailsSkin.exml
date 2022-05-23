@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrossServerDetailsSkin" width="863" height="557" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="kf_xq_bg_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Scroller id="msgScroller" width="666" height="532" x="184" y="12">
+		<e:List id="msgList" itemRendererSkinName="CrossServerDetailsItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="3"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

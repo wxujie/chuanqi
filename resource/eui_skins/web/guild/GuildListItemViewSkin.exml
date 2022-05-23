@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildListItemViewSkin" width="685" height="81" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="gp" width="685" height="81" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="0"   scale9Grid="14,14,1,1"  source="guild_lbbg2"/>
+		<e:Group x="115" y="11">
+			<e:Label id="guildNameLb" text="" y="3" size="24" wordWrap="false" x="4" stroke="2" textColor="0xeee104" scaleX="1" scaleY="1"/>
+			<e:Label id="guildLevelLb" text="" size="24" textColor="0x0fee27" y="4" left="246" stroke="2" x="136" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:HorizontalLayout gap="7"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="rankLb" text="" size="30"  textColor="0xF6AF41" fontFamily="Arial" verticalCenter="0.5" horizontalCenter="-296"/>
+		<e:Label id="rolePrensionLevelLb" text="" x="178" y="48" size="20" stroke="2"   textColor="0xe5ddcf"/>
+		<e:Label id="txt0" text="" x="349" y="13" size="20" stroke="2"  textColor="0xe5ddcf" />
+		<e:Label id="xuanzhanLb" text="" x="580" size="24" stroke="2"   verticalAlign="middle" verticalCenter="0.5" textColor="0xe50000"/>
+		<e:Label id="txt1" text="" x="348" y="48" size="20" stroke="2"  textColor="0xe5ddcf" />
+		<e:Label id="txt2" text="" x="118.68" y="48" size="20" stroke="1"  textColor="0xe5ddcf" />
+		<e:Label id="roleLevelLb" text="" x="447" y="48" size="20" stroke="1"  textColor="0x0fee27"/>
+		<e:Label id="guildMemberNumLb" text="" x="409" y="13" size="20" stroke="2"  textColor="0xe5ddcf"/>
+		<e:Image id="levelIcon" source="guild_json.guild_pm_1" x="25" y="16"/>
+		<e:Button id="fightBtn" label="" x="560.34" y="19.84" skinName="Btn9Skin"/>
+	</e:Group>
+</e:Skin>

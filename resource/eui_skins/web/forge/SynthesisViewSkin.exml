@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SynthesisViewSkin" width="869" height="558" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="712" top="0" bottom="0" source="com_bg_kuang_xian1" scale9Grid="10,9,3,3" visible="false"/>
+	<e:Image left="155" right="0" top="0" bottom="0" source="com_bg_kuang_xian1" scale9Grid="10,9,2,3" visible="false"/>
+	<e:Image source="com_bg_kuang_4_png" x="149" y="-5"/>
+	<e:Scroller id="tabScroller" width="139" height="541" x="6" y="7" scrollPolicyH="off" bounces="false">
+        <e:List id="TabList" x="12" y="8" itemRendererSkinName="SynthesisTabSkin" anchorOffsetX="0" width="135">
+	</e:List>
+	</e:Scroller>
+	<e:Scroller id="itemScroller2" width="700" height="546" x="162" y="6">
+		<e:List id="itemList2" y="-1" itemRendererSkinName="SynthesisItemSkin">
+			<e:layout>
+				<e:TileLayout verticalGap="1" requestedColumnCount="1"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="itemScroller1" width="700" height="546" x="162" y="6">
+		<e:List id="itemList1" y="-1" itemRendererSkinName="SynthesisItem2Skin">
+		<e:layout>
+			<e:TileLayout verticalGap="6" requestedColumnCount="2" paddingLeft="8" horizontalGap="7"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="isVisible" text="该类型物品合成即将开放，敬请期待" horizontalCenter="91" verticalCenter="-36" size="23" textColor="0x5bfc0c" visible="false"/>
+</e:Skin>

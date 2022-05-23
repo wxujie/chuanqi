@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliLuDaShiLevelGiftItemSkin" width="669" height="115" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image source="apay_liebiao_bg_png" width="669" scale9Grid="82,60,493,41" />
+	<e:List id="list" width="418" x="60" y="42" itemRendererSkinName="ItemBaseSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="10" />
+		</e:layout>
+	</e:List>
+	<e:Button id="getBtn" label="领  取" width="113" height="46" x="540" y="34">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay"
+				         source.down="btn_apay" />
+				<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<app:RedDotControl id="redPoint" x="640" y="31" />
+	<e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="265" y="23" />
+	<e:Label id="desLabel" text="" x="60" y="15" size="18" stroke="2" textColor="0xe5ddcf" />
+</e:Skin>

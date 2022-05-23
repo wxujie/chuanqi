@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChangeNameViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="478" height="340">
+	<e:Rect id="closeRect" left="0" right="0" top="0" bottom="0" fillAlpha="0.2"/>
+	<app:UIViewFrame id="dragDropUI" verticalCenter="0" horizontalCenter="0" skinName="ViewBgWin5Skin"/>
+	<e:Image source="chat_bg_bg1_png" scale9Grid="9,9,1,2" verticalCenter="-10" horizontalCenter="0" visible="false"/>
+	<e:Image source="chat_bg_bg2" scale9Grid="4,4,28,28" width="388" height="38" horizontalCenter="0" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-1"/>
+	<e:Label text="请输入新的名字" textAlign="center" verticalAlign="middle" size="24" verticalCenter="-58.5" horizontalCenter="0" bold="true" textColor="0xefc41c"/>
+	<e:TextInput id="textInput" width="315" horizontalCenter="0" verticalCenter="0" prompt="单击此处输入名字"/>
+	<e:Button id="sureBtn" label="确认修改" horizontalCenter="0.5" verticalCenter="133.5" width="109" height="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

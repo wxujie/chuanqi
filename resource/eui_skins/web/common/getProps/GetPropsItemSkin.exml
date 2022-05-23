@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GetPropsItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="359.33" height="60.58">
+	<e:Image x="1.99" y="0.65" source=""/>
+	<e:Button id="checkBtn" label="查 看" skinName="Btn9Skin" y="10" x="250.07" visible="false"/>
+	<e:Label id="txtName" text="" x="28.99" y="19.98" anchorOffsetX="0" size="20"  anchorOffsetY="0" height="26" stroke="1" bold="true" textColor="0x28ee01"/>
+	<e:Group id="groupCheck" width="96" height="35" x="259" y="13" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Label text="查 看" x="6" y="10" textColor="0xebc592" size="20"  scaleX="1" scaleY="1"/>
+		<e:Image x="62" y="6" scaleX="1" scaleY="1" source=""/>
+	</e:Group>
+</e:Skin>

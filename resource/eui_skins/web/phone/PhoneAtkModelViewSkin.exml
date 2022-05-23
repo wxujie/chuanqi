@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PhoneAtkModelViewSkin" width="138" height="176" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="m_ms_bg1" height="170" scale9Grid="4,4,3,2" width="131" x="3" y="3"/>
+	<e:Image id="pkbg" y="6" width="127" height="34" source="m_ms_bg2" scale9Grid="1,1,2,2" x="6"/>
+	<e:Image id="pkImage1" source="m_heping" x="7" y="6"/>
+	<e:Image id="pkImage2" x="7" y="40" source="m_zudui"/>
+	<e:Image id="pkImage3" x="7" y="72" source="m_hanghui"/>
+	<e:Image id="pkImage4" x="7" y="104" source="m_didui"/>
+	<e:Image id="pkImage5" x="7" y="136" source="m_quanti"/>
+</e:Skin>

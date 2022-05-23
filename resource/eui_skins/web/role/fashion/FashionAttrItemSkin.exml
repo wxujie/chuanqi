@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FashionAttrItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="222" height="31">
+<e:Label id="txt" text="niaho " x="4" y="4" size="20" 
+	          anchorOffsetX="0" anchorOffsetY="0" height="20" textColor="0xf56f00" textAlign="left" verticalAlign="middle"/>
+</e:Skin>

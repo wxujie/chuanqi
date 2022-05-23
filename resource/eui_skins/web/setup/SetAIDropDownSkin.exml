@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetAIDropDownSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Group width="166">
+		<e:Image source="com_bg_kuang_xian2" scale9Grid="3,3,18,18" left="0" right="0" top="0" bottom="0"/>
+		<e:Label id="value" text="回城卷轴随" scaleX="1" scaleY="1" size="21" y="12" horizontalCenter="-17" horizontalCenter.up="-16.5" y.up="11" textColor="0x0066ff" stroke="2" textColor.up="0xe5ddcf"/>
+		<e:List id="list" y="46" itemRendererSkinName="SetAIDropDownItemSkin" includeIn="down" touchEnabled.up="false" touchEnabled.down="true">
+		</e:List>
+		<e:ToggleButton id="btn" label="按钮" x="129" y="8" skinName="Btn13Skin" touchEnabled="false" y.up="6"/>
+		<e:Label text="" includeIn="up" x="4" y="40.8" size="16"/>
+	</e:Group>
+</e:Skin>

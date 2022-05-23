@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AttackCharItemSkin" width="247" height="43" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="1" right="-1" top="0" bottom="0" fillAlpha="0.1"/>
+	<e:Rect id="bg" top="0" right="0" left="0" bottom="0" fillAlpha="0.3" fillColor="0xff0000" visible="false"/>
+	<e:Image id="lbJob" x="0" y="0" source="m_task_zy1" touchEnabled="false"/>
+	<e:Label id="lbPlayerName" text="" size="16" stroke="2" textColor="0xE5DDCF" y="4" x="46" touchEnabled="false"/>
+	<e:Label id="playerLevel" text="" size="16" stroke="2" textColor="0xE5DDCF" y="4" x="180" touchEnabled="false"/>
+	<e:Label id="guildLevel" text="" size="16" textColor="0xE5DDCF" stroke="2" x="46" y="23" touchEnabled="false"/>
+	<e:Image id="selectImg" height="100%" width="100%" touchEnabled="false" x="0" y="0" scaleX="1" scaleY="1" source="m_t_ms_bg2" scale9Grid="9,8,8,9" visible="false"/>
+</e:Skin>

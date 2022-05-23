@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DonationRankItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="701" height="59">
+	<e:Image source="jxpm_bg1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="rankImg" x="54" y="18" source="jxpm_1"/>
+	<e:Label id="nameLab" text="属性奖励" size="20" stroke="2" textColor="0xe50000" y="20" left="195"/>
+	<e:Label id="moneyLab" text="捐献元宝:22900" size="20" textColor="0xe5ddcf" stroke="2" left="460" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewRingSkin" width="384" height="556" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image  pixelHitTest="true" touchEnabled="false" scaleX="1" scaleY="1"  source="bg_ring_png"/>
+	<e:Image id="strengthen_name" x="154" y="234.5" source="t_ring"/>
+	<e:Image x="85" y="239.5" source="tbg_ring" scale9Grid="43,0,1,18" width="220"/>
+	<e:BitmapLabel id="bt_lv" text="5" anchorOffsetX="0" width="50" font="sixiangfnt_fnt" letterSpacing="-8" textAlign="center" x="113" y="235.5"/>
+	<e:Group width="372" height="114" x="12" y="272" anchorOffsetX="0" anchorOffsetY="0">
+	<e:Image  x="0" source="blessing_bg2" y="-11" height="158" touchEnabled="false" anchorOffsetY="0"/>
+			<e:List id="itemList" x="-2" y="5" anchorOffsetX="0" width="380" anchorOffsetY="0" height="113" itemRendererSkinName="RingAttrItemSkin" visible="false">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="1" horizontalGap="0" verticalGap="-2" orientation="columns" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		<e:Image id="arrow" x="158" source="sx_jiantou" verticalCenter="9"/>
+		<e:Label id="curAttr" text="" size="17" stroke="2" lineSpacing="6" textColor="0xe0ae75" left="7" textAlign="left" verticalAlign="middle" verticalCenter="14"/>
+		<e:Label id="nextAttr" text="" size="17" stroke="2" lineSpacing="6" textColor="0x28ee01" left="211" textAlign="left" verticalAlign="middle" verticalCenter="14"/>
+	</e:Group>
+	<e:Image id="img_money" x="50" y="393" source="13123" scaleX="0.5" scaleY="0.5"  visible="false"/>
+	<e:Label id="txt_consume" text="消耗：       5000" x="12" y="400" size="16" 
+	         textColor="0xE0AE75" width="150"  visible="false"/>
+	<e:Label id="txt_max" text="强化已达最高等级" y="416" anchorOffsetX="0" size="18" textColor="0xf97d2a"
+	           horizontalCenter="0" visible="false"/>
+	<e:Button id="btn_strengthen" label="升 级" x="268" y="398" skinName="Btn30Skin" anchorOffsetX="0"/>
+	<app:RedDotControl id="redDot" width="20" height="20" x="364" touchChildren="false" touchEnabled="false" y="395"/>
+	<e:List id="listCost" width="200" x="12" anchorOffsetY="0" y="396" itemRendererSkinName="FourImagesCostItemSkin">
+		<e:layout>
+			<e:VerticalLayout verticalAlign="contentJustify"  gap="-6"/>
+		</e:layout>
+	</e:List>
+	<e:Scroller height="72" width="382" x="1" y="458" scrollPolicyV="off" scrollPolicyH="off" >
+		<e:TabBar id="iconList" itemRendererSkinName="NewRingTabItenSkin" scaleX="0.96" scaleY="0.96">
+			<e:layout>
+				<e:HorizontalLayout gap="-4"/>
+			</e:layout>
+		</e:TabBar>
+	</e:Scroller>
+	<e:Group id="tabBar_Group" width="380" height="66" x="0" y="463" anchorOffsetX="0" anchorOffsetY="0" touchChildren="true" touchEnabled="false" visible="false">
+		<e:Button id="btn_prev" label="" x="0" y="11" scaleX="1" scaleY="1" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ring_jiantou_1" source.down="ring_jiantou_1"
+					         source.disabled="ring_jiantou_1" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_next" label="" x="359" y="12" scaleX="1" scaleY="1" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ring_jiantou_2" source.down="ring_jiantou_2"
+					         source.disabled="ring_jiantou_2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:TabBar id="tabBar" itemRendererSkinName="RingIconItemSkin" y="-4" x="22" visible="false">
+			<e:layout>
+				<e:HorizontalLayout gap="-5"/>
+			</e:layout>
+		</e:TabBar>
+	</e:Group>
+	<e:Label id="txt_get" text="" x="196" y="422" size="16" textAlign="left" textColor="0x32FC00" multiline="false" scaleX="1" scaleY="1" italic="false"  anchorOffsetX="0"/>
+	<e:Group id="mcGroup" x="195" y="171" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

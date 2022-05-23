@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WashRedNameViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin4Skin"/>
+	<e:Group width="370" height="382" x="30" y="56" >
+		<e:Group width="370" height="186" x="0" y="0" >
+			<e:Image id="bg0" source="kbg_3_1_png" x="1" y="-1"  width="345"  height="188" scale9Grid="38,38,14,23"  visible="false"/>
+			<e:Image  source="mail_bg" scale9Grid="14,15,1,1" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="goldLb0" text="" size="20"  verticalCenter="-72" horizontalCenter="11" textColor="0xe0ae75" stroke="2"/>
+			<e:Label id="goldPkvalLb0" text="" x="148" y="54" size="20"   stroke="2" textColor="0xe0ae75"/>
+			<e:Label id="goldDayNum0" text="" y="149" size="18"   stroke="2" textColor="0xe0ae75" right="11"/>
+			<e:Label id="txt0" text="" x="148" y="87" size="20"   textColor="0xe0ae75" stroke="2"/>
+			<e:Label id="goldAddCionLb0" text="" x="189" y="87" size="20"   textColor="0x28ee01" stroke="2"/>
+			<e:Button id="goldWashBtn0" label="" x="125" y="129" skinName="Btn9Skin" />
+			<e:Image source="guild_jxfgx" x="36" y="36" />
+			<e:Image source="guild_jxiconk" x="52" y="51"/>
+			<e:Image id="money1Icon0" source="13010" x="56" y="54"/>
+		</e:Group>
+		<e:Group width="370" height="186" x="0" y="200" >
+			<e:Image id="bg1" source="kbg_3_1_png" x="1" y="-1"  width="345"  height="188" scale9Grid="38,38,14,23"  visible="false"/>
+			<e:Image  source="mail_bg" scale9Grid="15,14,1,1" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="goldLb1" text="" size="20"  verticalCenter="-72" horizontalCenter="11" textColor="0xe0ae75" stroke="2"/>
+			<e:Label id="goldPkvalLb1" text="" x="148" y="54" size="20"   textColor="0xe0ae75" stroke="2"/>
+			<e:Label id="goldDayNum1" text="" y="149" size="18"   stroke="2" textColor="0xe0ae75" right="11"/>
+			<e:Label id="txt1" text="" x="148" y="87" size="20"   textColor="0xe0ae75" stroke="2"/>
+			<e:Label id="goldAddCionLb1" text="" x="189" y="87" size="20"   textColor="0x00EF00" stroke="2"/>
+			<e:Button id="goldWashBtn1" label="" x="125" y="129" skinName="Btn9Skin" />
+			<e:Image source="guild_jxfgx" x="26" y="36" />
+			<e:Image source="guild_jxiconk" x="52" y="51"/>
+			<e:Image id="money1Icon1" source="13010" x="56" y="54"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

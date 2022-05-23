@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TitleViewSkin2" width="415" height="568" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+    <e:Image source="kbg_5_png" />
+    <e:Image source="Act_dld_pmbt" width="384" y="23" x="15" />
+    <app:RuleTipsButton id="helpBtn" label="Button" x="24" y="29" ruleId="109" />
+    <e:Image x="283" y="24" source="common_liebiaoding_fenge" />
+    <e:Label text="个性称号" y="34.99" textColor="0xf0c896" horizontalCenter="-14.5" size="22" stroke="2" />
+    <e:Label id="lbNoTitle" text="暂无称号" y="285" textColor="0xF0C896" horizontalCenter="11.5" size="25" stroke="2" />
+    <e:Label text="展  示" y="34.99" textColor="0xF0C896" horizontalCenter="150" size="22" stroke="2" />
+    <e:Scroller id="scroller" width="380" height="490" x="17" y="66" anchorOffsetX="0" anchorOffsetY="0"
+                skinName="skins.ScrollerSkin1" scrollPolicyV="on">
+        <e:Group id="listTitle" height="490">
+            <e:layout>
+                <e:VerticalLayout/>
+            </e:layout>
+        </e:Group>
+    </e:Scroller>
+</e:Skin>

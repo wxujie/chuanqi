@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankRightMenuSkin" width="122" height="310" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image smoothing="false" id="bg" source="com_bg_kuang_xian1" y="-0.5" anchorOffsetX="0" width="122" anchorOffsetY="0" height="59" scale9Grid="6,6,8,6" x="1"/>
+	<e:List id="gList" width="109" height="41" x="8" y="8" anchorOffsetX="0" anchorOffsetY="0">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object btn="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewStrengthenSkin" width="60" height="60" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="qh_icon_bg"/>
+	<e:Image id="icon" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0" source=""/>
+	<e:Label id="txtName" text="鞋子" x="23" y="42" size="16" textAlign="right" verticalAlign="middle" textColor="0xE0AE75"  stroke="1"/>
+	<e:Label id="txtAdd" text="" y="2" size="16" verticalAlign="middle"  textAlign="right" textColor="0xE0C300" stroke="1" width="50" x="7"/>
+</e:Skin>

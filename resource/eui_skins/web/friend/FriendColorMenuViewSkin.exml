@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FriendColorMenuViewSkin"
+	 width="98"
+	height="134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="9s_bg_2" x="0" y="1" scale9Grid="10,10,10,10" visible="true"  width="98" height="134"/>
+	<e:List id="gList" width="92" height="128" x="3.01" y="4"   itemRendererSkinName="FriendColorBtnSkin" anchorOffsetY="0">
+		
+				
+					
+				
+				
+			
+	</e:List>
+</e:Skin>

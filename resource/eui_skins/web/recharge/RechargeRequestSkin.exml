@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeRequestSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" fillAlpha="0.3"/>
+	<e:Label id="tipsLabel" text="" verticalCenter="0" size="26" width="100%" textAlign="center"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ImageBaseSkin" width="40" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="image" top="0" bottom="0" left="0" right="0" source="buff_1"/>
+	<e:Image id="typeImg" touchEnabled="false" source="buff_zz1"/>
+	<e:Label id="cdLab" text="60" size="20" horizontalCenter="0" verticalCenter="0" stroke="2" textColor="0xcec2c2"/>
+	<e:Rect id="rect" width="40" height="40" fillAlpha="0.4" touchEnabled="false" bottom="0"/>
+</e:Skin>

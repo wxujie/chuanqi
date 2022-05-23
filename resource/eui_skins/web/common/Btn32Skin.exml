@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn32Skin" xmlns:e="http://ns.egret.com/eui" states="up,down"  width="139" height="51">
+	<e:Image source="tab_01_2"  verticalCenter="0" horizontalCenter="0" anchorOffsetX.down="0.95" anchorOffsetY.down="0.95"/>
+	<e:Label id="labelDisplay" text="button" size="24" horizontalCenter="0" verticalCenter="0" bold="true"  textColor="0xf0c896" stroke="2" anchorOffsetX.down="0.95" anchorOffsetY.down="0.95" textColor.down="0xe5ddcf"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn22Skin" xmlns:e="http://ns.egret.com/eui" states="up,down"  width="93" height="41">
+	<e:Image source="button_lt3" source.down="button_lt3" scaleX.down="0.95" scaleY.down="0.95" y.down="0.8" x.down="3"/>
+	<e:Label id="labelDisplay" text="button" size="18" horizontalCenter="-8" verticalCenter="0.5" textColor="0xebc592" bold="false" />
+	<e:Image id="iconDisplay" verticalCenter="0.5" horizontalCenter="33.5" scaleY="1" source="shangjiantou2"/>
+</e:Skin>

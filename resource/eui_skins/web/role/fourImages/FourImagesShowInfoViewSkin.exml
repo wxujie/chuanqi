@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FourImagesShowInfoViewSkin" width="248" height="342.33" xmlns:e="http://ns.egret.com/eui"
+        xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_sixiang_3" scale9Grid="10,11,1,1" left="0" right="0" top="0" bottom="0" />
+	<e:BitmapLabel id="lbTitle" font="sixiangfnt_fnt" text="5星28阶青龙之魂" verticalCenter="-137.165" horizontalCenter="0.5" />
+	<e:Label text="[当前属性]" x="28" y="250" size="20" textColor="0xf1ed02" stroke="2" />
+	<e:List id="gCurList" name="list" x="27" y="283.69" itemRendererSkinName="FourImagesAttrItemCurSkin">
+		<e:layout>
+			<e:VerticalLayout gap="0" />
+		</e:layout>
+	</e:List>
+	<e:List id="gNextList" name="list" x="143.95" y="283.69" visible="false">
+		<e:layout>
+			<e:VerticalLayout gap="0" />
+		</e:layout>
+	</e:List>
+	<e:Label id="txtLimit" text="需要四象神兽都达到5星0阶才能升阶" x="38" y="316.88" size="20" textColor="0xff8a00" visible="false" />
+	<e:Label id="txtAttrib" text="都是你个都是你个都是你个都是你个\n都是你个都是你个" x="40.35" y="279.9" size="20" textColor="0x3794fb"
+	         lineSpacing="5" visible="false" />
+	<e:Group id="effGrp" horizontalCenter="0" verticalCenter="-10.665" />
+	<e:Group verticalCenter="-73" horizontalCenter="-101.5" scaleX="0.7" scaleY="0.7">
+		<e:Image source="jiejikuang" top="-5" bottom="-5" scale9Grid="4,13,31,83" minHeight="110" />
+		<e:BitmapLabel id="curOrder" font="fourImage_fnt" text="二阶" width="27" verticalCenter="0" horizontalCenter="0" />
+	</e:Group>
+</e:Skin>

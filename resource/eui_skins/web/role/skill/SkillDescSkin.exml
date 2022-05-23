@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillDescSkin" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="attrGroup" x="1" y="0" anchorOffsetX="0" width="259" anchorOffsetY="0">
+		<e:Image smoothing="false" touchEnabled="false"  source="role_zt_bg" scale9Grid="8,8,50,50" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%"/>
+		<e:Label id="descLab" text="" x="10" y="14.99" size="20" width="238"  stroke="2"/>
+	</e:Group>
+</e:Skin>

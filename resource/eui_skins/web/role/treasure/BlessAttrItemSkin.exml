@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BlessAttrItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="384" height="23">
+	<e:Label id="txt_cur" text="需要祝福值" y="3" size="16" 
+	         width="180"  anchorOffsetX="0" anchorOffsetY="0" height="20" textColor="0xf0c896" left="0"/>
+	<e:Label id="txt_next" text="需要祝福值" y="3" size="16"  width="180" height="17" textAlign="left" textColor="0x28ee01" right="0"/>
+	<e:Image id="arrow" smoothing="false" width="20" height="20" x="180" y="0" source="com_jiantoux2" visible="false"/>
+</e:Skin>

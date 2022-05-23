@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn14Skin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width.down="93" height.down="41">
+	<e:Image source="btn_4" scaleX.down="1" scaleY.down="1" source.up="common_json.btn_0" source.down="common_json.btn_1"/>
+	<e:Label id="labelDisplay" text="140" size="20" horizontalCenter="16.5" verticalCenter="0.5" stroke="2" textColor="0xf0c896" stroke.down="1.5"/>
+	<e:Image id="iconDisplay" source="itemIcon_json.13123" x="5.32" y="2.99" scaleX="0.5" scaleY="0.5"/>
+</e:Skin>

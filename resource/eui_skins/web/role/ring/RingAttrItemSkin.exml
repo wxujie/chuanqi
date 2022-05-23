@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RingAttrItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="383" height="26">
+	<e:Label id="txt_cur" text="等级：109" x="20" y="3" size="18" 
+	          anchorOffsetX="0" anchorOffsetY="0" height="20" textColor="0xe0ae75" stroke="2"/>
+	<e:Label id="txt_next" text="等级：110" x="213" y="3" size="18"  anchorOffsetX="0" anchorOffsetY="0" height="17" textAlign="left" textColor="0x28ee01" verticalAlign="middle" stroke="2"/>
+	<e:Image id="arrow" smoothing="false" width="20" height="20" x="186" y="1" source="com_jiantoux2"/>
+</e:Skin>

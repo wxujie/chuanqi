@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YYLobbyPrivilegesGiftItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="657" height="115">
+	<e:Image source="apay_liebiao_bg_png"/>
+	<e:Label id="curDay" text="使用YY游戏大厅，累计登陆6天领取" size="18" textColor="0xdcb789" top="13" left="27"/>
+	<e:List id="rewards" itemRendererSkinName="ItemBaseSkin" left="27" top="41">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:List>
+	<e:Button id="receiveBtn" label="领取奖励" width="113" height="46" verticalCenter="0" right="29">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:app="app.*">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" textColor.disabled="0xb9b9b9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="receiveImg" source="apay_yilingqu" verticalCenter="0" right="42"/>
+	<app:RedDotControl id="redPoint" x="614" y="32" visible="false"/>
+</e:Skin>

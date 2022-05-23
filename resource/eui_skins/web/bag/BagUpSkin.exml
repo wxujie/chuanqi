@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagUpSkin" xmlns:e="http://ns.egret.com/eui" states="up,down"  width="46" height="47">
+	<e:Image source="bag_fanye_1" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

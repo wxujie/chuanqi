@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GrowWaySkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing"
+        width="947">
+	<app:UIViewFrame id="dragDropUI"  skinName="ViewBgWin1Skin"/>
+	<e:Image x="173" source="com_bg_kuang_4_png" y="53"/>
+	<e:Image source="bg_czzl" x="180" y="60" anchorOffsetX="0"/>
+	<e:Image x="318" y="580" source="czzl_t1"/>
+	<e:Button id="leftButton" label="" x="425" y="536">
+    <e:Skin states="up,down,disabled">
+				<e:Image  scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" source="growway_jt" />
+				</e:Skin>
+    </e:Button>
+	<e:Button id="rightButton" label="" x="627" y="536" scaleX="-1">
+		<e:Skin states="up,down,disabled">
+		<e:Image scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" source="growway_jt"/>
+		</e:Skin>
+	</e:Button>
+	<e:TabBar id="tab" x="908" y="50" itemRendererSkinName="CommonTarBtnWinSkin2">
+		<e:layout>
+		<e:VerticalLayout gap="-11"/>
+		</e:layout>
+	</e:TabBar>
+	<e:List id="btnList" width="147" height="555" x="28" y="63" itemRendererSkinName="TradeLineTabSkin">
+		
+		<e:layout>
+			<e:VerticalLayout gap="-2"/>
+		</e:layout>
+	</e:List>
+	<e:List id="itemList" width="690" height="434" x="192" y="95" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="GrowWayRendererSkin">
+		
+		<e:layout>
+		<e:VerticalLayout gap="21"/>
+		</e:layout>
+	</e:List>
+	<e:Label id="pageLabel" text="1/4" x="490" y="538" size="22" stroke="2" anchorOffsetX="0" width="70" textAlign="center"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliIqiyiSuperVipGiftSkin" width="868" height="545" xmlns:e="http://ns.egret.com/eui">
+	<e:Image x="5" y="5" source="banner_aiqiyivip"/>
+	<e:Image x="7" y="148" source="bg_aiqqiyivip_png"/>
+	<e:Button id="rechargeBtn" label="" x="692" y="45" icon="t_lijichongzhi" width="137" height="56" skinName="Btn26Skin"/>
+	<e:Button id="copyBtn" label="" x="605" y="486" icon="t_fuzhi" width="137" height="56" skinName="Btn26Skin" scaleX="0.75" scaleY="0.75"/>
+	<e:Label id="qqLabel" text="" x="520" y="442" textColor="0xE5DDCF" size="24" stroke="1"/>
+	<e:Label id="lab" text="" x="41" y="516" textAlign="left" textColor="0xE5DDCF" size="22" stroke="1"/>
+</e:Skin>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SoldierSoulLevelViewSkin" width="709" height="562" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Group width="709" height="562" touchEnabled="false">
+		<e:Image source="sw_bh_bg1_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="weaponTips" right="37" top="43" source="sw_bh_Lv_4"/>
+		<e:Group id="weaponEff" x="342" y="127" touchEnabled="false" touchChildren="false"/>
+		<e:Group y="31" horizontalCenter="0">
+			<e:Image id="weaponName" source="sw_bh_mc1" scaleX="1" scaleY="1"/>
+			<e:Image x="6" y="2" source="sw_bh_dj11"/>
+			<e:Group>
+				<e:BitmapLabel id="curOrder" text="30" scaleX="1" scaleY="1" font="SoldierSoul_fnt_fnt" letterSpacing="-12"/>
+				<e:Image x="15" y="10" source="sw_bh_dj10"/>
+				<e:Image x="16" y="12" source="sw_bh_dj12"/>
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center" gap="-8" paddingLeft="-9" paddingTop="1"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="-6" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnUp" label="立即升级" verticalCenter="230" skinName="Btn9Skin" horizontalCenter="-9"/>
+		<e:Image y="284" source="sw_bh_bg2" horizontalCenter="0" height="188" scale9Grid="17,0,415,94"/>
+		<e:Label id="curLV" text="当前等级:9" size="22" textColor="0xDED104" y="259" left="141" stroke="2"/>
+		<e:Label id="nextLv" text="下一等级:10" size="22" textColor="0xDED104" y="259" left="400" stroke="2"/>
+		<e:Image x="319" y="327" source="sx_jiantou"/>
+		<e:List id="gCurList" name="list" itemRendererSkinName="FourImagesAttrItemCurSkin" verticalCenter="65.5" horizontalCenter="-121.5">
+			<e:layout>
+			<e:VerticalLayout gap="6"/>
+			</e:layout>
+		</e:List>
+		<e:List id="gNextList" name="list" itemRendererSkinName="FourImagesAttrItemNextSkin" verticalCenter="65.5" horizontalCenter="126">
+			<e:layout>
+			<e:VerticalLayout gap="6"/>
+			</e:layout>
+		</e:List>
+		<e:Label id="lbMax" text="青龙之魂已达满阶" x="268" y="449" textColor="0xE0AE75" size="20"/>
+		<e:Label id="lbMax0" text="已满级" x="428" y="299" textColor="0xE0AE75" size="20" visible="false"/>
+		<e:List id="costList" x="134" y="418" itemRendererSkinName="FourImagesCostItemSkin">
+			<e:layout>
+			<e:VerticalLayout gap="4"/>
+			</e:layout>
+		</e:List>
+		<e:Label id="txt_get" text="获取道具" size="20" textAlign="left" textColor="0x32FC00" multiline="false" italic="false" bottom="37" right="84"/>
+		<app:RedDotControl id="redPoint" x="387.69" y="483.98" visible="false"/>
+	</e:Group>
+</e:Skin>

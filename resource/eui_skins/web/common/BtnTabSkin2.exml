@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnTabSkin2" width="112" height="47" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" states="up,down"  width.down="112" height.down="47" width.up="112" height.up="47">
+	<e:Group id="gp" width="112" height="47" x="0" y="0" >
+		<e:Image x="0" y="0" scaleX="1" scaleY="1" source.up="forge_tab2" source.down="forge_tab2" horizontalCenter.up="1.5" horizontalCenter.down="0.5" verticalCenter.down="0" source="forge_tab2"/>
+		<e:Image horizontalCenter.up="0" verticalCenter.up="0" x.up="0" y.up="0" scaleX="1" scaleY="1" visible.up="false" source.down="forge_tab1" horizontalCenter.down="-0.5" verticalCenter.down="0" width.down="113" source="forge_tab1"/>
+		<e:Label id="labelDisplay" text="已装备" size="20" stroke.up="1" fontFamily.up="Microsoft YaHei" stroke.down="1" fontFamily.down="Microsoft YaHei" textColor.down="0xf9c896" size.down="20"  size.up="20" textAlign.down="center" verticalAlign.down="middle" textColor.up="0xb9b9b9" textAlign="center" verticalAlign="middle" y.up="14" horizontalCenter.up="1" horizontalCenter.down="1" y.down="14"  y="12" x="28"/>
+		<app:RedDotControl id="redPoint" width="20" height="20" x="71.6" y="-2" visible="false"/>
+	</e:Group>
+</e:Skin>

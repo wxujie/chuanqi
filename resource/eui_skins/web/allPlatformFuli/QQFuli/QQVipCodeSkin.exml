@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QQVipCodeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="dialogMask" scale9Grid="1,1,2,2" alpha="0.3" source="dialog_mask" top="0" right="0" left="0" bottom="0" />
+    <e:Group horizontalCenter="0" top="227" anchorOffsetX="0" width="420">
+        <e:Image id="bg" x="0" y="-2" scaleX="1" scaleY="1" visible="true" source="bg_tipstc2_png"
+                 scale9Grid="53,71,320,148" />
+        <e:Label id="titleLabel" y="14" anchorOffsetX="0" textAlign="center" scaleX="1" scaleY="1" size="20"
+                 text="vip客服微信二维码" touchEnabled="false" textColor="0xD0C896" stroke="2" x="132" />
+        <e:Image y="57" scaleX="0.7" scaleY="0.7" x="130"  width="230" height="230" source="weixincode_qq_png"/>
+        <e:Button id="dialogCloseBtn" label="" x="405" y="-10" width="60" height="60">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" xmlns:app="app.*">
+                    <e:Image horizontalCenter="0" verticalCenter="0" source="btn_guanbi3" source.down="btn_guanbi4"
+                             source.disabled="btn_guanbi4" />
+                    <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+    </e:Group>
+</e:Skin>

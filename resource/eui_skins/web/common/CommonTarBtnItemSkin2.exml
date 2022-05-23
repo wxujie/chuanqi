@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonTarBtnItemSkin2" width="45" height="107" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Image horizontalCenter="0" verticalCenter="0" source="YY_tab2"/>
+	<e:Image  visible.up="false" source="YY_tab1"/>
+	<e:Label id="barText" anchorOffsetX="0" width="24" anchorOffsetY="0"  horizontalCenter="4" size="22" verticalAlign="middle" fontFamily="SimHei" textAlign="center" stroke="1" lineSpacing="13" verticalCenter="0" textColor.down="0xf0c896" textColor.up="0xa6a197" bold="true" text=""/>
+</e:Skin> 

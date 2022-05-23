@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeUpStarSkin" width="875" height="558" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image id="bg" source="apay_tab_bg" x="236.71" y="0.48" scale9Grid="60,60,12,12" width="637.84" height="558" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false"/>
+	<e:Image x="241.16" y="5.31" anchorOffsetY="0" height="547" source="forge_bg2" anchorOffsetX="0" width="629.5"/>
+	<e:Image x="330.33" y="207.59" anchorOffsetX="0" width="185" anchorOffsetY="0" height="147" scale9Grid="22,21,1,1" source="forge_bg3"/>
+	<e:Image x="234" y="-5" source="com_bg_kuang_4_png"/>
+	<e:Image source="forge_bg3" x="586.02" y="204.26" anchorOffsetX="0" width="185" anchorOffsetY="0" height="147" scale9Grid="22,21,1,1"/>
+	<e:Image source="forge_bg3" x="247.33" y="357.97" anchorOffsetX="0" width="614" anchorOffsetY="0" height="192" scale9Grid="22,21,1,1"/>
+	<e:TabBar id="tabItem" height="43" x="5.32" y="5.37" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="BtnTabSkin2" visible="false">
+	</e:TabBar>
+	<e:Image x="603.43" y="217.91" source="forge_bt4"/>
+	<e:Image x="347.64" y="218.24" source="forge_bt3"/>
+	<e:Button id="btnReplace" label="替  换" x="673.46" y="298.03" skinName="Btn9Skin" visible="false"/>
+	<e:Button id="btnUpStar" label="升  星" x="568.16" y="499.21" skinName="Btn9Skin"/>
+	<e:Image source="achievement_json.ach_xunzhangbg" x="486.49" y="24.67"/>
+	<app:ItemBase id="item" x="525.33" y="53" anchorOffsetX="0" anchorOffsetY="0" skinName="ItemBaseSkin"/>
+	<e:List id="listMoney" width="226" x="253" y="370" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="ForgeRefiningMoneyItemSkin">
+		<e:layout>
+		<e:VerticalLayout gap="6"/>
+		</e:layout>
+	</e:List>
+	<e:List id="listNextAttr" width="178" y="249" anchorOffsetX="0" anchorOffsetY="0" x="589.98" itemRendererSkinName="ForgeUpStarNextArrtItemSkin">
+		<e:layout>
+			<e:VerticalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:List>
+	<e:List id="listCurAttr" y="249" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-16" itemRendererSkinName="ForgeUpStarCurrAttrItemSkin" width="175">
+	</e:List>
+	<e:Scroller id="scroller" width="229" height="515" x="4" y="40" anchorOffsetX="0" anchorOffsetY="0">
+		<e:TabBar id="tabEq" itemRendererSkinName="ForgeRefiningButtonSkin" width="209.67">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:TabBar>
+	</e:Scroller>
+	<e:List id="listGoods" height="105.67" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="ForgeRefiningNeedGoodsItem" y="377.65" horizontalCenter="186">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:List>
+	<app:RuleTipsButton id="ruleTips" label="Button" ruleId="80" horizontalCenter="-171.5" height="32" verticalCenter="-250"/>
+	<e:Image id="iconNo" x="513.67" y="53" source="zl_iconzw" visible="false"/>
+	<e:Label id="lbFail" text="很遗憾您洗炼失败了" x="638" y="245" size="18" textColor="0xf22626" visible="false"/>
+	<e:Group id="group_star" anchorOffsetX="0" anchorOffsetY="0" x="356.39" y="153.18">
+		<e:Image id="imgStar1" x="15" y="17" source="forge_xxbg"/>
+		<e:Image id="imgStar2" x="25" y="27" source="forge_xxbg"/>
+		<e:Image id="imgStar3" x="35" y="37" source="forge_xxbg"/>
+		<e:Image id="imgStar4" x="45" y="47" source="forge_xxbg"/>
+		<e:Image id="imgStar5" x="55" y="57" source="forge_xxbg"/>
+		<e:Image id="imgStar6" x="65" y="67" source="forge_xxbg"/>
+		<e:Image id="imgStar7" x="75" y="77" source="forge_xxbg"/>
+		<e:Image id="imgStar8" x="85" y="87" source="forge_xxbg"/>
+		<e:Image id="imgStar9" x="95" y="97" source="forge_xxbg"/>
+		<e:Image id="imgStar10" x="105" y="107" source="forge_xxbg"/>
+		<e:Image id="imgStar11" x="115" y="117" source="forge_xxbg"/>
+		<e:Image id="imgStar12" x="125" y="127" source="forge_xxbg"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="消耗材料：" x="331" y="372" size="23"  textColor="0xf0c896" stroke="2" visible="false"/>
+	<e:Label id="lbMax" text="已满星" x="644.65" y="267.33" size="23"  textColor="0xF0C896" visible="false"/>
+	<e:Image source="forge_json.forge_sxjt" x="510.65" y="234"/>
+	<e:Image x="-1" y="0" source="forge_sxt"/>
+	<e:Label id="lbTitle" text="黄金裁决" stroke="1" size="20" textAlign="center" y="131.23"  horizontalCenter="117.5" textColor="0xff7700"/>
+	<e:Label id="txt_get0" text="" x="782.48" y="420" size="16" textAlign="left" textColor="0x32FC00" multiline="false" scaleX="1" scaleY="1" italic="false"  anchorOffsetX="0" stroke="2"/>
+	<e:Label id="txt_get1" text="" x="782.48" y="466" size="16" textAlign="left" textColor="0x32FC00" multiline="false" scaleX="1" scaleY="1" italic="false"  anchorOffsetX="0" stroke="2"/>
+	<e:Label id="txt_get2" text="" x="782.48" y="443" size="16" textAlign="left" textColor="0x32FC00" multiline="false" scaleX="1" scaleY="1" italic="false"  anchorOffsetX="0" stroke="2"/>
+	<e:Label id="rateLabel" text="" x="695" y="503" size="18" stroke="2" textColor="0xe0ae75"/>
+	<e:Label text="7星以上装备在回收时返还部分玛法宝石" x="421" y="187" size="16" stroke="2" textColor="0xeee104" lineSpacing="5"/>
+</e:Skin>

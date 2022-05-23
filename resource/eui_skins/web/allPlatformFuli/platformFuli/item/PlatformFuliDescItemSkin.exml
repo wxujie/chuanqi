@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlatformFuliDescItemSkin" xmlns:e="http://ns.egret.com/eui">
+    <e:Group verticalCenter="0.5">
+        <e:Image source="mun_bg" />
+        <e:Image id="numb" source="mun_1" verticalCenter="0.5" horizontalCenter="0.5" />
+    </e:Group>
+    <e:Image source="mun_bg2" x="25" />
+    <e:Label id="descLab" text="" size="20" x="40" textColor="0xe5ddcf" verticalCenter="0.5" />
+</e:Skin>

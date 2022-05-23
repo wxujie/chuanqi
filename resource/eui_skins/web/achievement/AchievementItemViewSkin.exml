@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AchievementItemViewSkin" width="717" height="83" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="gp" width="717" height="83" x="0" y="0">
+		<e:Image id="state_0" source="bg_quyu_1" x="0" y="0"  width="717" scale9Grid="9,9,1,1" height="83" />
+		<e:Image id="state_1" source="bg_quyu_2" x="0" y="0" width="717" height="83" scale9Grid="9,9,1,1" />
+		<e:Label id="lbTitle" text="" stroke="1" size="20" textAlign="center" y="11"  textColor="0xf9893a"  left="40"/>
+		<e:Label id="lbTarget" text="" stroke="1" textColor="0xF9893A" size="20" textAlign="center" y="50"   x="40"/>
+		<e:Label id="protxt" text="" stroke="1" size="20" y="11"  left="421" textColor="0xcbad7b"/>
+		<e:Label id="lbProgress" text="" stroke="1" textColor="0xCBAD7B" size="20" y="11"  left="473"/>
+		<e:Button id="btnGet" label="领取" x="620.27" y="30" skinName="Btn4Skin"/>
+		<e:Button id="btnShow" label="查看" x="524.28" y="30" skinName="Btn4Skin"/>
+		<e:Image id="reachedIcon" source="ach_yidacheng" x="611.28" y="7" touchEnabled="false" visible="false"/>
+	</e:Group>
+</e:Skin>

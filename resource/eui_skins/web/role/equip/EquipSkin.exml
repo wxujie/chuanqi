@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EquipSkin" width="383" height="425" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="1" y="0" source="role_bg_png" />
+	<e:Group id="modelGroup" touchChildren="false" touchEnabled="false" width="450" height="525" right="73" bottom="23">
+		<e:Image name="bg" source="" right="0" bottom="0" />
+		<e:Image name="cloth" source="" right="0" bottom="0" />
+		<e:Image name="arm" source="" right="0" bottom="0" />
+		<e:Image name="helmet" source="" right="0" bottom="0" />
+	</e:Group>
+	<e:Label id="txt_job" name="nameTf" text="" y="13" textAlign="center" size="20" textColor="0xca9b67" stroke="2"
+	         horizontalCenter="0" />
+	<e:Label id="txt_guild" name="nameTf" text="" y="43" textAlign="center" size="20" textColor="0xca9b67" stroke="2"
+	         horizontalCenter="0.5" />
+	<e:Group id="iconGroup" width="378" height="364" x="3" y="58">
+		<app:ItemSlot name="icon_0" skinName="ItemSlotSkin" x="4" y="91" />
+		<app:ItemSlot name="icon_1" skinName="ItemSlotSkin" x="4" y="161" />
+		<app:ItemSlot name="icon_2" skinName="ItemSlotSkin" x="314" y="91" />
+		<app:ItemSlot name="icon_3" skinName="ItemSlotSkin" x="314" y="161" />
+		<app:ItemSlot name="icon_4" skinName="ItemSlotSkin" x="244" y="301" />
+		<app:ItemSlot name="icon_5" skinName="ItemSlotSkin" x="314" y="231" />
+		<app:ItemSlot name="icon_6" skinName="ItemSlotSkin" x="314" y="301" />
+		<app:ItemSlot name="icon_7" skinName="ItemSlotSkin" x="4" y="231" />
+		<app:ItemSlot name="icon_8" skinName="ItemSlotSkin" x="4" y="301" />
+		<app:ItemSlot name="icon_9" skinName="ItemSlotSkin" x="74" y="301" />
+		<app:ItemSlot name="icon_10" skinName="ItemSlotSkin" x="74" y="232" />
+		<app:ItemSlot name="icon_11" skinName="ItemSlotSkin" x="244" y="232" />
+	</e:Group>
+	<e:Group id="gzClickGroup" width="248" height="43" y="60" x="100">
+		<e:Image id="gzImage" y="3" touchEnabled="false" source="" />
+		<e:Image y="3" touchEnabled="false" x="187" source="btn_guanzhi" />
+		<app:RedDotControl id="gzRedPoint" x="210.17" y="-2.33" visible="false" />
+	</e:Group>
+	<e:Button id="btnAtrr" y="21" enabled="true" x="351">
+		<e:skinName>
+			<e:Skin states="up,down">
+				<e:Image source="btn_shuxing_bg" source.down="btn_shuxing_bg" />
+				<e:Image source="btn_shuxing_1" x="8" y="8" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnAtrr0" y="21" enabled="true" x="351">
+		<e:skinName>
+			<e:Skin states="up,down">
+				<e:Image source="btn_shuxing_bg" source.down="btn_shuxing_bg" />
+				<e:Image source="btn_shuxing_2" x="8" y="8" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="neiGongBtn" label="" x="247" y="220" skinName="Btn0Skin" icon="icon_neigong" />
+	<e:Group id="neiGongGrp" width="309" height="234" y="81" x="35" visible="false">
+		<e:TabBar id="ngEquiTabBar" itemRendererSkinName="NGEquipTabSkin" x="-32" y="10">
+			<e:layout>
+				<e:VerticalLayout gap="-11" />
+			</e:layout>
+		</e:TabBar>
+		<app:NGEquipView id="ngEquipView" skinName="NGEquipViewSkin" />
+		<app:NGEquipView id="ngGemstoneView" skinName="NGEquipViewSkin" />
+		<e:Button id="neiGongCloseBtn" label="Button" x="309" skinName="CloseButtonSkin" />
+	</e:Group>
+</e:Skin>

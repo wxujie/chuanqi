@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonTarBtnWinSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width="39" height="111">
+	<e:Image verticalCenter="0" horizontalCenter="0" source="role_tab4"/>
+	<e:Image scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" visible.up="false" source="role_tab3"/>
+	<e:Image id="txtIcon1" width="39" height="111" visible.up="false" source="hc_tab_hc1"/>
+	<e:Image id="txtIcon2" width="39" height="111" x="0" visible.down="false" source="hc_tab_hc2"/>
+</e:Skin>

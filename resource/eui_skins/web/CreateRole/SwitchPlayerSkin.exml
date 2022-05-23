@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SwitchPlayerSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="431" height="478">
+    <app:UIViewFrame id="dragDropUI" skinName="ViewBgWin4Skin"/>
+	<e:Scroller id="playerScroller" width="360" height="339" y="60"  anchorOffsetY="0" x="36">
+		<e:List id="list" >
+			<e:layout>
+				<e:VerticalLayout paddingLeft="6" paddingTop="0" gap="5"/>
+			</e:layout>
+</e:List>
+	</e:Scroller>
+	<e:Group y="403" horizontalCenter="0.5">
+		<e:Button id="createBtn" label=""  skinName="Btn9Skin"/>
+		<e:Button id="switchBtn" label=""  skinName="Btn9Skin"/>
+		<e:layout>
+			<e:HorizontalLayout gap="40"/>
+		</e:layout>
+	</e:Group>
+	<app:RuleTipsButton label="Button" x="354" y="407" ruleId="48"/>
+</e:Skin>

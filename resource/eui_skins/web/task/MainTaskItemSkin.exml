@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainTaskItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="236">
+	<e:Rect id="rect" left="0" right="9" top="0" bottom="6" fillAlpha="0"/>
+	<e:Image id="isSelectImg" source="m_task_xuanzhongkuang" scale9Grid="27,28,4,2" left="0" right="0" top="0" bottom="6" touchEnabled="false"/>
+	<e:Group x="3.5" touchEnabled="false">
+		<e:Group id="allGrp" x="3.5" y="0" scaleX="1" scaleY="1" touchEnabled="false">
+			<e:Group touchEnabled="false" touchChildren="false">
+			<e:Label id="taskName" text="" size="36" y="10" x="1" stroke="2.5" scaleX="0.5" scaleY="0.5" textColor="0xeee104"/>
+			</e:Group>
+			<e:Label id="taskContent" text="" x="60" y="59" size="36" width="454" stroke="2.5" textColor="0xe5ddcf" scaleX="0.5" scaleY="0.5" touchEnabled="false"/>
+			<e:Group id="taskCirceGrp" x="10" y="10" touchChildren="false" touchEnabled="false">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			</e:Group>
+			<e:Group id="taskSendGrp" x="0" y="0" width="228" touchEnabled="false">
+				<e:Group id="taskflyGrp0" x="26" y="4" touchEnabled="false">
+					<e:Label id="taskSend0" text="" size="36" textColor="0x28ee01" stroke="2.5" scaleX="0.5" scaleY="0.5" x="-90" y="0"/>
+					<e:Label id="taskSend1" text="" size="36" x="-48" y="0" textColor="0x28ee01" stroke="2.5" scaleX="0.5" scaleY="0.5"/>
+					<e:Label id="taskSend2" text="" size="36" x="-6" y="0" textColor="0x28ee01" stroke="2.5" scaleX="0.5" scaleY="0.5"/>
+					<e:layout>
+						<e:HorizontalLayout gap="13"/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="taskflyGrp1" x="36" y="14" touchEnabled="false">
+					<e:Label id="taskSend3" text="" size="36" textColor="0x28EE01" stroke="2.5" scaleX="0.5" scaleY="0.5" x="-90" y="0"/>
+					<e:Label id="taskSend4" text="" size="36" x="-48" y="0" textColor="0x28EE01" stroke="2.5" scaleX="0.5" scaleY="0.5"/>
+					<e:Label id="taskSend5" text="" size="36" x="-6" y="0" textColor="0x28EE01" stroke="2.5" scaleX="0.5" scaleY="0.5"/>
+					<e:layout>
+					<e:HorizontalLayout gap="13"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="4"/>
+				</e:layout>
+			</e:Group>
+			<e:Label id="taskTips" text="" x="80" y="79" size="36" width="464" textColor="0xe5ddcf" stroke="2.5" scaleX="0.5" scaleY="0.5" lineSpacing="10" touchEnabled="false"/>
+			<e:Label id="taskBtn" text="" x="80" y="79" size="36" textColor="0x28ee01" stroke="2.5" scaleX="0.5" scaleY="0.5"/>
+			<e:layout>
+			<e:VerticalLayout gap="8"/>
+			</e:layout>
+		</e:Group>
+		<e:Image source="m_task_fengexian" touchEnabled="false" horizontalCenter="0" bottom="0"/>
+		<e:layout>
+			<e:VerticalLayout gap="5"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="flyGrp" right="3" touchChildren="false" visible="false">
+		<e:Image source="13132" width="40" height="40" y="2" anchorOffsetX="20" anchorOffsetY="20" rotation="-90"/>
+		<e:Label id="flyShoeLab" text="免费传送" x="29" y="8" size="15" scaleX="1" scaleY="1" textColor="0x7fff00" stroke="1" visible="false"/>
+		<e:layout>
+		<e:HorizontalLayout gap="-9" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="completeImg" source="m_task_yiwancheng" right="9" top="1" touchEnabled="false" visible="false"/>
+</e:Skin>

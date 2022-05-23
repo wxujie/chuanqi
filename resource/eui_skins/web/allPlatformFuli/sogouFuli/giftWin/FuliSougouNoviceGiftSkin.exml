@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliSougouNoviceGiftSkin" width="667" height="395" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*">
+    <e:Image source="YY_bg2_png" />
+	<e:Image horizontalCenter="0" top="41" source="sogou_t_xslb"/>
+    <e:List id="itemList" verticalCenter="0" horizontalCenter="6" itemRendererSkinName="FuLi4366ItemSkin">
+        <e:layout>
+            <e:HorizontalLayout gap="20" />
+        </e:layout>
+    </e:List>
+	<e:Button id="getBtn" label="" y="312" icon="fl_jhm_btn_1" skinName="Btn0Skin" width="137" height="56" x="265"/>
+    <app:RedDotControl id="redPoint" x="388" y="310" />
+    <e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="0" bottom="20" />
+</e:Skin>

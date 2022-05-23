@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WeaponSoulItemViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="binghun_bg_png" y="117"/>
+	<e:Image id="weaponName" x="54" y="157" source="role_bh_mc4"/>
+	<e:Image source="jiejikuang" x="5" y="8" scaleX="0.8" scaleY="0.8"/>
+	<e:BitmapLabel id="curOrder" font="fourImage_fnt" text="二十阶" width="27" scaleX="0.8" scaleY="0.8" verticalCenter="-79" horizontalCenter="-77.5"/>
+	<e:Group id="weaponEff" horizontalCenter="0" y="102" touchEnabled="false" touchChildren="false" touchThrough="true"/>
+	<e:Group id="tipsGrp" width="138" height="116" y="24" x="30"/>
+</e:Skin>

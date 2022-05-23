@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StrengthenAttrItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="383" height="23">
+	<e:Label id="txt_cur" text="" x="20" y="0" size="16" 
+	          anchorOffsetX="0" anchorOffsetY="0" height="20" textColor="0xE0AE75"/>
+	<e:Label id="txt_next" text="" x="225" y="3" size="15"  anchorOffsetX="0" anchorOffsetY="0" height="17" textAlign="left" textColor="0x28ee01"/>
+	<e:Image id="arrow" smoothing="false" width="20" height="20" x="188" y="-1" source="com_jiantoux2"/>
+</e:Skin>

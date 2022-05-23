@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrystalIdentifyItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="427" height="270">
+	<e:Image source="Avt_sjjd_bg1_png"/>
+	<e:Group id="allGrp" width="429" height="270">
+		<e:Image source="Avt_sjjd_bg2" horizontalCenter="5.5" top="6" x="78" y="6"/>
+		<e:Label id="titleName" text="" size="24" verticalCenter="-105" horizontalCenter="5.5" textColor="0xe0ae75" x="148" y="18"/>
+		<e:Image verticalCenter="20" horizontalCenter="-108" source="ach_xunzhangbg"/>
+		<e:Image source="quality_0" verticalCenter="18" horizontalCenter="-107.5"/>
+		<e:Image id="itemIcon" source="13000" verticalCenter="18" horizontalCenter="-107.5"/>
+		<e:Label id="itemCount" text="30" size="15" verticalCenter="36.5" horizontalCenter="-90.5" textColor="0xe5ddcf"/>
+		<e:Group id="consumeGrp" width="196" height="41.33" x="201" y="114.67">
+			<e:Label text="消耗:" x="8.99" y="12.01" size="21" textColor="0xe0ae75" stroke="2"/>
+			<e:Image id="moneyImg" x="57" y="3" source="13010" width="36" height="36"/>
+			<e:Label id="moneyNum" text="" y="13" size="19" left="91"/>
+		</e:Group>
+		<e:Label id="surplusNum" text="" x="211" y="154" size="20" textColor="0xe0ae75" stroke="2"/>
+		<e:Label id="expLabel" text="" x="211" y="96" size="20" textColor="0xe5ddcf" stroke="2"/>
+		<e:Button id="suitBtn" label="鉴 定" x="240" y="215" skinName="Btn9Skin"/>
+		<e:Label id="txt_get" text="" x="355" y="235" size="16" textAlign="left" multiline="false" scaleX="1" scaleY="1" italic="false"  anchorOffsetX="0" textColor="0x28ee01" stroke="2"/>
+		<app:RedDotControl id="redPoint" width="20" height="20" x="337" y="211" visible="false"/>
+	</e:Group>
+</e:Skin>

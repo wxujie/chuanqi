@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn7Skin" xmlns:e="http://ns.egret.com/eui" states="up,down"  height="25.5">
+	<e:Label id="labelDisplay" text="（点击设置）" size="15" horizontalCenter="0" verticalCenter="0" bold="true" textColor="0xf2d10e"/>
+</e:Skin>

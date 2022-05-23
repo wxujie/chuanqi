@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PhoneTaskLinkSkin" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="m_btn_bg3" />
+    <e:Group top="32" bottom="0">
+        <e:Image source="m_btn_bg1" width="240" scale9Grid="1,1,6,6" top="0" bottom="0" />
+        <e:List id="taskList" itemRendererSkinName="PhoneTaskLinkItemSkin">
+            <e:ArrayCollection>
+                <e:Array>
+                    <e:Object />
+                    <e:Object />
+                    <e:Object />
+                </e:Array>
+            </e:ArrayCollection>
+            <e:layout>
+                <e:VerticalLayout horizontalAlign="center" gap="10" paddingTop="5" paddingBottom="5" />
+            </e:layout>
+        </e:List>
+    </e:Group>
+</e:Skin>

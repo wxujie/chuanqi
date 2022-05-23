@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatWinMenuSkin" width="93" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" height="201">
+	<e:List id="gList" width="93" x="0" y="0"  itemRendererSkinName="ChatBtnBigMenuSkin">
+		<e:layout>
+			<e:VerticalLayout gap="-1"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+</e:Skin>

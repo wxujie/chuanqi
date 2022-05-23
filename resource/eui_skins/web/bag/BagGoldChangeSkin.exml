@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagGoldChangeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="473" height="346">
+	<app:UIViewFrame id="dragDropUI"  skinName="ViewBgWin5Skin"/>
+	<e:Group horizontalCenter="-112" bottom="183">
+		<e:Image source="com_icon_bg1" visible="false"/>
+		<e:Image source="quality_0" horizontalCenter="-1" verticalCenter="0"/>
+		<e:Image id="leftMoney" source="icon_jinbi" horizontalCenter="-0.5" verticalCenter="0" width="60" height="60"/>
+		<e:Label id="curYuanBao" text="拥有:0" size="18" stroke="2" textColor="0xe5ddcf" verticalCenter="45" horizontalCenter="-0.5"/>
+	</e:Group>
+	<e:Image horizontalCenter="-1" bottom="217" source="sx_jiantou"/>
+	<e:Group horizontalCenter="116" bottom="183">
+		<e:Image source="com_icon_bg1" visible="false"/>
+		<e:Image source="quality_0" horizontalCenter="-1" verticalCenter="0"/>
+		<e:Image id="rightMoney" horizontalCenter="0" verticalCenter="0" width="55" height="55" source="icon_bangding"/>
+		<e:Label id="curYinLiang" text="拥有:500" size="18" textColor="0xe5ddcf" stroke="2" verticalCenter="45" horizontalCenter="-2.5"/>
+	</e:Group>
+	<e:Label text="转换比例 1:1" x="169.32" y="179.67" size="24" textColor="0xff7700" stroke="2"/>
+	<e:Group horizontalCenter="3.5" bottom="89" anchorOffsetX="0" width="372.33" anchorOffsetY="0" height="39.67">
+		<e:Button id="addYiBai" label="+100" x="261" y="6" icon="com_jiabg" width="63" height="30">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="com_jiabg" source.down="com_jiabg" source.disabled="com_jiabg" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xe5ddcf" stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="jianYiBai" label="-100" x="42" y="6" icon="com_jiabg" width="63" height="30">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="com_jiabg" source.down="com_jiabg" source.disabled="com_jiabg" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xe5ddcf" stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="addYiWan" label="+1万" x="32" y="20.01" skinName="Btn9Skin" scaleX="0.7" scaleY="0.7" visible="false"/>
+		<e:Button id="addYiBaiWan" label="+100万" x="42" y="27" skinName="Btn9Skin" scaleX="0.65" scaleY="0.65" visible="false"/>
+		<e:Button id="addBtn" label="Button" x="332" y="5" skinName="Btn0Skin" icon="com_jiajia"/>
+		<e:Button id="jianBtn" label="Button" x="1.67" y="5" skinName="Btn0Skin" icon="com_jianjian"/>
+	</e:Group>
+	<e:Image source="com_bg_kuang_xian2" scale9Grid="3,3,18,18" height="35" width="128.67" horizontalCenter="3" bottom="92" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:EditableText id="inputNum" width="125.34" height="26.67" text="Label" size="18" textAlign="center" horizontalCenter="2" bottom="96" restrict="0-9" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle"/>
+	<e:Button label="确定转换" skinName="Btn9Skin" horizontalCenter="-91" bottom="20" visible="false"/>
+	<e:Image id="curImg" source="icon_jinbi" horizontalCenter="-17.5" bottom="46" visible="false"/>
+	<e:Button id="sure" label="转  换" horizontalCenter="-89" bottom="19" x="183" y="279" scaleX="1" scaleY="1" width="113" height="44">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="tips_btn" source.down="tips_btn" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeBtn" label="取  消" horizontalCenter="97" bottom="19" x="193" y="289" scaleX="1" scaleY="1" width="113" height="44">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="tips_btn" source.down="tips_btn" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image x="51" y="171" source="boss_fengexian"/>
+</e:Skin>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpDrugsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="common_json.com_fengexian" x="60" y="71" />
+	<e:RadioButton id="percentageBox" x="42" y="23" scaleX="1" scaleY="1" name="percentageBox"  skinName="skins.RadioButtonSkin"/>
+	<e:Label id="percentageLab" text="按百分比自动吃药" x="88" y="29" size="24" textColor="0xe5ddcf" stroke="2"/>
+	<e:RadioButton id="hpbox" x="385" y="23" scaleX="1" scaleY="1" name="hpbox"  skinName="skins.RadioButtonSkin"/>
+	<e:Label id="hpLab" text="按血量自动吃药" x="435" y="29" size="24" textColor="0xE5DDCF" stroke="2"/>
+	<e:Group id="percentageGroup" width="696" height="327" x="4" y="99" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group name="group_0" width="448" height="31" x="216" y="7" anchorOffsetX="0" anchorOffsetY="0">
+			<e:HSlider name="hslider" width="309" x="0" y="0" skinName="HSlider1Skin" anchorOffsetX="0" scaleX="1" scaleY="1" />
+			<e:Label name="hsLab" text="75%" x="364" y="3" size="24"  textColor="0xe5ddcf" stroke="2"/>
+		</e:Group>
+		<e:Group name="group_1" width="448" height="31" x="216" y="77" anchorOffsetX="0" anchorOffsetY="0">
+			<e:HSlider name="hslider" width="309" x="0" y="0" skinName="HSlider1Skin" anchorOffsetX="0" scaleX="1" scaleY="1" />
+			<e:Label text="75%" x="364" y="3" size="24" name="hsLab" scaleX="1" scaleY="1"  textColor="0xe5ddcf" stroke="2"/>
+		</e:Group>
+		<e:Group name="group_2" width="448" height="31" x="216" y="147" anchorOffsetX="0" anchorOffsetY="0">
+			<e:HSlider name="hslider" width="309" x="0" y="0" skinName="HSlider1Skin" anchorOffsetX="0" scaleX="1" scaleY="1" />
+			<e:Label text="75%" x="364" y="3" size="24" name="hsLab" scaleX="1" scaleY="1"  textColor="0xe5ddcf" stroke="2"/>
+		</e:Group>
+		<e:Group name="group_3" width="448" height="31" x="216" y="217" anchorOffsetX="0" anchorOffsetY="0">
+			<e:HSlider name="hslider" width="309" x="0" y="0" skinName="HSlider1Skin" anchorOffsetX="0" scaleX="1" scaleY="1" />
+			<e:Label text="75%" x="364" y="3" size="24" name="hsLab" scaleX="1" scaleY="1"  textColor="0xe5ddcf" stroke="2"/>
+		</e:Group>
+		<e:Group name="group_4" width="448" height="31" x="216" y="287" anchorOffsetX="0" anchorOffsetY="0">
+			<e:HSlider name="hslider" width="309" x="0" y="0" skinName="HSlider1Skin" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+			<e:Label text="75%" x="364" y="3" size="24" name="hsLab" scaleX="1" scaleY="1" textColor="0xe5ddcf" stroke="2"/>
+		</e:Group>
+		<e:Label text="强效金创药" x="50" y="8" size="24"  scaleX="1" scaleY="1" stroke="2" textColor="0xe5ddcf"/>
+		<e:Label text="太阳水" x="50" y="78" size="24"  scaleX="1" scaleY="1" stroke="2" textColor="0xe5ddcf"/>
+		<e:Label text="强效太阳水" x="50" y="148" size="24"  scaleX="1" scaleY="1" stroke="2" textColor="0xe5ddcf"/>
+		<e:Label text="万年雪霜" x="50" y="217" size="24"  scaleX="1" scaleY="1" stroke="2" textColor="0xe5ddcf"/>
+		<e:Label text="疗伤药" x="50" y="287" size="24" scaleX="1" scaleY="1" stroke="2" textColor="0xe5ddcf"/>
+	</e:Group>
+	<e:Group id="hpGroup" width="661" height="294" x="39" y="97" anchorOffsetY="0" anchorOffsetX="0" visible="false">
+		<e:Image smoothing="false" source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="277" y="1" scaleX="1" scaleY="1"
+		         height="35" anchorOffsetX="0" width="93" />
+		<e:Image smoothing="false" source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="447" y="1" scaleX="1" scaleY="1"
+		         height="35" anchorOffsetX="0" width="93" />
+		<e:Image smoothing="false" source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="277" y="65" scaleX="1" scaleY="1"
+		         height="35" anchorOffsetX="0" width="93" />
+		<e:Image smoothing="false" source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="447" y="65" scaleX="1" scaleY="1"
+		         height="35" anchorOffsetX="0" width="93" />
+		<e:Image smoothing="false" source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="277" y="131" scaleX="1" scaleY="1"
+		         height="35" anchorOffsetX="0" width="93" />
+		<e:Image smoothing="false" source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="447" y="131" scaleX="1" scaleY="1"
+		         height="35" anchorOffsetX="0" width="93" />
+		<e:Image smoothing="false" source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="277" y="196" scaleX="1" scaleY="1"
+		         height="35" anchorOffsetX="0" width="93" />
+		<e:Image smoothing="false" source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="447" y="196" scaleX="1" scaleY="1" height="35" anchorOffsetX="0" width="93"/>
+		<e:Image smoothing="false" source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="277" y="258" scaleX="1" scaleY="1" height="35" anchorOffsetX="0" width="93"/>
+		<e:Image smoothing="false" source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="447" y="258" scaleX="1" scaleY="1" height="35" anchorOffsetX="0" width="93"/>
+		<e:CheckBox id="hpCheckBox1" x="2" y="1" scaleX="1" scaleY="1" name="hpCheckBox1" skinName="CheckBox2" />
+		<e:CheckBox id="hpCheckBox2" x="2" y="65" scaleX="1" scaleY="1" name="hpCheckBox2" skinName="CheckBox2" />
+		<e:CheckBox id="hpCheckBox3" x="2" y="129" scaleX="1" scaleY="1" name="hpCheckBox3" skinName="CheckBox2" />
+		<e:CheckBox id="hpCheckBox4" x="2" y="193" scaleX="1" scaleY="1" name="hpCheckBox4" skinName="CheckBox2" />
+		<e:CheckBox id="hpCheckBox5" x="2" y="257" scaleX="1" scaleY="1" name="hpCheckBox5" skinName="CheckBox2"/>
+		<e:TextInput id="edit_hp" width="90" height="25" x="278" y="8" restrict="0-9" maxChars="6" textColor="0xdcd2be"/>
+		<e:TextInput id="edit_hp_time" width="90" height="25" x="449" y="8" textColor="0xdcd2be" maxChars="5"/>
+		<e:TextInput id="edit_mp" width="90" height="25" x="278" y="73"  textColor="0xdcd2be" maxChars="6"/>
+		<e:TextInput id="edit_mp_time" width="90" height="25" x="448" y="73"  textColor="0xdcd2be" maxChars="5"/>
+		<e:TextInput id="edit_moment_hp" width="90" height="25" x="278" y="139"  textColor="0xdcd2be" maxChars="6"/>
+		<e:TextInput id="edit_moment_hp_time" width="90" height="25" x="448" y="139"  textColor="0xdcd2be" maxChars="5"/>
+		<e:TextInput id="edit_moment_mp" width="90" height="25" x="278" y="203"  textColor="0xdcd2be" maxChars="6"/>
+		<e:TextInput id="edit_moment_mp_time" width="90" height="25" x="448" y="203"  textColor="0xdcd2be" maxChars="5"/>
+		<e:TextInput id="edit_therapy_hp" width="90" height="25" x="278" y="265" textColor="0xdcd2be" maxChars="6"/>
+		<e:TextInput id="edit_therapy_hp_time" width="90" height="25" x="449" y="265" textColor="0xdcd2be" maxChars="5"/>
+		<e:Label text="强效金创药" x="43" y="6" size="26" textColor="0xDCD2BE" />
+		<e:Label text="太阳水" x="43" y="70" size="26" textColor="0xDCD2BE" />
+		<e:Label text="强效太阳水" x="43" y="134" size="26" textColor="0xDCD2BE" />
+		<e:Label text="万年雪霜" x="43" y="199" size="26" textColor="0xDCD2BE" />
+		<e:Label text="疗伤药" x="43" y="261" size="26" textColor="0xDCD2BE"/>
+		<e:Label text="剩余HP" x="180" y="6" size="26" textColor="0xDCD2BE" />
+		<e:Label text="剩余HP" x="180" y="70" size="26" textColor="0xDCD2BE" />
+		<e:Label text="剩余HP" x="180" y="134" size="26" textColor="0xDCD2BE" />
+		<e:Label text="剩余HP" x="180" y="199" size="26" textColor="0xDCD2BE" />
+		<e:Label text="剩余HP" x="180" y="261" size="26" textColor="0xDCD2BE"/>
+		<e:Label text="间隔" x="383" y="6" size="26" textColor="0xDCD2BE" />
+		<e:Label text="间隔" x="383" y="70" size="26" textColor="0xDCD2BE" />
+		<e:Label text="间隔" x="383" y="134" size="26" textColor="0xDCD2BE" />
+		<e:Label text="间隔" x="383" y="199" size="26" textColor="0xDCD2BE" />
+		<e:Label text="间隔" x="383" y="261" size="26" textColor="0xDCD2BE"/>
+		<e:Label text="毫秒" x="550" y="6" size="26" textColor="0xDCD2BE" />
+		<e:Label text="毫秒" x="550" y="70" size="26" textColor="0xDCD2BE" />
+		<e:Label text="毫秒" x="550" y="134" size="26" textColor="0xDCD2BE" />
+		<e:Label text="毫秒" x="550" y="199" size="26" textColor="0xDCD2BE" />
+		<e:Label text="毫秒" x="550" y="261" size="26" textColor="0xDCD2BE"/>
+	</e:Group>
+	<e:Group id="labGroup" width="661" height="129" x="44" y="405" anchorOffsetY="0" anchorOffsetX="0"  visible="false">
+		<e:Label text="普通红药:" x="17" y="21" textColor="0xa83e1e" size="18" bold="true"/>
+		<e:Label text="普通蓝药:" x="17" y="48" textColor="0xA83E1E" size="18" bold="true"/>
+		<e:Label text="瞬回红药:" x="17" y="75" textColor="0xA83E1E" size="18" bold="true"/>
+		<e:Label text="瞬回蓝药:" x="17" y="99" textColor="0xA83E1E" size="18" bold="true"/>
+		<e:Label name="txt_desc_0" text="普通红药描述" x="100" y="21" size="18" textColor="0xe8bd7d" width="550"/>
+		<e:Label name="txt_desc_1" text="普通红药描述" x="100" y="48" textColor="0xE8BD7D" size="18" width="550"/>
+		<e:Label name="txt_desc_2" text="瞬回红药描述" x="100" y="75" textColor="0xE8BD7D" size="18" width="550"/>
+		<e:Label name="txt_desc_3" text="瞬回蓝药描述" x="100" y="99" textColor="0xE8BD7D" size="18" width="550"/>
+	</e:Group>
+</e:Skin>

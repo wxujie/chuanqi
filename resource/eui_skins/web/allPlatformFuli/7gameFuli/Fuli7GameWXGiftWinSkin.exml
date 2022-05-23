@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Fuli7GameWXGiftWinSkin" width="1027" height="690" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+    <e:Image id="dragDropUI" source="apay_bg2_png" />
+	<e:Image y="50" horizontalCenter="-0.5" touchEnabled="false" x="238" source="biaoti_weixinlibao"/>
+    <e:Image source="wx_bg_7youxi_png" y="114" x="80"/>
+    <e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+        <e:skinName>
+            <e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2"
+                         source.down="apay_x2" source.disabled="apay_x2" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<e:EditableText id="InputCode" width="393" text="" x="332" size="20" height="30" verticalAlign="middle" y="369" textAlign="center" maxChars="120" prompt="&lt;请输入激活码>" textColor="0xF9EFEF"/>
+	<e:Button id="wxBuyBtn" label="" x="453.67" y="412.95" icon="fl_jhm_btn_1" scaleX="1" scaleY="1" skinName="Btn0Skin" width="137" height="56"/>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MedalItemViewSkin" width="324" height="22" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lbGift" text="" x="0" y="2" size="18" textColor="0xf0c896"/>
+</e:Skin>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeF1Skin" width="1027" height="696" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="dragDropUI" source="apay_bg2_png" x="0" y="-1" width="1027" height="696"/>
+	<e:Image source="biaoti_cz" horizontalCenter="0" y="55" touchEnabled="false"/>
+	<e:Scroller width="865" height="540" x="81" y="118" scrollPolicyH="off">
+		<e:Group anchorOffsetX="0" width="204" anchorOffsetY="0" height="205.33">
+			<e:Group id="grp1" width="213" height="266" x="3" y="3.0300000000000153" scaleX="1" scaleY="1" visible="false">
+				<e:Image source="cz_bg1" x="0" y="0" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false" scaleX="1" scaleY="1"/>
+				<e:Label text="" id="lab1" textColor="0xeee104" stroke="2" size="24" width="150" textAlign="center" horizontalCenter="0" top="25"/>
+				<e:Image id="icon1" source="cz_icon1" touchEnabled="false" y="93" horizontalCenter="0"/>
+				<e:Button id="buyButton1" label="10 元" skinName="Btn32Skin" horizontalCenter="0" bottom="22"/>
+			</e:Group>
+			<e:Group id="grp2" width="213" height="266" x="218.02" y="3.0300000000000153" scaleX="1" scaleY="1" visible="false">
+				<e:Image source="cz_bg1" x="0" y="0" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false" scaleX="1" scaleY="1"/>
+				<e:Label text="" id="lab2" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center" horizontalCenter="0" top="25"/>
+				<e:Image y="86" id="icon2" source="cz_icon2" touchEnabled="false" horizontalCenter="0"/>
+				<e:Button id="buyButton2" label="10 元" skinName="Btn32Skin" horizontalCenter="0" bottom="22"/>
+			</e:Group>
+			<e:Group id="grp3" width="213" height="266" x="433.02" y="3.0300000000000153" scaleX="1" scaleY="1" visible="false">
+				<e:Image source="cz_bg1" x="0" y="0" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false" scaleX="1" scaleY="1"/>
+				<e:Label text="" id="lab3" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center" horizontalCenter="0" top="25"/>
+				<e:Image id="icon3" source="cz_icon3" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+				<e:Button id="buyButton3" label="10 元" skinName="Btn32Skin" horizontalCenter="0" bottom="22"/>
+			</e:Group>
+			<e:Group id="grp4" width="213" height="266" x="648.02" y="3.0300000000000153" scaleX="1" scaleY="1" visible="false">
+				<e:Image source="cz_bg1" x="0" y="0" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false" scaleX="1" scaleY="1"/>
+				<e:Label text="" id="lab4" textColor="0xEEE104" stroke="2" size="24" textAlign="center" width="160" horizontalCenter="0" top="25"/>
+				<e:Image id="icon4" source="cz_icon4" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+				<e:Button id="buyButton4" label="10 元" skinName="Btn32Skin" horizontalCenter="0" bottom="22"/>
+			</e:Group>
+			<e:Group id="grp5" width="213" height="266" x="3" y="271.03000000000003" scaleX="1" scaleY="1" visible="false">
+				<e:Image source="cz_bg1" x="0" y="0" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false" scaleX="1" scaleY="1"/>
+				<e:Label id="lab5" text="" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center" horizontalCenter="0" top="25"/>
+				<e:Image id="icon5" source="cz_icon5" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+				<e:Button id="buyButton5" label="10 元" skinName="Btn32Skin" horizontalCenter="0" bottom="22"/>
+			</e:Group>
+			<e:Group id="grp6" width="213" height="266" x="218.02" y="271.03000000000003" scaleX="1" scaleY="1" visible="false">
+				<e:Image source="cz_bg1" x="0" y="0" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false" scaleX="1" scaleY="1"/>
+				<e:Label id="lab6" text="" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center" horizontalCenter="0" top="25"/>
+				<e:Image id="icon6" source="cz_icon6" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+				<e:Button id="buyButton6" label="10 元" skinName="Btn32Skin" horizontalCenter="0" bottom="22"/>
+			</e:Group>
+			<e:Group id="grp7" width="213" height="266" x="433.02" y="271.03000000000003" scaleX="1" scaleY="1" visible="false">
+				<e:Image source="cz_bg1" x="0" y="0" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false" scaleX="1" scaleY="1"/>
+				<e:Label id="lab7" text="" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center" horizontalCenter="0" top="25"/>
+				<e:Image id="icon7" source="cz_icon7" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+				<e:Button id="buyButton7" label="10 元" skinName="Btn32Skin" horizontalCenter="0" bottom="22"/>
+			</e:Group>
+			<e:Group id="grp8" width="213" height="266" x="648.02" y="271.03000000000003" scaleX="1" scaleY="1" visible="false">
+				<e:Image source="cz_bg1" x="0" y="0" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false" scaleX="1" scaleY="1"/>
+				<e:Label id="lab8" text="" textColor="0xEEE104" stroke="2" size="24" textAlign="center" width="160" horizontalCenter="0" top="25"/>
+				<e:Image id="icon8" source="cz_icon8" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+				<e:Button id="buyButton8" label="10 元" skinName="Btn32Skin" horizontalCenter="0" bottom="22"/>
+			</e:Group>
+			<e:Group id="grp9" width="213" height="266" x="3" y="539" scaleX="1" scaleY="1" visible="false">
+				<e:Image source="cz_bg1" x="0" y="0" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false" scaleX="1" scaleY="1"/>
+				<e:Label id="lab9" text="" textColor="0xEEE104" stroke="2" size="24" textAlign="center" width="160" horizontalCenter="0" top="25"/>
+				<e:Image id="icon9" source="cz_icon8" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+				<e:Button id="buyButton9" label="10 元" skinName="Btn32Skin" horizontalCenter="0" bottom="22"/>
+			</e:Group>
+			<e:Group id="grp10" width="213" height="266" x="218" y="539" scaleX="1" scaleY="1" visible="false">
+				<e:Image source="cz_bg1" x="0" y="0" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false" scaleX="1" scaleY="1"/>
+				<e:Label id="lab10" text="" textColor="0xEEE104" stroke="2" size="24" textAlign="center" width="160" horizontalCenter="0" top="25"/>
+				<e:Image id="icon10" source="cz_icon8" touchEnabled="false" horizontalCenter="0" verticalCenter="0"/>
+				<e:Button id="buyButton10" label="10 元" skinName="Btn32Skin" horizontalCenter="0" bottom="22"/>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2" scaleX.down="0.98" scaleY.down="0.98"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

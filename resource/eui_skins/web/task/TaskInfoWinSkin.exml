@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskInfoWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="413" height="445">
+    <app:UIViewFrame id="dragDropUI" skinName="UIViewFrameSkin" currentState="default10"  height="445"/>
+	<e:Image width="386" height="383" source="com_bg_kuang_xian1" scale9Grid="10,7,2,2" x="14" y="48"/>
+	<e:Image source="task_biaoti_1" left="23" top="57"/>
+	<e:Image id="rewardImg" source="task_biaoti_2" left="23" bottom="169"/>
+	<e:Label id="taskDesc" text="" size="22" width="362" height="114" lineSpacing="7" verticalCenter="-70.5" horizontalCenter="2.5" stroke="2" textColor="0xe5ddcf"/>
+	<e:Label id="taskAims" text="" size="22" width="353" verticalCenter="10.5" horizontalCenter="-2" textColor="0xe5ddcf" stroke="2"/>
+	<e:Scroller width="348" bottom="101" horizontalCenter="1.5">
+		<e:List id="rewardList" itemRendererSkinName="ItemBaseSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="12"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="sureBtn" label="接收任务" skinName="Btn9Skin" bottom="35" horizontalCenter="0"/>
+	<e:Group id="effGrp" x="205.33" y="388.33" touchEnabled="false"/>
+	<e:Label id="autoTask" text="无操作2秒后自动点击" size="15" textColor="0x28ee01" touchEnabled="false" y="410" right="20" stroke="2"/>
+</e:Skin>

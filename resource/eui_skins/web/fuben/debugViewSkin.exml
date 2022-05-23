@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="debugViewSkin" width="943" height="625" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:app="app.*">
+        <app:UIViewFrame id="dragDropUI" width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" skinName="UIViewFrameSkin" currentState="default9"/>
+	<e:Rect top="30" left="30" right="30" bottom="30" fillColor="0x948F8F" anchorOffsetX="0"/>
+	<e:Button id="btnSent" label="发送" x="347" y="378" skinName="Btn11Skin" anchorOffsetX="0" width="105" anchorOffsetY="0" height="30"/>
+	<e:EditableText id="msgInfo" width="278" text="" x="53" y="341" size="30" border="true" anchorOffsetX="0" anchorOffsetY="0" height="101"/>
+	<e:EditableText id="sysId" width="80" text="" x="123" y="257" size="30" border="true" anchorOffsetX="0" restrict="0-9"/>
+	<e:EditableText id="msgId" width="80" text="" x="302.856" y="256" size="30" border="true" anchorOffsetX="0" restrict="0-9"/>
+    <e:EditableText id="inputTxt1" width="127" text="" x="52" y="38"  size="30" border="true" anchorOffsetX="0"/>
+	<e:Button id="btn1" label="进入副本" x="197" y="38" skinName="Btn11Skin" anchorOffsetX="0" width="105" anchorOffsetY="0" height="30"/>
+	<e:EditableText id="inputTxt2" width="127" text="" x="52" y="78" size="30" border="true" anchorOffsetX="0"/>
+	<e:Button id="btn2" label="退出副本" x="197" y="78" skinName="Btn11Skin" anchorOffsetX="0" width="105" anchorOffsetY="0" height="30"/>
+	<e:Button id="btn3" label="gpu size" x="197" y="118" skinName="Btn11Skin" anchorOffsetX="0" width="105" anchorOffsetY="0" height="30"/>
+	<e:Button id="btn4" label="实体数量" x="197" y="158" skinName="Btn11Skin" anchorOffsetX="0" width="105" anchorOffsetY="0" height="30"/>
+	<e:Label text="发送" x="470" y="41" anchorOffsetX="0" width="207" textAlign="center"/>
+	<e:Label text="接收" x="700" y="41" anchorOffsetX="0" width="207" textAlign="center"/>
+	<e:Scroller width="199" height="496" x="473" y="88" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="sentList" x="69" y="184" scaleX="1" scaleY="1" itemRendererSkinName="LabelSkinSkin">
+			
+		</e:List>
+	</e:Scroller>
+	<e:Scroller width="199" height="496" x="703" y="88" anchorOffsetX="0" anchorOffsetY="0" >
+		<e:List x="69" y="184" scaleX="1" scaleY="1" id="getList" itemRendererSkinName="LabelSkinSkin"/>
+	</e:Scroller>
+	<e:Label text="sysId" x="46" y="257"/>
+	<e:Label text="msgId" x="209" y="255.11"/>
+	<e:Label text="消息内容如：writeUnsignedInt=32;writeUnsignedShort:16" x="52" y="296" anchorOffsetX="0" width="383" size="18"/>
+	<e:Group id="group" x="293" y="502" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="charSum" text="Label" x="53" y="162" size="20"/>
+	
+</e:Skin>

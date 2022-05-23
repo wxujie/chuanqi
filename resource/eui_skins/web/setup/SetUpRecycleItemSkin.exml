@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpRecycleItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="title" text="回收选项" size="24" textColor="0xf0c896" stroke="2" y="3"/>
+	<e:List id="boxList" width="688" y="29" itemRendererSkinName="SetUpRecycleItemCheckBoxSkin">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="4"  horizontalGap="22" verticalGap="3"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

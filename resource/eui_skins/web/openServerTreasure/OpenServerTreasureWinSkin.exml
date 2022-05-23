@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenServerTreasureWinSkin" width="1027" height="690" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="dragDropUI" source="apay_bg2_png"/>
+	<e:Image id="imgTitle" touchEnabled="false" scaleX="1" scaleY="1" horizontalCenter="0" source="kf_xybt" verticalCenter="-264.5"/>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="infoGrp" width="874" height="556" verticalCenter="39" horizontalCenter="-0.5"/>
+</e:Skin>

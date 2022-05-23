@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StateSkin" width="194" height="573" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="attrGroup" x="1" y="0">
+		<e:Image smoothing="false" touchEnabled="false"  source="role_zt_bg" scale9Grid="8,8,50,50" anchorOffsetX="0" width="191" anchorOffsetY="0" height="573"/>
+		<e:Scroller id = "scroller" width="186" height="526" x="3" y="41" scrollPolicyH="off" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="list" width="356" height="200" x="169" y="134" itemRendererSkinName="RoleStateItemSkin" anchorOffsetX="0"/>
+		</e:Scroller>
+		<!--<e:Scroller name="scroller" x="2" height="536" anchorOffsetX="0" anchorOffsetY="0" width="189" y="32" scaleX="1"
+		            scaleY="1" />
+		<e:List name="list" anchorOffsetX="0" x="3" y="40" anchorOffsetY="0">
+			<e:layout>
+				<e:VerticalLayout gap="0" />
+			</e:layout>
+		</e:List>
+		<e:VSlider name="verticalSlider" x="176" value="0" width="15" height="530" minimum="0" maximum="415" y="28">
+			<e:Skin minWidth="20" minHeight="10">
+				<e:Image smoothing="false" id="track" source="shuxinghuadong_1" scale9Grid="2,2,16,15" width="15" height="100%"
+				         verticalCenter="0" />
+				<e:Image smoothing="false" id="trackHighlight" source="shuxinghuadong_1" scale9Grid="2,2,16,15" width="15"
+				         verticalCenter="0" />
+				<e:Image smoothing="false" id="thumb" source="shuxinghuadong_2" rotation="0" x="1" width="13" height="40"
+				         scale9Grid="7,21,2,1" />
+			</e:Skin>
+		</e:VSlider>-->
+		<e:Button id="btn_close" label="" skinName="ButtonCloseSkin" y="1.9" x="163"></e:Button>
+	</e:Group>
+</e:Skin>

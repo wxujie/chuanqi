@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityWarItemViewSkin" width="79" height="359" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lbTitle" text="一级" size="20" textColor="0xF0C896"  textAlign="center" horizontalCenter="3.5" top="18" stroke="2"/>
+	<app:ItemBase id="itemCommon" width="60" height="60" y="84" anchorOffsetX="0" anchorOffsetY="0" skinName="ItemBaseSkin" horizontalCenter="0.5"/>
+	<e:Image id="imgCommon" source="zl_t_yihuode" x="5" y="86" touchEnabled="false" visible="false"/>
+	<e:Group id="groupCommon" width="6" height="5" x="38.5" y="110" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"/>
+	<e:Image id="iconCommonLock" source="zl_iconzw" x="10" y="84" visible="false"/>
+	<app:ItemBase id="itemGold" width="60" height="60" y="223" anchorOffsetX="0" anchorOffsetY="0" skinName="ItemBaseSkin" x="10"/>
+	<e:Image id="imgGold" source="zl_t_yihuode" x="4" y="226" touchEnabled="false" visible="false"/>
+	<e:Group id="groupGold" width="6" height="5" x="40.18" y="249.98" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"/>
+	<e:Image id="iconGoldLock" x="10" y="223" source="zl_iconzw" visible="false"/>
+</e:Skin>

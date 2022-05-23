@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="725" height="45">
+	<e:Image id="bg" anchorOffsetX="0" width="725" height="45" scale9Grid="9,9,1,1" source="bg_quyu_1"/>
+	<e:Label id="txt_name" text="" x="23" y="14" size="18" verticalAlign="justify" textAlign="center" stroke="2" textColor="0xeee104"/>
+	<e:CheckBox id="check_pick_up" x="381" skinName="CheckBox2" scaleX="1" scaleY="1" name="tabRed" y="4"/>
+	<e:CheckBox id="check_marked_red" x="621" y="4" skinName="CheckBox2" scaleX="1" scaleY="1" name="tabRed"/>
+</e:Skin>

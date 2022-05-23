@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityCopiesWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing" width="908" height="646">
+	<app:UIViewFrame id="dragDropUI"  skinName="ViewBgWin7Skin" />
+	<e:TabBar id="tab" x="907" height="30" y="41" itemRendererSkinName="CommonTarBtnWinSkin2" visible="false">
+		<e:layout>
+			<e:VerticalLayout gap="-11" />
+		</e:layout>
+	</e:TabBar>
+	<e:Group width="863" height="557" x="24" y="56.5" visible="true">
+		<e:Image source="com_bg_kuang_6_png" scale9Grid="19,17,1,1" width="265" height="557" />
+		<e:Image source="com_bg_kuang_6_png" scale9Grid="19,17,1,1" width="594" height="487.27" anchorOffsetX="0" right="-3"
+		         y="0" />
+		<e:Scroller id="tabScroller" width="261" y="2" x="2" visible="true" height="553">
+			<e:List id="tabList" itemRendererSkinName="ActivityTabSkin">
+				<e:layout>
+					<e:VerticalLayout gap="-1" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group width="578" height="484.33" x="276" y="3" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+			<e:Group width="563" height="36" x="7" y="4">
+				<e:Image source="mail_bg" scale9Grid="14,15,1,1" left="0" right="0" top="0" bottom="0" />
+				<e:Label id="actTitle" text="活动入口:" x="10" y="9.5" size="20" stroke="2" textColor="0xe5ddcf" />
+			</e:Group>
+			<e:Group width="563" height="36" x="7" y="43">
+				<e:Image source="mail_bg" scale9Grid="14,15,1,1" left="0" right="0" top="0" bottom="0" />
+				<e:Label id="actTime" text="活动时间：" x="9.6" y="8.3" size="20" stroke="2" textColor="0xE5DDCF" />
+			</e:Group>
+			<e:Group width="563" height="201.5" x="7" y="83.02" anchorOffsetY="0" touchEnabled="false">
+				<e:Image source="mail_bg" scale9Grid="14,15,1,1" left="0" right="0" top="0" bottom="0" />
+				<e:Label id="actDesc" text="藏宝库的NPC夺宝人偶携带了大量宝物，快和朋友一起去抢夺吧！" x="9.1" y="13.8" size="20" stroke="2"
+				         textColor="0xE5DDCF" width="543" height="108" lineSpacing="4" />
+				<e:Label id="actPath" text="前往路径：" x="9" y="132" size="20" textColor="0xe5ddcf" stroke="2" width="535"
+				         lineSpacing="7" />
+			</e:Group>
+			<e:Image x="15" y="292" source="act_hdjj" />
+			<e:Group width="570" height="158" x="7" y="322">
+				<e:Image source="mail_bg" scale9Grid="14,15,1,1" left="0" right="0" top="0" bottom="0" />
+				<e:Scroller width="530" height="134" x="25" y="13">
+					<e:List id="rewardsList" x="25" y="13" itemRendererSkinName="ItemBaseSkin" width="530" height="134">
+						<e:layout>
+							<e:TileLayout/>
+						</e:layout>
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+		<e:Button id="enterBtn" label="" x="741" y="507" skinName="Btn9Skin" />
+		<app:RuleTipsButton id="ruleTips" label="Button" x="285" y="517" />
+	</e:Group>
+</e:Skin>

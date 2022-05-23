@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SoldierSoulWinSkin" width="912" height="646" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin7Skin"/>
+	<e:Group width="864" height="562" x="22.67" y="56.34" touchEnabled="false">
+		<e:Image smoothing="false" width="149" source="com_bg_kuang_6_png" scale9Grid="17,19,2,4" left="0" bottom="0" top="0"/>
+		<e:Image smoothing="false" width="709" source="com_bg_kuang_6_png" scale9Grid="17,19,2,4" right="0" top="0" bottom="0"/>
+		<e:Scroller height="542" x="3" y="14">
+        <e:TabBar id="weaponTab" itemRendererSkinName="SoldierSoulTabSkin" x="13" y="22">
+					<e:layout>
+						<e:VerticalLayout gap="12" paddingLeft="8"/>
+					</e:layout>
+		</e:TabBar>
+		</e:Scroller>
+		<e:Group id="infoGrp" width="709" height="562" y="0" right="0" touchEnabled="false"/>
+	</e:Group>
+	<e:TabBar id="tabBar" width="45" height="552" y="50" x="908" itemRendererSkinName="CommonTarBtnWinSkin2">
+		<e:layout>
+		<e:VerticalLayout gap="-11"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Group x="937" y="39" touchEnabled="false" touchChildren="false">
+		<app:RedDotControl id="redPoint1" width="20" height="20" x="109" y="46" visible="false"/>
+		<app:RedDotControl id="redPoint2" width="20" height="20" x="119" y="56" visible="false"/>
+		<e:layout>
+			<e:VerticalLayout gap="80"/>
+		</e:layout>
+	</e:Group>
+	<app:RuleTipsButton id="ruleTips" label="" x="185" y="65"/>
+</e:Skin>

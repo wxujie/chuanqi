@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AntiAddictionView" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.3"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="chat_bg_tc1_2_png"/>
+		<e:Label size="24" stroke="2" touchEnabled="false" top="17" horizontalCenter="0" textColor="0xE5DDCF" text="防沉迷认证"/>
+		<e:Label text="未成年用户仅在周五，周六，周日和法定节假日的每日20：00—21：00有1小时的游戏体验时间。" width="394" height="180" textAlign="center" verticalAlign="middle" size="21" verticalCenter="-12" horizontalCenter="-1" lineSpacing="7" textColor="0xE5DDCF" stroke="2"/>
+		<e:Button id="enterBtn" label="前往认证" x="177" y="283" width="109" height="44">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

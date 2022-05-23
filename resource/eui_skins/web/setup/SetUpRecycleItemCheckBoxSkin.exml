@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpRecycleItemCheckBoxSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing" width="147" height="36">
+	<app:SetUpCheckBoxEui id="box" name="openSound" skinName="SetUpCheckBox" />
+	<e:Rect id="rect" width="55" height="55" fillAlpha="0" x="-10" y="-10" />
+</e:Skin>

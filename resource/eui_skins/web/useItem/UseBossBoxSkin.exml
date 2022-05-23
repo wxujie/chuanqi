@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UseBossBoxSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing"
+        width="368" height="290">
+    <e:Image id="dragDropUI" source="kf_cyjl_bg1_png" />
+    <e:Image source="kf_cyjl_key" y="70" x="110" />
+    <e:Image id="selectImg" source="kf_cyjl_frame2" y="110" x="54" anchorOffsetY="8" anchorOffsetX="6" />
+    <e:Label id="LabYaoshiName" text="次元钥匙" textColor="0xeee104" size="20" x="30" y="70" />
+    <e:Label id="LabYaoshiNum" text=":100" textColor="0xeee104" size="20" x="135" y="70" />
+    <app:ItemBase id="box0" y="110" skinName="ItemBaseSkin" x="54" />
+    <app:ItemBase id="box1" y="110" skinName="ItemBaseSkin" x="154" />
+    <app:ItemBase id="box2" y="110" skinName="ItemBaseSkin" x="254" />
+    <e:Label id="labBox0" text="次元\n参与宝箱" size="18" textAlign="center" horizontalCenter="-100" y="178" />
+    <e:Label id="labBox1" text="次元\n勇斗宝箱" size="18" textAlign="center" horizontalCenter="0" y="178" />
+    <e:Label id="labBox2" text="次元\n归属宝箱" size="18" textAlign="center" horizontalCenter="100" y="178" />
+    <e:Button id="btnUse" label="*2开启" width="113" height="44" horizontalCenter="0" y="223">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image source="tips_btn" source.down="tips_btn" horizontalCenter="0" verticalCenter="0"
+                         scaleX.down="0.95" scaleY.down="0.95" />
+                <e:Image source="kf_cyjl_key" x="10" y="11" />
+                <e:Label id="labelDisplay" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2" text="*2开启"
+                         x="38" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="closeBtn" label="" width="61" height="57" scaleX="0.75" scaleY="0.75" y="0" x="327">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2"
+                         source.down="apay_x2" source.disabled="apay_x2" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+</e:Skin>

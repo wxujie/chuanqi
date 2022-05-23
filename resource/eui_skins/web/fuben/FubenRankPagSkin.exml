@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FubenRankPagSkin" width="382" height="450" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="label1" text="排名" x="24" y="10" size="20" textColor="0xF0C896" stroke="2"/>
+	<e:Label id="label2" text="积分" x="319" y="10" size="20" textColor="0xF0C896" stroke="2"/>
+	<e:Label id="label3" text="角色名称" x="157" y="10" size="20" textColor="0xF0C896" stroke="2"/>
+	<e:Image smoothing="false" x="87" y="-1" source="common_liebiaoding_fenge"/>
+	<e:Image smoothing="false" x="285" y="-1" source="common_liebiaoding_fenge"/>
+	<e:Scroller width="378" height="407" y="41" scrollPolicyH="off" anchorOffsetY="0" anchorOffsetX="0" x="2">
+		<e:List id="list" width="200" height="200" x="-1" y="134" itemRendererSkinName="FubenScoreItemSkin">
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Recharge4366Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="458" height="573">
+	<e:Image id="dragDropUI" source="saomachongzhi2_png"/>
+	<e:Image id="closeBtn" source="fuli4366_json.btn_smczx" x="412" y="11"/>
+	<e:Image id="img" width="174" height="174" y="337" x="142"/>
+	<e:Label id="linkLabel" text="前往官网充值" x="321" y="528" size="20" textColor="0x28ee01"/>
+</e:Skin>

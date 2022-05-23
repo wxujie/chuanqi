@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YYMemberNewServerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="207" height="365">
+	<e:Image source="YY_bg3_png"/>
+	<e:Label id="title" text="" horizontalCenter="-2.5" top="14" textColor="0xffe624" stroke="1" size="24"/>
+	<e:Image source="YY_bg4" horizontalCenter="0.5" verticalCenter="-12.5" anchorOffsetY="0" height="84"/>
+	<e:Image source="YY_bg5" horizontalCenter="7" verticalCenter="63"/>
+	<app:ItemBase id="itemData" skinName="ItemBaseSkin" horizontalCenter="-3.5" verticalCenter="-97.5"/>
+	<e:Label id="itemDesc" text="" y="138.5" textColor="0x28ee01" size="16" stroke="1" width="157" horizontalCenter="0" textAlign="center"/>
+	<e:Label id="originalPrice" text="" x="34.34" y="221.5" size="20" textColor="0xdcb789" stroke="1"/>
+	<e:Label id="curPrice" text="" x="34.34" y="250" size="20" stroke="1" textColor="0x28ee01"/>
+	<e:Image x="87.34" y="214" source="icon_yuanbao"/>
+	<e:Image x="87.34" y="243" source="icon_yuanbao"/>
+	<e:Image x="32.34" y="231.5" source="YY_hongxian"/>
+	<e:Label id="YYDesc" text="" size="16" textColor="0x28ee01" stroke="1" horizontalCenter="-4" bottom="64"/>
+	<e:Button id="buyBtn" label="购 买" width="113" height="46" x="46.87" y="307.54">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="0" bottom="-1"/>
+</e:Skin>

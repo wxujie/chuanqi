@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopTarBtnItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="140" height="63" states="down,up"  width.up="140" height.up="63" width.down="140" height.down="63">
+	<e:Image id="select" smoothing="false" y="4" x="4" includeIn="up" source="shop_yeqian_1"/>
+	<e:Image id="selected" x="0" y="0" includeIn="down" source="shop_yeqian_2"/>
+	<e:Label id="labelDisplay" text="" size="24" horizontalCenter="0" verticalCenter="0" textAlign="center" verticalAlign="middle"  textColor="0xf0c896"/>
+</e:Skin>

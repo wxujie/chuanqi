@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FubenRankItemSkin" width="380" height="39" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image smoothing="false" id="bg" width="100%" height="100%" source="bg_quyu_1" scale9Grid="2,2,16,16"/>
+	<e:Image id="rankImage" source="Act_pm_1" x="20" y="2"/>
+	<e:Label id="numLabel" text="" x="31" size="18" y="11" stroke="2" textColor="0xe5ddcf"/>
+	<e:Label id="label1" text="" x="121" size="18" y="11" stroke="2" textColor="0xe5ddcf"/>
+	<e:Label id="label2" text="" x="302" size="18" y="11" textColor="0xe5ddcf" stroke="2"/>
+</e:Skin>

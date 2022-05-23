@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FourImagesAttrItemCurSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="183.8" height="22">
+	<e:Label id="txt_cur" text="体力加成：+0%" y="0" size="20" 
+	          textColor="0xf4d1a4" anchorOffsetX="0" anchorOffsetY="0" height="20" left="1"/>
+	<e:Image id="arrow" smoothing="false" width="20" height="20" x="152.8" y="-1" source="com_jiantoux2" visible="false"/>
+</e:Skin>

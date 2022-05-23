@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamQQItemSkin" width="855" height="48" currentState="common" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="common" >
+	<e:Group id="gCommon" width="855" height="48" x="0" y="0" includeIn="common">
+		<e:Image id="state_1" source="bg_quyu_1" x="0" y="0" width="867" scale9Grid="9,9,1,1" height="48" />
+		<e:Image id="state_2" source="bg_quyu_2" x="0" y="0" width="867" height="48" scale9Grid="9,9,1,1" />
+		<e:Image id="selectedBg" source="liebiaoxuanzhong" x="2" y="-1" scale9Grid="22,22,2,1" width="853" />
+		<e:Label id="playerName" text="这周日你有空吗" stroke="2" textColor="0xdcd2be" size="22" verticalCenter="1" textAlign="center" horizontalCenter="-291.5" x="65" y="16" />
+		<e:Label id="playerLevel" text="等级" stroke="2" textColor="0xDCD2BE" size="22" verticalCenter="1" horizontalCenter="-104.5" x="310" y="16" />
+		<e:Label id="playerProfessionorNum" text="感觉你和功能" stroke="2" size="22" verticalCenter="1" textAlign="center" horizontalCenter="78.5" x="492" y="16"  textColor="0xdcd2be"/>
+		<e:Label id="playerGuildorMap" text="干了拿过来" stroke="2" textColor="0xDCD2BE" size="22" textAlign="center" horizontalCenter="301.5" x="726"  verticalCenter="0"/>
+		<e:Image id="captainImg" x="217" y="10" source="team_duizhang"/>
+	</e:Group>
+	<e:Image id="blueImg" x="6" source="lz_hh1" verticalCenter="0"/>
+	<e:Image id="blueYearImg" width="20" height="20" x="38" source="lz_nf" verticalCenter="0"/>
+		
+</e:Skin>

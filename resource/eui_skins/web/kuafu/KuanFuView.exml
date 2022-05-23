@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KuanFuView" xmlns:e="http://ns.egret.com/eui">
+	<e:Rect top="0" left="0" bottom="0" right="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0" width="1344" height="840">
+		<e:Image scale9Grid="74,80,634,486" source="loding_kf_jpg" scaleX="2" scaleY="2"/>
+		<e:Image source="txt_kf_png" y="717" scaleX="0.7" scaleY="0.7" x="565"/>
+		<e:Image source="Login_json.login_jdt_k" y="755" scaleX="0.7" scaleY="0.7" x="225"/>
+		<e:ProgressBar id="doubleRoleExp" value="10" touchChildren="false" y="758" width="1262" height="18" x="231" scaleX="0.7" scaleY="0.7">
+			<e:skinName>
+			<e:Skin xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:app="app.*">
+				<e:Image id="thumb" left="0" right="0" top="1" bottom="0" source="login_jdt_t"/>
+				<e:Label id="labelDisplay" text="跨服中......" top="40"  horizontalCenter="0.5" size="27" textColor="0xe5ddcf" stroke="2"  />
+			</e:Skin>
+			</e:skinName>
+		</e:ProgressBar>
+		
+	</e:Group>
+</e:Skin>

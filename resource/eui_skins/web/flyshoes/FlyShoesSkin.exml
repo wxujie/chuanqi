@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FlyShoesSkin" width="419" height="469" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="419" height="460" anchorOffsetX="0" anchorOffsetY="0">
+		<app:UIViewFrame id = "dragDropUI" x="-3" y="1" anchorOffsetX="0" anchorOffsetY="0" skinName="ViewBgWin4Skin"/>
+		<e:Image source="task_k2_png" x="156" y="53"/>
+		<e:Image smoothing="false" source="com_bg_kuang_xian1" x="9.08" y="56.5" anchorOffsetX="0" width="132" anchorOffsetY="0" height="383" scale9Grid="6,6,8,6" visible="false"/>
+		<e:Image smoothing="false" source="com_bg_kuang_xian1" x="147.08" y="56.5" anchorOffsetX="0" width="212.66" anchorOffsetY="0" height="383" scale9Grid="6,6,8,6" visible="false"/>
+		<e:Group id="btn_list" height="378" x="18" y="55">
+			<e:Scroller name="scroller" x="4" height="370" anchorOffsetX="0" anchorOffsetY="0" y="0" scaleX="1" scaleY="1" width="132"/>
+			<e:List name="list" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.9" scaleY="0.9" itemRendererSkinName="TradeLineTabSkin" x="4" y="2">
+				<e:layout>
+					<e:VerticalLayout gap="-3"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Group id="list" width="228" height="322" x="172" y="59">
+			<e:Scroller name="scroller" x="0" height="320" anchorOffsetX="0" anchorOffsetY="0" y="0" scaleX="1" scaleY="1" width="227"/>
+			<e:List name="list" anchorOffsetX="0" x="0" y="0" anchorOffsetY="0" scaleX="1" scaleY="1" itemRendererSkinName="FlyShoesListItemSkin">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="2" horizontalGap="11" verticalGap="5"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Label id="txt_count" text="" x="169.33" y="396" anchorOffsetX="0" width="150" anchorOffsetY="0" height="20" textAlign="left" verticalAlign="middle" size="19" textColor="0xf0c896"/>
+		<e:Label id="txt_consume" text="" x="169.03" y="420.33" anchorOffsetX="0" width="200" anchorOffsetY="0" height="20" textAlign="left" verticalAlign="middle" size="19" textColor="0xf0c896"/>
+	</e:Group>
+	<app:RuleTipsButton id="ruleBtn" label="Button" x="20" y="415" ruleId="73"/>
+
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamMainViewSkin" width="194" height="67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="team_json.team_bg" x="0" y="0" scale9Grid="0,39,308,18" anchorOffsetY="0" height="67" touchEnabled="false" visible="false"/>
+	<e:Group id="gList" width="194" x="1" y="34" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" touchEnabled="false" touchThrough="true">
+		<e:layout>
+			<e:TileLayout verticalGap="2"/>
+		</e:layout>
+	</e:Group>
+	
+</e:Skin>

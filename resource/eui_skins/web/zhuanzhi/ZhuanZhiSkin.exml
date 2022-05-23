@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuanZhiSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1021" height="650">
+	<e:Image id="dragDropUI" source="jobchange_bg"/>
+	<e:Button id="btn_operation" label="确认转换" x="709" y="520" anchorOffsetX="0" width="108" scaleX="1.26" scaleY="1.26">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:app="app.*">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="16" textColor="0xeee104" stroke="2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="biaoti_zhuanzhi" x="437" y="-6" touchEnabled="false"/>
+	<e:Image source="jobchange_bg3" x="192" y="84"/>
+	<e:Image source="jobchange_bg3" x="198" y="242"/>
+	<e:Image source="jobchange_bg3" x="192" y="420"/>
+	<e:Image source="jobchange_bg2" x="131" y="280" scale9Grid="6,6,40,40" anchorOffsetX="0" width="317" anchorOffsetY="0" height="139"/>
+	<e:Image source="itemIcon_json.13477" x="650" y="454" scaleX="0.5" scaleY="0.5"/>
+	<e:Button id="closeBtn" label="" x="963.33" y="0.34" width="60" height="60">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="选择职业" x="223" y="91" textColor="0xeee104" size="22" stroke="1" width="120" textAlign="center"/>
+	<e:Label text="选男女" x="223" y="426" textColor="0xEEE104" size="22" stroke="1" width="120" textAlign="center"/>
+	<e:Label text="职业说明" x="223" y="249" size="22" stroke="1" width="120" textAlign="center" textColor="0x99947f"/>
+	<e:Label text="消耗：" x="596" y="458" textColor="0xEEE104" size="22" stroke="1"/>
+	<e:Label text="转职卡*1或拥有永久转职卡" x="682" y="458" textColor="0xEEE104" size="22" stroke="1"/>
+	<e:Label id="cdTime" text="转职CD：" x="667" y="488" textColor="0xEEE104" size="22" stroke="1" anchorOffsetX="0" width="216" textAlign="center"/>
+	<e:Label id="jobIntroduce" text="" size="22" width="297" height="119" textColor="0x99947F" x="139" y="290.61"/>
+	<e:Label id="label1" text="职业转换成功后：" x="607" y="101" textColor="0xEEE104" size="22" stroke="1"/>
+	<e:Label id="label2" text="职业转换成功将重新登陆游戏转职不可逆转，请慎重选择转职后三内不可再次转置" x="612" y="365" size="22" stroke="1" textColor="0xff7700" anchorOffsetY="0" anchorOffsetX="0" width="339" lineSpacing="4"/>
+	<e:List id="strList" width="339" height="223" x="610" y="131" itemRendererSkinName="ResonateItem2Skin" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+		<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:List>
+	<e:Group x="139" y="126">
+		<e:Button id="job1" label="战士" icon="login_zs_2" skinName="Btn23Skin"/>
+		<e:Button id="job2" label="法师" icon="login_fs_2" skinName="Btn23Skin" x="135" y="-1" anchorOffsetX="0"/>
+		<e:Button id="job3" label="道士" icon="login_ds_2" skinName="Btn23Skin" x="283" y="-1"/>
+		<e:layout>
+		<e:HorizontalLayout gap="26"/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="185" y="459">
+		<e:Button id="boy" label="男" icon="login_nan_2" skinName="Btn23Skin" x="1.52"/>
+		<e:Button id="girl" label="女" icon="login_nv_2" skinName="Btn23Skin" x="146.92"/>
+		<e:layout>
+		<e:HorizontalLayout gap="26"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="moneyPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="119">
+	<e:Image source="9s_bg_2" scale9Grid="3,3,24,24" left="0" right="0" top="0" bottom="0"/>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image id="icon" source="icon_jinbi" left="0" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<e:Label id="count" text="0" size="20" right="6" x="169" scaleX="1" scaleY="1" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

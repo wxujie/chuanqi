@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildInfoViewSkin" height="646" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="912">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin7Skin"/>
+	<e:TabBar id="tabBar" width="45" height="594" x="3" y="11"  itemRendererSkinName="CommonTarBtnItemSkin1" visible="false">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Image x="24" y="57"  width="162" height="555" source="com_bg_kuang_6_png" scale9Grid="19,20,2,2" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:TabBar id="optTab" height="556" x="31.5" y="59.69"  itemRendererSkinName="GuildTarBtnItemSkin">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="-2"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Group id="gp_0" width="694" height="560" x="191" y="57" >
+		<e:Image id="bg"  width="694" height="490" scale9Grid="14,14,1,1"  source="com_bg_kuang_6_png"/>
+		<e:Image id="topBg" source="guild_bg_hanghuidating" x="0" y="1" width="707" visible="false"/>
+		<e:Image x="17" y="10.68"  height="34" source="mail_bg" width="663" scale9Grid="15,15,1,1"/>
+		<e:Image x="17" y="54"  source="mail_bg" scale9Grid="13,15,1,1" width="663" height="34"/>
+		<e:Image x="17" y="98.18"  width="663" height="34" source="mail_bg" scale9Grid="14,13,1,1"/>
+		<e:Image x="17" y="170" width="661" height="273" source="mail_bg" scale9Grid="14,13,1,1" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:Label id="txtNoice" text="行会公告" x="305.32" y="142" size="22"  textColor="0xeee104" stroke="2"/>
+		<e:EditableText id="noiceLb" width="625" height="242" text="" x="37" y="185"  multiline="true" size="22"  touchEnabled="false" textColor="0xe5ddcf" stroke="2" lineSpacing="5"/>
+		<e:Label text="行会:" x="28" y="16" size="22" stroke="2" textColor="0xEEE104"/>
+		<e:Label text="会长:" x="426" y="16" size="22" stroke="2" textColor="0xEEE104"/>
+		<e:Label id="guildNameLb" text="冰雪无敌帮" y="16" size="22"  stroke="2" textColor="0xeee104" left="84"/>
+		<e:Label id="guildPresident" text="冰雪无敌" y="16" size="22" stroke="2" textColor="0xEEE104" left="483"/>
+		<e:Label id="txtLv" text="行会等级:" x="27" y="59" size="22"  stroke="2" textColor="0xff7700"/>
+		<e:Label id="guildLevelLb" text="1级" size="22" stroke="2" y="59.66" left="125" textColor="0xe5ddcf"/>
+		<e:Label id="txtMoney" text="行会资金:" x="427" y="59" size="22"  stroke="2" textColor="0xff7700"/>
+		<e:Label id="guildMoneyLb" text="1000" size="22"  stroke="1" verticalCenter="-210" left="521" textColor="0xe5ddcf"/>
+		<e:Label id="txtMyDevote" text="我的贡献:" x="226.33" y="105" size="22"  stroke="2" textColor="0xff7700"/>
+		<e:Label id="guildMyDevoteLb" text="50000" size="22"  stroke="1" verticalCenter="-164" left="324" textColor="0x28ee01"/>
+		<e:Label id="guildMermerNumLb" text="50/100" size="22"  stroke="2" textColor="0xe5ddcf" y="59.5" left="280"/>
+		<e:Label id="guildMyPostLb" text="副" size="22"  stroke="2" verticalCenter="-165" textColor="0x28ee01" left="125"/>
+		<e:Label id="txtCount" text="成员:" x="226" y="59" size="22"  stroke="2" textColor="0xff7700"/>
+		<e:Label id="txtMyJob" text="我的职位:" x="27" y="104" size="22"  stroke="2" textColor="0xff7700"/>
+		<e:Group id="gpBtnList" y="505"  x="453">
+			<e:Button id="editGuildNoticeBtn" label="编辑公告" x="109" y="10" skinName="Btn9Skin" />
+			<e:Button id="devoteBtn" label="捐献物资" x="209" y="10" skinName="Btn9Skin" />
+			<e:layout>
+				<e:HorizontalLayout gap="13"/>
+			</e:layout>
+		</e:Group>
+		<app:RuleTipsButton id="ruleBtn" label="Button" x="18" y="512" ruleId="21" />
+	</e:Group>
+	<e:Group id="gp_1" width="694" height="560" x="191" y="57" visible="false">
+		<e:Image id="bg0"  width="694" height="555" scale9Grid="14,14,1,1"  source="com_bg_kuang_6_png"/>
+		<e:Group height="322" x="8" y="7" >
+			<e:layout>
+				<e:HorizontalLayout gap="3"/>
+			</e:layout>
+			<e:Image source="guild_bg_guanlidating" x="46" y="2"/>
+			<e:Image source="guild_bg_liangongfang" x="256" y="36"/>
+			<e:Image source="guild_bg_yishiting" x="446" y="28"/>
+		</e:Group>
+		<e:Group id="mgrHallGp" width="217" height="271" x="11.5" y="34" >
+			<e:Label id="txtBuild0" text="" stroke="2" size="18" horizontalCenter="-63.5" verticalCenter="-81.5" textColor="0xe0ae75"/>
+			<e:Label id="hallBuildLevelLb" text="" stroke="2" size="18" horizontalCenter="-30" verticalCenter="-81.5" textColor="0x28ee01"/>
+			<e:Label id="txtBuild1" text="" x="18" y="78" stroke="2" size="18" textColor="0xe0ae75"/>
+			<e:Label id="txtBuild2" text="" x="18" y="107.5" stroke="2" size="18" textColor="0xe0ae75"/>
+			<e:Label id="txtBuild3" text="" x="18" y="136.5" stroke="2" size="18" textColor="0xe0ae75"/>
+			<e:Label id="txtBuild4" text="" stroke="2" size="18" textAlign="center" verticalAlign="middle" x="20" rotation="359.88" y="168" textColor="0xe5ddcf"/>
+			<e:Label id="hallNeedMoneyLb" text="" stroke="2" size="18" textAlign="center" verticalAlign="middle" verticalCenter="41.5" left="83" textColor="0x28ee01"/>
+				<e:ProgressBar id="hallBuildpb" width="195" height="22" y="193" value="50" name="bar2" x="12">
+				<e:Skin>
+				<e:Image source="sm_jyt1" scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0"/>
+				<e:Image id="thumb" height="100%" source="sm_jyt2"/>
+				<e:Label id="labelDisplay" textAlign="center" stroke="2" verticalAlign="middle" size="20"  textColor="0xe5ddcf" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:ProgressBar>
+			<e:Button id="mgrHallLvBtn" label="" x="57.5" y="223" skinName="Btn9Skin"/>
+		</e:Group>
+		<e:Group id="lgfGp" width="217" height="271" x="237" y="34" >
+			<e:Label id="txtBuild5" text="" stroke="2" size="18" horizontalCenter="-60.5" verticalCenter="-24.5" textColor="0xe0ae75"/>
+			<e:Label id="liangongBuildLevelLb" text="" stroke="2" size="18" horizontalCenter="-29" verticalCenter="-24.5" textColor="0x28ee01"/>
+			<e:Label id="txtBuild6" text="" x="20" y="136" stroke="2" size="18" textColor="0xe0ae75"/>
+			<e:Label text="决定其他建筑最高级" x="1" y="75" textColor="0xCBB79D" stroke="1" size="20" visible="false"/>
+			<e:Label id="lgfNeedMoneyLb" text="" stroke="2" size="18" textAlign="center" verticalAlign="middle" verticalCenter="40.5" left="86" textColor="0x28ee01"/>
+			<e:Label id="txtBuild7" text="" stroke="1" size="18" textAlign="center" verticalAlign="middle" y="165.5" left="20" textColor="0xe5ddcf"/>
+			<e:ProgressBar id="lgfBuildpb" width="195" height="22" y="192.5" value="50" name="bar2" x="12">
+				<e:Skin>
+				<e:Image source="sm_jyt1" scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0"/>
+				<e:Image id="thumb" height="100%" source="sm_jyt2"/>
+				<e:Label id="labelDisplay" textAlign="center" stroke="2" verticalAlign="middle" size="20"  textColor="0xe5ddcf" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:ProgressBar>
+			<e:Button id="lgfLvBtn" label="" x="60.49" y="222.69" skinName="Btn9Skin"/>
+		</e:Group>
+		<e:Group id="assemblyHallGp" width="217" height="271" x="465" y="34" >
+			<e:Label id="txtBuild8" text="" stroke="2" size="18" horizontalCenter="-61.5" verticalCenter="-48.5" textColor="0xe0ae75"/>
+			<e:Label id="assemblyHallLb" text="" stroke="2" size="18" horizontalCenter="-30" verticalCenter="-47.5" textColor="0xe0ae75"/>
+			<e:Label id="txtBuild9" text="" x="20" y="108" stroke="2" size="18" textColor="0xe0ae75"/>
+			<e:Label id="txtBuild10" text="" x="20" y="136" stroke="2" size="18" textColor="0xe0ae75"/>
+			<e:Label id="assNeedMoneyLb" text="消耗资金：" stroke="2" size="18" textAlign="center" verticalAlign="middle" verticalCenter="42.5" left="87" textColor="0x28ee01"/>
+			<e:Label id="txtBuild11" text="需资金：" stroke="1" size="18" textAlign="center" verticalAlign="middle" verticalCenter="40" x="20" textColor="0xe5ddcf"/>
+			<e:ProgressBar id="assemblyHallBuildpb" width="195" height="22" y="192.5" value="50" name="bar2" x="13.5">
+				<e:Skin>
+				<e:Image source="sm_jyt1" scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0"/>
+				<e:Image id="thumb" height="100%" source="sm_jyt2"/>
+				<e:Label id="labelDisplay" textAlign="center" stroke="2" verticalAlign="middle" size="20"  textColor="0xe5ddcf" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:ProgressBar>
+			<e:Button id="assemblyHallLvBtn" label="" x="58" y="223.5" skinName="Btn9Skin"/>
+		</e:Group>
+		<e:Label id="txtBuild12" text="行会日志" x="310" y="325" size="22"  textColor="0xeee104" stroke="2"/>
+		<e:Group width="681" height="200" x="6" y="353" >
+			<e:Image source="mail_bg" scale9Grid="14,15,1,1" left="0" right="0" top="0" bottom="0" visible="false"/>
+			<e:Scroller id="scroller_log" height="183" y="1"  width="665" x="9.33">
+				<e:List id="guildLogList" itemRendererSkinName="GuildLogItemViewSkin">
+					<e:layout>
+						<e:VerticalLayout gap="3"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Group id="gp_2" width="694" height="560" x="191" y="57" visible="false">
+		<e:Image id="bg1"  width="694" height="490"  source="com_bg_kuang_6_png" scale9Grid="14,14,1,1"/>
+		<e:Label id="txtInfo0" text="我的职位:" x="66" y="519" size="22" verticalAlign="middle" textColor="0xe5ddcf" stroke="2"/>
+		<e:Label id="txtInfo1" text="我的贡献：" x="243" y="519" size="22" verticalAlign="middle" textColor="0xe5ddcf" stroke="2"/>
+		<e:Label id="myDevoteLb" text="99999" x="352" y="519" size="22" verticalAlign="middle" stroke="2" textColor="0x28ee01"/>
+		<e:Label id="myPostLB" text="99999" x="175" y="519" size="22" verticalAlign="middle" stroke="2" textColor="0xe5ddcf"/>
+		<e:Button id="exitGuildBtn" label="" x="451" y="507"  skinName="Btn9Skin"/>
+		<e:Button id="optGuildBtn" label="" x="575" y="508" skinName="Btn9Skin"/>
+		<e:Scroller id="scroller_member" width="685" height="478"  scrollPolicyH="off" x="6" y="6">
+			<e:List id="memberList" itemRendererSkinName="GuildMemberItemViewSkin">
+				<e:layout>
+					<e:VerticalLayout gap="1"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<app:RuleTipsButton id="ruleBtn0" label="Button" x="17" y="514" ruleId="22" />
+	</e:Group>
+	<e:Group id="gp_3" width="694" height="560" x="192" y="57" visible="false">
+		<e:Image id="bg2"  width="694" height="490" scale9Grid="14,14,1,1"  source="com_bg_kuang_6_png"/>
+		<e:Label id="txtInfo2" text="成员数量：" x="66" y="519" size="22" verticalAlign="middle" stroke="2" textColor="0xe5ddcf"/>
+		<e:Label id="memberNumLb" text="50/100" x="175" y="519" size="22" verticalAlign="middle" textColor="0xe5ddcf" stroke="2"/>
+		<e:Button id="allRejectBtn" label="" x="451" y="508" skinName="Btn9Skin"/>
+		<e:Button id="setBtn" label="" x="328" y="508" skinName="Btn9Skin"/>
+		<e:Button id="allagreeBtn" label="" x="574" y="508" skinName="Btn9Skin"/>
+		<e:Scroller id="scroller_app" width="685" height="481" x="6" y="6" >
+		<e:List id="memberAppList" itemRendererSkinName="GuildApplyItemViewSkin">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="gp_4" width="694" height="560" x="191" y="57" visible="false">
+		<e:Image id="bg3"  width="694" height="555"  source="com_bg_kuang_6_png" scale9Grid="14,14,1,1"/>
+		<e:Scroller id="scroller_guildList" width="685" height="544" x="6" y="6"  scrollPolicyH="off">
+		<e:List id="guildList" itemRendererSkinName="GuildListItemViewSkin">
+			<e:layout>
+				<e:VerticalLayout gap="3"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="gp_5" width="694" height="560" x="192" y="57">
+		<e:Image width="694" height="490" source="com_bg_kuang_6_png" scale9Grid="19,17,1,1"/>
+		<e:Scroller width="682" height="474" x="7" y="7" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="guildShopList" itemRendererSkinName="ShopItemViewSkin">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="3"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label text="拥有贡献:" x="63" y="517" size="22" textColor="0xe5ddcf" stroke="2"/>
+		<e:Label id="guildContributionLab" text="0" x="163" y="518" size="22" stroke="2" textColor="0x28ee01"/>
+		<app:RuleTipsButton label="Button" x="17" y="510" ruleId="17"/>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="MerdiansLevelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="33">
+	<e:Group>
+		<e:Image source="Meridians_jie_bg1" top="-10" bottom="-10" scale9Grid="4,11,25,67" />
+		<e:List id="imgList" horizontalCenter="-0.5" itemRendererSkinName="MerdiansLevelItemSkin" verticalCenter="0">
+			<e:layout>
+				<e:VerticalLayout gap="0" />
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OnlineRewardsViewSkin" width="707" height="538" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+    <e:Image id="bgImg" source="banner_fudai_png" top="0" horizontalCenter="0" />
+    <e:Image source="bg_fudai_png" horizontalCenter="0" bottom="0" />
+    <app:ItemBase id="itemData" y="269" skinName="ItemBaseSkin" x="332" />
+    <e:Button id="getBtn" label="" y="414" icon="fl_jhm_btn_1" skinName="Btn0Skin" width="137" height="56" x="290" />
+    <e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="6" bottom="61" />
+    <app:RedDotControl id="redPoint" x="413" y="412" />
+    <e:Label id="timeLab" text="剩余时间：" x="21" y="88" size="22" textColor="0xffe500" stroke="2" />
+    <e:Label id="actTime" text="" x="127" y="88" size="22" stroke="2" textColor="0x28ee01" />
+    <e:Label id="actTime2" text="" y="483" size="22" stroke="2" textColor="0x28ee01" horizontalCenter="8" />
+</e:Skin>

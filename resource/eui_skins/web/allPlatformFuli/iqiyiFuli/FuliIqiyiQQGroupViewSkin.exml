@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliIqiyiQQGroupViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:app="app.*" width="901" height="509">
+    <e:Image id="dragDropUI" source="bg_aiqiyiQQqun_png" />
+    <e:List id="rewards" itemRendererSkinName="ItemBaseSkin" horizontalCenter="167.5" verticalCenter="61.5">
+        <e:layout>
+            <e:HorizontalLayout/>
+        </e:layout>
+    </e:List>
+    <e:Button id="getBtn" label="" y="403" horizontalCenter="168.5">
+        <e:skinName>
+            <e:Skin states="up,down,disabled" xmlns:app="app.*">
+                <e:Image source="btn_ljjrgfqqq" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95"
+                         scaleY.down="0.95" />
+                <e:Image source="btnt_ljjrgfqqq" horizontalCenter="0.5" verticalCenter="0.5" scaleX.down="0.95"
+                         scaleY.down="0.95" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="closeBtn" label="" width="61" height="57" x="800" y="35">
+        <e:skinName>
+            <e:Skin states="up,down,disabled" xmlns:app="app.*">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2"
+                         source.down="apay_x2" source.disabled="apay_x2" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+</e:Skin>

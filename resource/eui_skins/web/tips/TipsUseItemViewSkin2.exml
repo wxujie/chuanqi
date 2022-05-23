@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsUseItemViewSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="156"
+        height="250">
+    <e:Image source="bg_bosstips1" />
+    <e:Button id="btn_close" label="" width="60" height="60" y="-9" x="139">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4"
+                         source.disabled="btn_guanbi4" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Label id="labTitle" text="更好的装备" size="20" textColor="0xeee104" y="18" stroke="2" horizontalCenter="0" />
+    <e:Image source="bag_equipk" horizontalCenter="0" verticalCenter="-35" />
+    <e:Image id="itemIcon" source="11000" verticalCenter="-37" horizontalCenter="0" />
+    <e:Group y="130" x="15" width="127">
+        <e:Button id="btnSub" label="" width="32" y="1">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" xmlns:app="app.*">
+                    <e:Image scaleX.down="0.95" scaleY.down="0.95" source="com_jianjian" source.down="com_jianjian" />
+                    <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button id="btnAdd" label="" x="95" y="1">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" xmlns:app="app.*">
+                    <e:Image scaleX.down="0.95" scaleY.down="0.95" source="com_jiajia" source.down="com_jiajia" />
+                    <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Image anchorOffsetX="0" width="60" source="com_bg_kuang_3" scale9Grid="15,13,2,3"  horizontalCenter="0"/>
+        <e:Label id="lbCount" text="100" size="20" horizontalCenter="0" textAlign="center" verticalCenter="0"
+                  textColor="0xffffff"/>
+    </e:Group>
+	<e:Button id="dressEquip" label="穿  戴" scaleX="1" scaleY="1" width="113" height="44" horizontalCenter="1.5" verticalCenter="68">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:app="app.*">
+			<e:Image source="tips_btn" source.down="tips_btn" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18" textColor="0xf0c896" stroke="2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="autoDress" text="" size="18" textColor="0x28ee01" touchEnabled="false" horizontalCenter="1" bottom="12" stroke="2"/>
+</e:Skin>

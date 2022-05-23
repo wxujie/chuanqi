@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityTipsWinSKin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group verticalCenter="-146" horizontalCenter="0">
+		<e:Image source="result_win"/>
+		<e:Image id="titleIcon" top="194" horizontalCenter="1.5" source=""/>
+		<e:Image source="open_bg2" horizontalCenter="0.5" top="257"/>
+		<e:Label id="actTime" text="" size="19" horizontalCenter="-4.5" top="262" textColor="0x28ee01" stroke="2"/>
+		<e:Label id="actDesc" text="" width="287" height="113" size="19" lineSpacing="3" verticalCenter="39.5" horizontalCenter="4" stroke="2" textColor="0xe0ae75" anchorOffsetY="0"/>
+		<e:Image source="open_hdjl" verticalCenter="116" horizontalCenter="11.5"/>
+		<e:Scroller x="67.34" y="455.02" width="287">
+			<e:List id="itemList" itemRendererSkinName="ItemBaseSkin" x="2">
+				<e:layout>
+					<e:HorizontalLayout gap="11"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="closeBtn" label="" width="61" height="57" y="130" right="31">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="goBtn" label="前往参与" y="528.16" width="114" height="46" horizontalCenter="2.5" skinName="Btn9Skin">
+		</e:Button>
+	</e:Group>
+</e:Skin>

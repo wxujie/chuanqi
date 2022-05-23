@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeRecycleItemViewSkin" width="212" height="288" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0" touchEnabled="false">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1" source="recovery_bg" scale9Grid="101,129,10,15"/>
+		<e:Label id="title" text="逆魔王布鞋" y="19" size="20" horizontalCenter="0" x="85" scaleX="1" scaleY="1" textColor="0xffe624" stroke="2"/>
+		<app:ItemBase id="item" y="71" skinName="ItemBaseSkin" horizontalCenter="-2.5" x="88" scaleX="1" scaleY="1"/>
+		<e:Group id="txtGrp" verticalCenter="29" horizontalCenter="2" touchEnabled="false">
+			<e:Group width="212" y="47" touchEnabled="false" x="-4" scaleX="1" scaleY="1">
+				<e:Label text="回收可得" size="20" scaleX="1" scaleY="1" textColor="0xFFE624" stroke="2"/>
+				<e:Image id="moneyImg" x="112" y="4" source="icon_yuanbao" width="37" height="37"/>
+				<e:Label id="recycleMoney" text="*20" size="20" scaleX="1" scaleY="1" textColor="0xffe624" stroke="2"/>
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="1"/>
+				</e:layout>
+			</e:Group>
+			<e:Label id="cdTime" text="倒计时：30小时" y="84" size="20" horizontalCenter="0.5" x="31" scaleX="1" scaleY="1" textColor="0x28ee01" stroke="2"/>
+			<e:Label id="recycleNum" text="剩余次数：10" y="113" size="20" horizontalCenter="0.5" x="41" scaleX="1" scaleY="1" textColor="0xffe624" stroke="2"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="7"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="recycleBtn" label="回 收" skinName="Btn9Skin" bottom="21" horizontalCenter="0" x="74" y="268" scaleX="1" scaleY="1"/>
+		<e:Rect id="rect" left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+		<e:Image id="angleImg" source="recovery_zs_1" top="-6" left="-6" width="72" height="80"/>
+	</e:Group>
+</e:Skin>

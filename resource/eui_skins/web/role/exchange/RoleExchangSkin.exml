@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleExchangSkin" width="381" height="460" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="381" height="460" anchorOffsetX="0" anchorOffsetY="0">
+		<app:UIViewFrame id = "dragDropUI" currentState="default6" skinName="UIViewFrameSkin"/>
+		<e:Group id="exchange_list" width="336" height="375" x="24" y="59" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Scroller name="scroller" x="0" height="370" anchorOffsetX="0" anchorOffsetY="0" y="0" scaleX="1" scaleY="1" width="337"/>
+			<e:List name="list" anchorOffsetX="0" x="2" y="2" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:layout>
+				<e:VerticalLayout gap="1"/>
+			</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

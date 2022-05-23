@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlatformFuliViewSkin3" width="901" height="539" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+    <e:Image id="dragDropUI" source="apay_bg3_png" />
+    <e:Image id="titleImg" horizontalCenter="0" touchEnabled="false" bottom="460" source="" />
+    <e:Group id="infoGroup" height="433" width="758" y="85" x="72" />
+    <e:Button id="closeBtn" label="" width="61" height="57" x="800" y="34">
+        <e:skinName>
+            <e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2"
+                         source.down="apay_x2" source.disabled="apay_x2" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+</e:Skin>

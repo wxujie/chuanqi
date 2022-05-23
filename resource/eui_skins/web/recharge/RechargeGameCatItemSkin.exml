@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeGameCatItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="228">
+	<e:Image source="cz_bg1" scale9Grid="11,12,24,20" height="228" touchEnabled="false" width="213"/>
+	<e:Image id="icon" touchEnabled="false" horizontalCenter="0.5" verticalCenter="-9.5" source="cz_icon8"/>
+	<e:Button id="buyButton" label="10 元" skinName="Btn32Skin" horizontalCenter="0" bottom="7"/>
+	<e:Label id="lab" text="" y="13" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center" horizontalCenter="0.5"/>
+	<e:Image id="rebateImg" y="147" source="cz_10bei1" horizontalCenter="0" touchEnabled="false"/>
+</e:Skin>

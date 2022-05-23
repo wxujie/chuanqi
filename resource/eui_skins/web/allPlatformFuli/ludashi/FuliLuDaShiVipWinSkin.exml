@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliLuDaShiVipWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1027"
+        height="690">
+    <e:Image id="dragDropUI" source="apay_bg2_png" />
+    <e:Image x="422" y="50" touchEnabled="false" source="biaoti_chaojivip" />
+    <e:Image x="84" y="119" source="banner_ldschaojivip" />
+    <e:Image x="86" y="262" source="bg_ldschaojivip_png" />
+    <e:Button id="closeBtn" label="" width="61" height="57" x="924" y="57">
+        <e:skinName>
+            <e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2"
+                         source.down="apay_x2" source.disabled="apay_x2" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="rechargeBtn" label="" x="771" y="159" icon="t_lijichongzhi" width="137" height="56"
+              skinName="Btn26Skin" />
+    <e:Button id="copyBtn" label="" x="823" y="529" icon="t_fuzhi" width="137" height="56" skinName="Btn26Skin"
+              scaleX="0.75" scaleY="0.75" />
+    <e:Button id="codeBtn" label="" x="824" y="589" icon="t_erweima" width="137" height="56" skinName="Btn26Skin"
+              scaleX="0.75" scaleY="0.75" />
+    <e:Label id="lab" text="" x="123" y="630" anchorOffsetX="0" textAlign="left" textColor="0xe5ddcf" size="22"
+             stroke="1" width="600" />
+    <e:Label id="qqLabel" text="" x="545" y="539" textColor="0xE5DDCF" size="24" stroke="1" />
+    <e:Label id="wxLabel" text="" x="545" y="595" textColor="0xE5DDCF" size="24" stroke="1" />
+</e:Skin>

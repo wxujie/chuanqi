@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityWarTaskItemViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="703" height="115">
+	<e:Image source="apay_liebiao_bg_png" scale9Grid="26,14,609,87" width="703"/>
+	<e:Button id="goButton" label="前   往" width="113" height="46" x="567" y="38">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" stroke="2" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896"  textColor.disabled="0xb9b9b9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<app:RedDotControl id="redDot" width="20" height="20" x="662.06" y="39.43" visible="false"/>
+	<e:Image id="receiveImg" x="580" y="23" source="zl_t_yiwancheng" visible="false"/>
+	<e:Label id="lbTitle" text="沙巴克攻城：100000/100000" y="21" size="24" left="32"  textColor="0xe0ae75" stroke="2"/>
+	<e:Label id="lbScoreName" text="积分：" y="21" size="24" left="367"  textColor="0xe0ae75" stroke="2"/>
+	<e:Label id="lbScore" text="1000" y="21" size="24" left="435"  textColor="0xe0ae75" stroke="2"/>
+	<e:Label id="lbDesc" text="已连续登录5/5天" y="68" size="24" x="32"  textColor="0xff7700" stroke="2"/>
+	
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BulletFrameSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="291" height="99">
+    <e:Image scale9Grid="30,5,184,30" horizontalCenter="0"  source="tips_hdwpbg"/>
+	<e:Image scale9Grid="30,5,184,30" source="tips_hdwptxt" horizontalCenter="0" y="-30"/>
+    <e:Group horizontalCenter="0" verticalCenter="0">
+        <e:List id="itemList" itemRendererSkinName="BulletFrameItemSkin">
+            <e:layout>
+                <e:HorizontalLayout horizontalAlign="center" />
+            </e:layout>
+        </e:List>
+    </e:Group>
+</e:Skin>

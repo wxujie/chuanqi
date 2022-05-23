@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MultiVersionViewSkin" width="910" height="645" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing">
+    <app:UIViewFrame id="dragDropUI" skinName="ViewBgWin1Skin" />
+    <e:TabBar id="optTab" x="28" y="61" itemRendererSkinName="TradeLineTabSkin">
+        <e:layout>
+            <e:VerticalLayout horizontalAlign="center" gap="-3" />
+        </e:layout>
+    </e:TabBar>
+    <e:Group height="560" x="185" y="56" width="700" touchEnabled="false">
+        <e:Image id="imgBg" source="" horizontalCenter="0" verticalCenter="0" />
+        <e:Button id="btnCopy" horizontalCenter="0.5" y="430">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" source="button1" scaleX.down="0.95"
+                             scaleY.down="0.95" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+    </e:Group>
+    <e:Image source="com_bg_kuang_4_png" x="180" y="52" />
+</e:Skin>

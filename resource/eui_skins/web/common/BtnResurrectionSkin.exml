@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnResurrectionSkin" currentState="down" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width="95" height="34">
+	<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.98" scaleY.down="0.98" verticalCenter.down="0" source="revive_btn"/>
+	<e:Label id="labelDisplay" text="回城复活" horizontalCenter="-0.5" verticalCenter="-1" size="20" scaleX.down="0.98" scaleY.down="0.98" verticalCenter.down="0" horizontalCenter.down="0" stroke="2" textColor="0xf0c896"/>
+</e:Skin>

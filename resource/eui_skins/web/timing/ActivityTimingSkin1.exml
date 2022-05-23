@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityTimingSkin1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="452" height="579">
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:Image id="dragDropUI" source="timing_bg1"/>
+		<e:Label id="title" text="竞技大乱斗" size="42" textColor="0x1cfc00" stroke="1" top="52" horizontalCenter="0"/>
+		<e:Label id="desc" text="那分开嘉安斐波那看附近奥班农发卡本菲卡办法咖啡吧客服部" x="58" y="125" size="24" textColor="0xd6ceb8" stroke="1" width="342" anchorOffsetY="0" height="150"/>
+		<e:Button id="closeBtn" label="" right="0" top="0" width="61" height="57">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="huanying_x" source.down="huanying_x" source.disabled="huanying_x"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image verticalCenter="8.5" horizontalCenter="-4" source="timing_tsjl"/>
+		<e:List id="itemList" itemRendererSkinName="ItemBaseSkin" y="320" horizontalCenter="0.5">
+			<e:layout>
+				<e:HorizontalLayout gap="13"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		<e:Label id="cdLab" text="xx秒后关闭" horizontalCenter="0" size="17" bottom="166" textColor="0x3af200"/>
+		<e:Button id="goBtn" label="前往参与" x="161.66" y="424.16" width="129" height="52">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="timing_btn" source.down="timing_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="24" textColor="0xfdb35f" bold="true" stroke="1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

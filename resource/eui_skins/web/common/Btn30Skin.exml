@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn30Skin" xmlns:e="http://ns.egret.com/eui" states="up,down"  width="113" height="46">
+	<e:Image source="btn_apay"  top="0" left="0" right="0" bottom="0"/>
+	<e:Label id="labelDisplay" text="" size="18" horizontalCenter="0" verticalCenter="0" textColor="0xebc592" bold="false"  stroke="2"/>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorshipWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="912" height="646">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin1Skin"/>
+	<app:RuleTipsButton label="Button" ruleId="32" top="14" left="31"/>
+	<e:Group width="858" horizontalCenter="-1" top="61" bottom="30" touchEnabled="false" touchChildren="true" touchThrough="true">
+		<app:WorshipItem id="item0" skinName="WorshipItemSkin" width="282" height="270" x="2" y="5" touchEnabled="false" />
+		<app:WorshipItem id="item1" skinName="WorshipItemSkin" width="282" height="270" x="289" y="5" touchEnabled="false" />
+		<app:WorshipItem id="item2" skinName="WorshipItemSkin" width="282" height="270" x="576" y="5" touchEnabled="false" />
+		<app:WorshipItem id="item3" skinName="WorshipItemSkin" width="282" height="270" x="2" y="280" touchEnabled="false" />
+		<app:WorshipItem id="item4" skinName="WorshipItemSkin" width="282" height="270" x="289" y="280" touchEnabled="false" />
+		<app:WorshipItem id="item5" skinName="WorshipItemSkin" width="282" height="270" x="576" y="280" touchEnabled="false" />
+	</e:Group>
+</e:Skin>

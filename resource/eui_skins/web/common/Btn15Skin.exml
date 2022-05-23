@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn15Skin" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Image id = "icon" source="btn_9" source.up="btn_9" source.down="btn_9" scaleX.down="0.98" scaleY.down="0.98" horizontalCenter.down="0" verticalCenter.down="0"/>
+	<e:Label id="labelDisplay" text="25级打宝" size="19" horizontalCenter="0" verticalCenter="0" bold="false" textAlign="center" width="100" textColor="0xf0c896" scaleX.down="0.98" scaleY.down="0.98"/>
+	<e:Image id="lock" source="common_lock" right="0" bottom="0" visible="false"/>
+	<e:Image id="select" x="2" y="2" anchorOffsetX="0" width="104" anchorOffsetY="0" height="40" source="t_b_xuanfu" scale9Grid="7,9,7,4" visible="false"/>
+</e:Skin>

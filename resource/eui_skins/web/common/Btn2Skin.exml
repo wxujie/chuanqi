@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn2Skin" width="74" height="26" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down">
+	<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="m_chat_btn"/>
+	<e:Image id="iconDisplay" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="25" scaleY="1" source="m_chat_t_jiantou"/>
+	<e:Image id="ImageDisplay" x="14.85" y="5.14" source="m_chat_t_fujin"/>
+</e:Skin>

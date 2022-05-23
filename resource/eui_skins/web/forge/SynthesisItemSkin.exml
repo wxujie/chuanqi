@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SynthesisItemSkin" width="700" currentState="item4" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" height="119" states="item4,item3,item2,item1" >
+	<e:Image left="0" right="0" top="0" bottom="0" source="hecheng_bg2" scale9Grid="183,51,84,22"/>
+	<e:Group x="23.35" y="12" width="92">
+		<app:SynthesisItemBase id="item1" skinName="ItemBaseSkin"/>
+		<e:Label id="name1" text="两仪魔器" size="16" textAlign="center" y="66" horizontalCenter="-16" textColor="0xe5ddcf" stroke="2"/>
+		<e:Image x="70" y="20" source="bag_jia" source.item1="com_jiantoux3" x.item1="100" x.item2="76.67"/>
+	</e:Group>
+	<e:Group x="119" y="12" visible.item1="false" width="92" x.item2="132.34" x.item3="125.67">
+		<app:SynthesisItemBase id="item2" skinName="ItemBaseSkin"/>
+		<e:Label id="name2" text="两仪魔器" size="16" textAlign="center" y="66" horizontalCenter="-16" textColor="0xe5ddcf" stroke="2"/>
+		<e:Image x="70" y="20" source="bag_jia" source.item2="com_jiantoux3" x.item2="100"/>
+	</e:Group>
+	<e:Group x="216" y="12" visible.item2="false" visible.item1="false" width="92" x.item3="229.34" x.item4="218.68">
+		<app:SynthesisItemBase id="item3" skinName="ItemBaseSkin"/>
+		<e:Label id="name3" text="两仪魔器" size="16" textAlign="center" y="66" horizontalCenter="-16" textColor="0xe5ddcf" stroke="2"/>
+		<e:Image x="70" y="20" source="bag_jia" source.item3="com_jiantoux3" x.item3="95" y.item3="23.25"/>
+	</e:Group>
+	<e:Group x="315" y="13" visible.item3="false" visible.item2="false" visible.item1="false" width="120" x.item4="320.36">
+		<app:SynthesisItemBase id="item4" skinName="ItemBaseSkin"/>
+		<e:Label id="name4" text="两仪魔器" size="16" textAlign="center" y="66" horizontalCenter="-29" textColor="0xe5ddcf" stroke="2"/>
+		<e:Image x="88" y="20" source="com_jiantoux3"/>
+	</e:Group>
+	<e:Group x="459" y="12" x.item3="370.62" x.item2="278.62" x.item1="200.62" width="64">
+		<app:SynthesisItemBase id="itemData" skinName="ItemBaseSkin"/>
+		<e:Label id="itemName" text="两仪魔器" size="16" textAlign="center" y="66" horizontalCenter="-1" textColor="0xe5ddcf" stroke="2"/>
+	</e:Group>
+	<e:Button label="合  成" x="594" y="37" skinName="Btn9Skin" visible="false"/>
+	<e:Button id="sure" label="第88天开放" x="570" y="36" scaleX="1" scaleY="1" width="113" height="44">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" alpha.disabled="0.5" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<app:RedDotControl id="redPoint" x="673.5" y="33.5" visible="false"/>
+	<e:Label id="limitLab" text="" size="20" right="16" stroke="2" textColor="0x28ee01" verticalCenter="-2.5" visible="false"/>
+</e:Skin>

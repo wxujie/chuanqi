@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="UIView2Skin" width="212" height="251" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="btn3" label="攻击" x="12" bottom="30" skinName="Btn11Skin" visible="false"/>
+	<e:Button id="btn4" label="大招" x="155" skinName="Btn11Skin" bottom="30" visible="false"/>
+	<e:Button id="btn5" label="施法" x="302" skinName="Btn11Skin" bottom="30" visible="false"/>
+	<e:Button id="btn6" label="受击" x="445" skinName="Btn11Skin" bottom="30" visible="false"/>
+
+	<e:Image source="kuaijielan1" scale9Grid="13,25,3,6" anchorOffsetX="0" anchorOffsetY="0" width="210" height="210" right="0" top="0"/>
+</e:Skin>

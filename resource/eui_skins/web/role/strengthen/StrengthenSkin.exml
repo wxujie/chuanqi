@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StrengthenSkin" width="378" height="441" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="0"  source="qh_bg_png" width="378"/>
+	<e:Group id="icon_group" width="371" height="267" x="4" y="19" anchorOffsetX="0" anchorOffsetY="0" scaleX="1"
+	         scaleY="1">
+		<app:StrengthenItemSlot name="icon_0" skinName="NewStrengthenSkin" x="154" y="1" />
+		<app:StrengthenItemSlot name="icon_1" skinName="NewStrengthenSkin" x="79" y="26" />
+		<app:StrengthenItemSlot name="icon_2" skinName="NewStrengthenSkin" x="45" y="102" />
+		<app:StrengthenItemSlot name="icon_3" skinName="NewStrengthenSkin" x="79" y="178" />
+		<app:StrengthenItemSlot name="icon_4" skinName="NewStrengthenSkin" x="154" y="206" />
+		<app:StrengthenItemSlot name="icon_5" skinName="NewStrengthenSkin" x="229" y="178" />
+		<app:StrengthenItemSlot name="icon_6" skinName="NewStrengthenSkin" x="263" y="102" />
+		<app:StrengthenItemSlot name="icon_7" skinName="NewStrengthenSkin" x="229" y="26" />
+		<e:Image source="qh_icon_xz" x="145.33" y="-7.34"/>
+		<e:Image id="selectImg" x="154" y="93" source="qh_icon_wuqi2"/>
+		<e:Image id="selectName" x="148" y="168" source="qh_t_wuqi"/>
+	</e:Group>
+	<e:Group width="372" height="97" x="3" y="293" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="qh_sxbg" x="8" y="0" />
+			<e:List id="itemList" width="383" height="88" x="-2" y="8">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="1" horizontalGap="0" verticalGap="-2" orientation="columns" />
+				</e:layout>
+			</e:List>
+	</e:Group>
+	<e:Image id="strengthen_name" x="153" y="183" source=""/>
+	<e:Group id="group2" width="372" x="2" y="391" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Group id="group_consume" x="13" y="2.67" anchorOffsetY="0" height="46.33">
+			<e:Image id="img_money" x="37" y="-7" source="13123" scaleX="0.5" scaleY="0.5" visible="false"/>
+			<e:Label id="txt_consume" text="消耗：" x="-1" y="1" size="16" textColor="0xE0AE75" width="150" scaleX="1" scaleY="1" visible="false"/>
+			<e:Label id="txt_consume2" text="5000" x="69" y="1" size="16" textColor="0xE0AE75" scaleX="1" scaleY="1" visible="false"/>
+			<e:List id="ListCost" width="200" x="-4" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="-2.164999999999999">
+				<e:layout>
+				<e:VerticalLayout verticalAlign="middle" gap="-1"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Button id="btn_strengthen" label="强 化" x="274" y="4" skinName="Btn9Skin" scaleX="1" scaleY="1"/>
+		<app:RedDotControl id="redDot" x="352" touchChildren="false" touchEnabled="false" y="2" updateShowFunctions="StrengthenMgr.isSatisStrengthened" showMessages="StrengthenMgr.post_StrengthenData;StrengthenMgr.post_StrengthenUpdate;DefaultMgr.post_g_0_7;BagMgr.post_8_1;BagMgr.post_8_4;BagMgr.post_8_3" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="txt_get" text="" x="199" y="7.97" size="16" textAlign="left" textColor="0x32FC00" multiline="false" scaleX="1" scaleY="1" italic="false" anchorOffsetX="0"/>
+		<e:Group id="group" x="2" y="-126" scaleX="1" scaleY="1">
+			<e:Label id="txt_desc" text="衣服部位:12级" x="3" y="0" size="16" anchorOffsetX="0" anchorOffsetY="0" height="20" textColor="0xE0AE75" verticalAlign="middle"/>
+			<e:Label id="txt_desc2" text="12级" x="122" y="1" size="15" anchorOffsetX="0" anchorOffsetY="0" height="17" textAlign="left" textColor="0x28ee01" verticalAlign="middle"/>
+			<e:Image id="arrow" smoothing="false" width="20" height="20" x="103" y="0" source="com_jiantoux2"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="txt_max" text="强化已达最高等级" x="115" y="394" anchorOffsetX="0" size="18" textColor="0xf97d2a" visible="true"/>
+</e:Skin>

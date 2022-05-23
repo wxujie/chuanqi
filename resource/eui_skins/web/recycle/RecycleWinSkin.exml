@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RecycleWinSkin" width="909" height="645" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin1Skin"/>
+	<e:TabBar id="tab" y="50" x="908" itemRendererSkinName="CommonTarBtnWinSkin2">
+		<e:layout>
+		<e:VerticalLayout gap="-11"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:TabBar>
+	<e:Group id="pageGroup" width="869" height="558" y="57" x="22"/>
+</e:Skin>

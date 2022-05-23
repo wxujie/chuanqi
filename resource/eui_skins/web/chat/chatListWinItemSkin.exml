@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chatListWinItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="693">
+	<e:Group id="systemGrp" minHeight="24" y="0" height="28" width="66">
+		<e:Rect left="0" right="-6" top="0" bottom="0" fillColor="0xfc9219"/>
+		<e:Label id="chatChannelName" text="[系统] " size="40" backgroundColor="0xfc9219" scaleX="0.5" scaleY="0.5" verticalCenter="0.5" stroke="3" horizontalCenter="5.5" textColor="0xffffff"/>
+		<e:Image source="lt_xitong" y="0" visible="false"/>
+	</e:Group>
+	<e:Group id="qqGrp" x="62" y="3" touchEnabled="false" touchChildren="false" visible="false">
+		<e:Image id="blueImg" x="-3" y="-1" source="name_lz_hh8"/>
+		<e:Image id="blueYearImg" x="7" y="9" source="name_lz_nf"/>
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="txtGrp" x="80" minHeight="24" y="2.3">
+		<e:Rect id="bgColor" left="-3" right="-3" top="-2" bottom="-2" fillColor="0xff0c0c"/>
+		<e:Label id="chatLab" size="40" x="0" width="1200" scaleX="0.5" scaleY="0.5" y="3.33" stroke="3" lineSpacing="9" textColor="0xffffff"/>
+		<e:Group id="bqGroup" visible="true">
+			<e:Label id="bqLab" size="40" backgroundColor="0x0735FC" scaleX="0.5" scaleY="0.5" stroke="3" background="false" maxWidth="1150" lineSpacing="9" textColor="0xE5DDCF" y="0"/>
+			<e:Image id="icoImage"/>
+			<e:layout>
+			<e:HorizontalLayout gap="1" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Image id="logo" x="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.6" scaleY="0.6" source="logo_chaowan" y="3" visible="false"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StrengthenIconItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="72" height="72" states="up,down,disabled">
+	<e:Image id="effect" source="" source.up="" source.disabled="icon_ring_xuanzhong" source.down="icon_ring_xuanzhong"/>
+	<e:Image source="icon_ring_bg" y="4.8" x="4" visible="false"/>
+	<e:Image id="icon" x="6" y="5.3" source="qh_icon_huwan2"/>
+	
+</e:Skin>

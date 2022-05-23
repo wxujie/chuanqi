@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliSogouMicroWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:app="app.*" width="739" height="424">
+    <e:Image id="dragDropUI" source="bg_zhuanshupifu_png" />
+    <e:List id="rewards" itemRendererSkinName="ItemBaseSkin" horizontalCenter="0" verticalCenter="34">
+        <e:layout>
+            <e:HorizontalLayout/>
+        </e:layout>
+    </e:List>
+    <e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="0" verticalCenter="36" />
+    <e:Button id="receiveBtn" label="" y="320" width="144" height="62" horizontalCenter="0.5">
+        <e:skinName>
+            <e:Skin states="up,down,disabled" xmlns:app="app.*">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"
+                         source="lingqu_bt" source.down="lingqu_bt" source.disabled="lingqu_bt" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="microDownBtn" skinName="Btn31Skin" icon="txt_djxz" horizontalCenter="0" y="317" />
+    <e:Button id="closeBtn" label="" width="61" height="57" x="636" y="65">
+        <e:skinName>
+            <e:Skin states="up,down,disabled" xmlns:app="app.*">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2"
+                         source.down="apay_x2" source.disabled="apay_x2" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <app:RedDotControl id="redPoint" x="420" y="323" />
+</e:Skin>

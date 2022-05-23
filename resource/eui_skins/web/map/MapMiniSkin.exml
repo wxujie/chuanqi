@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MapMiniSkin" width="155" height="179" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="clickBtn" width="158" height="26" x="-4" y="0" anchorOffsetX="0" anchorOffsetY="0" source="m_map_k2" scale9Grid="17,9,8,13"/>
+	<e:Image x="130" y="3" source="map_fangda" touchEnabled="false"/>
+	<e:Label id="nameLabel" text="测试" size="18" x="4" y="5" anchorOffsetY="0" anchorOffsetX="0" width="146" textAlign="center" touchEnabled="false" textColor="0xe5ddcf" stroke="2"/>
+	<e:Group id="mapGroup" width="150" height="150" touchChildren="false" right="1" y="27">
+    <e:Rect  top="0" bottom="0" left="0" right="0"/>
+    <e:Scroller top="0" right="0" left="0" bottom="0">
+         <e:Group>
+        <e:Group id="miniGroup">
+            <e:Image id="miniImage" />
+					<e:Group id="teleportGroup" width="0" height="0" x="0" y="0"/>
+					<e:Group id="arrowGroup" width="0" height="0" touchChildren="false" touchEnabled="false"/>
+					<e:Group id="rectGroup" width="0" height="0"/>
+					<e:Image id="myRect" x="68" y="112" source="map_dian_7"/>
+					<e:Image id="targetImage" source="map_target" anchorOffsetX="12" anchorOffsetY="32"/>
+					<e:Image id="routeImage" width="20" height="6" source="map_xian" scale9Grid="1,2,4,2" anchorOffsetY="3" visible="false"/>
+        </e:Group>
+        </e:Group>
+    </e:Scroller>
+		<e:Image source="m_map_k" width="160" height="160" x="-9" scale9Grid="16,14,9,8" y="-6" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="xyLabel" text="" right="6" bottom="5" size="15" textColor="0xe5ddcf" stroke="2"/>
+	<e:Label id="areaName" text="" size="15" left="5" bottom="5" textColor="0xe5ddcf" stroke="2"/>
+	</e:Group>
+	
+</e:Skin>

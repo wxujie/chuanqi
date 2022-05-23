@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ResonateItemSkin" width="697" height="62" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="nameImage" source="sm_t1" x="10" y="15"/>
+	<e:Label id="attrLabel" text="攻击" x="190" y="23" size="22" stroke="2" textColor="0xe5ddcf"/>
+	<e:Label id="lvLabel" text="Lv.8" x="110" y="23" size="22" stroke="2" textColor="0xE5DDCF" textAlign="left"/>
+	<e:Button id="button" label="" x="430" skinName="Btn9Skin" y="10"/>
+	<e:Button id="button2" label="" x="560" skinName="Btn9Skin" y="10"/>
+	<e:Image id="totallyImage" x="380" y="7" source="sm_t6"/>
+	<e:Image id="dotImage" source="common_hongdian" x="525" y="6" visible="false"/>
+</e:Skin>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WarehouseWinSkin" width="416" height="529" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="dragDropUI" source="cangku_bg_png"/>
+	<e:TabBar id="tabBar" y="43" x="-34" itemRendererSkinName="CommonTarBtnWinSkin3" width="36">
+		<e:layout>
+		<e:VerticalLayout gap="-11"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Group id="warehouseGrp" name="装备" width="383" height="455" x="16" y="19">
+		<e:Scroller width="383" height="455" scrollPolicyH="off" scrollPolicyV="off">
+		<e:Group>
+			<e:Group id="equipBg" width="383" height="455"/>
+			<e:Group id="equipLab" width="383" height="455" touchEnabled="false"/>
+			<e:Group id="equipStar" width="383" height="455" touchEnabled="false" x="0" y="0"/>
+			<e:Group id="itemEffGrp" width="383" height="455" touchEnabled="false"/>
+		</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="finishingBtn" label="整 理" horizontalCenter="137.5" bottom="7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:app="app.*">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="bagbtn_1" source.down="bagbtn_1" source.disabled="bagbtn_2" scaleY.down="0.95" scaleX.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xeee104" stroke="2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:CheckBox id="saveCheck" label="CheckBox" x="24" y="486" skinName="CheckBox2"/>
+	<e:Label text="一键存取" x="70" y="496" stroke="2" size="18" textColor="0xe5ddcf"/>
+	<e:Button id="btn_close" label="" y="-7.67" x="-41.32">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:app="app.*">
+			<e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

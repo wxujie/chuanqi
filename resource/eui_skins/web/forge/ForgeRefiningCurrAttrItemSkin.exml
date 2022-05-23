@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeRefiningCurrAttrItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        height="23">
+	<e:Label id="txt_next" text="" y="2" size="15"  anchorOffsetX="0" anchorOffsetY="0" height="17" textAlign="left" horizontalCenter="0" textColor="0xfafcf9"/>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemSelectBaseSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="71" height="71">
+	<app:ItemBase id="itemData" skinName="ItemBaseSkin" bottom="0" left="0"/>
+	<e:Image id="isSelect" source="apay_gou" right="0" top="0"/>
+</e:Skin>

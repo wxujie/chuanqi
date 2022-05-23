@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrossServerWinSkin" width="984" height="676" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Group touchEnabled="false">
+		<e:Image id="dragDropUI" source="kf_bg1_png"/>
+		<e:Image id="titleImg" source="kf_kfzc" horizontalCenter="0" top="37" touchEnabled="false"/>
+		<e:TabBar id="tabBar" width="45" height="494" y="119" x="-5" itemRendererSkinName="CrossServerTabSkin">
+			<e:layout>
+			<e:VerticalLayout gap="-11"/>
+			</e:layout>
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+			</e:ArrayCollection>
+		</e:TabBar>
+		<e:Button id="closeBtn" label="" x="894" y="30" width="61" height="57">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2" scaleX.down="0.98" scaleY.down="0.98"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<app:RedDotControl id="redPoint" x="-8" y="115.5" visible="false"/>
+		<e:Group id="infoGrp" width="863" height="557" x="59" y="90" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsEquipFashionSKin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="strGrp" width="334" y="0" x="0" touchEnabled="false">
+		<e:Image source="9s_tipsbg" left="0" right="0" top="0" bottom="-4"  touchEnabled="false"/>
+		<e:Image id="imgBg" left="0" right="0" top="0" bottom="-4" source="bag_piliangbg_1" scale9Grid="13,89,2,0"  touchEnabled="false"/>
+		<e:Image source="9s_tipsk" left="0" right="0" top="0" bottom="-4" scale9Grid="8,8,12,12"  touchEnabled="false"/>
+		<e:Label id="nameLab" text="" y="10" size="22" left="15" textColor="0xf0b500" stroke="2"  touchEnabled="false"/>
+		<e:Group horizontalCenter="0" top="-84" touchEnabled="false" touchChildren="false">
+			<e:Image id="fashionImg" touchEnabled="false"  source="sz_show_005_0_png"/>
+			<e:Label id="bindLab" text="" size="20"
+			         width="300" textColor="0xffffff" lineSpacing="4" stroke="2" />
+			<e:layout>
+				<e:VerticalLayout gap="-29" paddingLeft="0" horizontalAlign="center" />
+			</e:layout>
+		</e:Group>
+		<e:Group id="effGrp" touchEnabled="false" touchChildren="false" x="1" />
+	</e:Group>
+</e:Skin>

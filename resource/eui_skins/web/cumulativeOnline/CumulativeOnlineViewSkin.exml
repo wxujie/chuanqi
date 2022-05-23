@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CumulativeOnlineViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing" width="1027" height="690">
+	<e:Image id="dragDropUI" source="apay_bg2_png" />
+	<e:Image source="lj_bg1_png" horizontalCenter="0" y="110" />
+	<e:Image id="titleImg" touchEnabled="false" horizontalCenter="5" top="55" source="lj_title" />
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2"
+				         scaleX.down="0.98" scaleY.down="0.98" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group left="80" right="80" y="110">
+		<e:Image source="lj_xc" horizontalCenter="0" y="40" />
+		<e:Group horizontalCenter="0.5" y="120">
+			<e:Image source="lj_bg3" />
+			<e:Label id="timeLab" text="累计在线时间：00:00:00" size="18" textColor="0x28ee01" horizontalCenter="0" verticalCenter="0"
+			         stroke="1" />
+		</e:Group>
+	</e:Group>
+	<e:Group left="80" right="80" y="320">
+		<e:Image source="lj_bg2" />
+		<e:Scroller id="itemScroller" width="620" height="300" y="0" x="45">
+			<e:Group>
+				<e:Image id="imgArrow" source="lj_arrow" y="60" x="280" anchorOffsetX="27" />
+				<e:Group y="200">
+					<e:Rect id="barMask" width="1400" height="22" />
+					<e:Image id="barBg" source="lj_jdt1" scale9Grid="84,2,509,18" width="1400" />
+					<e:Image id="bar" verticalCenter="-1" x="2" source="lj_jdt2" scale9Grid="84,1,504,10" width="1396" />
+				</e:Group>
+				<e:List id="list" itemRendererSkinName="CumulativeOnlineItemSkin">
+					<e:layout>
+						<e:HorizontalLayout gap="0" />
+					</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+							<e:Object/>
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+		<e:List id="list2" itemRendererSkinName="CumulativeOnlineItemSkin2" y="-40" x="685">
+			<e:layout>
+				<e:HorizontalLayout gap="0" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		<e:Image id="leftBtn" source="lj_jt1" y="55" x="10"/>
+		<e:Image id="rightBtn" source="lj_jt2" y="55" x="660"/>
+	</e:Group>
+</e:Skin>

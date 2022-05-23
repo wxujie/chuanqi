@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TitleItemViewSkin" width="359" height="300" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="357" height="78.5" touchEnabled="false">
+		<e:Image id="selectImg" width="358" x="0" y="0" source="ch_bg" />
+		<e:CheckBox id="cbSeletTitle" x="302.5" y="22" name="warnHp" skinName="CheckBox2" />
+		<e:Image id="iconTitle" source="title_json.ch_show_004" x="89" y="14" scaleX="1.2" scaleY="1.2" touchEnabled="false" />
+		<e:Image id="iconShow" source="role_json.ch_zsz" x="5" y="11" touchEnabled="false" />
+		<e:Group id="group_mc" width="0" height="0" x="170" y="59.5" touchChildren="false" touchEnabled="false" />
+	</e:Group>
+	<e:Image id="bg" x="0" y="80" fillMode="scale" scale9Grid="12,11,1,1" width="356" height="219.8"
+	         source="com_bg_kuang_xian2" />
+	<e:Group id="groupDetailed" width="355" y="83.5" height="213.5" x="0">
+		<e:Label id="lbDesc" text="" x="15" y="7" size="20" stroke="2" width="320" textColor="0xe5ddcf" />
+		<e:Label id="lbValidity" text="" x="15" y="54" size="20" stroke="2" textColor="0x0066ff" />
+		<e:Scroller id="scroller" width="330" x="15" y="87" height="148">
+			<e:List id="list" itemRendererSkinName="TitleAttribItemViewSkin">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:layout>
+			<e:VerticalLayout paddingLeft="10" paddingTop="10" />
+		</e:layout>
+	</e:Group>
+</e:Skin>

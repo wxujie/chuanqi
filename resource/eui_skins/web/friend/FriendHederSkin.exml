@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendHederSkin" width="862" height="42"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group id="gHeader0" width="862" height="42" x="0"  >
+		<e:Image  source="fd_top_bg"/>
+		<e:Image x="232" y="0"  source="fd_top_fenge"/>
+		<e:Image x="414" y="0"  source="fd_top_fenge"/>
+		<e:Image x="597.53" y="0"  source="fd_top_fenge"/>
+		<e:Label id="txt0PlayerName" text="" x="91" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt0Lv" text="" x="305" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt0Job" text="" x="489" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt0Guild" text="" x="689" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+	</e:Group>
+	<e:Group id="gHeader1" width="862" height="42" x="0"  y="0">
+		<e:Image  source="fd_top_bg"/>
+		<e:Image x="232" y="0"  source="fd_top_fenge"/>
+		<e:Image x="381" y="0"  source="fd_top_fenge"/>
+		<e:Image x="479" y="0"  source="fd_top_fenge"/>
+		<e:Image x="572" y="0"  source="fd_top_fenge"/>
+		<e:Label id="txt1PlayerName" text="" x="91" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt1Lv" text="" x="284" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt1Job" text="" x="411" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt1Sex" text="" x="505" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt1Guild" text="" x="672" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+	</e:Group>
+	<e:Group id="gHeader2" width="862" height="42" x="0"  y="0">
+		<e:Image  source="fd_top_bg"/>
+		<e:Image x="232" y="0"  source="fd_top_fenge"/>
+		<e:Image x="414" y="0"  source="fd_top_fenge"/>
+		<e:Image x="597.53" y="0"  source="fd_top_fenge"/>
+		<e:Label id="txt2PlayerName" text="" x="91" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt2Lv" text="" x="305" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt2Job" text="" x="489" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt2ShowColor" text="" x="689" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+	</e:Group>
+	<e:Group id="gHeader3" width="862" height="42" x="0"  y="0" >
+		<e:Image  source="fd_top_bg"/>
+		<e:Image x="433" y="0"  source="fd_top_fenge"/>
+		<e:Label id="txt3PlayerName" text="" x="186" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt3Lv" text="" x="636" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+	</e:Group>
+	<e:Group id="gHeader4" width="862" height="42" x="0"  y="0" >
+		<e:Image  source="fd_top_bg"/>
+		<e:Image x="232" y="0"  source="fd_top_fenge"/>
+		<e:Image x="414" y="0"  source="fd_top_fenge"/>
+		<e:Image x="616" y="0"  source="fd_top_fenge"/>
+		<e:Label id="txt4PlayerName" text="" x="91" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt4Lv" text="" x="305" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt4Job" text="" x="489" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt4Sex" text="" size="22" textColor="0xf0c896" border="false" stroke="2"  horizontalCenter="305" verticalCenter="1"/>
+	</e:Group>
+	<e:Group id="gHeader5" width="862" height="42" x="0"  y="0" >
+		<e:Image  source="fd_top_bg"/>
+		<e:Image x="556" y="0"  source="fd_top_fenge"/>
+		<e:Label id="txt5PlayerName" text="" x="186" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+		<e:Label id="txt5Date" text="" x="636" y="11" size="22" textColor="0xf0c896" border="false" stroke="2" />
+	</e:Group>
+</e:Skin>

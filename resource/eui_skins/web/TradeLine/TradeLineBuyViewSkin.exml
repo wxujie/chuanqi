@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TradeLineBuyViewSkin" width="869" height="558" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image left="0" right="712" top="0" bottom="56" source="com_bg_kuang_xian1" scale9Grid="10,9,3,3"/>
+	<e:Image left="155" right="0" top="0" bottom="56" x="10" y="10" source="com_bg_kuang_xian1" scale9Grid="10,9,3,3"/>
+	<e:Scroller width="147" horizontalCenter="-356" top="7" bottom="69">
+		<e:List id="tabList" height="481" itemRendererSkinName="TradeLineTabSkin">
+			<e:layout>
+				<e:VerticalLayout gap="-2"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="curQuota" text="" size="22" bottom="15" left="450" textColor="0xe5ddcf" stroke="2"/>
+	<e:Group width="703" horizontalCenter="78" top="4" bottom="512">
+		<e:Image source="common_liebiaoding_bg" scale9Grid="90,5,546,32" width="703"/>
+		<e:Image x="235" source="common_liebiaoding_fenge"/>
+		<e:Image x="410" source="common_liebiaoding_fenge"/>
+		<e:Image x="565" source="common_liebiaoding_fenge"/>
+		<e:Label id="itemName" text="商品名称" textColor="0xf0c896" size="23" horizontalCenter="-234.5" verticalCenter="-0.5" stroke="2"/>
+		<e:Label id="time" text="剩余时间" textColor="0xF0C896" size="23" horizontalCenter="-30.5" verticalCenter="0.5" stroke="2"/>
+		<e:Label id="price" text="价格" textColor="0xF0C896" size="23" horizontalCenter="135.5" verticalCenter="0.5" stroke="2"/>
+		<e:Label text="购买" textColor="0xF0C896" size="23" horizontalCenter="285.5" verticalCenter="0.5" stroke="2"/>
+	</e:Group>
+	<e:Scroller id="buyScroller" width="701" height="448" x="161" y="50">
+		<e:List id="buyList" itemRendererSkinName="TradeLineBuyItemViewSkin">
+		</e:List>
+	</e:Scroller>
+	<app:moneyPanel id="moneyPanel" x="164" y="514" skinName="moneyPanelSkin" width="155"/>
+</e:Skin>

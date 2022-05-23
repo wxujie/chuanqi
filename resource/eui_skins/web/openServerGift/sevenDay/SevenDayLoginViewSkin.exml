@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SevenDayLoginViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="707" height="538">
+	<e:Image source="qr_bg_png" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image y="26" source="qr_bg2" horizontalCenter="0"/>
+	<e:Label id="curLogin" text="" y="33" size="24" textColor="0xfed300" bold="true" horizontalCenter="0.5"/>
+	<e:Group width="578" height="328" verticalCenter="-7" horizontalCenter="-1">
+		<app:SevenDayItemView id="dayItem1" skinName="SevenDayItemViewSkin" left="0" top="0"/>
+		<app:SevenDayItemView id="dayItem2" skinName="SevenDayItemViewSkin" left="146" top="0"/>
+		<app:SevenDayItemView id="dayItem3" skinName="SevenDayItemViewSkin" right="146" top="0"/>
+		<app:SevenDayItemView id="dayItem4" skinName="SevenDayItemViewSkin" right="0" top="0"/>
+		<app:SevenDayItemView id="dayItem5" skinName="SevenDayItemViewSkin" left="73" bottom="0"/>
+		<app:SevenDayItemView id="dayItem6" skinName="SevenDayItemViewSkin" horizontalCenter="0" bottom="0"/>
+		<app:SevenDayItemView id="dayItem7" skinName="SevenDayItemViewSkin" right="74" bottom="0"/>
+	</e:Group>
+	<e:Image id="dayImg" source="qr_t2_2" verticalCenter="168" horizontalCenter="-50"/>
+	<e:Scroller x="38" y="460" width="367">
+		<e:List id="rewardList" itemRendererSkinName="ItemBaseSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="receiveBtn" label="领取奖励" width="113" height="46" bottom="30" right="53">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xF0C896"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="receiveImg" x="497" y="453" source="apay_yilingqu" visible="false"/>
+	<e:Label text="剩余时间：" x="217" y="73" textColor="0xFFE500" size="22" stroke="1"/>
+	<e:Label id="actTime" text="2天5时30分" x="323" y="73" textColor="0x28ee01" size="22" stroke="1"/>
+</e:Skin>

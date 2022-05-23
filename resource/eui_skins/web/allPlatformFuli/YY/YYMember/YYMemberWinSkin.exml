@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YYMemberWinSkin" width="1027" height="690" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image id="dragDropUI" source="apay_bg2_png" y="0"/>
+	<e:Image touchEnabled="false" horizontalCenter="4.5" top="61" source="YY_bt"/>
+	<e:Button id="closeBtn" label="" x="931" y="56" width="61" height="57">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2" scaleX.down="0.98" scaleY.down="0.98"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:TabBar id="tab" horizontalCenter="-460" top="116" bottom="545" itemRendererSkinName="CrossServerTabSkin">
+		<e:layout>
+		<e:VerticalLayout/>
+		</e:layout>
+	</e:TabBar>
+	<app:RedDotControl id="redPoint" left="32" top="87" visible="false"/>
+	<e:Group id="infoGrp" width="878" height="556" y="107.99" x="75.29">
+		<e:Image source="YY_banner"/>
+		<e:Image source="apay_tab_bg" scale9Grid="60,60,12,12" width="200" height="406" bottom="0" left="0"/>
+		<e:Image source="YY_bg_png" bottom="7" right="4"/>
+		<e:Image source="apay_tab_bg" width="677" height="406" bottom="0" right="0" scale9Grid="60,60,12,12"/>
+		<e:Group id="YYmemberGrp" x="647" y="116" visible="false">
+			<e:Image x="78" y="58" source="YY_t_hydj" scaleX="1" scaleY="1"/>
+			<e:Image id="YYLvImg" x="255" y="65" source="YY_t_hy1" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="2"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="openYyGrp" x="554" y="92" visible="false">
+			<e:Image x="78" y="58" scaleX="1" scaleY="1" source="YY_t_wkt"/>
+			<e:Button id="openYYBtn" label="Button" x="6" y="321" skinName="Btn0Skin" icon="YY_btn_ljkt" width="118" height="48"/>
+			<e:layout>
+			<e:HorizontalLayout gap="19" verticalAlign="bottom"/>
+			</e:layout>
+		</e:Group>
+		<e:Scroller id="btnScroller" width="185" height="388" bottom="9" left="8">
+			<e:TabBar id="tabBar" width="200" height="200" itemRendererSkinName="YYLobbyPrivilegesTabSkin">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="8"/>
+			</e:layout>
+			</e:TabBar>
+		</e:Scroller>
+		<e:Group id="giftGrp" width="643" height="382" x="219" y="163" anchorOffsetX="0" anchorOffsetY="0">
+			<app:YYMemberGiftItem id="giftItem0" x="17" y="11" skinName="YYMemberGiftItemSkin"/>
+			<app:YYMemberGiftItem id="giftItem1" x="27" y="21" skinName="YYMemberGiftItemSkin"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="35"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="fuliGrp" width="643" height="382" x="219" y="163" anchorOffsetX="0" anchorOffsetY="0">
+			<app:YYMemberNewServerItem id="fuliItem0" x="102" y="145" skinName="YYMemberNewServerItemSkin"/>
+			<app:YYMemberNewServerItem id="fuliItem1" x="112" y="155" skinName="YYMemberNewServerItemSkin"/>
+			<app:YYMemberNewServerItem id="fuliItem2" x="122" y="165" skinName="YYMemberNewServerItemSkin"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="5"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

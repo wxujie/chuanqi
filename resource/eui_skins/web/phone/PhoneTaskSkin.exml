@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PhoneTaskSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"  width="296" maxHeight="233" height="236">
+	<e:Button id="shrinkBtn" label="" icon="m_task_bg1" skinName="Btn0Skin" y="-5" width="48" height="109" x="-1"/>
+	<e:Button id="unfoldBtn" label="" icon="m_task_bg3" skinName="Btn0Skin" width="50" height="50" verticalCenter="0" scaleX="1" left="-1"/>
+	<e:Button id="teamBtn" label="Button" x="-1" y="132" skinName="Btn0Skin" icon="m_task_bg2" width="48" height="104"/>
+	<e:Image id="taskRect" x="-1.5" y="-7" source="m_task_bgh" touchEnabled="false"/>
+	<e:Image id="teamRect" x="-1.5" y="244.5" source="m_task_bgh" touchEnabled="false" scaleY="-1" visible="false"/>
+	<e:Image id="bgImg" source="m_task_k" width="253" x="49" height="233.5" y="0.5" anchorOffsetX="0" scale9Grid="11,9,1,1" anchorOffsetY="0"/>
+	<e:Group id="unfoldGrp" x="54" y="7">
+		<e:Scroller id="taskScroller" width="242" scrollPolicyH="off" maxHeight="210" height="220">
+			<e:List id="taskList" itemRendererSkinName="MainTaskItemSkin">
+			<e:layout>
+				<e:VerticalLayout paddingLeft="1" gap="-2"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="effGrp" x="188" y="29" touchEnabled="false" touchChildren="false"/>
+	<e:Group id="teamGrp" width="245" height="221" x="53.5" y="9" visible="false">
+		<e:Scroller width="233" height="202" x="4.5" y="3.5">
+			<e:List id="teamList" itemRendererSkinName="TeamMainItemViewSkin">
+				<e:layout>
+					<e:VerticalLayout gap="2.2"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image id="slidingImg" y="207.8" source="m_task_jiantou" horizontalCenter="0"/>
+		<e:Group id="btnGrp" touchEnabled="false" y="185" x="2">
+			<e:Button id="inviteTeamBtn" label="邀请组队" x="55" y="72" width="121" height="34">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" source="m_task_btn" source.down="m_task_btn" source.disabled="m_task_btn" scaleX.down="0.95" scaleY.down="0.95" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xe5ddcf"  stroke="2"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="invitePlayerBtn" label="附近玩家" x="65" y="82" width="121" height="34">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" source="m_task_btn" source.down="m_task_btn" source.disabled="m_task_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xe5ddcf" stroke="2"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+				<e:HorizontalLayout gap="1"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="btnGrp1" touchEnabled="false" y="31.65" x="60">
+			<e:Button id="inviteTeamBtn1" label="邀请组队" x="55" y="72" width="129" height="44">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" source="m_task_btn3" source.down="m_task_btn3" source.disabled="m_task_btn3" scaleX.down="0.95" scaleY.down="0.95"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="invitePlayerBtn1" label="附近队伍" x="65" y="82" width="129" height="44">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" source="m_task_btn3" source.down="m_task_btn3" source.disabled="m_task_btn3" scaleX.down="0.95" scaleY.down="0.95"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<app:SetUpCheckBoxEui id="isTeam" x="0" y="107" name="openSound" skinName="SetUpCheckBox" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:VerticalLayout gap="22" horizontalAlign="left"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<app:MainTaskLinkWin id="linkView" skinName="PhoneTaskLinkSkin" x="305" />
+</e:Skin>

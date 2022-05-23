@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NpcSkin" width="642" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="642" minHeight="300">
+		<app:UIViewFrame id="dragDropUI" top="0" left="0" right="0" bottom="0"  skinName="ViewBgWin3Skin"/>
+		<e:Group x="28" scaleX="1" scaleY="1" top="36" bottom="30" anchorOffsetY="0" touchEnabled="false">
+			<e:Label id="npcName" text="" x="29" y="31" size="21" textColor="0x28ee01" touchEnabled="false" stroke="2"/>
+			<e:Label id="descLabel" text="" x="30" y="67" size="21" width="582" lineSpacing="9" touchEnabled="false" stroke="2" textColor="0xe5ddcf"/>
+			<e:Group x="108" y="150">
+				<e:List id="transList" itemRendererSkinName="NpcLabelRendererSkin" x="5" y="40">
+					<e:layout>
+					<e:TileLayout horizontalGap="26" verticalGap="26" columnWidth="288" requestedColumnCount="2"/>
+					</e:layout>
+				</e:List>
+			<e:List id="list" y="35" itemRendererSkinName="NpcRendererSkin" x="2" anchorOffsetX="0" visible="false">
+				<e:layout>
+				<e:VerticalLayout gap="16"/>
+				</e:layout>
+			</e:List>
+			</e:Group>
+			<e:layout>
+			<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lookRewardLab" text="" size="21" stroke="2" right="42" top="36" textColor="0x28ee01"/>
+	</e:Group>
+</e:Skin>

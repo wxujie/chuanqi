@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpBasicsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+    <e:Group width="579" height="98" x="24" y="67" anchorOffsetX="0" anchorOffsetY="0">
+        <e:layout>
+            <e:TileLayout requestedColumnCount="4" horizontalGap="140" verticalGap="14" />
+        </e:layout>
+        <app:SetUpCheckBoxEui id="checkBox1" skinName="SetUpCheckBox" name="checkBox1" />
+        <app:SetUpCheckBoxEui id="checkBox2" skinName="SetUpCheckBox" name="checkBox2" />
+        <app:SetUpCheckBoxEui id="checkBox3" skinName="SetUpCheckBox" name="checkBox3" />
+        <app:SetUpCheckBoxEui id="checkBox4" skinName="SetUpCheckBox" name="checkBox4" />
+        <app:SetUpCheckBoxEui id="checkBox5" skinName="SetUpCheckBox" name="checkBox5" />
+        <app:SetUpCheckBoxEui id="autoTask" skinName="SetUpCheckBox" name="checkBox5" />
+        <app:SetUpCheckBoxEui id="counterAtk" skinName="SetUpCheckBox" name="checkBox5" />
+        <app:SetUpCheckBoxEui id="shieldPet" skinName="SetUpCheckBox" name="checkBox5" />
+    </e:Group>
+    <e:Group id="skillGroup" x="23" y="220">
+        <e:layout>
+            <e:TileLayout requestedColumnCount="4" horizontalGap="140" verticalGap="14" />
+        </e:layout>
+    </e:Group>
+</e:Skin>

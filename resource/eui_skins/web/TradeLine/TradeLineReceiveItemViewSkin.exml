@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TradeLineReceiveItemViewSkin" width="855" height="79" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="itemBg" left="0" right="0" top="0" bottom="0" scale9Grid="9,8,1,1" source="bg_quyu_2"/>
+	<app:ItemBase id="curItem" skinName="ItemBaseSkin" verticalCenter="0.5" left="40"/>
+	<e:Label id="itemName" text="" size="21" left="110" verticalCenter="0" textColor="0xFF22ED" stroke="2"/>
+	<e:Image id="itemState" source="trade_zt1" verticalCenter="-0.5" horizontalCenter="-23.5"/>
+	<e:Group horizontalCenter="162" verticalCenter="0.5">
+		<e:Image source="icon_yuanbao"/>
+		<e:Label id="curMoney" text="" size="21" stroke="2" textColor="0xe5ddcf"/>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="6"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="receiveBtn" label="领  取" x="729" y="20" skinName="Btn9Skin"/>
+</e:Skin>

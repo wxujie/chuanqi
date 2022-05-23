@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsDropSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="30">
+	<e:Group bottom="0" width="125">
+		<e:Image left="0" right="0" top="0" bottom="0" x="0" y="0" source="com_bg_kuang_xian3" scale9Grid="5,5,34,34"/>
+		<e:Label id="txt" text="" left="6" right="4" top="8" bottom="8" size="14" textAlign="left" x="4" y="8" textColor="0xe5ddcf" stroke="1" lineSpacing="3"/>
+	</e:Group>
+	
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamMainItemViewSkin" width="233" height="52" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lbPlayerName" text="斩你个娃儿" size="20" left="59" stroke="2" textColor="0xe5ddcf" y="7"/>
+	<e:Image id="iconLeader" y="2.3" source="m_task_duizhang" right="7"/>
+	<e:Image id="lbJob" x="5" y="4.5" source="m_task_zy1"/>
+	<e:Label id="playerLevel" text="4转125" size="15" textColor="0xe5ddcf" stroke="2" verticalCenter="16.3" horizontalCenter="-89"/>
+	<e:ProgressBar id="hpBar" value="100" name="bar2" x="60" y="33">
+		<e:Skin xmlns:app="app.*">
+		<e:Image source="m_task_hp1" scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0"/>
+		<e:Image id="thumb" height="100%" width="100%" source="m_task_hp2"/>
+		<!--<e:Label id="labelDisplay" textAlign="center" stroke="2" verticalAlign="middle" size="20" textColor="0xe5ddcf" horizontalCenter="0" verticalCenter="0"/>-->
+		</e:Skin>
+	</e:ProgressBar>
+</e:Skin>

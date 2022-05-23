@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skillItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="55" width="55"  states="up,down" >
+	<e:Image id="skillIcon" source="skillicon_ds1" scaleX.down="0.95" scaleY.down="0.95" width="55" height="55" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="itemCount" text="1" y="39" size="16" right="3" textColor="0x0cf214" touchEnabled="false" stroke="2"/>
+	<e:Rect id="rect" width="55" height="55" x="0" fillAlpha="0.7" bottom="0" maxHeight="55" maxWidth="55"/>
+</e:Skin>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildSetViewSkin" width="426" height="301" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="426" height="301" x="0">
+		<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin6Skin" width="426" height="301"/>
+		<e:Label id="txt0" text="" x="34" y="106" size="22" verticalAlign="middle" textColor="0xebc592"/>
+		<e:Label id="txt1" text="" x="34" y="156" size="22" textColor="0xEBC592" verticalAlign="middle"/>
+		<e:Label id="txt2" text="" x="228.12" y="109" size="22" textColor="0xEBC592" verticalAlign="middle"/>
+		<e:Label id="txt3" text="" x="318" y="109" size="22" textColor="0xEBC592" verticalAlign="middle"/>
+		<e:Label id="txt4" text="" x="241" y="156" size="22" textColor="0xEBC592" verticalAlign="middle"/>
+		<e:CheckBox id="checkYes" x="187" skinName="CheckBox2" name="tabRed" y="100"/>
+		<e:CheckBox id="checkNo" x="278" skinName="CheckBox2" name="tabRed" y="100"/>
+		<e:Button id="btnCancel" label="" x="247" y="240" width="109" height="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnConfirm" label="" x="73" y="240" width="109" height="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="ltk_4" x="147" y="151"  width="87" height="32" scale9Grid="10,10,2,1"/>
+		<e:TextInput id="levelTpText" width="87" height="32" x="147" y="151"  skinName="TextInputSkin" restrict="0-9"/>
+	</e:Group>
+	
+</e:Skin>

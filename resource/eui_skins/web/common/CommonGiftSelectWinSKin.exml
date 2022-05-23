@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonGiftSelectWinSKin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect" left="0" right="0" top="0" bottom="0" fillAlpha="0.3"/>
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<app:UIViewFrame id="dragDropUI" horizontalCenter="0" top="0" bottom="0" skinName="ViewBgWin5Skin"/>
+		<e:Label text="请从以下道具中选择一种" y="59" size="20" textColor="0x988c68" horizontalCenter="0" x="129" scaleX="1" scaleY="1"/>
+		<e:Image source="chat_bg_bg1_png" horizontalCenter="0" verticalCenter="12" height="168" scale9Grid="168,68,94,59" x="17" y="98" scaleX="1" scaleY="1" visible="false"/>
+		<e:Scroller id="itemScroller" width="379" height="148" x="51" y="104" scaleX="1" scaleY="1">
+			<e:List id="itemList" x="51" y="104" itemRendererSkinName="ItemSelectBaseSkin">
+			<e:layout>
+				<e:TileLayout requestedRowCount="2" requestedColumnCount="5"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="receiveBtn" label="领取奖励" horizontalCenter="0" bottom="15" x="183" y="279" scaleX="1" scaleY="1" width="113" height="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image  source="tips_btn" source.down="tips_btn" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SoldierSoulUpRefineViewSkin" width="709" height="562" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="-1.5" source="forge_bg4_png" verticalCenter="0"/>
+	<e:Image source="forge_bg3" x="84.99" y="148" anchorOffsetX="0" width="211" anchorOffsetY="0" height="200" scale9Grid="22,21,1,1"/>
+	<e:Image source="forge_bg3" x="65.33" y="357.97" anchorOffsetX="0" width="614" anchorOffsetY="0" height="192" scale9Grid="22,21,1,1"/>
+	<e:Image source="forge_bg3" x="430.95" y="148" anchorOffsetX="0" width="211" anchorOffsetY="0" height="200" scale9Grid="22,20,1,1"/>
+	<e:Image x="331.66" y="199.62" source="forge_btjt"/>
+	<e:Image source="forge_bt2" x="467.71" y="158.32"/>
+	<e:Image x="95.64" y="158.65" source="forge_bt1"/>
+	<e:Button id="btnRefining" label="洗  炼" y="494" skinName="Btn9Skin" horizontalCenter="18"/>
+	<e:Image source="achievement_json.ach_xunzhangbg" y="24" horizontalCenter="18"/>
+	<e:Image width="60" height="60" x="344" y="53" source="quality_4"/>
+	<e:Image id="itemIcon" width="60" height="60" x="344" y="53"/>
+	<e:Scroller width="200" height="112" x="437" y="190" anchorOffsetY="0">
+		<e:List id="listNewAttr" width="200" x="619" y="190" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="ForgeRefiningAttrItemSkin">
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btnReplace" label="替  换" x="484" y="298" skinName="Btn9Skin" visible="false"/>
+	<e:Label id="lbFail" text="很遗憾您洗炼失败了" x="456" y="235" size="18" textColor="0xF22626" visible="false"/>
+	<e:List id="listCurAttr" width="199" y="190" itemRendererSkinName="ForgeRefiningCurrAttrItemSkin" horizontalCenter="-164">
+	</e:List>
+	<e:List id="listMoney" width="226" x="77" y="370" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="ForgeRefiningMoneyItemSkin">
+		<e:layout>
+		<e:VerticalLayout gap="6"/>
+		</e:layout>
+	</e:List>
+	<e:List id="listGoods" height="123" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="ForgeRefiningNeedGoodsItem" y="371" horizontalCenter="109">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:List>
+	<e:Label id="lbShowDesc" text="查看详情" y="131" size="18" textColor="0xE68246" borderColor="0xD82929" horizontalCenter="14.5"/>
+	<e:Label id="lbReplaceState" text="更好极品属性\n已自动替换" x="486.26" y="307" size="17" textAlign="center" textColor="0xF0C896" visible="false"/>
+	<e:Label id="upTips" text="救主灵刃3阶后可升星" x="79" y="511" size="20" stroke="2" textColor="0xFF7700"/>
+</e:Skin>

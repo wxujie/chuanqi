@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn26Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width="137" height="56">
+	<e:Image source="tq_btn" source.down="tq_btn" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter.down="0" verticalCenter.down="0" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" source=""/>
+</e:Skin>

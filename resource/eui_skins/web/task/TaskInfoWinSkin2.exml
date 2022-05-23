@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskInfoWinSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="469" height="478">
+	<e:Image id="dragDropUI" source="task_k1_png"/>
+	<e:Label id="title" text="标题" y="15" size="24" textColor="0xfefac6" stroke="2" horizontalCenter="-21.5" touchEnabled="false"/>
+	<e:Image id="rewardImg" left="36" bottom="197" source="task_rwjj"/>
+	<e:Label id="taskDesc" text="" size="22" width="362" height="114" lineSpacing="7" verticalCenter="-111" horizontalCenter="-18.5" stroke="2" textColor="0xe5ddcf"/>
+	<e:Label id="taskAims" text="" size="22" width="353" verticalCenter="-22.5" horizontalCenter="-21" textColor="0xe5ddcf" stroke="2"/>
+	<e:Scroller width="348" bottom="120" horizontalCenter="-19.5">
+		<e:List id="rewardList" itemRendererSkinName="ItemBaseSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="12"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="sureBtn" label="接收任务" bottom="53" horizontalCenter="-27" icon="open_btn" width="113" height="46">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="open_btn" source.down="open_btn" source.disabled="open_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"  textColor="0xf0c896" stroke="1"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="effGrp" x="205.33" y="401.33" touchEnabled="false"/>
+	<e:Label id="autoTask" text="无操作2秒后自动点击" size="15" textColor="0x28ee01" touchEnabled="false" y="427" right="65" stroke="2"/>
+	<e:Button id="closeBtn" label="" x="404" y="-9" width="60" scaleX="1.2" scaleY="1.2">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

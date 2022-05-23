@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliGame2BindingGiftSkin" width="758" height="433" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*">
+	<e:Image source="bg_wanshanziliao_png" />
+	<e:List id="itemList" verticalCenter="70" horizontalCenter="0" itemRendererSkinName="FuLi4366ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="20" />
+		</e:layout>
+	</e:List>
+	<e:Button id="bindingBtn" label="" icon="btnt_qwyz" skinName="Btn31Skin" y="354"  x="307"/>
+	<e:Button id="getBtn" label="" y="356" width="144" height="62" x="307">
+        <e:skinName>
+            <e:Skin states="up,down,disabled" xmlns:app="app.*">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"
+                         source="lingqu_bt" source.down="lingqu_bt" source.disabled="lingqu_bt" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<app:RedDotControl id="redPoint" x="430" y="361" />
+	<e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="0.5" bottom="111" />
+</e:Skin>

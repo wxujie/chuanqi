@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SwitchPlayerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="110">
+	<e:Image source="chat_bg_bg1_png" anchorOffsetX="0" width="347" anchorOffsetY="0" height="110" y="0" x="0" scale9Grid="55,57,334,87"/>
+	<e:Image id="selectImg" source="common_liebiaoxuanzhong" scale9Grid="6,6,38,36" anchorOffsetX="0" width="349" x="-1" y="-2" anchorOffsetY="0" height="113" visible="false"/>
+	<e:Image source="name_touxiangk" x="10" y="12"/>
+	<e:Image id="hairImage" x="15" y="18" source="name_1_0"/>
+	<e:Label id="nameLabel" text="" x="120" y="20" size="20" textColor="0xcf15e1"/>
+	<e:Label id="levelLabel" text="" x="120" y="47" size="18" textColor="0xbca384"/>
+	<e:Label id="guildLabel" text="" x="120" y="72" size="18" textColor="0xbca384"/>
+</e:Skin>

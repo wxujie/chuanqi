@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RolePetSkin" width="379" height="443" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image pixelHitTest="true" touchEnabled="false" source="chongwu_bg_png" />
+	<e:Group horizontalCenter="-25" height="443" width="300">
+		<e:Image source="chongwu_bg1" y="300" horizontalCenter="0" />
+		<e:Image source="chongwu_bg2" horizontalCenter="0.5" y="40" />
+		<e:Group id="effGrp" verticalCenter="40" horizontalCenter="0" />
+		<e:Image id="imgName" horizontalCenter="0.5" y="52"  source=""/>
+		<e:Image id="iconState" source="chongwu_btn" horizontalCenter="0" y="252" />
+		<e:Label id="labAttribute" size="16" horizontalCenter="0" text="宠物名字宠物名字\n宠物名字\n宠物名字\n宠物名字" textAlign="center"
+		         lineSpacing="5" verticalCenter="121" stroke="2" textColor="0xe5ddcf" />
+		<e:Label id="labTips" size="16" text="自动拾取范围：7*7" textAlign="left" stroke="2" textColor="0xe5ddcf" x="210" y="400" />
+		<e:Button id="btn_goOut" label="升 级" y="390" skinName="Btn4Skin" horizontalCenter="0.5" />
+	</e:Group>
+	<e:Scroller x="280" y="30" height="340">
+		<e:TabBar id="iconList" name="list" y="2" itemRendererSkinName="RolePetItemSkin">
+			<e:layout>
+				<e:VerticalLayout paddingLeft="25" paddingRight="10" gap="5" paddingTop="5" paddingBottom="0" />
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object ds="null" />
+					<e:Object ds="null" />
+					<e:Object ds="null" />
+					<e:Object ds="null" />
+					<e:Object ds="null" />
+				</e:Array>
+			</e:ArrayCollection>
+		</e:TabBar>
+	</e:Scroller>
+</e:Skin>

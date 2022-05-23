@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendFunMenuBtnSkin" width="109" height="44" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="menuBtn" label="设置颜色" x="0" y="0" skinName="Btn9Skin"/>
+</e:Skin>

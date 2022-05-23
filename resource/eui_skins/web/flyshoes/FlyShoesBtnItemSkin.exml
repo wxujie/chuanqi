@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FlyShoesBtnItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="126" height="43">
+	<e:Image id="select" y="3" x="3" source="com_yeqian_4" smoothing="false" scaleX="0.9" scaleY="0.9"/>
+	<e:Group width="136" height="46" x="2" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.9" scaleY="0.9">
+		<e:Label id="nameTf" text="" x="38" y="14.22" size="22" textColor="0xeddcc0"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

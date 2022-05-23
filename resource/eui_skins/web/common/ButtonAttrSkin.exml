@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ButtonAttrSkin" width="34" height="71"  states="up,down" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+		<e:Image source.down="btn_shuxing_bg" source="btn_shuxing_bg"/>
+		<e:Image id = "img" x="8" y="9" source="btn_shuxing_1"/>
+</e:Skin>

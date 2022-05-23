@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ButtonRoleSkin" width="62" height="62" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  >
+	<e:Button skinName="CommonBtnSkin"  anchorOffsetX="0.5" anchorOffsetY="0.5" >
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopItemViewSkin" width="224" height="143" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Group id="gp" width="224" height="143" x="0" y="0">
+		<e:Image id="bg" source="shop_bg" x="0" y="0" />
+		<e:Image source="shop_iconk" x="22" y="63"/>
+		<e:Image source="shop_bg_xian" x="11" y="43"/>
+		<e:Label id="shopItemNameLb" text="绑定金币" size="22" verticalCenter="-43.5" horizontalCenter="-4"  textColor="0xf0c896" stroke="2"/>
+		<e:Group id="surplusCountLb" width="112" height="20" x="103" y="64" >
+			<e:Label id="numTxt" text="" size="18" horizontalCenter="-10" verticalCenter="0"  width="91" x="0" y="1"  textColor="0xe5ddcf" stroke="2"/>
+			<e:Label id="numLb" text="" size="18"  width="32" x="81" y="0.7"  textColor="0xe5ddcf" stroke="2"/>
+		</e:Group>
+		<e:Image id="goodsItem" source="11027" x="22.33" y="63.67"/>
+		<e:Label id="countLb" text="10" y="105" size="18" textColor="0xdcd2be" right="142" stroke="1"/>
+	</e:Group>
+</e:Skin>

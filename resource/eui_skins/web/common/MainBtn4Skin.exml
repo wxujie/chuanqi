@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainBtn4Skin" states="up,down,disabled" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="42" height="42">
+<e:Image id="iconDisplay" 
+	         x.down="0" y.down="1"  scaleX.down="0.95" scaleY.down="0.95"  verticalCenter="0" horizontalCenter="0" source="m_icon_shangcheng"/>
+	<e:Image id="redImage" width="20" height="20" right="-9" top="-7" touchEnabled="false" source="common_hongdian"  visible="false"/>
+</e:Skin>

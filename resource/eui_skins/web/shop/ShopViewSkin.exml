@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopViewSkin" width="910" height="645" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="win" width="910" height="645" x="0" y="0">
+		<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin1Skin" />
+		<e:TabBar id="optTab" x="28" y="61" itemRendererSkinName="TradeLineTabSkin" anchorOffsetX="0">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="-3" />
+			</e:layout>
+		</e:TabBar>
+		<e:Group height="496" x="185" y="56" width="697" touchEnabled="false">
+			<e:Group id="bannerGrp" horizontalCenter="0">
+				<e:Image id="imgBanner" source="shop_yybsc" />
+				<e:Image source="shop_yyb_bannert"  x="365" y="39"/>
+				<e:Image source="shop_yyb_bannert2"  x="173" y="14"/>
+				<e:Label id="timeLabel" text="倒计时：3天29小时59分" y="75" size="18" textColor="0x28EE01" scaleX="1" scaleY="1" stroke="2" right="15" />
+			</e:Group>
+			<e:Label id="noListTipsLb" text="" textAlign="center" verticalAlign="middle" horizontalCenter="0" verticalCenter="0"
+			         textColor="0xDCD2BE" stroke="1" visible="false" />
+			<e:Scroller id="scroller" top="0" bottom="5">
+				<e:List id="gList" height="503" x="3" y="0" itemRendererSkinName="ShopItemViewSkin">
+					<e:layout>
+						<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" verticalGap="5" horizontalGap="7"
+						              paddingLeft="10" paddingTop="10" requestedColumnCount="3" />
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Button id="btnExchangeMoney" label="兑换绑金" x="758" y="564" skinName="Btn30Skin" width="113" height="46"
+		           visible="false"/>
+		<e:Label id="txt0" text="" size="22" verticalCenter="265" horizontalCenter="-325.5" textColor="0xf0c896" x="68"
+		         y="569"  visible="false"/>
+		<app:RuleTipsButton label="Button" x="33" y="570.33" ruleId="17" />
+		<e:Image source="com_bg_kuang_4_png" x="180" y="52.32" />
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityCommonViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="470">
+	<app:UIViewFrame id="dragDropUI"  skinName="ViewBgWin5Skin"/>
+	<e:Label id="strLab" text="" width="394" height="180" textAlign="center" verticalAlign="middle" size="21" verticalCenter="-12" horizontalCenter="-1" lineSpacing="7" textColor="0xe5ddcf" stroke="2"/>
+	<e:Button id="closeBtn" label="知道了" x="181" y="286" width="109" height="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

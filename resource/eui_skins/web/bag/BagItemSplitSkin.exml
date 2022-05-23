@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagItemSplitSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="300" height="347">
+	<e:Group width="300" height="347" touchEnabled="false">
+		<e:Image id="dragDropUI" source="9s_tipsbg" scale9Grid="12,11,1,1" left="0" right="0" top="0" bottom="0"/>
+		<e:Image id="imgBg" left="0" right="0" top="0" bottom="0" source="bag_piliangbg_2" scale9Grid="24,73,2,5"/>
+		<e:Image source="9s_tipsk" scale9Grid="13,12,2,3" left="0" right="0" top="0" bottom="0" touchEnabled="false"/>
+		<e:Image x="8.4" y="88.8" source="bag_fengexian"/>
+		<e:Label id="itemName" text="金砖" x="98" y="25.8" size="20" textColor="0xff1ac2" stroke="2"/>
+		<e:Label id="curItemNum" text="数量:20" size="18" stroke="2" x="98.06" y="59.53" textColor="0x1affff"/>
+		<e:Label text="物品拆分后将分为两堆，请选择需要拆分的数量" x="18.4" y="107.4" size="20" textColor="0xe5ddcf" stroke="2" width="260" lineSpacing="5"/>
+		<e:Group horizontalCenter="-96" bottom="263">
+			<e:Image id="itemBg" source="quality_2"/>
+			<e:Image id="curItem" horizontalCenter="0" verticalCenter="0" source="10001"/>
+		</e:Group>
+		<e:Button id="sure" label="拆  分" icon="btn_0" skinName="Btn9Skin" horizontalCenter="-0.5" bottom="17"/>
+		<e:Button id="maxBtn" label="Button" skinName="Btn0Skin" icon="com_jia" right="61" bottom="83"/>
+		<e:Button id="minBtn" label="Button" skinName="Btn0Skin" icon="com_jian" bottom="83" left="59"/>
+		<e:Button id="minimumBtn" label="Button" skinName="Btn0Skin" icon="com_jianjian" bottom="83" left="19"/>
+		<e:Button id="biggestBtn" label="Button" skinName="Btn0Skin" icon="com_jiajia" bottom="83" left="251"/>
+		<e:Button id="Cancels" label="取  消" icon="btn_0" skinName="CloseButtonSkin" right="3" top="2"/>
+		<e:Image source="com_bg_kuang_xian2" scale9Grid="3,3,18,18" width="99" height="35" horizontalCenter="0.5" bottom="80" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:EditableText id="inputNum" width="85.67" height="26" text="0" size="20" textAlign="center" horizontalCenter="0" bottom="84" restrict="0-9" verticalAlign="middle" anchorOffsetX="0" stroke="2"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendBlackListItemSkin" width="867" height="48" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="state_1" source="bg_quyu_1" x="0" y="0" width="867" scale9Grid="9,9,1,1" height="48"/>
+	<e:Image id="state_2" source="bg_quyu_2" x="0" y="0" width="867" height="48" scale9Grid="9,9,1,1"/>
+	<e:Image id="selected" source="friend_json.liebiaoxuanzhong" x="1.5" y="-1" scale9Grid="22,22,2,1" width="863" visible="false"/>
+	<e:Label id="playerName" text="" x="186" y="8" stroke="1" textColor="0xdcd2be"/>
+	<e:Label id="playerLevel" text="" x="636" y="8" stroke="1" textColor="0xDCD2BE"/>
+</e:Skin>

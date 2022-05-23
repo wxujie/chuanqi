@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityCopiesItem2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="433"
+        height="235">
+    <e:Image  source="Act_hdk2_png"/>
+    <e:Image id="imgBg" horizontalCenter="0" verticalCenter="0"  source="Act_hdbg2_1_png"/>
+    <e:Image id="title" source="Act_biaoti_1" horizontalCenter="0.5" top="11" />
+    <e:Label id="systemJieShao" text=""
+             width="407" height="80" size="20"  verticalCenter="-34.5" horizontalCenter="1" stroke="1" textColor="0xe0ae75"/>
+	<e:Group id="rewardGp" width="251" height="108" x="6" y="122">
+		<e:Image source="Act_jlyl" bottom="80" left="11" x="12" y="5"/>
+		<e:Image width="246" height="74" bottom="3" horizontalCenter="-0.5" source="Act_jlyl_bg" scale9Grid="8,30,2,9" x="3" y="31"/>
+			<e:List id="itemList" width="192" horizontalCenter="-22.5" bottom="10" x="10" y="75" itemRendererSkinName="ItemBaseSkin" anchorOffsetX="0">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			</e:List>
+		<e:Button id="btnMore" label="" x="211" y="38" anchorOffsetX="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="Act_gengduo" source.down="Act_gengduo"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<app:RuleTipsButton id="rule" label="Button" ruleId="1" horizontalCenter="68.5" bottom="21"/>
+	<e:Label id="residueCount" text="" textColor="0xf0c896" size="15" verticalCenter="50" horizontalCenter="144"/>
+	<e:Button id="enterFb" label="进 入" x="313" y="179" skinName="Btn9Skin"/>
+	<app:RedDotControl id="redPoint" y="175" x="409" visible="false"/>
+</e:Skin>

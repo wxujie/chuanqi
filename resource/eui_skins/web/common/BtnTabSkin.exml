@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnTabSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Image horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" source="common_yeqian_6"/>
+	<e:Image source="common_yeqian_5" visible.up="false" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="labelDisplay" text="{data}" width="26" size="21" bold="true" textColor="0xf0c896" x.up="17" y.up="23" textColor.up="0xa6a197" verticalCenter.up="1" x.down="14" width.up="22" verticalCenter.down="0" horizontalCenter="3" verticalCenter="0" horizontalCenter.up="4" horizontalCenter.down="5"/>
+</e:Skin>

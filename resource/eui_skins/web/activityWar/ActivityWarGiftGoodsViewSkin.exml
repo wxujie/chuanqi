@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityWarGiftGoodsViewSkin" width="576" height="452" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<app:UIViewFrame id="dragDropUI" skinName="UIViewFrameSkin" currentState="default12" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Image source="apay_tab_bg" x="8.6" y="45" scale9Grid="60,60,12,12" width="557" height="335.67" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="btnCannel" label="取消" width="113" height="46" x="83" y="389" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" />
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnBuy" label="购买" width="113" height="46" x="368" y="389" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" />
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="bg" x="26" y="89" fillMode="scale" scale9Grid="12,11,1,1" anchorOffsetX="0" width="527" anchorOffsetY="0" height="284" scaleX="1" scaleY="1" source="com_bg_kuang_xian2"/>
+	<e:Label id="lbTitle" text="购买至尊凭证可以直接获得以下所有奖励！" size="20"  textAlign="center" horizontalCenter="11" verticalCenter="-153" textColor="0x28ee01" stroke="2"/>
+	<e:Scroller width="523" height="278" x="28" y="93" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list" itemRendererSkinName="ItemBaseSkin">
+			<e:layout>
+				<e:TileLayout horizontalGap="15" paddingLeft="6"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

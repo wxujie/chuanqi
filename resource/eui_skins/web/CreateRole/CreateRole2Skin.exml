@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CreateRole2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" fillAlpha="1" />
+	<e:Group id="group" width="1344" height="840" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bgImg" horizontalCenter="0" verticalCenter="0" source="login_bg2_jpg" />
+		<e:Label id="timeLab" text="" size="22" textColor="0x28ee01" x="530" y="677" width="300" textAlign="center" />
+		<e:Group id="roleGrp" y="583.33" x="482" scaleX="0.9" scaleY="0.9" />
+		<e:Rect id="rect" width="60" height="70" y="414" x="447" visible="false"/>
+		<e:Group x="769" y="360">
+			<e:Button id="job1" label="战士" icon="login_zs_2" skinName="Btn23Skin" />
+			<e:Button id="job2" label="法师" icon="login_fs_2" skinName="Btn23Skin" x="135.52" y="-1" />
+			<e:Button id="job3" label="道士" icon="login_ds_2" skinName="Btn23Skin" x="283.49" y="-1" />
+			<e:layout>
+				<e:HorizontalLayout gap="4" />
+			</e:layout>
+		</e:Group>
+		<e:Group x="802" y="501">
+			<e:Button id="boy" label="男" icon="login_nan_2" skinName="Btn23Skin" x="2" />
+			<e:Button id="girl" label="女" icon="login_nv_2" skinName="Btn23Skin" x="149" />
+			<e:layout>
+				<e:HorizontalLayout gap="8" />
+			</e:layout>
+		</e:Group>
+		<e:Group x="577" y="697.67" width="208" height="90">
+			<e:Button id="createBtn" label="按钮" icon="login_btn" x="0" skinName="Btn0Skin" scaleX="0.7" scaleY="0.7" />
+
+		</e:Group>
+		<e:Group id="createMcGrp" x="680" y="744" touchEnabled="false" touchChildren="false" touchThrough="false" />
+		<e:Button id="diceBtn" label="按钮" skinName="Btn0Skin" icon="login_suiji" x="974" y="265" scaleX="1.2" scaleY="1.2" />
+		<e:EditableText id="nameInput" width="172" text="" x="793" y="272" size="24" textAlign="center" verticalAlign="middle" />
+	</e:Group>
+	<e:Button id="closeButton" label="Button" right="10" top="10" scaleX="0.7" scaleY="0.7" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="create_btn_fanhui" horizontalCenter="0" verticalCenter="0" scaleX.up="1" scaleY.up="1"
+				         scaleX.down="0.95" scaleY.down="0.95" source.down="create_btn_fanhui" source.disabled="create_btn_fanhui" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

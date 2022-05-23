@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuanZhiSkin" width="912" height="646" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin1Skin"/>
+	<e:Image source="bg_gz_png" x="24" y="57"/>
+	<e:Image id="gzImage" x="421" y="93" touchEnabled="false" source="gz_zw_0"/>
+	<e:Image id="curGzImage" x="212" y="206" touchEnabled="false" source="gz_zw_0"/>
+	<e:Image id="nextGzImage" x="552" y="205" touchEnabled="false" source="gz_zw_0"/>
+	<e:Image id="jiantou" x="428" y="295" source="sx_jiantou" scaleX="1.42" scaleY="1.42"/>
+	<e:Label id="currentLabel" text="当前官职：" x="332" y="101" stroke="2" size="22" textColor="0xeee104"/>
+	<e:Label id="levelLabel" text="" y="437" stroke="2" size="22" textColor="0xe5ddcf" horizontalCenter="0"/>
+	<e:Label id="txt_get" text="" size="20" textAlign="left" textColor="0x32FC00" multiline="false" italic="false" x="787" y="583" stroke="2"/>
+	<e:List id="gCurList" name="list" itemRendererSkinName="FourImagesAttrItemCurSkin" verticalCenter="-3" x="237">
+		<e:layout>
+		<e:VerticalLayout gap="6"/>
+		</e:layout>
+	</e:List>
+	<e:List id="gNextList" name="list" itemRendererSkinName="FourImagesAttrItemCurSkin" verticalCenter="-3" x="576">
+		<e:layout>
+		<e:VerticalLayout gap="6"/>
+		</e:layout>
+	</e:List>
+	<e:List id="costList" y="488" itemRendererSkinName="FourImagesCostItemSkin" horizontalCenter="50">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="2"/>
+		</e:layout>
+	</e:List>
+	<e:Button id="btnUp" label="升阶官职" x="413.32" y="558.99" skinName="Btn9Skin"/>
+	<e:Label id="isMaxLab" text="当前职位已达满级" x="378" y="443" textColor="0xeee014" size="22" stroke="2" visible="false"/>
+	<app:RedDotControl id="redPoint" x="509.34" y="553.67" visible="false"/>
+</e:Skin>

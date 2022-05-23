@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SignItemViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="96" height="95">
+	<e:BitmapLabel id="bmpLb" font="signNum_2_fnt" text="16" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-27" verticalCenter="7.5" visible="false"/>
+	<e:Image source="flqd_bg1" scale9Grid="24,23,2,3" left="0" right="0" top="0" bottom="0" alpha="0.9"/>
+	<e:Image id="imgIcon" source="13398" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="itemCount" text="20" size="16" bottom="5" right="5" textColor="0xe5ddcf" stroke="2"/>
+	<e:Label id="curDay" text="12月8号" textColor="0xe5ddcf" stroke="2" size="16" left="5" top="7" visible="false"/>
+	<e:Image id="lastImg" source="flqd_bg2" scale9Grid="21,23,2,2" left="2" right="2" top="2" bottom="2"/>
+	<e:Image id="imgToday" source="flqd_bg3" scale9Grid="28,24,3,6" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="imgYiqiandao" source="flqd_qd1" horizontalCenter="-31" verticalCenter="-29.5" scaleX="0.7" scaleY="0.7" rotation="-45"/>
+	<e:Image id="signLab" source="flqd_djqd" horizontalCenter="0" verticalCenter="0" visible="false"/>
+</e:Skin>

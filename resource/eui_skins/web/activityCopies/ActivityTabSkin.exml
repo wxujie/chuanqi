@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityTabSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="261" height="81" states="up,down" >
+	<e:Image source="act_tab1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="onGoingImg" source="act_tab2" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="openImg" source="act_tab3" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="actIconImg" source="act_icon2" left="16" verticalCenter="-6.5"/>
+	<e:Image source="act_tab4" scale9Grid="108,33,7,5" left="0" right="0" top="0" bottom="0" visible.up="false"/>
+	<e:Label id="actName" text="水晶鉴定" y="15.02" size="20" textColor="0xf0c896" stroke="2" left="109"/>
+	<e:Label id="actState" text="活动进行中" y="48.72" size="20" stroke="2" textColor="0x28ee01" left="109"/>
+	<app:RedDotControl id="redPoint" width="20" height="20" x="239" y="6"/>
+</e:Skin>

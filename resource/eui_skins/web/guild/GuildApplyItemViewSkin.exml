@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildApplyItemViewSkin" width="685" height="81" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="gp" width="685" height="81" x="0" y="0">
+		<e:Image id="bg0"   scale9Grid="14,14,1,1"  source="guild_lbbg2"/>
+		<e:Label id="roleNameLb" text="冰雪真好玩" x="36" y="13" size="22"  textColor="0xff7700" stroke="2"/>
+		<e:Group x="34" y="48">
+			<e:Label id="roleLevelLb" text="32级" x="-12" y="-3" size="20" stroke="2" textColor="0xe5ddcf" scaleX="1" scaleY="1"/>
+			<e:Label id="rolePrensionLb" text="女法师" x="38" y="-3" size="20" stroke="2" textColor="0xe5ddcf" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:HorizontalLayout gap="8"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="rejectBtn" label="" x="445" verticalCenter="1.5" skinName="Btn9Skin"/>
+		<e:Button id="agreeBtn" label="" x="568" verticalCenter="1.5" skinName="Btn9Skin"/>
+	</e:Group>
+</e:Skin>

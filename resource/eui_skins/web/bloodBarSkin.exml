@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bloodBarSkin" width="40" height="5" xmlns:e="http://ns.egret.com/eui">
+	<e:Image left="0" right="0" top="0" bottom="0" scale9Grid="2,1,45,2" source="boolBg"/>
+	<e:Image id="thumb" fillMode="scale" left="1" right="1" top="1" bottom="1" source="boolRed"/>
+	<e:Label id="labelDisplay"
+	         size="14"
+	         horizontalCenter="0" verticalCenter="-9" textColor="0xFFFFFF" stroke="1" strokeColor="0x000000"/>
+</e:Skin>

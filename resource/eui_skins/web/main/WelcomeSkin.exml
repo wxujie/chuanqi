@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WelcomeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect top="0" right="0" left="0" bottom="0" fillAlpha="0.55"/>
+		<e:Group verticalCenter="-40" horizontalCenter="-10" height="467" width="825" touchChildren="false" touchEnabled="false">
+		<e:Image source="huanying_bg_png"/>
+		<e:Button id="closeBtn" label="" x="745" y="63" width="61" height="57">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" source="huanying_x" source.down="huanying_x" source.disabled="huanying_x"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="startBtn" label="" x="464" y="322" width="204" height="97">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image  scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" source="huanying_btn" source.down="huanying_btn" source.disabled="huanying_btn"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+</e:Skin>

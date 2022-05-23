@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemBaseSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="60" height="60">
+	<e:Image id="bg" horizontalCenter="0" top="-14" source="Godturn_iconk" visible="false"/>
+	<e:Image id="equipBg" visible="false"/>
+	<e:Image id="icon" source="11000" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="count" text="10" size="15" right="1" bottom="1"/>
+	<e:Image id="bestEquip" horizontalCenter="0" verticalCenter="0" source="quality_jipin" touchEnabled="false" visible="false"/>
+	<e:BitmapLabel id="starLabel" font="num_8_fnt" text="" letterSpacing="-3" right="5" bottom="5" touchEnabled="false" visible="false"/>
+	
+</e:Skin>

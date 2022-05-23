@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityDefendTaskItemSkin" width="461" height="110.66"  xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="itemBg" x="1.67" y="1.38" source=""/>
+	<e:Image id="itemTxt" x="15" y="12" source=""/>
+	<e:Scroller id="scroller" width="233" horizontalCenter="-104" x="10" y="39">
+		<e:List id="itemList" itemRendererSkinName="ItemBaseSkin" x="-10">
+		<e:layout>
+			<e:HorizontalLayout gap="3"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="timeTxt" text="今日剩余次数:5" x="301.67" y="21.38" width="151" textColor="0x28ee01"  size="18" textAlign="right" stroke="2"/>
+	<e:Button id="btnSweep" label="扫 荡" x="258.67" y="56.38" skinName="Btn9Skin"/>
+	<e:Button id="btnChallenge" label="挑 战" x="354.67" y="56.38" skinName="Btn9Skin"/>
+	<app:RedDotControl id="redDot" width="20" height="20" x="338" touchChildren="false" touchEnabled="false" y="53" visible="false"/>
+	<app:RedDotControl id="redDot2" width="20" height="20" x="434" touchChildren="false" touchEnabled="false" y="53" visible="false"/>
+</e:Skin>

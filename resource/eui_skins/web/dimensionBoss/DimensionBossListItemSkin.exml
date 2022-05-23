@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DimensionBossListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="270" height="182">
+    <e:Image source="com_bg_kuang_xian1" scale9Grid="6,6,8,6" top="0" bottom="0" left="0" right="0" />
+    <e:Image source="kf_cy_bg3" horizontalCenter="0" y="2" />
+    <e:Image id="imgTitle" source="kf_cy_gsj" horizontalCenter="0" y="6" />
+    <e:Scroller id="itemScroller" top="45" bottom="6" left="0" right="0">
+        <e:Group>
+            <e:List id="list1" itemRendererSkinName="ItemBaseSkin" x="6" y="3">
+                <e:layout>
+                    <e:HorizontalLayout/>
+                </e:layout>
+                <e:ArrayCollection>
+                    <e:Array>
+                        <e:Object />
+                        <e:Object />
+                        <e:Object />
+                        <e:Object />
+                    </e:Array>
+                </e:ArrayCollection>
+            </e:List>
+            <e:List id="list2" itemRendererSkinName="ItemBaseSkin" x="6" y="68">
+                <e:layout>
+                    <e:HorizontalLayout/>
+                </e:layout>
+                <e:ArrayCollection>
+                    <e:Array>
+                        <e:Object />
+                        <e:Object />
+                        <e:Object />
+                        <e:Object />
+                    </e:Array>
+                </e:ArrayCollection>
+            </e:List>
+        </e:Group>
+    </e:Scroller>
+</e:Skin>

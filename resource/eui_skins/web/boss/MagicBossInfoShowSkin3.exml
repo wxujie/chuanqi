@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicBossInfoShowSkin3" width="605" height="180" xmlns:e="http://ns.egret.com/eui">
+    <e:Group id="gpBoss" x="0" y="0" touchEnabled="false" touchChildren="false">
+        <e:Image source="m_m_lock_bg" scale9Grid="8,8,48,48" width="84" height="84" />
+        <e:Image source="m_m_lockname_bg" x="95" y="9" scale9Grid="30,4,180,24" width="350" />
+        <e:Image id="bossAvatar" source="m_m_lock_2" width="80" height="80" x="2" y="2" />
+        <e:ProgressBar id="bossHpBar" skinName="bloodBarSkin2" slideDuration="0" value="50" width="350" x="95" y="48" />
+        <e:Label id="bossName" text="白野猪" textColor="0xd2c493" size="20" bold="true" x="129" y="15" />
+        <e:Label id="bossHpLabel" size="18" horizontalCenter="47.5" stroke="2" strokeColor="0x000000" text="58/199"
+                 verticalCenter="19" bold="true" textColor="0xE5DDCF" />
+    </e:Group>
+    <e:Group id="gpPlayer" width="313" height="66" x="97" y="108" touchEnabled="false" touchChildren="false">
+        <e:Image source="m_m_lock_bg" x="0" y="2" />
+        <e:Image source="m_m_lockname_bg" x="73" y="4" />
+        <e:Image id="playerAvatar" source="" width="60" height="60" x="1" y="4" />
+        <e:ProgressBar id="playerHpBar" skinName="bloodBarSkin2" slideDuration="0" value="50" width="240" x="73" y="40" />
+        <e:Label text="归属者：" textColor="0xD2C493" size="16" bold="true" x="80" y="14" />
+        <e:Label id="playerName" size="16" stroke="2" textAlign="left" text="" bold="true" x="145" y="14" />
+        <e:Label id="playerGuild" size="16" stroke="2" width="210" textAlign="center" text="" x="90" y="-12" />
+        <e:Label id="playerHpLabel" size="18" horizontalCenter="41.5" stroke="2" strokeColor="0x000000" text="58/199"
+                 verticalCenter="20" bold="true" textColor="0xE5DDCF" />
+    </e:Group>
+</e:Skin>

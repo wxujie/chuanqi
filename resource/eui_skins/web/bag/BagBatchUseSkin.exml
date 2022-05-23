@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagBatchUseSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Rect id="rect" left="0" right="0" top="0" bottom="0" fillAlpha="0.3"/>
+	<e:Group width="315" height="390" verticalCenter="-103" horizontalCenter="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="9s_tipsbg" scale9Grid="14,12,3,3"/>
+		<e:Image left="0" right="0" top="0" bottom="0" source="9s_tipsk" scale9Grid="14,12,3,3"/>
+		<e:Image id="imgBg" scale9Grid="9,75,23,3" source="bag_piliangbg_1" left="0" right="0" top="0" bottom="0"/>
+		<e:Button id="btn_close" label="" skinName="CloseButtonSkin" top="5" right="4"/>
+		<app:ItemBase id="itemData" x="25.98" y="20.66" skinName="ItemBaseSkin"/>
+		<e:Label id="itemName" text="" x="109" y="23" size="20" textColor="0xe5ddcf" stroke="2"/>
+		<e:Label id="itemNum" text="" x="110.9" y="60.5" size="19" textColor="0x1affff" stroke="2"/>
+		<e:Image source="bag_fengexian" verticalCenter="-90" horizontalCenter="2" x="12" y="88"/>
+		<e:Scroller id="descScroller" width="256" height="119" y="118" horizontalCenter="1.5" scrollPolicyH="off">
+			<e:Group>
+				<e:Label id="itemDesc" text="" size="19" lineSpacing="5" touchEnabled="false" width="256" stroke="2" textColor="0xe5ddcf" y="3"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Label id="itemAttr" text="" x="19" y="245" size="20" textColor="0x0066ff" stroke="2"/>
+		<e:Button id="lessLessBtn" label="Button" x="15" y="279" skinName="Btn0Skin" icon="com_jianjian"/>
+		<e:Button id="lessBtn" label="Button" x="58.8" y="279" skinName="Btn0Skin" icon="com_jian"/>
+		<e:Button id="addBtn" label="Button" x="221.8" y="279" skinName="Btn0Skin" icon="com_jia"/>
+		<e:Button id="addaddBtn" label="Button" x="266" y="279" skinName="Btn0Skin" icon="com_jiajia"/>
+		<e:Image source="bag_piliangbg_0" scale9Grid="5,5,32,32" width="99.6" height="36" horizontalCenter="0" bottom="78"/>
+		<e:EditableText id="enterNum" text="" width="90.2" height="28.8" textAlign="center" size="24" verticalAlign="middle" restrict="0-9" horizontalCenter="0" bottom="80" stroke="2" textColor="0xe5ddcf"/>
+		<e:Button id="sure" label="使  用" skinName="Btn9Skin" horizontalCenter="0" bottom="17"/>
+	</e:Group>
+</e:Skin>

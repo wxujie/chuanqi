@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FourImagesAttrItemNextSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="162" height="25">
+	<e:Label id="txt_next" text="体力上限：+50" y="2" size="20"  anchorOffsetX="0" anchorOffsetY="0" height="17" textColor="0x55cc0c" textAlign="left" left="0"/>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ButtonReturnSkin" width="60" height="60" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="down,up" >
+    <e:Button id="btn_return" label=""  scaleX.down="0.95" scaleY.down="0.95">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_fanhui" source.down="btn_fanhui" source.disabled="btn_fanhui"/>
+				<e:Label id="labelDisplay" touchEnabled="false"  size="35" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+    </e:Button>
+</e:Skin>

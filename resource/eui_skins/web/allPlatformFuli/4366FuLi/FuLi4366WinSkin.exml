@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuLi4366WinSkin" width="1027" height="690" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image id="dragDropUI" source="apay_bg2_png"/>
+	<e:Image x="82" y="116" width="192" height="542" source="com_bg_kuang_6_png" scale9Grid="17,15,4,4"/>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image y="57.67" horizontalCenter="-0.5" touchEnabled="false" x="238" source="biaoti_4366"/>
+	<e:Group id="infoGroup" width="667" height="542" touchEnabled="false" x="281" y="116">
+		<e:Image source="com_bg_kuang_6_png" scale9Grid="18,15,3,4" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="grp0" left="0" right="0" top="0" bottom="0">
+			<e:Image source="bg_4366vxlibao_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:EditableText id="InputCode" width="393" text="" x="78" size="20" height="30" verticalAlign="middle" y="421" textAlign="center" maxChars="120" prompt="&lt;请输入激活码>" textColor="0xF9EFEF"/>
+			<e:Button id="wxBuyBtn" label="" x="199.67" y="465.95" icon="fl_jhm_btn_1" scaleX="1" scaleY="1" skinName="Btn0Skin" width="137" height="56"/>
+			<app:ItemBase id="wxItemData" x="550" y="425" skinName="ItemBaseSkin"/>
+		</e:Group>
+		<e:Group left="0" right="0" top="0" bottom="0" id="grp1" visible="false">
+			<e:Image source="bg_4366shoujilibao_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Button id="phoneBuyBtn" label="" x="284.67" y="447.95" icon="fl_jhm_btn_1" scaleX="1" scaleY="1" skinName="Btn0Skin" width="137" height="56"/>
+			<e:List id="phoneItemList" verticalCenter="71" horizontalCenter="1.5" itemRendererSkinName="FuLi4366ItemSkin">
+				<e:layout>
+					<e:HorizontalLayout gap="20"/>
+				</e:layout>
+			</e:List>
+			<app:RedDotControl id="redPoint1" x="409" y="445" visible="false"/>
+		</e:Group>
+		<e:Group left="0" right="0" top="0" bottom="0" id="grp2" visible="false">
+			<e:Image source="bg_4366renzhenglibao_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Button id="cardBuyBtn" label="" x="283.67" y="447.95" icon="fl_jhm_btn_1" scaleX="1" scaleY="1" skinName="Btn0Skin" width="137" height="56"/>
+			<e:List id="cardItemList" verticalCenter="71" horizontalCenter="1.5" itemRendererSkinName="FuLi4366ItemSkin">
+				<e:layout>
+				<e:HorizontalLayout gap="20"/>
+				</e:layout>
+			</e:List>
+			<app:RedDotControl id="redPoint2" x="407" y="446" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<e:Group left="0" right="0" top="0" bottom="0" id="grp3" visible="false">
+			<e:Image source="banner_4366" horizontalCenter="-0.5" top="3"/>
+			<e:Scroller id="loginItemScroller" width="658.5" height="381" x="4" y="158" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off">
+				<e:List id="loginItemList" itemRendererSkinName="YYLobbyPrivilegesGiftItemSkin">
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group left="0" right="0" top="0" bottom="0" id="grp4" visible="false">
+			<e:Image horizontalCenter="-0.5" top="3" source="bg_4366jqfuli_png"/>
+			<e:Group id="giftTips" x="69" y="334" alpha="0">
+				<e:Rect width="300" height="150"/>
+			</e:Group>
+			<e:Button id="addGroupBtn" label="点击复制QQ群号码" x="455" y="448" icon="4366_jqfulibt" width="178" height="64">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" source="4366_jqfulibt" source.down="4366_jqfulibt" scaleX.down="0.95" scaleY.down="0.95"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18" textColor="0xf0c896"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+	<e:Scroller id="btnScroller" width="185" height="536" x="85.61" y="117.3">
+		<e:TabBar id="tabBar" width="200" height="200" itemRendererSkinName="YYLobbyPrivilegesTabSkin">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="8"/>
+		</e:layout>
+		</e:TabBar>
+	</e:Scroller>
+</e:Skin>

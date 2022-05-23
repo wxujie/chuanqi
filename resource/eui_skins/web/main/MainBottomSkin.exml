@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainBottomSkin" width="1920" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*" xmlns:app="app.*" height="1076">
+    <w:Config id="178d9fba5de" />
+    <e:Group id="particleGroup" touchChildren="false" touchEnabled="false" />
+    <e:Group id="topGroup" horizontalCenter="0" top="13" width="313" height="66">
+        <e:Image source="m_m_lock_bg" x="0" y="2" touchEnabled="false" />
+        <e:Image id="jobImage" x="1" y="4" visible="true" touchEnabled="false" width="60" height="60" source="" />
+        <e:Image x="73" y="4" source="m_m_lockname_bg" touchEnabled="false" />
+        <e:ProgressBar id="hpBar" slideDuration="0" y="43" skinName="bloodBarSkin2" x="75" value="50"
+                       touchChildren="false" />
+    </e:Group>
+    <e:Group touchEnabled="false" width="379" height="732">
+        <e:Image source="name_touxiangk" x="1" y="43" />
+        <e:Image source="name_hybg" x="-3" y="131" />
+        <e:Image x="2" y="1" anchorOffsetY="0" anchorOffsetX="0" width="293" source="name_bg" scale9Grid="5,5,32,32" />
+        <e:Image source="name_bg" x="84" y="44" anchorOffsetY="0" anchorOffsetX="0" width="211" scale9Grid="5,5,32,32"
+                 height="36" />
+        <e:Image source="name_bg" x="84" y="81" anchorOffsetY="0" anchorOffsetX="0" width="211" scale9Grid="5,5,32,32"
+                 height="36" />
+        <e:Image source="" x="87" y="65" />
+        <e:Image source="name_icon_jb" x="6" y="13" />
+        <e:Image x="168" y="4" source="name_icon_yb" />
+        <e:Image id="charIcon" source="name_1_0" x="5" y="51" />
+        <e:Image id="vipbg" x="-2" y="129" blendMode="add" source="" />
+        <e:Image id="vipImg" x="6" y="136" source="name_hy0" />
+        <e:Group id="vipEffGrp" x="42" y="149" touchChildren="false" touchEnabled="false" />
+        <e:Button id="rechargeButton" label="" x="301" y="3" width="78" height="37">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"
+                             source="btn_czcz" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Group id="rechargeEffGrp" x="301" y="3" touchEnabled="false" touchChildren="false" />
+        <e:Button id="stretchBtn" x="5" y="270" anchorOffsetY="12" visible="false">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image width="100%" height="100%" source="icon_bgbtn" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button id="switchButton" x="296" y="43">
+            <app:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image width="100%" height="100%" source="name_btn" />
+                </e:Skin>
+            </app:skinName>
+        </e:Button>
+        <app:MainButton3 id="growWayBtn" configid="25" skinName="MainBtn7Skin" x="7" y="173" />
+        <app:MainButton3 id="growButton" configid="46" skinName="MainBtn7Skin" x="99" y="173" />
+        <app:MainButton3 id="CrossServerButton" configid="65" skinName="MainBtnSkin" x="7" y="255" />
+        <app:MainButton3 id="returnServerButton" configid="66" skinName="MainBtn7Skin" x="7" y="255" />
+			<e:Group id="crossServerEffGrp" x="42" y="292" touchEnabled="false" touchChildren="false"/>
+			<app:ImageBase id="saviorBuff" x="89" y="117" skinName="ImageBaseSkin" visible="false"/>
+        <e:List id="buffList" y="117.37" itemRendererSkinName="ImageBaseSkin" x="89">
+            <e:layout>
+                <e:HorizontalLayout gap="1" />
+            </e:layout>
+        </e:List>
+        <e:Group id="leftBtnGrp" x="3" y="281.67" width="83" touchEnabled="false" visible="false">
+            <e:Image id="btnBg" source="icon_bg" touchEnabled="false" scale9Grid="10,27,62,25" height="420" width="82"
+                     x="2" />
+            <app:MainButton3 id="teamButton2" configid="8" skinName="MainBtn7Skin" x="6" y="8" />
+        </e:Group>
+    </e:Group>
+    <e:Label id="bindGoldNum" text="" x="40" y="15" size="20" stroke="2" textColor="0xffffff" />
+    <e:Label id="yuanbaoNum" text="" x="206" y="15" size="20" textColor="0xFFFFFF" stroke="2" />
+    <e:Label id="playerName" text="" x="97" y="53" size="22" stroke="2" textColor="0xe5ddcf" />
+    <e:Label id="lvLabel" text="" x="96.33" y="89" size="22" textColor="0xE5DDCF" stroke="2" />
+    <e:Image id="blueImg" x="87.69" y="52"  source="name_lz_hh3" visible="false"/>
+    <e:Image id="blueYearImg" width="20" height="20" x="109.01" y="53"  source="name_lz_nf" visible="false"/>
+    <e:Group horizontalCenter="1.5" bottom="-5" height="252" touchEnabled="false">
+        <e:Image visible="true" source="m_bg_zhuui" touchEnabled="false" />
+        <app:MainButton3 id="guildButton" x="1185" y="194" configid="8" skinName="MainBtn3Skin" />
+        <app:MainButton3 id="roleButton" x="1018" y="52" configid="5" skinName="MainBtn3Skin" />
+        <e:Image id="bagMaxImage" x="922" y="-51" source="tips_man2"  visible="false"/>
+        <e:Group width="0" height="0" x="1187" y="33">
+            <e:Image id="skillTipsImage" visible="true" source="tips_man4" />
+        </e:Group>
+        <app:MainButton3 x="1073" y="20" skinName="MainBtn3Skin" configid="2" id="bagButton" />
+        <app:MainButton3 x="1138" y="31" skinName="MainBtn3Skin" configid="3" id="skillButton" />
+        <app:MainButton3 x="1184" y="72" skinName="MainBtn3Skin" configid="4" id="setupButton" />
+        <app:MainButton3 id="composeButton" x="1199" y="133" skinName="MainBtn3Skin" configid="11" />
+        <app:MainButton3 x="1120" y="120" configid="1" id="shopButton" skinName="MainBtn4Skin" />
+        <e:Button id="shieldNearButton" x="290" y="103" width="24" height="24" icon="m_chat_ltpb_fj1"></e:Button>
+        <e:Button id="shieldGuildButton" x="290" y="129" width="24" height="24" icon="m_chat_ltpb_hh1"></e:Button>
+        <e:Button id="shieldPrivateButton" x="290" y="155" width="24" height="24" icon="m_chat_ltpb_sl1"></e:Button>
+        <e:Button id="ruletipsButton" x="290" y="182" width="24" height="24" icon="m_chat_ltpb_shuoming"></e:Button>
+        <e:Button id="patternButton" x="136" y="217" anchorOffsetY="0" height="28" icon="m_t_ms_quanti" width="100" />
+        <e:Image x="993" y="117" source="exp_lv" />
+        <e:BitmapLabel id="levelLab" x="1025" y="119" font="levelnumber_fnt" text="132" letterSpacing="-1" scaleX="1"
+                       scaleY="1" />
+        <e:Image x="993" y="156" source="exp_exp" />
+        <e:Image x="993" y="188" source="exp_sexp" />
+        <e:ProgressBar id="roleExp" value="100" width="101" left="1022" bottom="80" touchChildren="false">
+            <e:skinName>
+                <e:Skin>
+                    <e:Image id="thumb" left="0" right="0" top="0" bottom="0" source="m_exp_expbg" />
+                </e:Skin>
+            </e:skinName>
+        </e:ProgressBar>
+        <e:ProgressBar id="doubleRoleExp" value="100" width="128" left="1021" bottom="43" touchChildren="false" x="1032"
+                       y="181">
+            <e:skinName>
+                <e:Skin>
+                    <e:Image id="thumb" left="0" right="0" top="0" bottom="0" source="m_exp_sexpbg" />
+                </e:Skin>
+            </e:skinName>
+        </e:ProgressBar>
+        <e:Label id="labelTime" text="" size="18" touchEnabled="false" y="223" x="1063" width="100" textAlign="center" />
+        <e:Group id="expMcGroup" height="0" bottom="52" left="1086" />
+        <e:Group x="1024" y="157" width="86">
+            <e:BitmapLabel font="levelnumber_fnt" text="132b" letterSpacing="-1" id="expLab" horizontalCenter="0" y="-1" />
+        </e:Group>
+        <e:Group x="1022" y="196" width="116">
+            <e:BitmapLabel font="levelnumber_fnt" text="" letterSpacing="-1" id="doubleExpLab" horizontalCenter="0"
+                           y="-2" />
+        </e:Group>
+        <e:Group id="levelGroup" x="989" y="106" anchorOffsetX="0" width="122" anchorOffsetY="0" height="81" />
+        <e:Group id="expGroup" x="989" y="190" anchorOffsetX="0" width="123" anchorOffsetY="0" height="28" />
+        <e:Group x="131" y="93" anchorOffsetX="0" width="52" anchorOffsetY="0" height="107" id="hpGroup" visible="true" />
+        <e:Group x="189" y="93" anchorOffsetX="0" width="52" anchorOffsetY="0" height="107" id="mpGroup" visible="true" />
+        <app:SelectInput id="pkSelect" x="137" y="216" skinName="SelectInputSkin"  visible="false"/>
+        <e:Group height="61" x="318" touchEnabled="false" y="22" visible="true" width="660">
+            <e:Group id="skillGrp0" touchEnabled="false">
+                <app:MainSkillIconItem id="skill0" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp0" y="29" x="29" touchEnabled="false" />
+                <e:Image y="4" x="4" touchEnabled="false" source="m_kjj_1" />
+            </e:Group>
+            <e:Group id="skillGrp1" touchEnabled="false">
+                <app:MainSkillIconItem id="skill1" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp1" y="29" x="29" touchEnabled="false" />
+                <e:Image y="4" x="4" touchEnabled="false" source="m_kjj_2" />
+            </e:Group>
+            <e:Group id="skillGrp2" touchEnabled="false">
+                <app:MainSkillIconItem id="skill2" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp2" y="29" x="29" touchEnabled="false" />
+                <e:Image y="4" x="4" source="m_kjj_3" touchEnabled="false" />
+            </e:Group>
+            <e:Group id="skillGrp3" touchEnabled="false">
+                <app:MainSkillIconItem id="skill3" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp3" y="29" x="29" touchEnabled="false" />
+                <e:Image y="4" x="4" source="m_kjj_4" touchEnabled="false" />
+            </e:Group>
+            <e:Group id="skillGrp4" touchEnabled="false">
+                <app:MainSkillIconItem id="skill4" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp4" x="30" y="30" touchEnabled="false" />
+                <e:Image y="4" x="4" source="m_kjj_5" touchEnabled="false" />
+            </e:Group>
+            <e:Group id="skillGrp5" touchEnabled="false">
+                <app:MainSkillIconItem id="skill5" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp5" x="30" y="30" touchEnabled="false" />
+                <e:Image y="4" x="4" source="m_kjj_6" touchEnabled="false" />
+            </e:Group>
+            <e:Group id="skillGrp6" touchEnabled="false">
+                <app:MainSkillIconItem id="skill6" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp6" x="30" y="30" touchEnabled="false" />
+                <e:Image y="4" x="4" source="m_kjj_7" touchEnabled="false" />
+            </e:Group>
+            <e:Group id="skillGrp7" touchEnabled="false">
+                <app:MainSkillIconItem id="skill7" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp7" x="30" y="30" touchEnabled="false" />
+                <e:Image y="4" x="4" source="m_kjj_8" touchEnabled="false" />
+            </e:Group>
+            <e:Group id="skillGrp8" touchEnabled="false">
+                <app:MainSkillIconItem id="skill8" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp8" x="30" y="30" touchEnabled="false" />
+                <e:Image y="4" x="4" source="m_kjj_9" touchEnabled="false" />
+            </e:Group>
+            <e:Group id="skillGrp9" touchEnabled="false">
+                <app:MainSkillIconItem id="skill9" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp9" x="30" y="30" touchEnabled="false" />
+                <e:Image y="4" x="4" source="m_kjj_10" touchEnabled="false" />
+            </e:Group>
+            <e:Group id="skillGrp10" touchEnabled="false">
+                <app:MainSkillIconItem id="skill10" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp10" x="30" y="30" touchEnabled="false" />
+                <e:Image y="4" x="4" source="m_kjj_11" touchEnabled="false" />
+            </e:Group>
+            <e:Group id="skillGrp11" touchEnabled="false" visible="false">
+                <app:MainSkillIconItem id="skill11" skinName="skillItemSkin" y="1" x="2" touchEnabled="false" />
+                <e:Image source="m_kuaijielan1" scale9Grid="11,21,9,17" touchEnabled="false" />
+                <e:Group id="cdGrp11" x="30" y="30" touchEnabled="false" />
+                <e:Image y="4" x="4" source="m_kjj_12" touchEnabled="false" />
+            </e:Group>
+            <e:layout>
+                <e:HorizontalLayout gap="-1" />
+            </e:layout>
+        </e:Group>
+        <e:Group id="buttonGroup" width="660" x="318" y="84" touchEnabled="false">
+            <e:Group x="25">
+                <app:MainButton3 id="friendsButton" configid="42" skinName="MainBtn5Skin" />
+                <app:MainButton3 id="mailButton" configid="40" skinName="MainBtn5Skin" />
+                <app:MainButton3 id="teamButton" configid="41" skinName="MainBtn5Skin" />
+                <app:MainButton3 id="flyButton" configid="18" skinName="MainBtn5Skin" />
+                <app:MainButton3 id="privateDealsButton" configid="9" skinName="MainBtn5Skin" />
+                <app:MainButton3 id="tradeLineWinButton" configid="45" skinName="MainBtn5Skin" />
+                <app:MainButton3 id="rankBtn" configid="44" skinName="MainBtn5Skin" />
+                <e:layout>
+                    <e:HorizontalLayout gap="6" />
+                </e:layout>
+            </e:Group>
+            <app:MainButton3 id="settingBtn" configid="43" skinName="MainBtn6Skin" x="575" />
+        </e:Group>
+        <app:ChatView id="chatView" x="319" y="108" skinName="ChatSkin" anchorOffsetY="0" height="134" anchorOffsetX="0"
+                      width="660" />
+        <e:Image id="chatBtn" source="btn_liaotian" verticalCenter="-32" horizontalCenter="304.5" scaleX="0.9" scaleY="0.9" />
+        <e:Group id="shopGroup" x="1141" y="141" touchChildren="false" touchEnabled="false" />
+    </e:Group>
+    <e:Group id="InfoGrp" height="214" bottom="1" touchEnabled="false" left="3" visible="true">
+        <e:List id="buffList1" y="44.37" itemRendererSkinName="ImageBaseSkin" alpha="0.5">
+            <e:layout>
+                <e:HorizontalLayout gap="3" />
+            </e:layout>
+        </e:List>
+        <e:List id="buffList2" y="86" itemRendererSkinName="ImageBaseSkin" alpha="0.5">
+            <e:layout>
+                <e:HorizontalLayout gap="3" />
+            </e:layout>
+        </e:List>
+    </e:Group>
+    <e:Group width="702" height="87" touchEnabled="false" bottom="240" horizontalCenter="-235">
+        <e:Group id="lyaer5" y="14" height="72"></e:Group>
+        <e:List id="buffList3" itemRendererSkinName="ImageBaseSkin" alpha="0.5" x="10" bottom="12" touchChildren="false"
+                y="39">
+            <e:layout>
+                <e:HorizontalLayout gap="3" />
+            </e:layout>
+        </e:List>
+    </e:Group>
+    <e:Group touchEnabled="false" width="0" height="0" x="550" verticalCenter="-150">
+        <e:List id="buffList4" itemRendererSkinName="ImageBaseSkin" touchChildren="false" >
+					<e:layout>
+						<e:TileLayout horizontalGap="0" verticalGap="0" requestedColumnCount="4"/>
+					</e:layout>
+        </e:List>
+    </e:Group>
+    <e:Group top="13" right="164" visible="true">
+        <e:ToggleButton id="iconToggle" label="" height="42" width="41">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image width="100%" height="100%" source="icon_sq_2" source.down="icon_sq_1" />
+                    <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                </e:Skin>
+            </e:skinName>
+        </e:ToggleButton>
+        <app:RedDotControl id="toggleRed" right="0" top="0" visible="false" />
+    </e:Group>
+    <e:Group id="lyaer1" right="0" bottom="232" left="0" touchChildren="true" touchEnabled="false"></e:Group>
+    <e:Group id="lyaer4" right="208" top="10" touchEnabled="false" touchChildren="true" visible="true" />
+    <e:Group id="lyaer6" right="208" top="95" touchEnabled="false" touchChildren="true" visible="true" />
+	<e:Group id="lyaer7" touchEnabled="false" touchChildren="true" visible="true" top="10" left="388"/>
+    <e:Group id="timerGrp" width="300" height="32" touchEnabled="false" touchChildren="false" y="190" right="5"
+             visible="false">
+        <e:Image height="31" width="281" top="0" right="4" source="zjmgonggaobg" scale9Grid="7,3,209,9" />
+        <e:Label id="actTime" text="" size="20" textColor="0x28ee01" top="5" width="260" textAlign="center" right="17"
+                 stroke="2" />
+    </e:Group>
+    <e:Group id="npcTimerGrp" width="300" height="32" touchEnabled="false" touchChildren="false" y="190" right="5"
+             visible="false">
+        <e:Image height="31" width="281" top="0" right="4" source="zjmgonggaobg" scale9Grid="7,3,209,9" />
+        <e:Label id="npcTime" text="" size="20" textColor="0x28EE01" top="5" width="260" textAlign="center" right="17"
+                 stroke="2" />
+    </e:Group>
+    <e:Group id="duoBaoTimerGrp" width="300" height="32" touchEnabled="false" touchChildren="false" y="190" right="5"
+             visible="false">
+        <e:Image height="31" width="281" top="0" right="4" source="zjmgonggaobg" scale9Grid="7,3,209,9" />
+        <e:Label id="duoBaoTime" text="" size="20" textColor="0x28EE01" top="5" width="260" textAlign="center"
+                 right="17" stroke="2" />
+    </e:Group>
+    <e:Button id="suitBtn" label="Button" skinName="Btn0Skin" icon="main_tuichu" left="25" bottom="85" visible="false" />
+    <e:Group id="effGroup" width="1" height="1" bottom="263" horizontalCenter="-79.5" touchEnabled="false"
+             visible="true">
+        <e:Group id="onHookGroup" y="-34" x="110">
+            <e:Button id="drugBtn" label="" width="50" height="53">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                        <e:Image scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"
+                                 source="gjbtn_hy" />
+                    </e:Skin>
+                </e:skinName>
+            </e:Button>
+            <e:Button id="pickupBtn" label="" height="53" x="52" y="0" width="50">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                        <e:Image width="100%" height="100%" source="gjbtn_sq" />
+                        <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                    </e:Skin>
+                </e:skinName>
+            </e:Button>
+            <e:Button id="splitBtn" label="" height="53" x="104" y="0" width="50" visible="false">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                        <e:Image width="100%" height="100%" source="gjbtn_fj" />
+                        <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                    </e:Skin>
+                </e:skinName>
+            </e:Button>
+        </e:Group>
+    </e:Group>
+    <e:Group id="effGroup2" width="1" height="1" bottom="325" horizontalCenter="0" touchEnabled="false" visible="true"
+             touchChildren="false"></e:Group>
+    <e:Label id="bubbleLabel" text="" bold="true" size="30" horizontalCenter="0" bottom="330" touchEnabled="false"
+             textColor="0x28ee01" stroke="1"  visible="false"/>
+     <e:Group id="topGroup2"  horizontalCenter="0" top="14" width="313" touchEnabled="false" touchChildren="false" visible="false">
+    <e:Image id="jobImg" x="74.31" y="7.02" source="m_job1" scaleX="0.8" scaleY="0.8" />
+    <e:Label id="lockName" size="18" stroke="2" width="210" textAlign="left" x="101.65" text="我姐小熙是拖啊  10转999"
+             verticalCenter="-11.5" />
+    <e:Label id="lockHpLabel" text="3086/5895" y="43" size="18" x="75" width="235" textAlign="center" stroke="2"
+             anchorOffsetY="0" height="20" verticalAlign="middle" />
+    </e:Group>
+    <e:Group id="petGrp" left="7" bottom="61" visible="false">
+        <e:Image source="cwms_bg" />
+        <e:Button id="petFollow" label="跟 随" x="3.6" y="39" width="100" height="33">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"
+                             source="cwms_btn" source.down="cwms_btn" source.disabled="cwms_btn" />
+                    <e:Label id="labelDisplay" size="16" horizontalCenter="0" verticalCenter="0" textColor="0xe0ae75"
+                             textColor.disabled="0xb9b9b9" stroke="2" bold="true" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Rect id="followRect" width="93" height="26" fillAlpha="0.7" y="42" right="107" touchEnabled="false"
+                visible="false" />
+        <e:Image id="petKuang" width="101" height="37" x="2.6" y="36.6" source="pet_kuang" scale9Grid="13,11,1,1"
+                 visible="false" />
+        <e:Button id="petAck" label="攻击中" x="103" y="39" width="100" height="33">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"
+                             source="cwms_btn" source.down="cwms_btn" source.disabled="cwms_btn" />
+                    <e:Label id="labelDisplay" size="16" horizontalCenter="0" verticalCenter="0" textColor="0x28ee01"
+                             textColor.disabled="0xb9b9b9" stroke="2" bold="true" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Label text="宠物状态" size="20" bold="true" horizontalCenter="0" top="12" stroke="2" textColor="0xe0ae75" />
+    </e:Group>
+    <e:Group id="sbkCdGrp" x="825.28" y="188.01" touchEnabled="false" touchChildren="false" visible="false">
+        <e:Image x="0" y="0" source="icon_shachengdjs" />
+        <e:Label id="sbkTimeLab" text="23:18:59" size="18" textColor="0x28ee01" horizontalCenter="0" verticalCenter="0"
+                 stroke="2" />
+    </e:Group>
+    <e:Group id="violentGuideTipsGrp" right="208" top="10" />
+    <e:Group id="donationGuideTipsGrp" right="208" top="10" />
+    <e:Group id="vipGuideTipsGrp" right="208" top="10" />
+    <e:Group id="secondChargeTipsGrp" right="370" top="10" />
+    <e:Group id="firstChargeTipsGrp" right="290" top="10" />
+    <e:Label id="editionLabel" text="" right="10" bottom="10" size="22"  visible="false"/>
+    <e:Group id="attackGroup" top="247" right="320" touchEnabled="false" visible="false">
+        <e:Image source="m_task_k" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="3,3,18,18" top="-10" left="-10"
+                 bottom="-10" right="-10" touchEnabled="false" />
+        <e:Label text="受到玩家攻击，双击智能PK" size="20" verticalAlign="middle" horizontalCenter="0" stroke="2"
+                 textColor="0xe50000" touchEnabled="false" />
+        <e:List id="attackList" width="247" itemRendererSkinName="AttackCharItemSkin" y="29">
+            <e:layout>
+                <e:VerticalLayout gap="3" />
+            </e:layout>
+        </e:List>
+    </e:Group>
+    <app:TweenImage id="expDian" y="999" x="1893" source="exp_dian" />
+    <app:TweenImage id="expDian0" y="1009" x="1903" source="exp_dian" />
+    <app:TweenImage id="expDian1" y="1019" x="1913" source="exp_dian" />
+    <app:TweenImage id="expDian2" y="1029" x="1923" source="exp_dian" />
+    <app:TweenImage id="expDian3" y="1039" x="1933" source="exp_dian" />
+    <e:Group id="msgGroup" width="120" right="8" touchChildren="false" touchEnabled="false" bottom="10">
+        <e:Label id="msg1" text="" x="26" y="2" scaleX="1" scaleY="1" size="18" stroke="2" textColor="0x28ee01"
+                 visible="false" />
+        <e:Label id="msg2" text="" x="26" y="22" scaleX="1" scaleY="1" size="18" stroke="2" textColor="0x28ee01"
+                 visible="false" />
+        <e:Label id="msg3" text="" x="26" y="42" scaleX="1" scaleY="1" size="18" stroke="2" textColor="0x28ee01"
+                 visible="false" />
+    </e:Group>
+    <e:Group id="qqGrp" bottom="0" anchorOffsetY="0" height="56" anchorOffsetX="0" width="335" left="4" visible="false">
+        <e:Label id="qqOpenID" text="您的平台ID：49DD2F0184E4BE0E3872B6879CF6DAE1" textColor="0xe5ddcf" stroke="2" size="13"
+                 left="0" right="0" />
+        <e:Label text="若您在游戏中遇到问题，可联系官方客服。QQ：2676677980" x="0" y="16.67" size="13" textColor="0xe5ddcf" stroke="2" />
+        <e:Button id="addGrpBtn" label="Button" x="3.65" y="29.99" skinName="Btn0Skin" icon="join_qqun" />
+    </e:Group>
+	<e:Group id="shengQuGrp" bottom="0" anchorOffsetY="0" height="56" anchorOffsetX="0" width="335" left="4" visible="false">
+		<e:Label text="若您在游戏中遇到问题，可到官方群反馈。Q群：849469876" x="0" y="16.67" size="13" textColor="0xE5DDCF" stroke="2"/>
+		<e:Button id="shengQuAddGrpBtn" label="Button" x="3.65" y="29.99" skinName="Btn0Skin" icon="join_qqun"/>
+	</e:Group>
+    <e:Group id="addGroup" touchChildren="false" touchEnabled="false" />
+	<e:Group id="actTipsAllGrp" top="250" left="0" touchEnabled="false">
+		<e:Group id="actTipsGrp1" width="315" height="124" x="453" y="133" anchorOffsetX="0" touchEnabled="false" scaleX="1" scaleY="1" visible="true">
+			<e:Group id="actCircleGrp" scaleX="1" scaleY="1" x="21" touchChildren="false" y="10" visible="false">
+			<e:Image touchEnabled="false" source="dc_bg2"/>
+				<e:Group id="actCircleEffGrp" x="43" verticalCenter="0" touchEnabled="false"/>
+			<e:Image id="actCircleIcon" x="5" y="9" source="13362" touchEnabled="false" scaleX="1.3" scaleY="1.3"/>
+			<e:Image id="actCircleQuality" x="5" y="9" scaleX="1.3" scaleY="1.3" source="yan_109" touchEnabled="false"/>
+			<e:Group verticalCenter="-16" horizontalCenter="43.5" touchEnabled="false" touchChildren="false">
+				<e:Image id="actTipsTopImg1" x="22" y="15" scaleX="1" scaleY="1" source="dc_zs_jl11"/>
+				<e:Image id="actTipsTopImg2" x="32" y="25" scaleX="1" scaleY="1" source="dc_mu2"/>
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="-1"/>
+				</e:layout>
+			</e:Group>
+			<e:Group x="167" verticalCenter="-17" touchEnabled="false" id="actCircleEffGrp0"/>
+			<e:Group id="actCircleStrGrp" y="58" touchEnabled="false" touchChildren="false" horizontalCenter="45">
+				<e:Label id="actCircleStr" text="达到5转立即获得" size="18" stroke="2" textColor="0xe5ddcf"/>
+			</e:Group>
+			<e:Label id="clickReceive" text="前往领奖&gt;&gt;" x="116" y="58" textColor="0x28ee01" size="18" stroke="2"/>
+				<e:Group id="cieclereceiveEffGrp" horizontalCenter="0" verticalCenter="0" touchEnabled="false" touchChildren="false"/>
+			</e:Group>
+			<e:Button id="actCircleBtn" label="Button" skinName="Btn0Skin" icon="dc_btn1" width="25" height="34" anchorOffsetX="12" anchorOffsetY="17" scaleX="0.9" scaleY="0.9" verticalCenter="0" x="12" visible="false"/>
+		</e:Group>
+		<e:Group id="actTipsGrp2" width="316" height="110" x="448" y="285" touchEnabled="false" scaleX="1" scaleY="1">
+			<e:Group id="actMonsterGrp" scaleX="1" scaleY="1" x="27" verticalCenter="0" touchChildren="false" visible="false">
+			<e:Image touchEnabled="false" source="dc_bg0"/>
+			<e:Group id="actMonsterEff" x="31" verticalCenter="3" touchEnabled="false"/>
+			<e:Image y="-1" source="dc_bg1" right="0" touchEnabled="false"/>
+			<e:Group verticalCenter="-21" horizontalCenter="18" touchEnabled="false">
+				<e:Image id="actMonsterImg1" x="22" y="15" scaleX="1" scaleY="1" source=""/>
+				<e:Image id="actMonsterImg2" x="32" y="25" scaleX="1" scaleY="1" source=""/>
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+				<e:Group id="actMonsterEff0" x="153" touchEnabled="false" y="24"/>
+			<e:Label id="actMOnsterStr" text="打怪还差1299个完成目标赠送一转材料" x="48" size="16" textColor="0xe5ddcf" stroke="2" width="199" lineSpacing="3" touchEnabled="false" bottom="0" textAlign="center"/>
+			<e:Label id="monsterClickReceive" text="前往领奖&gt;&gt;" x="93" y="58" textColor="0x28EE01" size="20" stroke="2"/>
+				<e:Group id="monsterEffGrp" horizontalCenter="0" verticalCenter="0" x="128" y="60" touchEnabled="false" touchChildren="false"/>
+			</e:Group>
+			<e:Button id="actMonsterBtn" label="Button" skinName="Btn0Skin" icon="dc_btn2" width="25" height="109" anchorOffsetX="12" anchorOffsetY="54" scaleX="1" x="12" scaleY="1" verticalCenter="-1" visible="false"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="-8"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="actEquipGrp" right="0" top="191" touchChildren="false" visible="false">
+		<e:Image source="dc_bg3" scale9Grid="0,0,283,67"/>
+		<e:Group y="3" horizontalCenter="0">
+			<e:Image id="actEquipIcon" scaleX="1" scaleY="1" source="dc_cdwenzi1"/>
+			<e:Image id="actEquipNum" source="dc_cdmu7" y="0" left="53"/>
+		</e:Group>
+		<e:Group id="actEquipEffGrp" x="149" y="20" touchEnabled="false" touchChildren="false"/>
+		<e:Group id="actEquipImgGrp" y="34" horizontalCenter="-27">
+			<e:Image id="actEquipImg1" x="16" y="34" scaleX="1" scaleY="1" source="dc_jpwenzi0"/>
+			<e:Image id="actEquipImg2" x="26" y="44" scaleX="1" scaleY="1" source="dc_jpwenzi1"/>
+			<e:layout>
+				<e:HorizontalLayout gap="-4"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="actEquipReceive" text="已达成，前往领奖&gt;&gt;" y="41" textColor="0x28ee01" horizontalCenter="-23" size="20" stroke="2"/>
+		<e:Label id="actEquipProgress" text="(5/6)" y="41" textColor="0x28ee01" size="20" left="219" stroke="2"/>
+		<e:Group id="equipEffGrp" horizontalCenter="0" verticalCenter="0" touchEnabled="false" touchChildren="false"/>
+	</e:Group>
+	<e:Group id="actLevelGrp" horizontalCenter="-367" bottom="234" touchChildren="false" visible="false">
+		<e:Image source="dc_bg4" visible="true" y="35.402" horizontalCenter="0.5"/>
+		<e:Image source="dc_bg5" visible="true" horizontalCenter="0" scale9Grid="34,5,34,6" height="45" y="56" width="130"/>
+		<e:Image id="actLevelIcon" source="12097" horizontalCenter="1.5" width="72" height="72" y="-6"/>
+		<e:Image id="actLevelQuality" horizontalCenter="1" source="yan_101" visible="false"/>
+		<e:Label id="actLevelStr" text="还差5级\n等级50可领取" size="15" textColor="0xE5DDCF" stroke="2" width="129" lineSpacing="3" textAlign="center" y="64" visible="true"/>
+		<e:Label id="actLevelReceive" text="领取奖励&gt;&gt;" size="15" stroke="2" width="101" lineSpacing="3" textAlign="center" y="72" horizontalCenter="0" textColor="0x28EE01" visible="true"/>
+		<e:Group id="actLevelEff" x="65" y="28" touchEnabled="false" touchChildren="false"/>
+		<e:Group id="levelEffGrp" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" touchEnabled="false" touchChildren="false">
+		</e:Group>
+		<e:Group id="receiveEffGrp" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="29" x="0" y="0" touchEnabled="false" touchChildren="false"/>
+	</e:Group>
+</e:Skin>

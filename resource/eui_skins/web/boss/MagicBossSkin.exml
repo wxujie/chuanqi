@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicBossSkin" width="873" height="563" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="878" height="563" x="0" y="0">
+		<e:Image smoothing="false" source="com_bg_kuang_xian1" x="0" y="0" anchorOffsetX="0" width="523.67" anchorOffsetY="0" height="555" scale9Grid="6,6,8,6" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image smoothing="false" source="com_bg_kuang_xian1" x="526.7" y="0.52" anchorOffsetX="0" width="350.33" anchorOffsetY="0" height="555" scale9Grid="6,6,8,6" scaleX="1" scaleY="1" visible="false"/>
+		<e:Scroller id="scroller_r" width="345.76" height="494.03" x="526.97" anchorOffsetX="0" anchorOffsetY="0" y="3" scaleX="1" scaleY="1">
+			<e:Group anchorOffsetX="0" width="430" anchorOffsetY="0" height="725.76">
+			<e:Image name="bg" x="3" y="34" anchorOffsetX="0" width="337" anchorOffsetY="0" height="160" source="com_bg_kuang_xian2" scale9Grid="9,9,7,7" alpha="0.5" scaleX="1" scaleY="1"/>
+			<e:Image x="4.96" y="8.34" scaleX="1" scaleY="1" source="boss_json.boss_guishu"/>
+			<e:Image name="bg" x="3" y="226" anchorOffsetX="0" width="337" anchorOffsetY="0" height="160" source="com_bg_kuang_xian2" scale9Grid="9,9,7,7" alpha="0.5" scaleX="1" scaleY="1"/>
+			<e:Image x="7" y="196.78" scaleX="1" scaleY="1" source="boss_json.boss_yongdou"/>
+			<e:Image name="bg" x="3" y="418" anchorOffsetX="0" width="337" anchorOffsetY="0" height="160" source="com_bg_kuang_xian2" scale9Grid="9,9,7,7" alpha="0.5" scaleX="1" scaleY="1"/>
+			<e:Image x="8" y="389.31" scaleX="1" scaleY="1" source="boss_json.boss_canyu"/>
+			<e:List id="list0" width="332" height="148" x="7" y="41" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="BossDropItemSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:TileLayout paddingTop="10" verticalGap="10" paddingLeft="2"/>
+				</e:layout>
+			</e:List>
+			<e:List id="list1" width="332" height="148" x="7" y="230" anchorOffsetX="0" anchorOffsetY="0">
+				<e:layout>
+					<e:TileLayout verticalGap="10" paddingLeft="2" paddingTop="10"/>
+				</e:layout>
+			</e:List>
+			<e:List id="list2" width="332" height="148" x="6" y="426" anchorOffsetX="0" anchorOffsetY="0">
+				<e:layout>
+					<e:TileLayout paddingLeft="2" paddingTop="10" verticalGap="10"/>
+				</e:layout>
+			</e:List>
+			</e:Group>
+		</e:Scroller>
+		<e:Scroller id="scroller_l" width="519.7" height="563" x="6.08" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+			<e:List id="list_item" itemRendererSkinName="MagicBossItemSkin" anchorOffsetY="0" height="554">
+			</e:List>
+		</e:Scroller>
+		<e:Label id="txt_trans" text="" x="590.21" y="522.44" size="18" textColor="0xEDE6D3" scaleX="1" scaleY="1"/>
+		<e:Button id="btn_go" label="立即前往" skinName="Btn9Skin" x="767.21" y="502.44000000000005" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

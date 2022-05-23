@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NGEquipViewSkin" width="309" height="234" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="bg_neigongzb_png" />
+    <e:Image source="bg_neigongzb1" x="18" y="24" />
+    <e:Image source="bg_neigongzb1" scaleX="-1" x="291" y="24" />
+    <e:Image id="imgTitle" source="t_neigongzb" y="18" horizontalCenter="0" />
+    <app:ItemSlot id="icon0" skinName="ItemSlotSkin" y="52" x="65" />
+    <app:ItemSlot id="icon1" skinName="ItemSlotSkin" x="185" y="52" />
+    <app:ItemSlot id="icon2" skinName="ItemSlotSkin" x="66" y="145" />
+    <app:ItemSlot id="icon3" skinName="ItemSlotSkin" x="185" y="145" />
+    <app:RuleTipsButton id="helpBtn" label="Button" x="13" y="16" ruleId="0" />
+</e:Skin>

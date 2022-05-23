@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendViewPageSkin" width="862" height="565" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Group id="gHeader" height="42" x="0"  width="858">
+		<app:FriendHeaderView id="header" height="42"  skinName="FriendHederSkin" width="862" anchorOffsetX="0" x="-0.5"/>
+	</e:Group>
+	<e:Group id="gp" width="858" height="443" x="1" y="41" >
+		<e:Scroller id="scroller" width="858" height="440"  scrollPolicyH="off">
+			<e:List id="gList" itemRendererSkinName="FriendCommonItemSkin">
+			</e:List>
+		</e:Scroller>
+		<e:Label id="noListTipsLb" text="当前未添加玩家成为好友\n快去添加吧"  textAlign="center" verticalAlign="middle" horizontalCenter="0" verticalCenter="0" stroke="2" size="24" textColor="0xe5ddcf" lineSpacing="5"/>
+	</e:Group>
+	<e:Group id="friendNumGrp" x="40.36" y="523.35">
+		<e:Label id="friendNumLab" text="好友数量:30/50" x="5.01" y="22" textColor="0xE5DDCF" stroke="2" size="22" verticalAlign="middle"/>
+		<e:Label id="onLineFriendLab" text="在线好友:5" x="15.01" y="32" textColor="0xE5DDCF" stroke="2" size="22" verticalAlign="middle"/>
+		<e:layout>
+		<e:HorizontalLayout gap="96"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

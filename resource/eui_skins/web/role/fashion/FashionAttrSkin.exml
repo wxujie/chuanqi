@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FashionAttrSkin" width="261.33" height="568" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="attrGroup" x="1" y="0" anchorOffsetX="0" width="258.33">
+		<e:Image smoothing="false" touchEnabled="false"  source="role_zt_bg" scale9Grid="8,8,50,50" anchorOffsetX="0" width="259.67" anchorOffsetY="0" height="568"/>
+		<e:Label id="txt_cur_desc" text="Label" x="9" y="8" anchorOffsetX="0" width="223" size="20"  textColor="0xcbc2b1"/>
+		<e:Label id="txt_next_desc" text="Label" x="5" y="286" anchorOffsetX="0" width="223" size="20"  textColor="0xff7700"/>
+		<e:Label id="txt_desc" text="时装激活后无需展示也可享永久属性加成！" x="17.31" y="282" anchorOffsetX="0" width="223" size="20"  textColor="0x3794fb"/>
+		<e:Scroller id="scroller_cur" width="239" height="243" x="10" y="34" scrollPolicyH="off" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="list_cur" width="247" height="450" x="169" y="1.33" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="FashionAttrItemSkin"/>
+		</e:Scroller>
+		<e:Scroller id="scroller_next" width="239" height="243" x="10" y="317" scrollPolicyH="off" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="list_next" width="249" height="450" x="169" y="134" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="FashionAttrItemSkin"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

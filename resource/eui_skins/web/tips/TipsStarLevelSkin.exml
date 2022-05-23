@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsStarLevelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="25" height="23">
+	<e:Image source="common_xx_bg"/>
+	<e:Image id="starLv" source="common_xx" width="25" height="23" visible="false"/>
+</e:Skin>

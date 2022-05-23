@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PhoneMainSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<!--<e:Image source="sj10_png"/>-->
+	<e:Group id="imageGroup" top="0" left="0" bottom="0" right="0" touchChildren="false" touchEnabled="false"
+	         anchorOffsetX="0">
+		<e:Group height="148" width="364" touchEnabled="false" anchorOffsetY="0" bottom="0" horizontalCenter="0">
+			<e:Image source="m_liaotianbg" bottom="6" left="0" right="0" top="62" anchorOffsetY="0" scale9Grid="5,5,31,31"/>
+			<e:Image source="m_bg_zhuui3" bottom="0" horizontalCenter="0"/>
+			<e:Image anchorOffsetX="0" width="58" height="58" x="10.33" y="1" source="m_daojubg" scale9Grid="2,2,13,13"/>
+			<e:Image anchorOffsetX="0" width="58" height="58" x="80.66" y="1" source="m_daojubg" scale9Grid="2,2,13,13"/>
+			<e:Image anchorOffsetX="0" width="58" height="58" x="149.66" y="1" source="m_daojubg" scale9Grid="2,2,13,13"/>
+			<e:Image anchorOffsetX="0" width="58" height="58" x="219.66" y="1" source="m_daojubg" scale9Grid="2,2,13,13"/>
+			<e:Image anchorOffsetX="0" width="58" height="58" x="288.32" y="1" source="m_daojubg" scale9Grid="2,2,13,13"/>
+			<e:Image source="m_kuaijielan2" x="9"/>
+		</e:Group>
+		<e:Image id="bg1" source="m_bg_zhuui1" bottom="0" left="-2" anchorOffsetX="0" scale9Grid="64,104,236,23"/>
+		<e:Image id="bg2" source="m_bg_zhuui2" bottom="0" right="0" anchorOffsetX="0" width="483" scale9Grid="112,30,339,27"/>
+		<e:Image source="name_bg" width="283" touchEnabled="false" x="2" y="0" scale9Grid="4,4,28,28" anchorOffsetX="0" anchorOffsetY="0" height="44"/>
+		<e:Image source="name_icon_jb" x="6" y="12" />
+		<e:Image x="168" y="3" source="name_icon_yb" />
+		<e:Image id="lockIconBg" touchEnabled="false" horizontalCenter="-89" source="m_m_lock_bg"
+		         top="2"  scaleX="0.9" scaleY="0.9"/>
+		<e:Image id="lockNameBg" touchEnabled="false" top="4"
+		         horizontalCenter="55"  anchorOffsetY="0" anchorOffsetX="0" width="216" scale9Grid="30,4,180,24" height="30" source="m_m_lockname_bg"/>
+		<e:Image id="jobImg" source="m_job1" scaleX="0.8" scaleY="0.8" top="7" horizontalCenter="-40" />
+		<e:Image id="hpBg" top="39"  scale9Grid="25,2,152,16" height="20" width="214" horizontalCenter="55" source="m_m_sd_xt_k"/>
+		<e:Group width="212" top="39" horizontalCenter="56">
+			<e:Image id="hpImage" y="2"  width="210" scale9Grid="25,2,151,14" height="16" source="m_m_sd_xt_bg"/>
+		</e:Group>
+		<e:Image bottom="1" source="m_expbg"  right="227"/>
+		<e:Image bottom="1" source="m_expbg"  right="38"/>
+		<e:Image source="m_qiehuanbg" right="0" bottom="416" />
+	</e:Group>
+	<e:Group id="clickGroup" top="0" left="0" right="0" bottom="0" touchEnabled="false">
+		<e:Image id="switchRoleButton" source="name_btn" x="374" y="5"/>
+		<e:Image id="lockIcon" top="5" horizontalCenter="-89" width="52" height="52" source="name_1_1" />
+		<e:Button id="modelButton" icon="m_heping2" bottom="4" horizontalCenter="-348.5" skinName="PhoneMainButtonSkin" width="45" height="45"/>
+		<e:Button id="packUpButton" top="2" right="142" icon="mp_map_bg1">
+			<e:skinName>
+			<e:Skin states="up">
+				<e:Image width="100%" height="100%" source="mp_map_bg2"/>
+				<e:Image id="iconDisplay" verticalCenter="0" horizontalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="rechargeButton" label="" x="289" y="4" width="78" height="37">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ns1="*">
+				<e:Image scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" source="btn_czcz"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		
+		<app:PhoneMainButton id="bagButton" icon="icon_beibao" bottom="494" right="5" configid="2"
+		                     skinName="PhoneMainButtonSkin" />
+		<app:PhoneMainButton id="roleButton" icon="icon_juese" bottom="494" right="97" configid="5"
+		                     skinName="PhoneMainButtonSkin" />
+		<app:PhoneMainButton id="firstRechargeBtn" icon="icon_shouchong" right="179" configid="26" skinName="PhoneMainButtonSkin" top="4"/>
+		<app:PhoneMainButton id="vipButton" icon="icon_hytq" right="256" configid="37" skinName="PhoneMainButtonSkin" top="4"/>
+		<app:PhoneMainButton id="pkButton" scaleX="0.8" scaleY="0.8" icon="icon_zhinengPK"
+		                     configid="39" skinName="PhoneMainButtonSkin"  right="106" bottom="415"/>
+		<app:PhoneMainButton id="aiButton" scaleX="0.8" scaleY="0.8" icon="icon_guaji" bottom="415" right="195"
+		                     configid="38" skinName="PhoneMainButtonSkin" />
+		<app:PhoneMainButton id="shopButton" icon="m_icon_shangcheng" bottom="3" horizontalCenter="211.5" configid="1" skinName="PhoneMainButtonSkin" width="45" height="45"/>
+		<e:Group id="packUpGroup" right="179" top="0">
+			<e:Group id="layer1" top="4" touchEnabled="false" right="0"  height="72">
+			</e:Group>
+			<e:Group id="layer2" height="65" top="81" touchEnabled="false" right="0" >
+			</e:Group>
+    		<e:Group id="donationGuideTipsGrp" right="0" top="0" />
+			<e:Group id="violentGuideTipsGrp" right="0" top="0" />
+    		<e:Group id="vipGuideTipsGrp" right="0" top="0" />
+    		<e:Group id="secondChargeTipsGrp" right="0" top="0" />
+    		<e:Group id="firstChargeTipsGrp" right="0" top="0" />
+		</e:Group>
+		<e:Group id="switchGrp" bottom="419" right="16" width="54" height="57">
+			<e:Image id="switchImage" source="m_qiehuan" anchorOffsetX="20" anchorOffsetY="20" horizontalCenter="0"
+			         verticalCenter="0"  scale9Grid="0,1,38,40"/>
+			<app:RedDotControl id="switchRed" x="35" y="3"/>
+		</e:Group>
+		<e:Group id="skillGroup" width="376" height="387" right="0" bottom="0"
+		         touchEnabled="false">
+			<e:Image source="mainphone_json.m_skillbg2" x="229" y="226" touchEnabled="false"/>
+			<e:Image x="198" y="190" touchEnabled="false" source="m_skillwjgw"/>
+			<e:Image id="bottomImage" x="208" y="279" source="m_skillgw1"/>
+			<e:Image id="topImage" x="224" y="196" source="m_skillwj1"/>
+			<e:Button id="skillButton0" x="286" y="1" skinName="PhoneMainSkillSkin" icon="m_skillicon_fs11"  width="72" height="72"/>
+			<e:Button x="184" y="25" skinName="PhoneMainSkillSkin" icon="m_skillicon_fs11" id="skillButton1"  width="72" height="72"/>
+			<e:Button x="94" y="84" skinName="PhoneMainSkillSkin" icon="m_skillicon_fs11" id="skillButton2"  width="72" height="72"/>
+			<e:Button x="30" y="173" skinName="PhoneMainSkillSkin" icon="m_skillicon_fs11" id="skillButton3"  width="72" height="72"/>
+			<e:Button x="0" y="283" skinName="PhoneMainSkillSkin" icon="m_skillicon_fs11" id="skillButton4"  width="72" height="60"/>
+			<e:Button x="284" y="83" skinName="PhoneMainSkillSkin" icon="m_skillicon_fs11" id="skillButton5"  width="72" height="72"/>
+			<e:Button x="189" y="109" skinName="PhoneMainSkillSkin" icon="m_skillicon_fs11" id="skillButton6"  width="72" height="72"/>
+			<e:Button x="116" y="182" skinName="PhoneMainSkillSkin" icon="m_skillicon_fs11" id="skillButton7"  width="72" height="72"/>
+			<e:Button x="90" y="277" skinName="PhoneMainSkillSkin" icon="m_skillicon_fs11" id="skillButton8"  width="72" height="72"/>
+			<e:Button id="stormButton" x="238" y="235" skinName="PhoneMainSkillSkin" icon="m_skillbg3"/>
+			<e:Button id="petAckButton" icon="m_cw_gj" skinName="PhoneMainButtonSkin" width="47" height="47" x="-68" y="274"/>
+			<e:Button id="petFollowButton" icon="m_cw_gs" skinName="PhoneMainButtonSkin" width="47" height="47" x="-70" y="207"/>
+		</e:Group>
+		<e:Group id="buttonGroup" width="427" right="0" bottom="0" touchEnabled="false">
+			<e:Group id="layer3" width="72" right="10" bottom="36" >
+			</e:Group>
+			<e:Group id="layer4" width="72" bottom="36" right="90" >
+			</e:Group>
+			<e:Group id="layer5" width="72" bottom="36" right="170" >
+			</e:Group>
+			<e:Group id="layer6" width="72" bottom="36" right="250"/>
+			<e:Group id="layer7" width="72" bottom="36" right="330"/>
+		</e:Group>
+		<e:Group id="newMsgTipsGrp" bottom="149" left="372" touchEnabled="false" height="51">
+		</e:Group>
+	</e:Group>
+	<e:Group id="labelGroup" top="0" left="0" right="0" bottom="0" touchChildren="false" touchEnabled="false">
+		<e:Label id="bindGoldNum" text="12345688" x="41" y="13" size="20" stroke="2" textColor="0xFFFFFF" />
+		<e:Label id="yuanbaoNum" text="2132" x="205" y="13" size="20" textColor="0xFFFFFF" stroke="2" />
+		<e:Label id="labelTime" text="08:08:08" size="18" touchEnabled="false" textAlign="center"
+		         stroke="2"  width="100" bottom="3" horizontalCenter="-444"/>
+		<e:Label id="levelLab" text="4转500" size="18" touchEnabled="false" textAlign="center" bottom="3" stroke="2" y="739"
+		          right="342"/>
+		<e:Label text="多倍经验" size="18" textAlign="center" bottom="3" stroke="2" y="739"
+		          right="151"/>
+		<e:Label id="lockName" size="18" stroke="2" width="187" textAlign="left" text="目标名称" top="10" horizontalCenter="68.5"  anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:Label id="lockHpLabel" text="3086/5895" size="16" width="210" textAlign="center" stroke="2" anchorOffsetY="0"
+		         height="15" verticalAlign="justify" top="41" horizontalCenter="54" />
+	</e:Group>
+	<e:Group id="outerGroup" top="0" left="0" right="0" bottom="0" touchEnabled="false">
+		<e:Group id="swPKGroup" width="200" height="0" anchorOffsetX="0" anchorOffsetY="0" right="0" bottom="116"/>
+	    	<e:ProgressBar id="lvBar" width="108" value="100" bottom="7" right="226" touchEnabled="false" touchChildren="false">
+		 <e:skinName>
+                <e:Skin>
+                    <e:Image id="thumb"  source="m_exp" />
+                </e:Skin>
+            </e:skinName>
+		</e:ProgressBar>
+		<e:ProgressBar id="expBar" width="108" value="100" bottom="6" right="37" touchChildren="false" touchEnabled="false">
+			<e:skinName>
+			<e:Skin>
+				<e:Image id="thumb" source="m_exps"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ProgressBar>
+		<e:Scroller id="chatScroller" width="370" height="76" bottom="8" horizontalCenter="0" anchorOffsetY="0" touchEnabled="false" anchorOffsetX="0">
+			<e:Group id="chatGroup" height="65">
+				<e:List id="chatList" itemRendererSkinName="PhoneChatItemSkin" touchEnabled="false" touchChildren="false"
+				        width="362" bottom="0"  x="7">
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+		<e:Group id="skillShapeGroup" width="376" height="387" right="0" bottom="0"
+		         touchEnabled="false" touchChildren="false"></e:Group>
+		<e:Image id="skillTipsImage" bottom="509" right="166" source="tips_man5"/>
+		<e:Image id="bagMaxImage" bottom="565" right="29" source="tips_man2"/>
+		<app:RankRightMenuView id="rightMenuView" skinName="RankRightMenuSkin" horizontalCenter="-85" top="60"/>
+		<e:Image id="itemKey0" width="55" height="55" scaleX="1" scaleY="1" bottom="91" horizontalCenter="-143.5" source="m_daojubg"/>
+		<e:Image id="itemKey1" width="55" height="55" scaleX="1" scaleY="1" bottom="91" horizontalCenter="-72.5" source="m_daojubg"/>
+		<e:Image id="itemKey2" width="55" height="55" scaleX="1" scaleY="1" bottom="91" horizontalCenter="-3.5" source="m_daojubg"/>
+		<e:Image id="itemKey3" width="55" height="55" scaleX="1" scaleY="1" horizontalCenter="66.5" bottom="91" source="m_daojubg"/>
+		<e:Image id="itemKey4" width="55" height="55" scaleX="1" scaleY="1" horizontalCenter="135.5" bottom="91" source="m_daojubg"/>
+		<e:Group width="364" height="63" horizontalCenter="0" bottom="86" touchEnabled="false" touchChildren="false">
+			<e:Label id="itemKeyLab0" text="" scaleX="1" scaleY="1" size="16" textColor="0x0cf214" right="298" bottom="5"/>
+			<e:Label id="itemKeyLab1" text="" scaleX="1" scaleY="1" size="16" textColor="0x0CF214" right="228" bottom="5"/>
+			<e:Label id="itemKeyLab2" text="" scaleX="1" scaleY="1" size="16" textColor="0x0CF214" right="158" bottom="5"/>
+			<e:Label id="itemKeyLab3" text="" scaleX="1" scaleY="1" size="16" textColor="0x0CF214" right="89" bottom="5"/>
+			<e:Label id="itemKeyLab4" text="" scaleX="1" scaleY="1" size="16" textColor="0x0CF214" right="20" bottom="5"/>
+		</e:Group>
+		<e:Image id="dragImg" x="496.5" y="605" width="55" height="55"/>
+		<e:Image id="skillBarCD0" width="55" height="55" scaleX="1" scaleY="1" bottom="91" horizontalCenter="-143" source="m_daojubg" touchEnabled="false" visible="false"/>
+		<e:Image id="skillBarCD1" width="55" height="55" scaleX="1" scaleY="1" bottom="91" horizontalCenter="-73" source="m_daojubg" touchEnabled="false" visible="false"/>
+		<e:Image id="skillBarCD2" width="55" height="55" scaleX="1" scaleY="1" bottom="91" horizontalCenter="-4" source="m_daojubg" touchEnabled="false" visible="false"/>
+		<e:Image id="skillBarCD3" width="55" height="55" scaleX="1" scaleY="1" horizontalCenter="66" bottom="91" source="m_daojubg" touchEnabled="false" visible="false"/>
+		<e:Image id="skillBarCD4" width="55" height="55" scaleX="1" scaleY="1" horizontalCenter="135" bottom="91" source="m_daojubg" touchEnabled="false" visible="false"/>
+		<e:Button id="suitBtn" label="Button" skinName="Btn0Skin" icon="main_tuichu" left="25" bottom="85"/>
+		<app:ImageBase id="saviorBuff" skinName="ImageBaseSkin" bottom="32" left="29" visible="false"/>
+		<e:List id="buffList" itemRendererSkinName="ImageBaseSkin" bottom="32" left="29">
+			<e:layout>
+			<e:HorizontalLayout gap="1"/>
+			</e:layout>
+		</e:List>
+		<e:Group touchEnabled="false" width="0" height="0" x="470" verticalCenter="-94">
+			<e:List id="buffList1" itemRendererSkinName="ImageBaseSkin" touchChildren="false">
+			<e:layout>
+				<e:TileLayout horizontalGap="0" verticalGap="0" requestedColumnCount="4"/>
+			</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Group id="doubleGrp" height="39" right="0" bottom="0" anchorOffsetY="0" anchorOffsetX="0" width="416"/>
+		<e:Group id="onHookGroup" bottom="161" horizontalCenter="126">
+			<e:Button id="drugBtn" label="" width="50" height="53">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ns1="*">
+				<e:Image scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" source="gjbtn_hy"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="pickupBtn" label="" height="53" x="52" y="0" width="50">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ns1="*">
+				<e:Image width="100%" height="100%" source="gjbtn_sq"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="splitBtn" label="" height="53" x="104" y="0" width="50" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ns1="*">
+				<e:Image width="100%" height="100%" source="gjbtn_fj"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<app:TweenImage id="expDian" y="727" x="1352" source="exp_dian"/>
+		<app:TweenImage id="expDian0" y="727" x="1352" source="exp_dian"/>
+		<app:TweenImage id="expDian1" y="727" x="1352" source="exp_dian"/>
+		<app:TweenImage id="expDian2" y="727" x="1352" source="exp_dian"/>
+		<app:TweenImage id="expDian3" y="727" x="1352" source="exp_dian"/>
+		<e:Group id="hpTipsGrp" width="43" height="99" bottom="21" horizontalCenter="-284"/>
+		<e:Group id="mpTipsGrp" width="43" height="99" bottom="21" horizontalCenter="-232"/>
+		<e:Group id="timerGrp" width="300" height="32" touchEnabled="false" touchChildren="false" left="0" bottom="429">
+			<e:Image height="31" width="281" top="0" right="4" source="zjmgonggaobg" scale9Grid="7,3,209,9"/>
+			<e:Label id="actTime" text="" size="20" textColor="0x28EE01" top="5" width="260" textAlign="center" right="17" stroke="2"/>
+		</e:Group>
+		<e:Group id="npcTimerGrp" height="32" touchEnabled="false" touchChildren="false" bottom="429" left="0" width="300">
+			<e:Image height="31" width="281" top="0" right="4" source="zjmgonggaobg" scale9Grid="7,3,209,9"/>
+			<e:Label id="npcTime" text="" size="20" textColor="0x28EE01" top="5" width="260" textAlign="center" right="17" stroke="2"/>
+		</e:Group>
+		<e:Group id="duoBaoTimerGrp" width="300" height="32" touchEnabled="false" touchChildren="false" scaleX="1" scaleY="1" left="0" bottom="429">
+			<e:Image height="31" width="281" top="0" right="4" source="zjmgonggaobg" scale9Grid="7,3,209,9"/>
+			<e:Label id="duoBaoTime" text="" size="20" textColor="0x28EE01" top="5" width="260" textAlign="center" right="17" stroke="2"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="mcGroup" left="0" right="0" top="0" bottom="0" touchChildren="false" touchEnabled="false">
+		<e:Scroller id="hpScroller" width="47" height="107" touchChildren="false" touchEnabled="false" bottom="19" horizontalCenter="-285.5" scaleX="0.95" scaleY="0.95">
+			<e:Group><e:Group id="hpGroup" bottom="-50" width="40" height="107"/></e:Group>
+			
+		</e:Scroller>
+		<e:Scroller id="mpScroller" width="47" height="107" touchChildren="false" touchEnabled="false" bottom="19" horizontalCenter="-233.5" scaleX="0.95" scaleY="0.95">
+			<e:Group>
+			<e:Group id="mpGroup" bottom="-50" width="40" height="107"/>
+			</e:Group>
+			
+		</e:Scroller>
+		<e:Group id="playerStateGrp" bottom="188" horizontalCenter="-64"/>
+		<e:Group id="addExpGrp"/>
+		<e:Group id="doubleMcGrp" bottom="12" right="96"/>
+		<e:Group id="stormGroup" width="1" height="1" right="101" bottom="114"/>
+		
+	</e:Group>
+	<e:Group id="pkGroup" horizontalCenter="-350" bottom="37" width="131" height="170" visible="false">
+			<e:Image source="m_ms_bg1" height="170" scale9Grid="4,4,3,2" width="131"/>
+		<e:Image id="pkbg" y="3" width="127" height="34" source="m_ms_bg2" scale9Grid="1,1,2,2" x="3"/>
+			<e:Image id="pkImage1" source="m_heping" x="4" y="3"/>
+			<e:Image id="pkImage2" x="4" y="37" source="m_zudui"/>
+			<e:Image id="pkImage3" x="4" y="69" source="m_hanghui"/>
+			<e:Image id="pkImage4" x="4" y="101" source="m_didui"/>
+			<e:Image id="pkImage5" x="4" y="133" source="m_quanti"/>
+		</e:Group>
+	<e:Group id="msgGroup" width="120" left="8" touchChildren="false" touchEnabled="false" bottom="189">
+        <e:Label id="msg1" text="" x="26" y="2" scaleX="1" scaleY="1" size="18" stroke="2" textColor="0x28ee01"
+                 visible="false" />
+        <e:Label id="msg2" text="" x="26" y="22" scaleX="1" scaleY="1" size="18" stroke="2" textColor="0x28ee01"
+                 visible="false" />
+        <e:Label id="msg3" text="" x="26" y="42" scaleX="1" scaleY="1" size="18" stroke="2" textColor="0x28ee01"
+                 visible="false" />
+    </e:Group>
+</e:Skin>

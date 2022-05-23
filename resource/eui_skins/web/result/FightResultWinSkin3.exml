@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightResultWinSkin3" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillAlpha="0.2" width="100%" height="100%"/>
+	<e:Group width="415" height="628" horizontalCenter="0" verticalCenter="-114">
+		<e:Image id="bgIcon" source="result_win" verticalCenter="0" horizontalCenter="0" x="0" y="0"/>
+		<e:Image id="titleIcon" source="result_win1" verticalCenter="-158.5" left="146"/>
+		<e:Group id="failGrp" horizontalCenter="1" verticalCenter="-29.5" x="77" y="186" visible="false">
+			<e:Image source="result_lost2" horizontalCenter="0"/>
+			<e:Image y="60" source="result_lost3" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="listGrp" width="263" height="295" x="78" y="188" anchorOffsetY="0">
+			<e:Label id="rankLab" text="活动已结束,恭喜获得XXX积分，排名第X" size="21" x="9" width="250" textColor="0xeee104" stroke="2"/>
+			<e:Label text="奖励(邮件发放)：" size="21" x="9" width="250" y="50" textColor="0xeee104" stroke="2"/>
+			<e:Scroller width="254" height="132" x="5" y="159" anchorOffsetY="0">
+				<e:List id="itemList1" x="5" y="36" itemRendererSkinName="ItemBaseSkin" anchorOffsetX="0" width="243" anchorOffsetY="0" height="66">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="4" horizontalGap="4" verticalGap="11"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Scroller width="254" height="63" x="5" y="79" anchorOffsetY="0">
+			<e:List id="itemList" x="5" y="36" itemRendererSkinName="ItemBaseSkin" anchorOffsetX="0" width="243" anchorOffsetY="0" height="177">
+				<e:layout>
+				<e:TileLayout requestedColumnCount="4" horizontalGap="4" verticalGap="15" requestedRowCount="1"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Label id="autoSuit" text="3秒后自动退出" size="21" horizontalCenter="0.5" bottom="63" x="126" y="485" textColor="0x28ee01" stroke="2"/>
+		<e:Button id="suitBtn" label="领取奖励" icon="result_btn" horizontalCenter="2.5" bottom="90" x="77" y="420" skinName="Btn9Skin"/>
+	</e:Group>
+</e:Skin>

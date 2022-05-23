@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FastItemSkin" width="58" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="58">
+	<e:Image left="0" right="0" top="0" bottom="0" source="kuaijielan1" scale9Grid="13,25,3,6"/>
+	<e:Image x="3" y="1" source="F1"/>
+	<e:Image id="kjIcon" verticalCenter="0" horizontalCenter="0" source="icon_activity" width="46" height="46"/>
+</e:Skin>

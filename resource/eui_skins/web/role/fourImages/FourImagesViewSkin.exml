@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FourImagesViewSkin" width="384" height="447" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image id="bg" source="bg_sixiang_png"/>
+	
+	<app:FourImagesItemView id="fourImagesItemView_1" width="144" height="185" x="4" y="28" skinName="FourImagesItemViewSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<app:FourImagesItemView id="fourImagesItemView_2" width="144" height="185" x="237" y="28" skinName="FourImagesItemViewSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<app:FourImagesItemView id="fourImagesItemView_3" width="144" height="185" x="4" y="189" skinName="FourImagesItemViewSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<app:FourImagesItemView id="fourImagesItemView_4" width="144" height="185" x="237" y="189" skinName="FourImagesItemViewSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="goBtn" label="前往提升" width="113" height="46" verticalCenter="184.5" right="134">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" textColor.disabled="0xb9b9b9" stroke="2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<app:RedDotControl id="redPoint" x="236.32" y="382.67" visible="false"/>
+</e:Skin>

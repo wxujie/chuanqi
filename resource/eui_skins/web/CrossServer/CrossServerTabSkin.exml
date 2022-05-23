@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrossServerTabSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Image source="kf_fanye_bg1" visible.down="false"/>
+	<e:Image source="kf_fanye_bg2" visible.up="false"/>
+	<e:Image id="txtIcon1" source="kf_fanye_hd1" horizontalCenter="3" verticalCenter="-9" visible.up="false"/>
+	<e:Image id="txtIcon2" source="kf_fanye_hd2" horizontalCenter="3" verticalCenter="-9" visible.down="false"/>
+</e:Skin>

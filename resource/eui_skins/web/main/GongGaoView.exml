@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GongGaoView" width="912" height="646" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group>
+		<app:UIViewFrame id="dragDropUI" x="0" y="0" scaleX="1" scaleY="1" skinName="ViewBgWin1Skin"/>
+		<e:Image smoothing="false" width="157" source="com_bg_kuang_6_png" scale9Grid="17,19,2,4" x="23" height="560" y="56"/>
+		<e:Image x="185" y="56" source="com_bg_kuang_6_png" height="486" width="702"/>
+	</e:Group>
+	<e:Button id="btn_close" label="" width="60" scaleX="1.2" scaleY="1.2" x="889" y="-9">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="txt_name" size="26" stroke="2" scaleX="1" scaleY="1" touchEnabled="false" top="17" horizontalCenter="0" textColor="0xE5DDCF" text="系统公告"/>
+	<e:TabBar id="tab" x="28" y="61">
+		<e:layout>
+		<e:VerticalLayout horizontalAlign="center" gap="-3"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Group height="560" x="185" y="56" width="700" touchEnabled="false">
+		<e:Scroller id="gongGaoScroller" width="644" height="452" x="30" y="22">
+			<e:Group>
+				<e:Label id="textLab" text="" size="24" stroke="2" textColor="0xe5ddcf" width="644" lineSpacing="10" scaleX="1" scaleY="1" y="2"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Button id="sureBtn" label="确 定" y="500" x="273" width="109" height="44" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" stroke="2" textColor="0xe5ddcf"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

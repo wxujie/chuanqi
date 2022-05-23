@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpSkin" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="909" height="644">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin1Skin"/>
+	<e:Image source="com_bg_kuang_xian1" x="8" y="43" anchorOffsetX="0" width="150" anchorOffsetY="0" height="568" scale9Grid="6,6,8,6" visible="false"/>
+	<e:Image id="bg2" source="com_bg_kuang_xian1" x="158" y="43" anchorOffsetX="0" width="733" anchorOffsetY="0" height="568" scale9Grid="6,6,8,6" visible="false"/>
+	<e:TabBar id="tabBar" x="18" y="50" itemRendererSkinName="TradeLineTabSkin">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" paddingTop="4" gap="-2" paddingLeft="4"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Image source="com_bg_kuang_4_png" x="169" y="52"/>
+	<e:Group id="pageGrp" width="711" height="557" x="177" y="56.66" touchChildren="true" touchEnabled="false" anchorOffsetX="0"/>
+	<e:Button id="resetButton" label="" x="770" y="567.66" skinName="Btn9Skin"/>
+	<app:RuleTipsButton id="helpBtn" label="Button" x="184" y="577.66" ruleId="4" />
+</e:Skin>

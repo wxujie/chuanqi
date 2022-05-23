@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleWeaponSoulViewSkin" width="379" height="443" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="binghun_bg1_png" horizontalCenter="0" touchEnabled="false" width="379" height="443"/>
+	<app:WeaponSoulItemView id="weaponItem1" skinName="WeaponSoulItemViewSkin"/>
+	<app:WeaponSoulItemView id="weaponItem2" skinName="WeaponSoulItemViewSkin" right="0"/>
+	<app:WeaponSoulItemView id="weaponItem3" skinName="WeaponSoulItemViewSkin" y="188"/>
+	<app:WeaponSoulItemView id="weaponItem4" skinName="WeaponSoulItemViewSkin" y="188" right="0"/>
+	<e:Button id="goBtn" label="前往提升" width="113" height="46" verticalCenter="191.5" right="134">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" textColor.disabled="0xb9b9b9" stroke="2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<app:RedDotControl id="redPoint" x="231.5" y="387" visible="false"/>
+</e:Skin>

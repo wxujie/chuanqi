@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Fuli360AttestationWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="1027" height="690">
+    <e:Image id="dragDropUI" source="apay_bg2_png" />
+    <e:Image y="115" height="544" source="com_bg_kuang_6_png" scale9Grid="17,18,2,4" width="185" x="80" />
+    <e:Image y="115" height="544" source="com_bg_kuang_6_png" scale9Grid="18,15,4,3" width="675" x="270" />
+    <e:Image id="titleImg" touchEnabled="false" horizontalCenter="5.5" top="52" source="biaoti_smrz" />
+    <e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image horizontalCenter="0" verticalCenter="0" source="apay_x2" source.down="apay_x2"
+                         source.disabled="apay_x2" scaleX.down="0.98" scaleY.down="0.98" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Group id="infoGrp" height="540" y="117" touchEnabled="false" width="675" x="270">
+        <e:Image source="bg_360smrzlb_png" />
+        <e:Label id="descLab"
+                 text="系统检测到您还没有进行实名制认证，根据国家相关政策规定，网游用户必须进行实名制认证。请您尽快完成实名认证，否则将会影响您的正常游戏体验及收益。现在完成实名认证还可以领取实名礼包。"
+                 size="20" textColor="0xE5DDCF" stroke="1" lineSpacing="5" width="570" x="50" y="110" />
+        <e:List id="itemList" verticalCenter="105" horizontalCenter="0" itemRendererSkinName="FuLi4366ItemSkin">
+            <e:layout>
+                <e:HorizontalLayout gap="20" />
+            </e:layout>
+        </e:List>
+			<e:Button id="getBtn" label="" y="463" icon="fl_jhm_btn_1" skinName="Btn0Skin" width="137" height="56" x="265"/>
+			<app:RedDotControl id="redPoint" x="388" y="461"/>
+			<e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="0" bottom="16"/>
+    </e:Group>
+    <e:Scroller id="btnScroller" width="185" height="536" x="80" y="118">
+        <e:TabBar id="tabBar" width="200" height="200" itemRendererSkinName="FuliLuDaShiGiftTabSkin2">
+            <e:layout>
+                <e:VerticalLayout horizontalAlign="center" gap="-3" />
+            </e:layout>
+        </e:TabBar>
+    </e:Scroller>
+</e:Skin>

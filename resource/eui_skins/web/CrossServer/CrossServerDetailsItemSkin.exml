@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrossServerDetailsItemSkin" width="666" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group minHeight="24" width="46" height="26" touchEnabled="false" touchChildren="false">
+		<e:Rect left="0" right="-6" top="-1" bottom="-1" fillColor="0xfc9219"/>
+		<e:Label id="label" text=" [跨服] " size="36" backgroundColor="0xFC9219" textColor="0xFFFEFC" scaleX="0.5" scaleY="0.5" stroke="3" verticalCenter="0.5" horizontalCenter="3.5"/>
+	</e:Group>
+	<e:Group id="txtGrp" x="55" minHeight="24" verticalCenter="0" touchEnabled="false" >
+		<e:Rect id="bgColor" scaleX="1" scaleY="1" left="-1" right="-3" top="-2" bottom="-2" fillColor="0xf3311e"/>
+		<e:Label id="chatLab" size="36" backgroundColor="0x0735FC" scaleX="0.5" scaleY="0.5" stroke="3" background="false" x="0" maxWidth="1260" y="4" lineSpacing="9" textColor="0xE5DDCF" visible="true" text=""/>
+	</e:Group>
+</e:Skin>

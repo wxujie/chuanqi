@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RadioButtonSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui">
+    <e:Group width="100%" height="100%">
+        <e:Image alpha.disabled="0.5" alpha.down="0.7"
+                  source="com_yuan_kong"/>
+			<e:Image source="com_yuan_hong" visible.up="false" visible.down="false" visible.disabled="false"/>
+        <e:Label id="labelDisplay" size="20" textColor="0x707070"
+                 textAlign="center" verticalAlign="middle"
+                 fontFamily="Tahoma" x="40" verticalCenter="0" visible.upAndSelected="false"/>
+    </e:Group>
+</e:Skin>

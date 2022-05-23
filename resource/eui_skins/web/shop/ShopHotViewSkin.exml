@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopHotViewSkin" width="62" height="64" currentState="odd" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="odd,dual" >
+	<e:Group id="hotdualGp" width="62" height="64" y="0"  includeIn="dual">
+		<e:Image source="shop_jiaobiao" x="0" y="0" />
+		<e:Image id="hotIon1" source="shop_rexiao" x="1" y="0" visible="false"/>
+		<e:Image id="dualNum_0" x="-2" y="2" source="shop_zhekou_7"/>
+		<e:Image id="dualNum_1" x="5" y="-5" source="shop_zhekou_5"/>
+		<e:Image id="dualText" source="shop_zhekou_bg" x="5" y="-5"/>
+	</e:Group>
+	<e:Group id="hotOddGp" width="62" height="64" y="0"  includeIn="odd">
+		<e:Image source="shop_jiaobiao" x="0" y="0" />
+		<e:Image id="hotIon0" source="shop_rexiao" x="1" y="0" visible="false"/>
+		<e:Image id="oddNum" source="shop_zhekou_1" x="1" y="-1"/>
+		<e:Image id="oddText" source="shop_zhekou_bg" x="3" y="-2"/>
+	</e:Group>
+</e:Skin>

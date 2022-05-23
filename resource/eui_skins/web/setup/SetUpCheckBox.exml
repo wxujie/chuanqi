@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpCheckBox" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="37"
+        height="36">
+    <e:Label id="labelDisplay" size="24" textAlign="center" verticalAlign="middle" verticalCenter="1" left="44"
+             stroke="2" textColor="0xe5ddcf" text="" touchEnabled="true" />
+    <e:CheckBox id="checkBox" skinName="CheckBox2" width="37" height="36" />
+</e:Skin>

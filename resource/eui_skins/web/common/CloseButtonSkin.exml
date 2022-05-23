@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CloseButtonSkin" width="26" height="26" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled" >
+	<e:Image source.up="btn_guanbi" source.down="btn_guanbi2" source.disabled="btn_guanbi" source="btn_guanbi" top="0" right="0" left="0" bottom="0"/>
+</e:Skin>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MianBottomNotice" width="1920" height="1076" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="noticeGroup" horizontalCenter="0" top="300" touchChildren="false" touchEnabled="false" left="390" right="390" alpha="0">
+		<e:Image horizontalCenter="0" height="33" source="pmd_bg2" width="100%"/>
+		<e:Label id="noticeLabel" text="" horizontalCenter="0" size="24" stroke="1" verticalCenter="0" textColor="0xe5ddcf"/>
+	</e:Group>
+	<e:Group id="noticeGroup1" horizontalCenter="0" top="180" touchChildren="false" touchEnabled="false" left="390" right="390" alpha="1" height="33">
+		<e:Image horizontalCenter="0" source="pmd_bg2" width="100%" scale9Grid="142,4,855,25" height="33"/>
+		<e:Scroller width="100%" height="33">
+            <e:Group anchorOffsetY="33">
+            <e:Label id="noticeLabel1" text="" stroke="1" textColor="0xE5DDCF" x="570" size="24" height="33" verticalAlign="middle" y="1"/>
+            </e:Group>
+			
+		</e:Scroller>
+		
+	</e:Group>
+	<e:Group id="noticeGroup2" horizontalCenter="0" top="240" touchChildren="false" touchEnabled="false" left="390" right="390" alpha="1" height="33">
+		<e:Image horizontalCenter="0" height="33" source="pmd_bg1" width="100%" scale9Grid="204,4,1229,26"/>
+        <e:Scroller width="100%" height="33">
+            <e:Group height="33">
+           <e:Label id="noticeLabel2" text="" size="20" stroke="1" x="570" textColor="0x28ee01" height="33" verticalAlign="middle" y="1"/>
+            </e:Group>
+			
+		</e:Scroller>
+		
+	</e:Group>
+	<e:Group id="feelingsGrp" width="1" height="1" bottom="325" horizontalCenter="0" touchEnabled="false" visible="true" touchChildren="false"/>
+	<e:Group id="skillTipsGrp" width="264" height="88" anchorOffsetX="132" anchorOffsetY="44" horizontalCenter="0" bottom="409" touchEnabled="false" touchChildren="false">
+		<e:Group id="skillTipsBgGrp" width="264" height="88" anchorOffsetX="132" anchorOffsetY="44" y="44" x="132">
+		<e:Image source="tips_man3" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label text="升级学会新技能：" x="97" y="15" size="18" textColor="0xEEE014" stroke="2" scaleX="1" scaleY="1"/>
+		<e:Label id="skillTipsName" text="召唤神兽" y="56" size="18" horizontalCenter="21" textColor="0x28EE01" stroke="2" x="142" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="skillTipsIconGrp" width="264" height="88" anchorOffsetX="132" anchorOffsetY="44" x="132" y="44">
+		<e:Image id="skillTipsIcon" source="skillicon_fs4" x="19" y="16"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="addGroup" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

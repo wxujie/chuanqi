@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TradeLineWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing"
+        width="909" height="645">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin1Skin"/>
+	<e:TabBar id="tab" x="908" height="442" y="50" itemRendererSkinName="CommonTarBtnWinSkin2">
+		<e:layout>
+			<e:VerticalLayout gap="-11"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Group id="pageGroup" width="869" horizontalCenter="1" top="57" bottom="30"/>
+	<app:RedDotControl width="20" height="20" x="936" y="337" updateShowFunctions="TradeLineMgr.getReceiveRed"
+	                   showMessages="TradeLineMgr.post_27_9"  visible="false"/>
+	<app:RuleTipsButton id="ruleTips" label="Button" x="50" y="573" />
+</e:Skin>

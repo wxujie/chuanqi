@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatRuleButton"  width="20" height="20" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled" >
+	<e:Image id="buttonIcon"   scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" source="chat_json.ltpb_bangzhu" source.up="chat_json.ltpb_bangzhu" source.down="chat_json.ltpb_bangzhu" source.disabled="chat_json.ltpb_bangzhu"/>
+</e:Skin>

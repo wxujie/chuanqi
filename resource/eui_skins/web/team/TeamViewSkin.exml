@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamViewSkin" width="912" height="647" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin7Skin"/>
+	<e:TabBar id="tabBar" width="45" height="552" y="50"   x="908" itemRendererSkinName="CommonTarBtnWinSkin2">
+		<e:layout>
+			<e:VerticalLayout gap="-11"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Image id="bg" x="23.36" y="55.32"  width="862.66"  height="491.67" source="com_bg_kuang_6_png" scale9Grid="14,14,1,1" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group width="861" height="560" x="25.34" y="56.68" >
+		<app:TeamViewPage id="page" width="862" height="488"  skinName="TeamViewPageSkin"/>
+		<e:Group id="teamGp_0"  horizontalCenter="234" verticalCenter="249">
+			<e:Button id="kickBtn" label="踢出队伍" x="8.11" y="6"  icon="t_zd_tichuduiwu" skinName="Btn9Skin"/>
+			<e:Button id="exitBtn" label="退出退伍" x="202.73" y="6"  icon="t_zd_tuichuduiwu" skinName="Btn9Skin"/>
+			<e:Button id="addBtn" label="添  加" x="78" y="6" icon="t_zd_tianjia" skinName="Btn9Skin"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center" gap="13"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="teamGp_1" x="732" y="507"  visible="false">
+			<e:Button id="operationBtn" label="操  作"  icon="t_gx_caozuo" visible="true" skinName="Btn9Skin"/>
+		</e:Group>
+		<e:Group id="teamGp_2" x="732" y="507"  visible="false">
+			<e:Button id="applyBtn" label="申请入队"  icon="t_zd_shenqingrudui" skinName="Btn9Skin"/>
+		</e:Group>
+		<e:Group id="teamGp_3" x="732" y="507"  visible="false">
+			<e:Button id="inviteBtn" label="邀请入队"  icon="t_zd_yaoqingrudui" skinName="Btn9Skin"/>
+		</e:Group>
+		<e:CheckBox id="autoTeamCB" label="" x="133" y="509"  width="36" skinName="CheckBox2"/>
+		<e:Label id="txt0" text="允许组队" x="34" y="518" size="22" stroke="2" textColor="0xe5ddcf"/>
+	</e:Group>
+	<app:RuleTipsButton label="Button" x="22.36" y="569.65" ruleId="18"/>
+
+</e:Skin>

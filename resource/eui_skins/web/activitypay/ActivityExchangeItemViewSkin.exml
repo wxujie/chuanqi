@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityExchangeItemViewSkin" width="700" height="115" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="apay_liebiao_bg_png" width="700"/>
+	<e:Button id="exchangeBtn" label="兑 换" width="113" height="46" x="544.5" y="22">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896" textColor.disabled="0xb9b9b9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="descLab" text="7转开放" size="22" stroke="2" verticalCenter="-1.5" horizontalCenter="41.5" textColor="0x28ee01"/>
+	<app:RedDotControl id="redPoint" x="644" y="19" visible="false"/>
+	<e:Image id="receiveImg" x="557" y="20" source="apay_yilingqu" visible="false"/>
+	<e:Label id="countLab" text="剩余次数：10" x="545" y="79" size="20" textColor="0xe5ddcf" stroke="2"/>
+	<e:Group height="81" verticalCenter="3" horizontalCenter="-272">
+		<app:ItemBase id="itemData0" top="0" horizontalCenter="0" skinName="ItemBaseSkin"/>
+		<e:Label id="itemLab0" text="" size="16" horizontalCenter="0" bottom="0" stroke="2" textColor="0xe5ddcf"/>
+	</e:Group>
+	<e:Image x="132" y="38" source="com_jiantoux3"/>
+	<e:Group height="81" horizontalCenter="-134" verticalCenter="3">
+		<app:ItemBase id="targetItem" top="0" horizontalCenter="0" skinName="ItemBaseSkin"/>
+		<e:Label id="targetLab" text="" size="16" horizontalCenter="0" bottom="0" stroke="2" textColor="0xe5ddcf"/>
+	</e:Group>
+</e:Skin>

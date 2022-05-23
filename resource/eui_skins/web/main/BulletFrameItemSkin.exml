@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BulletFrameItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing" height="78">
+    <app:ItemBase id="ItemData" skinName="ItemBaseSkin" top="0" horizontalCenter="0" />
+    <e:Label id="itemName" text="道具名称" size="15" textColor="0xe5ddcf" stroke="2" bottom="0" horizontalCenter="0" />
+</e:Skin>

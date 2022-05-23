@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopBatchBuySkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="478" height="346">
+	<e:Group width="478" height="340" x="0" y="0">
+		<app:UIViewFrame id="dragDropUI" x="0" y="0" skinName="ViewBgWin5Skin"/>
+		<e:Image source="chat_bg_bg1_png" x="17.63" y="54.66" scale9Grid="222,95,27,17" visible="false"/>
+		<app:ItemBase id="itemData" x="51.98" y="72.66" skinName="ItemBaseSkin"/>
+		<e:Label id="itemName" text="" x="125" y="73" size="23" bold="true"  stroke="2" textColor="0xe5ddcf"/>
+		<e:Image source="bag_fengexian" verticalCenter="-30" horizontalCenter="3" x="12" y="88" width="448"/>
+		<e:Scroller id="scroller" width="411" height="71" x="33" y="145" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+			<e:Group>
+				<e:Label id="itemDesc" text="" size="19" width="411" horizontalCenter="2.5" lineSpacing="5" y="1" textColor="0x3895fd" x="3" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Button id="btnLessLess" label="Button" x="35.31" y="218.02" skinName="Btn0Skin" icon="com_jianjian"/>
+		<e:Button id="btnLess" label="Button" x="74.11" y="217.02" skinName="Btn0Skin" icon="com_jian"/>
+		<e:Button id="btnAdd" label="Button" x="225.11" y="217.02" skinName="Btn0Skin" icon="com_jia"/>
+		<e:Button id="btnAddadd" label="Button" x="263.31" y="217.02" skinName="Btn0Skin" icon="com_jiajia"/>
+		<e:Image source="bag_piliangbg_0" scale9Grid="5,5,32,32" width="99.6" height="36" horizontalCenter="-74" bottom="90"/>
+		<e:Button id="btnBuy" label="购  买" horizontalCenter="90.5" bottom="12" width="109" height="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnCannel" label="取  消" horizontalCenter="-79.5" bottom="12" width="109" height="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="总价:" x="309" y="222" size="20"  stroke="2" textColor="0xf0c896"/>
+		<e:Label text="单价:" x="126" y="109" textColor="0xEBC592" size="20"  stroke="2"/>
+		<e:Label id="lbCount" text="" x="393" y="222" size="20"  textColor="0xf0c896" stroke="2"/>
+		<e:Label id="lbPrice" text="" x="209" y="110" size="20"  textColor="0xf0c896" stroke="2"/>
+		<e:Image id="icon_item" x="352" y="210" anchorOffsetX="0" anchorOffsetY="0" source="13123" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="icon_Itemprite" x="169" y="97" source="13123" scaleX="0.7" scaleY="0.7"/>
+		<e:Label id="lbNum" text="" textColor="0x666666" size="20" textAlign="center" verticalCenter="61" horizontalCenter="-76"/>
+	</e:Group>
+</e:Skin>

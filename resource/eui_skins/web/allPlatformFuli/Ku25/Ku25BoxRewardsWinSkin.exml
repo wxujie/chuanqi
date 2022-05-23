@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Ku25BoxRewardsWinSkin" width="1027" height="690" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image id="dragDropUI" source="apay_bg2_png"/>
+	<e:Image x="82" y="116" width="192" height="542" source="com_bg_kuang_6_png" scale9Grid="17,15,4,4"/>
+	<e:Image source="biaoti_ku25hezifuli" horizontalCenter="0" top="50" touchEnabled="false"/>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="btnScroller" width="185" height="536" x="85.61" y="117.3">
+		<e:TabBar id="tabBar" width="200" height="200" itemRendererSkinName="YYLobbyPrivilegesTabSkin">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="8"/>
+		</e:layout>
+		</e:TabBar>
+	</e:Scroller>
+	<e:Group id="infoGroup" width="667" height="542" touchEnabled="false" x="281" y="116">
+		<e:Image source="com_bg_kuang_6_png" scale9Grid="18,15,3,4" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="grp0" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Image source="bg_ku25hezifuli_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:List id="boxRewards" itemRendererSkinName="ItemBaseSkin" verticalCenter="67" horizontalCenter="2.5">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:HorizontalLayout gap="15"/>
+				</e:layout>
+			</e:List>
+			<e:Button id="downBtn" label="" icon="txt_xzhz" scaleX="1" scaleY="1" width="137" height="56" horizontalCenter="0" bottom="35" skinName="Btn26Skin"/>
+			<e:Button id="receiveBtn" label="" icon="fl_jhm_btn_1" scaleX="1" scaleY="1" skinName="Btn0Skin" width="137" height="56" horizontalCenter="0" bottom="35"/>
+			<app:RedDotControl id="boxRewardRed" x="388" y="449"/>
+		</e:Group>
+		<e:Group id="grp1" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Image source="banner_ku25hezidenglu1" top="0" horizontalCenter="0"/>
+			<e:Scroller id="boxLoginScroller" width="668" height="387" scaleX="1" scaleY="1" y="147">
+				<e:List id="boxLoginList" itemRendererSkinName="YYLobbyPrivilegesGiftItemSkin">
+				<e:layout>
+					<e:VerticalLayout paddingTop="3" paddingLeft="5"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="grp2" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Image top="0" horizontalCenter="0" source="banner_ku25hezidenglu2"/>
+			<e:Scroller id="loginPayScroller" width="668" height="387" scaleX="1" scaleY="1" y="147" scrollPolicyH="off">
+			<e:List id="loginPayList" itemRendererSkinName="OpenServerSportsItemSkin">
+				<e:layout>
+				<e:VerticalLayout paddingTop="3" paddingLeft="5"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="grp3" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Image source="bg_ku25weixinlibao_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:EditableText id="InputCode" width="393" text="" x="78" size="20" height="30" verticalAlign="middle" y="421" textAlign="center" maxChars="120" prompt="&lt;请输入激活码>" textColor="0xF9EFEF"/>
+			<app:ItemBase id="wxItemData" x="550" y="425" skinName="ItemBaseSkin"/>
+			<e:Button id="wxCodeBtn" label="" x="199.67" y="465.95" icon="fl_jhm_btn_1" scaleX="1" scaleY="1" skinName="Btn0Skin" width="137" height="56"/>
+		</e:Group>
+		<e:Group id="grp4" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Image source="bg_ldssjlbrzlb_png"/>
+			<e:List id="cardList" itemRendererSkinName="ItemBaseSkin" verticalCenter="65" horizontalCenter="21">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:HorizontalLayout gap="16"/>
+				</e:layout>
+			</e:List>
+			<e:Button id="cardBtn" label="" icon="fl_jhm_btn_1" scaleX="1" scaleY="1" skinName="Btn0Skin" width="137" height="56" horizontalCenter="0" bottom="35"/>
+			<app:RedDotControl id="cardRed" x="387" y="450"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonTarBtnItemSkin1" width="46" height="93" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" states="up,down" >
+	<e:Image source="common_yeqian_6" scaleX="0.9" scaleY="0.9" x="2" y="2"/>
+	<e:Image  visible.up="false" source="common_yeqian_5" scaleX="0.9" scaleY="0.9" x="2" y="2"/>
+	<e:Label id="barText" anchorOffsetX="0" width="24" anchorOffsetY="0"  horizontalCenter="4" size="22" verticalAlign="middle" fontFamily="SimHei" textAlign="center" stroke="1" lineSpacing="13" verticalCenter="-1" textColor.down="0xf0c896" textColor.up="0xa6a197" scaleX="0.9" scaleY="0.9"/>
+	<app:RedDotControl id="redDot" width="20" height="20" top="0" right="-5" visible="false"/>
+</e:Skin>

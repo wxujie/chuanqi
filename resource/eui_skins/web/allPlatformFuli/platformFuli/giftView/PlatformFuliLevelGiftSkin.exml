@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlatformFuliLevelGiftSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" width="669" height="380">
+    <e:Scroller width="669" height="380">
+        <e:List id="list" itemRendererSkinName="PlatformFuliLevelGiftItemSkin">
+            <e:layout>
+                <e:VerticalLayout/>
+            </e:layout>
+        </e:List>
+    </e:Scroller>
+</e:Skin>

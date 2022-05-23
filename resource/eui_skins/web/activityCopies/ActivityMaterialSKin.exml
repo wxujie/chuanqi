@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityMaterialSkin" width="485" height="620"  xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<app:UIViewFrame id = "dragDropUI" x="-2" y="2" skinName="UIViewFrameSkin" currentState="default13" width="491.45" height="622.42"/>
+	<e:Scroller id="scroller" width="461" horizontalCenter="3" verticalCenter="22" height="554.46" scrollPolicyH="off" touchEnabled="false" touchChildren="true">
+		<e:List id="list" width="459" itemRendererSkinName="ActivityMaterialItemSkin" anchorOffsetY="0" height="554.46">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="1" verticalGap="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

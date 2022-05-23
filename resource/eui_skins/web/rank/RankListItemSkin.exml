@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="524" height="45">
+	<e:Image smoothing="false" id="bg" x="0" y="-1" anchorOffsetX="0" width="524" height="45" source="rank_bg2" scale9Grid="251,19,57,15"/>
+	<e:Image id="select" x="0" y="-2" anchorOffsetX="0" width="524" source="liebiaoxuanzhong" scale9Grid="22,29,2,2"/>
+	<e:Label id="txt_rank" text="1" x="6" y="14" textColor="0xe5ddcf" size="18" verticalAlign="justify" width="50" textAlign="center" stroke="2"/>
+	<e:Image id="rankImg" x="15" y="5" source="rank_pm1"/>
+	<e:Label id="txt_name" text="" size="18" verticalAlign="justify" textAlign="center" textColor="0xe5ddcf" stroke="2" y="14" left="71"/>
+	<e:Label id="txt_level" text="" x="213" y="14" textColor="0xe5ddcf" size="18" verticalAlign="justify" textAlign="center" stroke="2"/>
+	<e:Label id="txt_guild" text="" textColor="0xE5DDCF" size="18" verticalAlign="justify" textAlign="center" stroke="2" y="14" left="361"/>
+	<e:Image id="logo" source="logo_chaowan" x="173" y="4" visible="false"/>
+	<e:Image id="imgTitle" x="464" source="rank_ch1" verticalCenter="-0.5"/>
+	<e:Image id="imgVip" x="464" verticalCenter="-0.5"  source="rank_ck"/>
+</e:Skin>

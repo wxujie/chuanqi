@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MeridiansAttrItemNextSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        height="21">
+	<e:Label id="txt_next" text="" x="52" y="2" size="18"  width="80" anchorOffsetX="0" anchorOffsetY="0" height="17" textColor="0x55cc0c" textAlign="left"/>
+	<e:Image id="arrow" smoothing="false" width="20" height="20" y="-1" source="com_jiantoux2"/>
+</e:Skin>

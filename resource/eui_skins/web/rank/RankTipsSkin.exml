@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankTipsSkin" width="229" height="285" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="9s_tipsbg" left="0" right="0" top="0" bottom="0"/>
+	<e:Image left="0" right="0" top="0" bottom="0" scale9Grid="13,89,2,0" source="bag_piliangbg_5"/>
+	<e:Image source="9s_tipsk" left="0" right="0" top="0" bottom="0" scale9Grid="8,8,12,12"/>
+	<e:Image source="bag_fengexian" horizontalCenter="2" verticalCenter="-47.5" width="209"/>
+	<e:Image id="titleImg" source="ch_show_0010" scaleX="1.3" scaleY="1.3" horizontalCenter="0" top="17"/>
+	<e:Label id="descLab" text="[属性加成]" x="24.4" y="108" size="20" textColor="0xe5ddcf" stroke="2"/>
+</e:Skin>

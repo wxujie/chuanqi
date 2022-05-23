@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StrengthenItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="184" height="23">
+	<e:Label id="txt_desc" text="衣服部位:120级" x="3" y="0" size="16" 
+	          anchorOffsetX="0" anchorOffsetY="0" height="20" textColor="0xE0AE75" verticalAlign="middle"/>
+	<e:Label id="txt_desc2" text="125级" x="140" y="1" size="15"  anchorOffsetX="0" anchorOffsetY="0" height="17" textAlign="left" textColor="0x28ee01" verticalAlign="middle"/>
+	<e:Image id="arrow" smoothing="false" width="20" height="20" x="115" y="0" source="com_jiantoux2"/>
+</e:Skin>

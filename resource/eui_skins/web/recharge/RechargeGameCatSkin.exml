@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeGameCatSkin" width="1027" height="696" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="dragDropUI" source="apay_bg2_png" x="0" y="-1" width="1027" height="696"/>
+	<e:Image source="biaoti_cz" horizontalCenter="0" y="55" touchEnabled="false"/>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2" scaleX.down="0.98" scaleY.down="0.98"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="payScroller" width="870.67" height="552" x="79" y="110.67" anchorOffsetX="0" anchorOffsetY="0" bounces="false">
+		<e:List id="rechargeList" itemRendererSkinName="RechargeGameCatItemSkin" x="-1.33">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="4" verticalGap="1" horizontalGap="6"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="rebateTxt" text="任意档位充值，立享10倍超额返利！" x="541" y="609" size="24" textColor="0x28ee01" stroke="2"/>
+</e:Skin>

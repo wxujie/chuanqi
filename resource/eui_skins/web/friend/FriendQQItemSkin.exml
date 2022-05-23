@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendQQItemSkin" width="858" height="48"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  >
+	<e:Group id="gp_1" width="858" height="48" x="0" y="0" >
+		<e:Image id="state_1" source="bg_quyu_1" x="0" y="0"  width="858" scale9Grid="9,9,1,1" height="48" />
+		<e:Image id="state_2" source="bg_quyu_2" x="0" y="0" width="858" height="48" scale9Grid="9,9,1,1" />
+		<e:Image id="selectedBg" source="liebiaoxuanzhong" x="1.5" y="-1" scale9Grid="22,22,2,1"  width="853"  visible="false"/>
+		<e:Label id="playerName" text="" stroke="2" size="22" verticalCenter="1" textAlign="center" horizontalCenter="-290" x="65" y="16"  textColor="0xf0c896"/>
+		<e:Label id="playerLevel" text="" stroke="2" size="22" verticalCenter="0.5" horizontalCenter="-109" x="310" y="16"  textColor="0xf0c896"/>
+		<e:Label id="playerProfession" text="" stroke="2" size="22" verticalCenter="0.5" textAlign="center" horizontalCenter="76" x="492" y="16"  textColor="0xf0c896"/>
+		<e:Label id="playerGuild" text="" stroke="2" size="22" textAlign="center" y="16" horizontalCenter="301" x="726"  textColor="0xf0c896"/>
+	</e:Group>
+	<e:Group id="gp_2" width="858" height="48" x="0" y="0"  >
+		<e:Image id="black_state_1" source="bg_quyu_1" x="0" y="0"  width="858" scale9Grid="9,9,1,1" height="48" />
+		<e:Image id="black_state_2" source="bg_quyu_2" x="0" y="0" width="858" height="48" scale9Grid="9,9,1,1" />
+		<e:Image id="selectedBg2" source="liebiaoxuanzhong" x="1.5" y="-1" scale9Grid="22,22,2,1"  width="853"  visible="false"/>
+		<e:Label id="black_playerName" text="" stroke="2" size="22" verticalCenter="0.5" textAlign="center" horizontalCenter="-214" x="65" y="16"  textColor="0xf0c896"/>
+		<e:Label id="black_playerLevel" text="" stroke="2" size="22" verticalCenter="0.5" horizontalCenter="221" x="310" y="16"  textColor="0xf0c896"/>
+	</e:Group>
+	<e:Group id="gp_3" width="858" height="48" x="0" y="0" >
+		<e:Image id="concern_state_1" source="bg_quyu_1" x="0" y="0"  width="858" scale9Grid="9,9,1,1" height="48" />
+		<e:Image id="concern_state_2" source="bg_quyu_2" x="0" y="0" width="858" height="48" scale9Grid="9,9,1,1" />
+		<e:Image id="selectedBg1" source="liebiaoxuanzhong" x="1.5" y="-1" scale9Grid="22,22,2,1"  width="853"  visible="false"/>
+		<e:Label id="concern_playerName" text="" stroke="2" size="22" verticalCenter="0.5" textAlign="center" horizontalCenter="-290" x="65" y="16"  textColor="0xf0c896"/>
+		<e:Label id="concern_playerLevel" text="" stroke="2" size="22" verticalCenter="0.5" horizontalCenter="-109" x="310" y="16"  textColor="0xf0c896"/>
+		<e:Label id="concern_playerProfession" text="" stroke="2" size="22" verticalCenter="0.5" textAlign="center" horizontalCenter="75.5" x="492" y="16"  textColor="0xf0c896"/>
+		<e:Image id="concern_colorBg" source="szys_1" horizontalCenter="297.5" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="gp_4" width="858" height="48" x="0" y="0">
+		<e:Image id="near_state_1" source="bg_quyu_1" x="0" y="0"  width="858" scale9Grid="9,9,1,1" height="48" />
+		<e:Image id="near_state_2" source="bg_quyu_2" x="0" y="0" width="858" height="48" scale9Grid="9,9,1,1" />
+		<e:Image id="selectedBg3" source="liebiaoxuanzhong" x="1.5" y="-1" scale9Grid="22,22,2,1"  width="853"  visible="false"/>
+		<e:Label id="near_playerName" text="" stroke="2" size="22" verticalCenter="0.5" textAlign="center" horizontalCenter="-290" x="65" y="16"  textColor="0xf0c896"/>
+		<e:Label id="near_playerLevel" text="" stroke="2" size="22" verticalCenter="1" horizontalCenter="-128" x="310" y="16"  textColor="0xf0c896"/>
+		<e:Label id="near_playerProfession" text="" stroke="2" size="22" verticalCenter="1" textAlign="center" horizontalCenter="-2.5" x="492" y="16"  textColor="0xf0c896"/>
+		<e:Label id="near_playerSex" text="" stroke="2" size="22" textAlign="center" horizontalCenter="91" x="726"  verticalCenter="1" textColor="0xf0c896"/>
+		<e:Label id="near_playerGuild" text="" stroke="2" size="22" textAlign="center" horizontalCenter="282" x="736"  verticalCenter="0.5" textColor="0xf0c896"/>
+	</e:Group>
+	<e:Group id="gp_5" width="858" height="48" x="0" y="0">
+		<e:Image id="report_state_1" source="bg_quyu_1" x="0" y="0"  width="858" scale9Grid="9,9,1,1" height="48" />
+		<e:Image id="report_state_2" source="bg_quyu_2" x="0" y="0" width="858" height="48" scale9Grid="9,9,1,1" />
+		<e:Image id="selectedBg0" source="liebiaoxuanzhong" x="1.5" y="-1" scale9Grid="22,22,2,1"  width="853"  visible="false"/>
+		<e:Label id="report_playerName" text="" stroke="2" size="22" textAlign="center" y="13"  textColor="0xf0c896" left="24"/>
+		<e:Label id="report_timer" text="" stroke="2" size="22" y="14"  textColor="0xf0c896" left="634"/>
+	</e:Group>
+	<e:Image id="blueImg" x="3" source="lz_hh1" verticalCenter="0" visible="false"/>
+	<e:Image id="blueYearImg" width="20" height="20" x="39" source="lz_nf" verticalCenter="0" visible="false"/>
+</e:Skin>

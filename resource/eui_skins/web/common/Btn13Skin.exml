@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn13Skin" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Image source="com_btn_xiala1" source.down="com_btn_xiala2"/>
+</e:Skin>

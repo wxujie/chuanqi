@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FriendFunMenuViewSkin"
+ xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" visible="true" left="-5" right="-5" top="-4" bottom="-4" scale9Grid="12,12,1,1" source="9s_bg_2"/>
+	<e:List id="gList" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="FriendFunMenuBtnSkin" y="5" x="0">
+		<e:layout>
+			<e:VerticalLayout gap="3"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

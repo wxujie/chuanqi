@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InvestmentItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="700" height="115">
+	<e:Image source="apay_liebiao_bg_png" scale9Grid="82,14,493,87" width="700"/>
+	<e:Button id="buyButton" label="领取奖励" width="113" height="46" x="547" y="38">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="btn_apay" source.down="btn_apay" source.disabled="btn_apay2"/>
+			<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0xf0c896"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:List id="rewards" y="25" itemRendererSkinName="ItemBaseSkin" horizontalCenter="0">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="18"/>
+		</e:layout>
+	</e:List>
+	<e:Label text="登录天数" y="26" size="24" left="32" textColor="0xe0ae75" stroke="2"/>
+	<e:Label id="curDay" text="" y="64" left="67" bold="true" size="24" textColor="0xeee104" stroke="2"/>
+	<app:RedDotControl id="redPoint" width="20" height="20" x="647" y="34" visible="false"/>
+	<e:Image id="receiveImg" x="560" y="23" source="apay_yilingqu"/>
+</e:Skin>

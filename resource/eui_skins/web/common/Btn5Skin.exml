@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn5Skin" width="55" height="25" xmlns:e="http://ns.egret.com/eui" states="up,down">
+<e:Image x="0" y="0"  horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" scaleX="1" scaleY="1" source="chat_json.button_lt"/>
+	<e:Label id="labelDisplay" size="13" bold="true" textColor="0x9E967C" textAlign="center" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" text="label"/>
+</e:Skin>

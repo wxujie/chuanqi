@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectInputSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1">
+	<e:Group id="group" bottom="0">
+		<e:Image id="bg" y="0" width="100%" height="100%" source="m_t_ms_bg1" scale9Grid="11,11,10,10"/>
+		<e:List id="list"  bottom="3" top="3" left="3" right="3">
+		</e:List>
+	</e:Group>
+</e:Skin>

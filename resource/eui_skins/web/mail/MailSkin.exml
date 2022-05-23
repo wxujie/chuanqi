@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailSkin" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:item="app.*" width="912" height="646">
+	<e:Group>
+		<app:UIViewFrame id="dragDropUI"  skinName="ViewBgWin7Skin"/>
+		<e:Image x="296" scaleX="1" scaleY="1" y="57" source="com_bg_kuang_6_png" scale9Grid="19,20,2,1" anchorOffsetX="0" width="590.61" anchorOffsetY="0" height="492"/>
+		<e:Image smoothing="false" width="267.67" height="491.33" x="23.96" y="57" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="com_bg_kuang_6_png" scale9Grid="17,19,2,4"/>
+		<e:Image smoothing="false" width="561" x="309" y="67" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="com_bg_kuang_6_png" scale9Grid="18,18,2,1" height="29"/>
+		<e:Image smoothing="false" width="561" x="309" y="105" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="com_bg_kuang_6_png" scale9Grid="18,18,2,1" height="29"/>
+		<e:Image smoothing="false" width="561" x="309" y="143" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="com_bg_kuang_6_png" scale9Grid="18,18,2,1" height="29"/>
+		<e:Image smoothing="false" x="308.8" y="181.4" source="com_bg_kuang_6_png" scale9Grid="19,18,2,2" width="561" height="162"/>
+		<e:Image smoothing="false" x="308.8" y="352.07" source="com_bg_kuang_6_png" scale9Grid="19,18,2,2" width="561" height="110.67" anchorOffsetY="0"/>
+		<e:Group id = "container" width="578.67" height="403.68" x="304.37" y="64.98" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Label name="txt_name" text="端午福利" x="17" y="7.98" size="20" stroke="2" textAlign="center" textColor="0xeee104"/>
+			<e:Label name="txt_time" text="时    间" x="17" y="44.97" size="20" stroke="1" textAlign="left" textColor="0xff7700"/>
+			<e:Label name="txt_desc" text="每日竞技场结算奖励,您的最终排名为：第16名！以下是我们特地为你准备的奖励：第16名！以下是我们特地为你准备的奖励：" x="12" y="123" size="20" stroke="2" width="536" lineSpacing="9" height="147" textColor="0xe5ddcf"/>
+			<e:Label text="附件" x="19.5" y="315" textColor="0xe5ddcf" width="38" size="24" lineSpacing="7" stroke="2"/>
+			<e:Label name="txt_sendName" text="发送者：系统邮件" x="17" y="83.01" size="20" lineSpacing="7" stroke="2" textColor="0x28ee01"/>
+			<e:Group name="item_group" width="454.66" height="64" x="66.02" y="310.65" anchorOffsetX="0" anchorOffsetY="0">
+				<item:ItemSlot name="item_0" skinName="ItemSlotSkin" x="2.66" y="2.66" scaleX="1" scaleY="1"/>
+				<item:ItemSlot name="item_1" skinName="ItemSlotSkin" x="12.66" y="12.66" scaleX="1" scaleY="1"/>
+				<item:ItemSlot name="item_2" skinName="ItemSlotSkin" x="22.66" y="22.66" scaleX="1" scaleY="1"/>
+				<item:ItemSlot name="item_3" skinName="ItemSlotSkin" x="32.66" y="32.66" scaleX="1" scaleY="1"/>
+				<item:ItemSlot name="item_4" skinName="ItemSlotSkin" x="42.66" y="42.66" scaleX="1" scaleY="1"/>
+				<item:ItemSlot name="item_5" skinName="ItemSlotSkin" x="52.66" y="52.66" scaleX="1" scaleY="1"/>
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="middle" paddingLeft="5" paddingRight="5" paddingTop="2" paddingBottom="2" gap="4"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="list" width="258" height="426" x="26.32" y="61.67" anchorOffsetY="0">
+			<e:Scroller name="scroller" height="426" width="258">
+			
+			</e:Scroller>
+			<e:List name="list" anchorOffsetX="0" x="2" y="2" anchorOffsetY="0" scaleX="1" scaleY="1" itemRendererSkinName="MailItemSkin">
+				<e:layout>
+					<e:VerticalLayout  gap="-1"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Group width="873" height="62" x="14" y="549" anchorOffsetX="0" anchorOffsetY="0">
+			<app:RuleTipsButton label="Button" x="824.17" y="23.17" ruleId="77"/>
+			<e:Button id="btn_delete" label="删除" skinName="Btn9Skin" x="410" y="-69" visible="false"/>
+			<e:Button id="btn_get_attach" label="领取附件" skinName="Btn9Skin" x="510" y="-67"/>
+			<e:Button id="btn_onekey_get" label="一键领取" skinName="Btn9Skin" x="21.64" y="-51.36"/>
+			<e:Button id="btn_delete_com" label="删除完成" skinName="Btn9Skin" x="152.64" y="-50.36"/>
+			<e:Label text="邮件数量:" x="52.48" y="29" size="22" anchorOffsetX="0" anchorOffsetY="0" height="25.33" verticalAlign="middle" textColor="0xe5ddcf" stroke="2"/>
+			<e:Label id="txt_count" text="30/50" x="151.48" y="31" size="22" width="96" verticalAlign="middle" stroke="2" textColor="0xe5ddcf"/>
+			<e:Label text="未读邮件:" x="363.48" y="29" size="22" verticalAlign="middle" textColor="0xe5ddcf" stroke="2"/>
+			<e:Label id="txt_no_read" text="0" x="465.98" y="27" size="22" anchorOffsetX="0" width="45" anchorOffsetY="0" height="25.33" verticalAlign="middle" textColor="0xe5ddcf" stroke="2"/>
+			<e:Label text="未领取:" x="651.46" y="29" size="22" verticalAlign="middle" textColor="0xe5ddcf" stroke="2"/>
+			<e:Label id="txt_no_get" text="0" x="730.98" y="27" size="22" anchorOffsetX="0" width="42" anchorOffsetY="0" height="25.33" verticalAlign="middle" textColor="0xe5ddcf" stroke="2"/>
+			<e:Label text="完成" x="466.98" y="21" size="20" anchorOffsetX="0" width="45" anchorOffsetY="0" height="25.33" verticalAlign="middle" textColor="0xf0c896" visible="false"/>
+			<e:Label id="txt_no_com" text="" x="512.98" y="21" size="20" anchorOffsetX="0" width="42" anchorOffsetY="0" height="25.33" verticalAlign="middle" textColor="0xE66946" visible="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

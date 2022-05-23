@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GhostAutoViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing"
+        width="470">
+    <app:UIViewFrame id="dragDropUI" skinName="ViewBgWin5Skin" />
+    <e:Label id="strLab" text="消耗神魔结晶自动修炼神魔字体" width="394" textAlign="center" verticalAlign="middle" size="21"
+             horizontalCenter="0" lineSpacing="7" textColor="0xe5ddcf" stroke="2" y="100" />
+    <e:Group horizontalCenter="0" y="170">
+        <e:Label id="typeLab" text="技能升到" textAlign="center" verticalAlign="middle" size="21" lineSpacing="7" textColor="0xe5ddcf"
+                 stroke="2" verticalCenter="0" />
+        <e:Image width="66" source="com_bg_kuang_3" scale9Grid="15,13,2,3" verticalCenter="0" x="85" />
+        <e:Label id="lbCount" text="100" size="20" textAlign="center" verticalCenter="0" x="85"
+                 width="66"  textColor="0x28ee01"/>
+        <e:Button id="addBtn" label="Button" x="160.5" skinName="Btn0Skin" icon="get_jj2" width="38" height="17" />
+        <e:Button id="jianBtn" label="Button" x="160.5" y="15" skinName="Btn0Skin" icon="get_jj1" width="38" height="17" />
+        <e:Label text="级停止" textAlign="center" verticalAlign="middle" size="21" lineSpacing="7" textColor="0xE5DDCF"
+                 stroke="2" x="205" verticalCenter="0.5" />
+    </e:Group>
+    <e:Button id="sureBtn" label="确 定" y="286" width="109" height="44" x="81">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn"
+                         source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"
+                         stroke="2" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="cancelBtn" label="确 定" y="286" width="109" height="44" x="281">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn"
+                         source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"
+                         stroke="2" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+</e:Skin>

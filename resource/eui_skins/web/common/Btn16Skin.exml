@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn16Skin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" states="up,down"  width="86" height="37">
+	<e:Image source="btn_6" source.down="btn_5" scaleX.down="0.95" scaleY.down="0.95" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="labelDisplay" text="强 化" size="20" horizontalCenter="-2" verticalCenter="-1.5" touchEnabled="false" textColor="0xd3c29c"/>
+	<app:RedDotControl id="redDot" width="20" height="20"  x="70" touchChildren="false" touchEnabled="false" visible="false"/>
+</e:Skin>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PrivateDealsWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing" width="431" height="581">
+	<e:Image id="dragDropUI" source="task_k1_png" height="579" scale9Grid="0,56,429,390" />
+	<e:Label id="title" text="私人交易" y="17" size="24" textColor="0xFEFAC6" stroke="2" touchEnabled="false"
+	         horizontalCenter="-2.5" />
+	<e:Group horizontalCenter="1" bottom="292">
+		<e:Image x="0" y="0" width="380" height="232" source="mail_bg" scale9Grid="14,15,2,2" />
+		<e:Image width="350.2" height="39" x="15" y="6" source="com_bg_kuang_xian2" scale9Grid="3,3,18,18" />
+		<app:ItemBase id="otherItem0" x="17.5" y="57" skinName="ItemBaseSkin" />
+		<app:ItemBase id="otherItem1" x="88.5" y="57" skinName="ItemBaseSkin" />
+		<app:ItemBase id="otherItem2" x="160.5" y="57" skinName="ItemBaseSkin" />
+		<app:ItemBase id="otherItem3" x="230.5" y="57" skinName="ItemBaseSkin" />
+		<app:ItemBase id="otherItem4" x="301.5" y="57" skinName="ItemBaseSkin" />
+		<app:moneyPanel id="otherWing" x="9" y="132" skinName="moneyPanelSkin" width="170" height="30" />
+		<app:moneyPanel id="otherGold" x="201" y="132.34" skinName="moneyPanelSkin" width="170" height="30" />
+		<e:Button id="otherLockBtn" label="未锁定" x="136.5" y="182" skinName="Btn9Skin" touchEnabled="false" />
+		<e:Group id="search" x="320" y="4" width="44" height="44">
+			<e:Image source="trade_chakan" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" />
+		</e:Group>
+		<e:Label id="playerName" text="" size="18" horizontalCenter="-9" bottom="198" textColor="0xe5ddcf" stroke="2" />
+		<e:Image id="otherIsLock" source="trade_mengban" scale9Grid="40,40,4,5" left="0" right="0" top="0" bottom="0"
+		         touchEnabled="false" />
+	</e:Group>
+	<app:RuleTipsButton id="ruleTips" label="Button" x="48.01" y="244.33"/>
+	<e:Group horizontalCenter="0.5" bottom="41" anchorOffsetX="0" width="379.5">
+		<e:Image x="0" y="0" width="380" height="232" source="mail_bg" scale9Grid="14,15,1,2" />
+		<e:Image width="350" height="39" x="16" y="7" source="com_bg_kuang_xian2" scale9Grid="3,3,18,18" />
+		<app:ItemBase id="myItem0" x="18.5" y="56" skinName="ItemBaseSkin" />
+		<app:ItemBase id="myItem1" x="89.5" y="56" skinName="ItemBaseSkin" />
+		<app:ItemBase id="myItem2" x="161.5" y="56" skinName="ItemBaseSkin" />
+		<app:ItemBase id="myItem3" x="231.5" y="56" skinName="ItemBaseSkin" />
+		<app:ItemBase id="myItem4" x="302.5" y="56" skinName="ItemBaseSkin" />
+		<app:moneyPanel id="myWing" x="11.5" y="133" skinName="moneyPanelSkin" anchorOffsetX="0" width="170" height="30" />
+		<app:moneyPanel id="myGold" x="203.5" y="133" skinName="moneyPanelSkin" width="170" height="30" />
+		<e:EditableText id="wingInput" width="114" height="36" text="0" x="64.01" y="130" size="20" textAlign="center"
+		                verticalAlign="middle" restrict="0-9" />
+		<e:EditableText id="goldInput" width="114" height="36" text="0" x="258" y="130" size="20" textAlign="center"
+		                verticalAlign="middle" restrict="0-9" />
+		<e:Label id="myName" text="我的事还" size="18" horizontalCenter="0.25" bottom="197" textColor="0xe5ddcf" stroke="2" />
+		<e:Image id="myIsLock" source="trade_mengban" scale9Grid="43,39,2,3" left="0" right="0" top="0" bottom="0" />
+		<e:Button id="myLock" label="锁  定" y="182" skinName="Btn9Skin" horizontalCenter="0" />
+		<e:Button id="trading" label="交  易" y="182" skinName="Btn9Skin" horizontalCenter="0" visible="false" />
+	</e:Group>
+	<e:Button id="closeBtn" label="" x="406.67" y="-7" width="60">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

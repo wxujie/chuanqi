@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YYPlatformFuLiWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="72" height="72" states="up,down" >
+	<e:Image id="iconDisplay" pixelHitTest="true" verticalCenter="0" horizontalCenter="0" source="" scaleX.down="0.95" scaleY.down="0.95"/>
+	<e:Image id="redImage" source="common_hongdian" right="0" top="0"/>
+	<e:Group id="iconGrp" horizontalCenter="1" verticalCenter="84" touchEnabled="false" height="90" touchChildren="true" visible="false">
+		<e:Group right="0" top="0" bottom="0" left="0" minWidth="90" touchEnabled="false" touchChildren="false">
+			<e:Image touchEnabled="false" source="icon_ptfl_bg" scale9Grid="13,21,5,4" width="50%" height="100%" left="-0.5" y="-0.14"/>
+			<e:Image touchEnabled="false" source="icon_ptfl_bg" scale9Grid="13,21,5,4" scaleX="-1" width="50%" height="100%" right="0"/>
+		</e:Group>
+		<e:Group id="arrGrp" verticalCenter="6" touchEnabled="false" left="10" right="10">
+			<e:layout>
+				<e:HorizontalLayout gap="4" paddingLeft="1"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

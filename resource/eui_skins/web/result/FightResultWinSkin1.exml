@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightResultWinSkin1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillAlpha="0.2" width="100%" height="100%"/>
+	<e:Group width="415" height="628" horizontalCenter="0" verticalCenter="-114">
+		<e:Image id="bgIcon" source="result_win" verticalCenter="0" horizontalCenter="0"/>
+		<e:Image id="titleIcon" source="result_win1" left="147" verticalCenter="-152.5"/>
+		<e:Group id="failGrp" horizontalCenter="1" verticalCenter="-29.5" x="77" y="186" visible="false">
+			<e:Image source="result_lost2" horizontalCenter="0"/>
+			<e:Image y="60" source="result_lost3" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="listGrp" width="263" height="284" x="78" y="198">
+			<e:Label text="获得以下奖励:" size="21" x="9" stroke="2" textColor="0xeee104"/>
+			<e:Scroller width="254" height="242" x="5" y="36">
+			<e:List id="itemList" x="5" y="36" itemRendererSkinName="ItemBaseSkin">
+				<e:layout>
+				<e:TileLayout requestedColumnCount="4" horizontalGap="4" verticalGap="15"/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Label id="autoSuit" text="3秒后自动退出" size="21" horizontalCenter="0.5" bottom="60" x="126" y="485" textColor="0x28ee01" stroke="2"/>
+		<e:Button id="suitBtn" label="领取奖励" icon="result_btn" horizontalCenter="2.5" bottom="90" x="77" y="420" skinName="Btn9Skin"/>
+	</e:Group>
+</e:Skin>

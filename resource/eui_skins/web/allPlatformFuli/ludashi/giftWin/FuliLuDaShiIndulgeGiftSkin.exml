@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliLuDaShiIndulgeGiftSkin" width="667" height="542" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*">
+    <e:Image horizontalCenter="0" verticalCenter="0" source="bg_ldssjlbrzlb_png" />
+    <e:Button id="getBtn" label="" y="450" icon="fl_jhm_btn_1" skinName="Btn0Skin" width="137" height="56" x="265" />
+    <e:List id="itemList" verticalCenter="71" horizontalCenter="0" itemRendererSkinName="FuLi4366ItemSkin">
+        <e:layout>
+            <e:HorizontalLayout gap="20" />
+        </e:layout>
+    </e:List>
+    <app:RedDotControl id="redPoint" x="388" y="448" />
+	<e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="0" bottom="29"/>
+</e:Skin>

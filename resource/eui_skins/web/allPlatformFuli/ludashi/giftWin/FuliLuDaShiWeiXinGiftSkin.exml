@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliLuDaShiWeiXinGiftSkin" width="667" height="542" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*">
+    <e:Image horizontalCenter="0" verticalCenter="0" source="bg_ldssjlbwxlb_png" />
+</e:Skin>

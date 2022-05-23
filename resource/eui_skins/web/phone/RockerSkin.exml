@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RockerSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="400" height="380">
+	<e:Group id="clickGroup" touchEnabled="false" top="0" left="0" bottom="0" right="0" touchChildren="false">
+		<e:Rect top="0" left="0" bottom="0" right="0" visible="false"/>
+	</e:Group>
+	<e:Group id="rockerGroup"  x="233" y="147"  width="1" height="1">
+		<e:Image id="rockerBg"  source="m_yg1" anchorOffsetY="123" anchorOffsetX="123" width="246" height="246"/>
+		<e:Group id="angleGroup" width="72" height="0" scaleX="1.5" scaleY="1.5" x="1" y="-2" visible="false">
+			<e:Image id="angleImg" touchEnabled="false" source="m_yg3" y="-22" rotation="46" right="-20"/>
+		</e:Group>
+		<e:Group id="actionGroup" anchorOffsetX="34" anchorOffsetY="34" touchChildren="false" touchEnabled="true" scaleX="1.5" scaleY="1.5" x="1" y="-2" visible="false">
+		<e:Image source="m_yg2" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="actionImg" source="m_yg4" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

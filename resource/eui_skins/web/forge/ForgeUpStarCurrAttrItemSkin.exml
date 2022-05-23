@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeUpStarCurrAttrItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        width="186" height="23">
+	<e:Label id="txt_next" text="全职业攻击下限：+11" y="2" size="15"  anchorOffsetX="0" anchorOffsetY="0" height="17" textAlign="left" textColor="0xfafcf9" left="19" stroke="2"/>
+</e:Skin>

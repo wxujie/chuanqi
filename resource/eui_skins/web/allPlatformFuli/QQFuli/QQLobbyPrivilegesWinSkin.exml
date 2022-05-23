@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QQLobbyPrivilegesWinSkin" width="1027" height="690" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image id="dragDropUI" source="apay_bg2_png" />
+	<e:Image y="57" horizontalCenter="0" touchEnabled="false" x="238" source="biaoti_qqdating" />
+	<e:Group y="110" horizontalCenter="0">
+		<e:Image id="bgImage" source="banner_qqdating" />
+		<e:Image x="0" y="102" width="192" height="451" source="com_bg_kuang_6_png" scale9Grid="17,18,2,4" />
+		<e:Image x="194" y="102" width="680" height="451" source="com_bg_kuang_6_png" scale9Grid="17,18,2,4" />
+		<e:Scroller id="btnScroller" width="186" height="440" y="107" x="3">
+			<e:TabBar id="tabBar" width="200" height="200" itemRendererSkinName="QQLobbyPrivilegesTabSkin">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" gap="8" />
+				</e:layout>
+			</e:TabBar>
+		</e:Scroller>
+		<e:Group id="infoGroup" width="680" height="451" x="194" y="102" anchorOffsetX="0" anchorOffsetY="0"
+		         touchEnabled="false">
+			<e:Scroller id="otherScroller" width="668" height="450" x="6">
+				<e:List id="otherList" itemRendererSkinName="YYLobbyPrivilegesGiftItemSkin">
+					<e:layout>
+						<e:VerticalLayout paddingTop="3" paddingLeft="5" />
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group id="noviceGrp">
+				<e:Image source="qqdt_meir_erji_png" />
+				<e:Image id="noviceTitleImg" horizontalCenter="0" top="40"  source="qqdt_xinshou_dabiaoti"/>
+				<e:Button id="receiveBtn" label="" scaleX="0.85" scaleY="0.85" bottom="14" horizontalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="fc_btn_2"
+							         source.down="fc_btn_2" source.disabled="fc_btn_2" />
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="0" bottom="23"  visible="false"/>
+				<app:RedDotControl id="redPoint" x="390" y="370"  visible="false"/>
+				<e:List id="noviceList" itemRendererSkinName="ItemBaseSkin" horizontalCenter="0" verticalCenter="-5">
+					<e:layout>
+						<e:HorizontalLayout/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2"
+				         source.down="apay_x2" source.disabled="apay_x2" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

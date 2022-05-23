@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YYChaoWanWinSkin" width="1027" height="690" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="dragDropUI" source="apay_bg2_png"/>
+	<e:Image touchEnabled="false" horizontalCenter="5" top="61" source="CW_bt"/>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="infoGrp" width="878" height="556" y="107.96" x="75.32">
+		<e:Image source="CW_banner"/>
+		<e:Image source="apay_tab_bg" scale9Grid="60,60,12,12" width="200" height="406" bottom="0" left="0"/>
+		<e:Image source="CW_bg" x="207" y="156"/>
+		<e:Image source="apay_tab_bg" width="677" height="406" bottom="0" right="0" scale9Grid="60,60,12,12"/>
+		<e:Image x="216" y="159" source="CW_t1"/>
+		<e:Image id="exchangeChaoWan" x="483" y="160" source="CW_t2"/>
+		<e:Image id="moreGift" y="159" source="CW_t3" right="13"/>
+		<e:Group id="YYmemberGrp" y="116" right="16">
+			<e:Label text="您的超玩会员等级为:" y="1" size="20" textColor="0xe50000"/>
+			<e:Label id="chaowanLv" text="9" x="131" size="20" textColor="0x18ce00"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="6"/>
+		</e:layout>
+		</e:Group>
+		<e:Scroller id="otherScroller" height="359" scrollPolicyH="off" verticalCenter="90.5" horizontalCenter="100.5">
+			<e:List id="otherList" itemRendererSkinName="YYLobbyPrivilegesGiftItemSkin" x="-1.33">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="dailyScroller" height="359" scrollPolicyH="off" verticalCenter="90.5" horizontalCenter="100.5" scrollPolicyV="off">
+			<e:List id="dailyList" x="-1.33" itemRendererSkinName="YYChaoWanDailyItemSkin">
+				<e:layout>
+					<e:HorizontalLayout gap="12"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="btnScroller" width="185" height="388" bottom="9" left="8">
+		<e:TabBar id="tabBar" width="200" height="200" itemRendererSkinName="YYLobbyPrivilegesTabSkin">
+			<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="8"/>
+			</e:layout>
+		</e:TabBar>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

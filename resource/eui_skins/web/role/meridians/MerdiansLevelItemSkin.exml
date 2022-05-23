@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MerdiansLevelItemSkin" width="24" height="24" xmlns:e="http://ns.egret.com/eui">
+    <e:Image id="img" horizontalCenter="0" verticalCenter="0"  source="Meridians_jie_0"/>
+</e:Skin>

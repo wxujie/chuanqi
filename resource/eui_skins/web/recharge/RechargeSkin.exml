@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeSkin" width="1027" height="696" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="dragDropUI" source="apay_bg2_png" x="0" y="-1" width="1027" height="696"/>
+	<e:Image source="biaoti_cz" horizontalCenter="0" y="55" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="84" y="128" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="299" y="128" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="514" y="128" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="729" y="128" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="84" y="396" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="299" y="396" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="514" y="396" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false"/>
+	<e:Image source="cz_bg1" x="729" y="396" scale9Grid="11,12,24,20" anchorOffsetX="0" width="213" anchorOffsetY="0" height="266" touchEnabled="false"/>
+	<e:Image x="150" y="227" id="icon1" source="cz_icon1" touchEnabled="false"/>
+	<e:Image x="350" y="208" id="icon2" source="cz_icon2" touchEnabled="false"/>
+	<e:Image x="548" y="200" id="icon3" source="cz_icon3" touchEnabled="false"/>
+	<e:Image x="763" y="203" id="icon4" source="cz_icon4" touchEnabled="false"/>
+	<e:Image x="125" y="462" id="icon5" source="cz_icon5" touchEnabled="false"/>
+	<e:Image x="329" y="479" id="icon6" source="cz_icon6" touchEnabled="false"/>
+	<e:Image x="538" y="469" id="icon7" source="cz_icon7" touchEnabled="false"/>
+	<e:Image x="745" y="461" id="icon8" source="cz_icon8" touchEnabled="false"/>
+	<e:Button id="buyButton1" label="10 元" x="120" y="328" skinName="Btn32Skin"/>
+	<e:Button id="buyButton2" label="10 元" x="335" y="328" skinName="Btn32Skin"/>
+	<e:Button id="buyButton3" label="10 元" x="552" y="328" skinName="Btn32Skin"/>
+	<e:Button id="buyButton4" label="10 元" x="767" y="328" skinName="Btn32Skin"/>
+	<e:Button id="buyButton5" label="10 元" x="120" y="596" skinName="Btn32Skin"/>
+	<e:Button id="buyButton6" label="10 元" x="335" y="596" skinName="Btn32Skin"/>
+	<e:Button id="buyButton7" label="10 元" x="552" y="596" skinName="Btn32Skin"/>
+	<e:Button id="buyButton8" label="10 元" x="767" y="596" skinName="Btn32Skin"/>
+	<e:Label text="" x="109" y="149" id="lab1" textColor="0xeee104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label text="" x="324" y="149" id="lab2" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label text="" x="539" y="149" id="lab3" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label text="" x="754" y="149" id="lab4" textColor="0xEEE104" stroke="2" size="24" textAlign="center" width="160"/>
+	<e:Label id="lab5" text="" x="109" y="417" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label id="lab6" text="" x="324" y="417" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label id="lab7" text="" x="539" y="417" textColor="0xEEE104" stroke="2" size="24" width="160" textAlign="center"/>
+	<e:Label id="lab8" text="" x="754" y="417" textColor="0xEEE104" stroke="2" size="24" textAlign="center" width="160"/>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2" scaleX.down="0.98" scaleY.down="0.98"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

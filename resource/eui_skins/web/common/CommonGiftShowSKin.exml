@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonGiftShowSKin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect" left="0" right="0" top="0" bottom="0" fillAlpha="0.3"/>
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<app:UIViewFrame id="dragDropUI" horizontalCenter="0" top="0" bottom="0"  skinName="ViewBgWin5Skin"/>
+		<e:Image source="chat_bg_bg1_png" horizontalCenter="0" verticalCenter="-9.5" height="211" scale9Grid="168,68,94,59" x="17" y="98" scaleX="1" scaleY="1" anchorOffsetY="0" visible="false"/>
+		<e:Scroller id="itemScroller" width="389" height="178" x="44" y="71" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off">
+			<e:List id="itemList" x="0" y="-1" itemRendererSkinName="ItemSelectBaseSkin" anchorOffsetY="0" height="181">
+			<e:layout>
+				<e:TileLayout requestedRowCount="2" requestedColumnCount="6"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="btnConfim" label="确 定" horizontalCenter="0" bottom="19" x="183" y="279" scaleX="1" scaleY="1" width="113" height="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

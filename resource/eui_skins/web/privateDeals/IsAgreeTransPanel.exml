@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IsAgreeTransPanel" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="426" height="301">
+	<app:UIViewFrame id="dragDropUI" horizontalCenter="0" verticalCenter="0" skinName="ViewBgWin6Skin"/>
+	<e:Label id="tradingLab" text="" width="310" height="121" textAlign="center" verticalAlign="middle" size="21" textColor="0xdfbd9e" horizontalCenter="-2" bottom="104"/>
+	<e:Button id="sureBtn" label="确 定" bottom="18" horizontalCenter="-89.5" width="109" height="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeBtn" label="取 消" bottom="18" horizontalCenter="98.5" width="109" height="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

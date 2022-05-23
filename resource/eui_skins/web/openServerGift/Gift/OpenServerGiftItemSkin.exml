@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenServerGiftItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="142" height="227">
+	<e:Group width="142" height="208">
+		<e:Image source="kf_lb_k" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="giftIcon" source="kf_lb_p1" horizontalCenter="0" verticalCenter="0" x="-1" y="32" scaleX="1" scaleY="1"/>
+		<e:Image id="giftTitle" source="kf_lb_t1" bottom="8" horizontalCenter="0" x="13" y="177" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="unopenedImg" source="kf_lb_k2" visible="false"/>
+	<e:Image id="isSelectImg" source="kf_lb_k3" height="226" scale9Grid="34,19,67,5" horizontalCenter="0" visible="false"/>
+	<e:Label id="openDesc" text="开服第4天开启" size="17" textColor="0xb30400" horizontalCenter="0" top="13" bold="true" visible="false"/>
+	<e:Image id="buyImg" source="kf_lb_yigoumai" horizontalCenter="0" verticalCenter="0" visible="false"/>
+</e:Skin>

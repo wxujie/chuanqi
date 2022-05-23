@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SoldierSoulOrderViewSkin" width="709" height="562" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Group width="709" height="562" touchEnabled="false">
+		<e:Image source="sw_bh_bg1_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image x="81" y="35" source="jiejikuang"/>
+		<e:BitmapLabel id="curOrder" font="fourImage_fnt" text="二十阶" width="27" verticalCenter="-192" horizontalCenter="-254.5"/>
+		<e:Button id="btnUp" label="立即升阶" verticalCenter="230" skinName="Btn9Skin" horizontalCenter="-9"/>
+		<e:Image y="284" source="sw_bh_bg2" horizontalCenter="0" height="188" scale9Grid="9,0,426,94"/>
+		<e:Label id="curLV" text="当前等级:9" size="22" textColor="0xDED104" y="259" left="141" stroke="2"/>
+		<e:Label id="nextLv" text="下一等级:10" size="22" textColor="0xDED104" y="259" left="400" stroke="2"/>
+		<e:Image x="319" source="sx_jiantou" verticalCenter="64"/>
+		<e:List id="gCurList" name="list" itemRendererSkinName="FourImagesAttrItemCurSkin" verticalCenter="17" horizontalCenter="-121.5">
+			<e:layout>
+			<e:VerticalLayout gap="6"/>
+			</e:layout>
+		</e:List>
+		<e:List id="gNextList" name="list" itemRendererSkinName="FourImagesAttrItemNextSkin" verticalCenter="17" horizontalCenter="126">
+			<e:layout>
+			<e:VerticalLayout gap="6"/>
+			</e:layout>
+		</e:List>
+		<e:Label id="lbMax" text="青龙之魂已达满阶" x="268" y="421" textColor="0xE0AE75" size="20"/>
+		<e:Label id="lbMax0" text="已满阶" x="428" y="299" textColor="0xE0AE75" size="20" visible="false"/>
+		<e:List id="costList" x="134" y="419" itemRendererSkinName="FourImagesCostItemSkin">
+			<e:layout>
+			<e:VerticalLayout gap="4"/>
+			</e:layout>
+		</e:List>
+		<e:Label id="txt_get" text="获取道具" size="20" textAlign="left" textColor="0x32FC00" multiline="false" italic="false" bottom="37" right="84"/>
+		<e:Group id="weaponEff" x="342" y="127" touchEnabled="false" touchChildren="false"/>
+		<e:Label id="specialCurLab" text="血饮BUFF属性：" x="141" y="324" textColor="0xd48842" size="20" stroke="2" visible="false"/>
+		<e:Label id="specialNextLab" text="血饮BUFF属性：" x="400" y="324" textColor="0xD48842" size="20" stroke="2" visible="false"/>
+		<e:List id="gCurList0" name="list" itemRendererSkinName="FourImagesAttrItemCurSkin" horizontalCenter="-121.5" y="348" visible="false">
+			<e:layout>
+			<e:VerticalLayout gap="-2"/>
+			</e:layout>
+		</e:List>
+		<e:List id="gNextList0" name="list" itemRendererSkinName="FourImagesAttrItemNextSkin" horizontalCenter="126.5" y="347" visible="false">
+			<e:layout>
+			<e:VerticalLayout gap="-5"/>
+			</e:layout>
+		</e:List>
+		<e:Image id="weaponTips" right="27" top="40" source="sw_bh_1"/>
+		<app:RedDotControl id="redPoint" x="386.35" y="484.65" visible="false"/>
+	</e:Group>
+</e:Skin>

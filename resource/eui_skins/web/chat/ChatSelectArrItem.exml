@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatSelectArrItem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="74" height="26">
+	<e:Group width="100%" height="100%" touchEnabled="true" touchChildren="false">
+		<e:Image id="selectImg" height="100%" width="100%" touchEnabled="false" x="0" y="0" scaleX="1" scaleY="1" visible="false" source="m_t_ms_bg2" scale9Grid="9,8,8,9"/>
+		<e:Image id="img" touchEnabled="false" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="m_chat_t_fujin"/>
+		<app:RedDotControl id="red" right="0" top="0" visible="false"/>
+	</e:Group>
+</e:Skin>

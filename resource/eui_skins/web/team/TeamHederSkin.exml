@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamHederSkin" width="862" height="42"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  >
+	<e:Group id="gHeader0" width="862" height="42" x="0"   >
+		<e:Image x="-1" y="-1"  width="862"  source="fd_top_bg"/>
+		<e:Image x="232" y="0"  source="fd_top_fenge"/>
+		<e:Image x="414" y="0"  source="fd_top_fenge"/>
+		<e:Image x="598" y="0"  source="fd_top_fenge"/>
+		<e:Label id="txt0" text="" x="91" y="12" size="22" border="false" stroke="2"  textColor="0xf0c896"/>
+		<e:Label id="txt1" text="" x="305" y="12" size="22" border="false" stroke="2"  textColor="0xf0c896"/>
+		<e:Label id="txt2" text="" size="22" border="false" stroke="2"  textColor="0xf0c896" verticalCenter="0" horizontalCenter="77"/>
+		<e:Label id="txt3" text="" x="689" y="12" size="22" border="false" stroke="2"  textColor="0xf0c896"/>
+	</e:Group>
+	
+	
+	
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlatformFuliIndulgeGiftSkin2" width="758" height="433" xmlns:e="http://ns.egret.com/eui"
+        xmlns:app="app.*">
+    <e:Image source="bg_shunwang_fangchenmi_png" top="0" bottom="0" left="0" right="0" />
+    <e:Image source="txt_shenfenyanzheng" y="25" x="56" />
+    <e:Image source="property_3" y="260" horizontalCenter="0.5" />
+    <e:Button id="indulgeBtn" label="" y="363" icon="btnt_txfcm" skinName="Btn26Skin" width="137" height="56" x="309" />
+    <e:Button id="getBtn" label="" y="363" icon="fl_jhm_btn_1" skinName="Btn0Skin" width="137" height="56" x="309" />
+    <e:List id="descList" itemRendererSkinName="PlatformFuliDescItemSkin" x="158" verticalCenter="-26">
+        <e:layout>
+            <e:VerticalLayout gap="0" />
+        </e:layout>
+    </e:List>
+    <e:List id="itemList" verticalCenter="90" horizontalCenter="0" itemRendererSkinName="FuLi4366ItemSkin">
+        <e:layout>
+            <e:HorizontalLayout gap="20" />
+        </e:layout>
+    </e:List>
+    <app:RedDotControl id="redPoint" x="432" y="361" />
+    <e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="0.5" bottom="7" />
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TradeLineSellViewSkin" width="869" height="558" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image source="trade_bg1" left="0" right="0" top="0" bottom="79"/>
+	<e:Button id="addItem" label="添加商品" skinName="Btn9Skin" horizontalCenter="-113" bottom="18" height="41"/>
+	<e:Button id="shelves" label="上  架" skinName="Btn9Skin" horizontalCenter="117" bottom="18" height="41"/>
+	<e:Group id="itemGrp" height="120" x="366" y="91">
+		<e:Image source="trade_iconk" width="137" x="0" height="120" y="0"/>
+		<app:ItemBase id="curITem" skinName="ItemBaseSkin" horizontalCenter="-0.5" top="28" bottom="32"/>
+	</e:Group>
+	<e:Image width="104" source="com_bg_kuang_xian2" scale9Grid="3,3,18,18" horizontalCenter="24.5" bottom="268" height="36"/>
+	<e:Label text="出售价格：" x="300" y="262" size="22" textColor="0xe0ae75" stroke="2"/>
+	<e:Label text="元宝" x="520" y="262" textColor="0xe0ae75" size="22" stroke="2"/>
+	<e:Label id="handlingCharge" text="上架手续费:" x="300" y="331" size="22" textColor="0xE0AE75" stroke="2"/>
+	<e:Label id="handlingMoney" text="500" x="470" y="331" size="22" stroke="2" textColor="0x28ee01"/>
+	<e:Label id="dealSuccessful" text="交易成功后将扣除售价的" x="300" y="389" size="22" stroke="2" textColor="0xe0ae75"/>
+	<e:EditableText id="textInput" text="" size="24" verticalAlign="middle" textAlign="center" textColor="0x3dff00" horizontalCenter="24.5" bottom="271" height="30" restrict="0-9"/>
+	<e:Image horizontalCenter="8.5" bottom="198" source="icon_bangding"/>
+	<e:Label id="titleDesc" text="" y="16" horizontalCenter="0" width="719" textAlign="center" size="20" stroke="2" lineSpacing="5" textColor="0xe0ae75"/>
+</e:Skin>

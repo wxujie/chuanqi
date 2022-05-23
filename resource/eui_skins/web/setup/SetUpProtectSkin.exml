@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUpProtectSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+    <e:Image source="common_json.com_fengexian" x="60" y="71" />
+    <e:Image source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="219" y="120" scaleX="1" scaleY="1" height="35"
+             anchorOffsetX="0" width="93" />
+    <e:Image source="com_bg_kuang_3" scale9Grid="12,13,8,5" x="219" y="209.34" scaleX="1" scaleY="1" height="35"
+             anchorOffsetX="0" width="93" />
+	<e:Label text="回城保护" x="44" y="89" size="24" textColor="0xd1b974" stroke="2"/>
+	<e:Label text="随机保护" x="44" y="180.34" size="24" textColor="0xD1B974" stroke="2"/>
+	<app:SetUpCheckBoxEui id="warnHp" x="41" y="119" name="openSound" skinName="SetUpCheckBox"/>
+	<app:SetUpCheckBoxEui id="warnHp2" x="41" y="208.34" name="openSound" skinName="SetUpCheckBox"/>
+	<e:Label text="时使用" x="340" y="125" size="24" textColor="0xdcd2be"/>
+	<e:Label text="时使用" x="340" y="215.34" textColor="0xdcd2be" size="24"/>
+    <e:EditableText id="hp1Input" width="81" height="25" x="223" y="126" size="24" anchorOffsetX="0" anchorOffsetY="0"
+                    textAlign="center"  restrict="0-9" textColor="0xe5ddcf" stroke="2"/>
+    <e:EditableText id="hp2Input" width="81" height="25" x="223" y="215.34" size="24" anchorOffsetX="0" anchorOffsetY="0"
+                    textAlign="center"  restrict="0-9" textColor="0xe5ddcf" stroke="2"/>
+	<app:SetDropDownView id="hp2Drop" x="447" y="204.34" skinName="SetDropDownSkin" touchEnabled="false" touchChildren="false"/>
+	<app:SetDropDownView id="hp1Drop" x="447" y="117" skinName="SetDropDownSkin" touchEnabled="false" touchChildren="false"/>
+	<e:Label text="注意：在不能使用随机的地图，随机保护无效" y="258.34" size="18" textColor="0xff0000" right="0"/>
+	<e:Label text="注意：救主灵刃保护时，将不会触发回城保护" y="175.34" size="18" textColor="0xFF0000" right="0"/>
+	<e:Label text="注意：救主灵刃保护时，将不会触发随机保护" y="287.34" size="18" textColor="0xFF0000" right="0"/>
+</e:Skin>

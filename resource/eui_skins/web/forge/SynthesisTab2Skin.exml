@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SynthesisTab2Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"   states="up,down"  height="41" width="130">
+	<e:Image source="com_yeqian_6" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="chosen" source="com_yeqian_7" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="itemName" text="魔龙装备" size="20" horizontalCenter="0" verticalCenter="-0.5" textColor="0xf0c896" textColor.up="0x807b73" stroke="2"/>
+	<app:RedDotControl id="redPoint" right="4" top="4" visible="false"/>
+</e:Skin>

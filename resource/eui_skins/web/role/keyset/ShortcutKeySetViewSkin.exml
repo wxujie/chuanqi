@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShortcutKeySetViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="517" height="263">
+	<app:UIViewFrame id="dragDropUI" currentState="default4"  skinName="UIViewFrameSkin2" width="517" height="263"/>
+	<e:Image smoothing="false" x="73" y="44.5" source="anjian_skillk"/>
+	<e:Image id="icon" smoothing="false" x="87" y="57" source="skillicon_ds1"/>
+	<e:Button id="btn_ok" label="确定" x="393" y="198" width="87" height="49">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="anjian_btn" source.down="anjian_btn" source.disabled="anjian_btn" scaleX.down="0.98" scaleY.down="0.98"/>
+			<e:Label id="labelDisplay" size="18" bold="true" textColor="0xD8B87D" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_noSet" label="清空" x="393" y="138">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="anjian_btn" source.down="anjian_btn" source.disabled="anjian_btn" scaleX.down="0.98" scaleY.down="0.98"/>
+			<e:Label id="labelDisplay" size="18" bold="true" textColor="0xD8B87D" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button label="删除设置" x="164" y="236" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image smoothing="false" width="100%" height="100%" source="btn_1" source.down="btn_3" source.disabled="btn_1"/>
+				<e:Label id="labelDisplay" size="18" bold="true" textColor="0xD8B87D" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="txt_desc" text="冰咆哮快捷键设置为" x="179" y="71"  scaleX="1" scaleY="1" size="18"
+	         textColor="0xFFFFFF" textAlign="center" verticalAlign="justify"/>
+	<e:Group id="keyGroup" width="325" height="100" x="40" y="140" anchorOffsetX="0" anchorOffsetY="0">
+
+		<e:layout>
+			<e:TileLayout horizontalGap="5" verticalGap="2" horizontalAlign="center" verticalAlign="middle" rowHeight="50" requestedRowCount="2" columnWidth="50" requestedColumnCount="6"/>
+		</e:layout>
+		<!--<app:ShortcutKeyView name ="key_0" skinName="ShortcutKeyBtnSkin"/>
+		<app:ShortcutKeyView name ="key_1" skinName="ShortcutKeyBtnSkin"/>
+		<app:ShortcutKeyView name ="key_2" skinName="ShortcutKeyBtnSkin"/>
+		<app:ShortcutKeyView name ="key_3" skinName="ShortcutKeyBtnSkin"/>
+		<app:ShortcutKeyView name ="key_4" skinName="ShortcutKeyBtnSkin"/>
+		<app:ShortcutKeyView name ="key_5" skinName="ShortcutKeyBtnSkin"/>
+		<app:ShortcutKeyView name ="key_6" skinName="ShortcutKeyBtnSkin"/>
+		<app:ShortcutKeyView name ="key_7" skinName="ShortcutKeyBtnSkin"/>
+		<app:ShortcutKeyView name ="key_8" skinName="ShortcutKeyBtnSkin"/>
+		<app:ShortcutKeyView name ="key_9" skinName="ShortcutKeyBtnSkin"/>
+		<app:ShortcutKeyView name ="key_10" skinName="ShortcutKeyBtnSkin"/>
+		<app:ShortcutKeyView name ="key_11" skinName="ShortcutKeyBtnSkin"/>-->
+	</e:Group>
+</e:Skin>

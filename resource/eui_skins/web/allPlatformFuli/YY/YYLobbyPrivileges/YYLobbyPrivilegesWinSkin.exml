@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YYLobbyPrivilegesWinSkin" width="1027" height="690" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Image id="dragDropUI" source="apay_bg2_png"/>
+	<e:Image source="apay_tab_bg" x="72.28" y="106.3" scale9Grid="60,60,12,12" width="200" height="556"/>
+	<e:Image source="apay_tab_bg" x="271.78" y="259.1" scale9Grid="60,60,12,12" width="680" height="404"/>
+	<e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2" source.down="apay_x2" source.disabled="apay_x2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="infoGroup" width="679" height="555" x="275.28" y="107.3" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		<e:Image y="-45.33" horizontalCenter="-100.5" touchEnabled="false" x="238" source="YY_bt1"/>
+		<e:Image id="bgImage" x="-2.01" y="2" source="YY_banner2"/>
+		<e:Image id="downImg" source="YY_t_ljxz" right="18" top="101"/>
+		<e:Scroller id="otherScroller" width="668" height="393" x="3" y="156">
+		<e:List id="otherList" itemRendererSkinName="YYLobbyPrivilegesGiftItemSkin">
+			<e:layout>
+				<e:VerticalLayout paddingTop="3" paddingLeft="5"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Group id="noviceGrp" width="668" height="393" x="3.17" y="156">
+			<e:Image source="YY_bg2_png"/>
+			<e:Image source="YY_t_xslb" horizontalCenter="0" top="41"/>
+			<e:Button id="receiveBtn" label="" width="176" height="85" horizontalCenter="0" bottom="13">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" source="YY_btn_ljlq" source.down="YY_btn_ljlq" scaleX.down="0.95" scaleY.down="0.95" source.disabled="YY_btn_ljlq2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="receiveImg" source="apay_yilingqu" horizontalCenter="0" bottom="23"/>
+			<app:RedDotControl id="redPoint" x="385" y="309" visible="false"/>
+			<e:List id="noviceList" itemRendererSkinName="ItemBaseSkin" horizontalCenter="0" verticalCenter="-5">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Group>
+	<e:Scroller id="btnScroller" width="185" height="536" x="79.61" y="116.3">
+		<e:TabBar id="tabBar" width="200" height="200" itemRendererSkinName="YYLobbyPrivilegesTabSkin">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="8"/>
+		</e:layout>
+		</e:TabBar>
+	</e:Scroller>
+</e:Skin>

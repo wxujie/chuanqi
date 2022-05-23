@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FubenSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*"
+        height="444">
+	<e:Group id="timeGrp" width="288" height="73" touchEnabled="false" touchChildren="false">
+		<e:Group id="campGrp" width="281" height="31" y="42" x="4" touchEnabled="false">
+			<e:Image source="Act_dld_djs" scale9Grid="7,3,48,23" height="31" width="281" />
+			<e:Label id="campTime" text="" size="20" verticalCenter="1.5" textColor="0x28ee01" horizontalCenter="0" stroke="2" />
+		</e:Group>
+		<e:Group id="actGrp" width="281" height="31" y="6" x="4" touchEnabled="false">
+			<e:Image source="Act_dld_djs" scale9Grid="7,3,48,23" height="31" width="281" />
+			<e:Image id="lbDctyImg" source="Act_dld_djs" scale9Grid="7,3,48,23" height="31" width="281" y="32" visible="false" />
+			<e:Label id="actTime" text="" size="20" verticalCenter="0" textColor="0x28ee01" horizontalCenter="0" stroke="2" />
+			<e:Label id="lbDcty" text="地图中央NPC可前往下一层" textColor="0x28ee01" size="20" lineSpacing="4" stroke="2" y="37"
+			         horizontalCenter="0" visible="false" />
+		</e:Group>
+		<e:Group id="waveNumGrp" width="281" height="31" y="78" x="4" touchEnabled="false" visible="false">
+			<e:Image source="Act_dld_djs" scale9Grid="7,3,48,23" height="31" width="281" />
+			<e:Label id="waveNum" text="" size="20" textColor="0x28ee01" verticalCenter="0" horizontalCenter="0" stroke="2" />
+		</e:Group>
+		<e:Group id="monsterGrp" width="281" height="31" y="114" x="4" touchEnabled="false" visible="false">
+			<e:Image source="Act_dld_djs" scale9Grid="7,3,48,23" height="31" width="281" />
+			<e:Label id="monsterNum" text="" size="20" verticalCenter="1.5" textColor="0x28ee01" horizontalCenter="0" stroke="2" />
+		</e:Group>
+		<e:Label id="crossSeverBossLab" text="双击角色名攻击" y="47" size="20" horizontalCenter="0" stroke="2" textColor="0xff7700"
+		         visible="false" />
+	</e:Group>
+	<e:Group id="rankGroup" width="288" height="243" y="80" touchEnabled="false" touchChildren="true">
+		<e:Image width="289" height="241" touchEnabled="false" source="9s_tipsbg" scale9Grid="11,11,2,2" />
+		<e:Image width="289" height="241" touchEnabled="false" source="9s_tipsk" scale9Grid="13,14,3,2" />
+		<e:Group x="192" y="14">
+			<e:Label id="fbLabel2" size="20" textColor="0x28ee01" text="" stroke="2" />
+			<e:Rect height="1" fillColor="0x28ee01" width="100%" bottom="0" />
+		</e:Group>
+		<e:Label id="fbLabel1" x="15" y="14" size="20" touchEnabled="false" text="" textColor="0xe0ae75" stroke="2" />
+		<e:Label id="fbLabel3" x="48.8" y="208" size="18" touchEnabled="false" text="" textColor="0xe0ae75" stroke="2" />
+		<e:Label id="myScore" y="208" size="18" right="18" touchEnabled="false" text="" textColor="0xe0ae75" stroke="2" />
+		<e:Label id="myRank" y="208" size="18" x="23" touchEnabled="false" text="" textColor="0xe0ae75" stroke="2" />
+		<e:Group id="rankGrp0" name="group0" width="274" x="9" y="42" touchEnabled="false" touchChildren="false"
+		         visible="false">
+			<e:Image source="bg_quyu_2" left="0" right="0" top="0" bottom="0" scale9Grid="9,9,1,2" />
+			<e:Image scale9Grid="28,29,2,2" source="common_liebiaoxuanzhong" left="0" right="0" top="-5" bottom="0"
+			         name="selectImg" visible="false" />
+			<e:Image source="Act_pm_1" name="rank" />
+			<e:Label name="nameLab" x="40" y="10" size="18" textColor="0xf1ed02" text="" stroke="2" />
+			<e:Label name="score" y="10" size="18" right="13" x="266" textColor="0xf1ed02" text="" stroke="2" />
+		</e:Group>
+		<e:Group id="rankGrp1" name="group1" width="274" x="9" y="85" touchChildren="false" touchEnabled="false"
+		         visible="false">
+			<e:Image scale9Grid="28,29,2,2" source="common_liebiaoxuanzhong" left="0" right="0" top="-5" bottom="0" x="0" y="-48"
+			         scaleX="1" scaleY="1" name="selectImg" visible="false" />
+			<e:Image name="rank" source="Act_pm_2" />
+			<e:Label name="nameLab" x="40" y="10" size="18" textColor="0x28ee01" stroke="2" />
+			<e:Label name="score" y="10" size="18" right="13" x="266" textColor="0x28ee01" stroke="2" />
+		</e:Group>
+		<e:Group id="rankGrp2" name="group2" width="274" x="9" y="126" touchEnabled="false" touchChildren="false"
+		         visible="false">
+			<e:Image source="bg_quyu_2" left="0" right="0" top="0" bottom="0" scale9Grid="8,9,1,1" />
+			<e:Image scale9Grid="28,29,2,2" source="common_liebiaoxuanzhong" left="0" right="0" top="-5" bottom="0" x="0" y="-46"
+			         scaleX="1" scaleY="1" name="selectImg" visible="false" />
+			<e:Image name="rank" source="Act_pm_3" />
+			<e:Label name="nameLab" x="40" y="10" size="18" textColor="0xff22ed" stroke="2" text="" />
+			<e:Label name="score" y="10" size="18" right="13" x="266" textColor="0xff22ed" stroke="2" text="" />
+		</e:Group>
+		<e:Group id="rankGrp3" name="group3" width="274" x="9" y="167" touchEnabled="false" touchChildren="false"
+		         visible="false">
+			<e:Image scale9Grid="28,29,2,2" source="common_liebiaoxuanzhong" left="0" right="0" top="-5" bottom="0" x="0" y="-46"
+			         scaleX="1" scaleY="1" name="selectImg" visible="false" />
+			<e:Label name="nameLab" x="40" y="10" size="18" textColor="0xe5ddcf" stroke="2" text="" />
+			<e:Label name="rank" text="4" x="14" y="10" size="20" textColor="0xe5ddcf" stroke="2" />
+			<e:Label name="score" y="10" size="18" right="13" x="266" textColor="0xe5ddcf" stroke="2" text="" />
+		</e:Group>
+		<e:Group id="boxGroup" y="244.34" width="102" right="0">
+			<e:Image id="boxBg" source="Act_dld_icon2" y="64" scaleX="1" scaleY="1" width="100%" right="0" />
+			<e:Image id="boxImage" source="Act_dld_icon" y="-4" scaleX="1" scaleY="1" horizontalCenter="0.5" />
+			<app:RedDotControl id="redPoint" x="80" y="1" visible="false" />
+			<e:Group y="67.67" scaleX="1" scaleY="1" horizontalCenter="0">
+				<e:Label id="boxMyScore" text="" size="18" textColor="0xF1AA3F" x="10" y="10" />
+				<e:Label id="boxScore" text="" size="18" textColor="0xF1AA3F" x="20" y="20" />
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="escapeGroup" y="244" right="0" visible="false">
+			<e:Image width="289" height="60" touchEnabled="false" source="9s_tipsbg" scale9Grid="11,11,2,2" />
+			<e:Image width="289" height="60" touchEnabled="false" source="9s_tipsk" scale9Grid="13,14,3,2" />
+			<e:Button id="enterFb" label="完成试炼" x="20" verticalCenter="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+						<e:Image x="0" y="0" horizontalCenter="0" verticalCenter="0" scaleX="1" scaleY="1" source="button_lt3" />
+						<e:Label id="labelDisplay" text="button" size="18" stroke="1" horizontalCenter="0" verticalCenter="0" textColor="0xeee104"
+						         bold="false" />
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="labEscapeRoleNum" text="逃脱人数：100" size="18" textColor="0xF1AA3F" x="150" verticalCenter="0" />
+		</e:Group>
+	</e:Group>
+</e:Skin>

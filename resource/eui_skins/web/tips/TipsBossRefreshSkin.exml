@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsBossRefreshSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="156" height="250">
+	<e:Image source="bg_bosstips1"/>
+    <e:Image source="bg_bosstips2" horizontalCenter="0" y="45"/>
+	<e:Button id="btn_close" label="" width="60" height="60" y="-9" x="139">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_guanbi3" source.down="btn_guanbi4" source.disabled="btn_guanbi4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="labTitle" text="更好的装备" size="20" textColor="0xeee104" y="18" stroke="2" horizontalCenter="0"/>
+	<e:Image id="itemIcon" source="11000" verticalCenter="-28.5" horizontalCenter="-0.5"/>
+	<e:Label id="itemName" text="手戳" size="18" textColor="0xc9a87b" bold="true" touchEnabled="false" horizontalCenter="1.5" verticalCenter="22" stroke="2"/>
+	<e:Button id="btn_go" label="前  往" scaleX="1" scaleY="1" width="113" height="44" horizontalCenter="1.5" verticalCenter="59">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:app="app.*">
+			<e:Image source="tips_btn" source.down="tips_btn" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18" textColor="0xf0c896" stroke="2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="checkLabel" text="不再提示" x="54" y="213" size="19" stroke="2" textColor="0x28ee01"/>
+	<app:SetUpCheckBoxEui id="checkBox" x="22" y="208" skinName="SetUpCheckBox" scaleX="0.8" scaleY="0.8"/>
+	
+</e:Skin>

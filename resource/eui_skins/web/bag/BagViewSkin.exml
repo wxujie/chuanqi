@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagViewSkin" width="582" height="570" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:app="app.*">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin2Skin" />
+	<e:Image width="507" height="382" horizontalCenter="-21" source="com_bg_kuang_xian1" scale9Grid="10,9,1,2" y="6"
+	         visible="false" />
+	<e:Group name="装备" width="498" height="372" horizontalCenter="-23" y="17">
+		<e:Scroller id="equipScroller" width="498" height="372" scrollPolicyH="off" scrollPolicyV="off">
+			<e:Group id="equipList">
+				<e:Group id="equipBg" width="498" height="372" />
+				<e:Group id="equipLab" width="498" height="372" touchEnabled="false" />
+				<e:Group id="equipStar" width="498" height="372" touchEnabled="false" x="0" y="0" />
+				<e:Group id="itemEffGrp" width="498" height="372" touchEnabled="false" />
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:TabBar id="tab" itemRendererSkinName="Btn3Skin" horizontalCenter="-137" y="403">
+		<e:layout>
+			<e:HorizontalLayout gap="5" />
+		</e:layout>
+	</e:TabBar>
+	<e:Group x="98" y="399" touchEnabled="false">
+		<app:RedDotControl id="redPoint0" width="20" height="20" x="44" y="21" />
+		<app:RedDotControl id="redPoint1" width="20" height="20" x="54" y="31" />
+		<app:RedDotControl id="redPoint2" width="20" height="20" x="64" y="41" />
+		<e:layout>
+			<e:HorizontalLayout gap="69" />
+		</e:layout>
+	</e:Group>
+	<e:Button id="arrange" label="整  理" horizontalCenter="186.5" y="403">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="bagbtn_1" source.down="bagbtn_1" source.disabled="bagbtn_2"
+				         scaleY.down="0.95" scaleX.down="0.95" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xeee104" stroke="2" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="curCapacity" text="fafaf" size="24" horizontalCenter="89.5" textColor="0xe5ddcf" stroke="2" y="409" />
+	<e:Button id="function" label="回 收" horizontalCenter="186.5" y="403" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="bagbtn_1" source.down="bagbtn_1" source.disabled="bagbtn_2"
+				         scaleY.down="0.95" scaleX.down="0.95" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xeee104" stroke="2" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="moneyGrp" x="33" y="455" visible="false">
+		<app:moneyPanel id="notBindGold" x="-43" y="-95" skinName="moneyPanelSkin" height="29" width="231" />
+		<app:moneyPanel id="bindGold" x="205" y="-94.68" skinName="moneyPanelSkin" height="29" width="231" />
+		<app:moneyPanel id="notBindYuanBao" x="205" y="-60" skinName="moneyPanelSkin" height="29" width="231" />
+		<app:moneyPanel id="bindYuanbao" x="-43" y="-547" skinName="moneyPanelSkin" height="29" width="231" />
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="2" horizontalGap="17" verticalGap="7" />
+		</e:layout>
+	</e:Group>
+	<e:Group id="sildGrp" x="525.2" y="87" visible="false">
+		<e:Image source="bag_fanye_bg" />
+		<e:Image x="19.5" y="80.33" source="com_fengexian" rotation="90" width="144" />
+		<e:Button id="upBtn" label="Button" x="-4" y="51.33" skinName="BagUpSkin" />
+		<e:Button id="downBtn" label="Button" x="-3.66" y="237.67" skinName="BagUpSkin" scaleY="-1" />
+		<e:VSlider id="silding" name="verticalSlider" x="9.15" value="0" width="20" height="94" minimum="0" maximum="415"
+		           y="98" anchorOffsetY="0">
+			<e:Skin minWidth="20" minHeight="10">
+				<e:Image id="track" source="" scale9Grid="2,2,16,15" width="20" height="100%" verticalCenter="0" />
+				<e:Image id="thumb" source="bag_fanye_3" rotation="0" x="2" scale9Grid="7,21,2,1" />
+			</e:Skin>
+		</e:VSlider>
+	</e:Group>
+	<app:RuleTipsButton label="Button" x="292" y="406" ruleId="1" />
+	<e:Group x="15" y="458" touchEnabled="false">
+		<e:Group touchEnabled="false">
+			<e:Label text="金币:" x="1" y="6" size="20" textColor="0xe5ddcf" stroke="2" />
+			<e:Label id="goldNum" text="99,999,999" x="49.33" y="6.33" size="20" textColor="0xE5DDCF" stroke="2" />
+			<e:Label id="goldIcon" text="[转换]" x="126.7" y="17" size="20" textColor="0x7d21d9" stroke="1" />
+			<e:layout>
+				<e:HorizontalLayout gap="5" />
+			</e:layout>
+		</e:Group>
+		<e:Group x="0" y="25" touchEnabled="false">
+			<e:Label text="元宝:" x="1" y="6" size="20" textColor="0xE5DDCF" stroke="2" />
+			<e:Label id="yuanbaoNum" text="99,999,999" x="49.33" y="6.33" size="20" textColor="0xE5DDCF" stroke="2" />
+			<e:Label id="yuanbaoIcon" text="[转换]" x="126.7" y="17" size="20" textColor="0x7D21D9" stroke="1" />
+			<e:layout>
+				<e:HorizontalLayout gap="5" />
+			</e:layout>
+		</e:Group>
+		<e:Group touchEnabled="false" y="50">
+			<e:Label text="绑金:" x="1" y="6" size="20" textColor="0xE5DDCF" stroke="2" />
+			<e:Label id="bindGoldNum" text="9,999,999,999" x="49.33" y="6.33" size="20" textColor="0xE5DDCF" stroke="2" />
+			<e:layout>
+				<e:HorizontalLayout gap="5" />
+			</e:layout>
+		</e:Group>
+		<e:Group y="75" touchEnabled="false">
+			<e:Label text="银两:" x="1" y="6" size="20" textColor="0xE5DDCF" stroke="2" />
+			<e:Label id="yinliangNum" text="9,999,999,999" x="49.33" y="6.33" size="20" textColor="0xE5DDCF" stroke="2" />
+			<e:layout>
+				<e:HorizontalLayout gap="5" />
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Button id="wareHouseBtn" label="" x="454" y="475" width="60" height="60">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="btn_ssck" source.down="btn_ssck" scaleY.down="0.98"
+				         scaleX.down="0.98" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="recoveryBtn" label="" x="375" y="474" width="60" height="64">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_yjhs" source.down="btn_yjhs" scaleY.down="0.98" scaleX.down="0.98" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="recoveryBtn2" label="" x="295" y="475" width="60" height="64">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="btn_hs" source.down="btn_hs" scaleY.down="0.98"
+				         scaleX.down="0.98" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="effGrp" x="405" y="510" touchEnabled="false" touchChildren="false" />
+</e:Skin>

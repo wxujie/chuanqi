@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="919" height="644">
+	<app:UIViewFrame id="dragDropUI" y="0" skinName="ViewBgWin1Skin" width="921"/>
+	<e:Group id="viewStack" width="869" horizontalCenter="0" height="558" verticalCenter="14">
+	</e:Group>
+	<app:RuleTipsButton id="ruleTips" label="Button" ruleId="23" horizontalCenter="-408.5" height="32" verticalCenter="-234"/>
+</e:Skin>

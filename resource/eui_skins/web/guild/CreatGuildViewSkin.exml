@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreatGuildViewSkin" width="478" height="345" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing">
+	<app:UIViewFrame id="dragDropUI"  y="0" skinName="ViewBgWin5Skin"/>
+	<e:Image x="17" y="46"  width="446" source="bg_bg2" scale9Grid="4,4,28,28"  height="273" visible="false"/>
+	<e:Image source="9s_bg_2" scale9Grid="3,3,24,24" left="213" right="127" top="202" bottom="113" width="59" height="50"   visible="true"/>
+	<e:Image source="ltk_4" x="63" y="128"  width="360"  height="32" scale9Grid="10,10,2,1"/>
+	<e:TextInput id="guildNameText" width="360" height="32" x="63" y="128"   skinName="TextInputSkin" maxChars="6"/>
+	<e:Label id="typeLb" text="" y="79" size="22" horizontalCenter="0" textColor="0xe5ddcf" stroke="2"/>
+	<e:Label id="txt" text="" y="206" size="22" horizontalCenter="-80.5" textColor="0xe5ddcf" stroke="2"/>
+	<e:Button id="ConfirmBtn" label="" x="99" y="282"   width="109" height="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeBtn" label="" x="299" y="282" width="109" height="44">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896" stroke="2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="icon_yuanbao" x="215" y="197" visible="true"/>
+	<e:Label id="moneyLb" text="500" x="270" y="206" size="22" textColor="0x3389ff" bold="true"/>
+	<app:RuleTipsButton label="Button" x="33" y="288" ruleId="20"/>
+	<e:Label id="conditionText" text="" y="169" size="22" horizontalCenter="0" textColor="0xe5ddcf" visible="false"/>
+</e:Skin>

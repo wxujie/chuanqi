@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Fuli37WinSkin" width="1027" height="690" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+    <e:Image id="dragDropUI" source="apay_bg2_png" />
+    <e:Image y="59" horizontalCenter="-0.5" touchEnabled="false" x="238" source="biaoti_37fulidating" />
+    <e:Image x="82" y="116" width="192" height="542" source="com_bg_kuang_6_png" scale9Grid="17,15,4,4" />
+    <e:Image source="com_bg_kuang_6_png" scale9Grid="18,15,3,4" x="278" y="116" width="670" height="542" />
+    <e:Button id="closeBtn" label="" width="61" height="57" x="931" y="56">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="apay_x2"
+                         source.down="apay_x2" source.disabled="apay_x2" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Scroller id="btnScroller" width="185" height="536" x="85" y="119">
+        <e:TabBar id="tabBar" width="200" height="200" itemRendererSkinName="YYLobbyPrivilegesTabSkin">
+            <e:layout>
+                <e:VerticalLayout horizontalAlign="center" gap="8" />
+            </e:layout>
+        </e:TabBar>
+    </e:Scroller>
+    <e:Group id="infoGroup" width="667" height="540" touchEnabled="false" x="281" y="117" />
+    <e:Group id="bannerGroup" width="660" height="145" touchEnabled="false" x="284" y="116">
+        <e:Image source="banner_37vip" />
+        <e:Label id="descLab1" text="您的超玩会员等级为:" size="16" x="20" textColor="0x28ee01" stroke="1" bottom="10" />
+        <e:Label id="descLab2" text="成为vip" size="16" x="220" textColor="0x28ee01" stroke="1" bottom="10" />
+        <e:Label id="descLab3" text="成为vip" size="16" textColor="0x28ee01" stroke="1" right="20" bottom="10" />
+    </e:Group>
+    <e:Group id="infoGroup2" width="667" height="395" touchEnabled="false" x="281" y="262" />
+</e:Skin>

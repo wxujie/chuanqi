@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagRecycleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="431" height="478">
+	<app:UIViewFrame id="dragDropUI"  horizontalCenter="0" verticalCenter="0" skinName="ViewBgWin4Skin"/>
+	<e:Image source="bg_huishou_png" horizontalCenter="0" verticalCenter="11"/>
+	<e:Rect id="itemBg" width="341" height="138" x="45" y="60" fillAlpha="0"/>
+	<e:Image width="353.5" height="145" verticalCenter="69.5" horizontalCenter="1.5" source="mail_bg" scale9Grid="14,13,2,3" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Button id="sure" label="确定回收" skinName="Btn9Skin" horizontalCenter="1" verticalCenter="174"/>
+	<e:Group id="itemGrp" verticalCenter="-106" horizontalCenter="0.5">
+		<e:Image id="itemQua" horizontalCenter="0" verticalCenter="0" source="quality_1"/>
+		<e:Image id="itemIcon" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:Label id="itemNum" text="" size="16" right="4" bottom="2" stroke="2"/>
+	</e:Group>
+	<e:Label text="回收后可获得以下物品！" x="122" y="197.01" size="18" textColor="0xe5ddcf" stroke="2"/>
+	<e:Image x="74.3" y="210.64" source="get_bg2"/>
+	<e:List id="itemList" itemRendererSkinName="ItemBaseSkin" verticalCenter="37" horizontalCenter="-0.5">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:List>
+	<e:Label id="itemTxt" text="从背包拖入物品可查看回收奖励" size="20" textColor="0xe5ddcf" stroke="2" horizontalCenter="0" verticalCenter="68"/>
+</e:Skin>

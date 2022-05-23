@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliTanwanWeixinGiftSkin" width="667" height="542" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*">
+	<e:Image source="bg_tw_weixin_png" />
+	<app:ItemBase id="itemData" x="551" y="422" skinName="ItemBaseSkin" />
+	<e:EditableText id="InputCode" width="393" text="" x="80" size="20" height="30" verticalAlign="middle" y="422"
+	                textAlign="center" maxChars="120" prompt="&lt;请输入激活码>" textColor="0xF9EFEF" />
+	<e:Button id="wxBuyBtn" label="" x="210.67" y="465.95" icon="fl_jhm_btn_1" skinName="Btn0Skin" width="137" height="56" />
+</e:Skin>

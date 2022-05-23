@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FashionListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="80" height="83.33">
+	<app:ItemSlot2 id="itemSlot" skinName="ItemSlotSkin2"/>
+	<e:Label id="count" text="" x="10" y="46" width="60" height="20" size="16" textAlign="right" verticalAlign="middle"/>
+
+</e:Skin>

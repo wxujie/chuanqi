@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QQLobbyPrivilegesTabSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="up,down" width="185" height="59">
+	<e:Image source="qq_bt1" horizontalCenter="0" verticalCenter="0" source.down="qq_bt2" />
+	<e:Label id="labelDisplay" size="25" horizontalCenter="3" verticalCenter="0" textColor="0xEBC592" textAlign="center"
+	         verticalAlign="middle" textColor.up="0xbf9f77" textColor.down="0xdcd2be" text="" bold="true" stroke="2"
+	         strokeColor.up="0x26211a" strokeColor.down="0x523003" />
+	<e:Image id="redPoint" source="qqdt_jiangli_sign" top="0" left="2" visible="false" />
+</e:Skin>

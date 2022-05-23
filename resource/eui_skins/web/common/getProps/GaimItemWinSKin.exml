@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GaimItemWinSKin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="317" height="364">
+	<e:Image id="dragDropUI" source="get_bg" x="2.01"/>
+	<e:Image source="9s_tipsk" scale9Grid="12,10,2,5" left="0" right="0" top="0" bottom="0" touchEnabled="false"/>
+	<e:Group width="60" height="60" verticalCenter="-80" horizontalCenter="2.5">
+		<e:Image id="itemBg" scaleX="1" scaleY="1" source="quality_4"/>
+		<e:Image id="itemIcon" source="11001" scaleX="1" scaleY="1"/>
+		<e:Image id="itemNu" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="itemName" text="" size="22" stroke="2" textColor="0xf0c896" top="12" horizontalCenter="2" touchEnabled="false"/>
+	<e:Label text="可通过以下方式获得" x="78.32" y="234.36" size="18" stroke="2" textColor="0xff7700"/>
+	<e:Label id="itemDesc" text="" size="18" textColor="0xe5ddcf" stroke="2" width="250" height="44" verticalCenter="8" horizontalCenter="4.5" verticalAlign="middle" textAlign="center" lineSpacing="4"/>
+	<e:Image x="16.68" y="243" source="get_bg2"/>
+	<e:Button id="btnClose" label="Button" skinName="CloseButtonSkin" top="0" right="0"/>
+	<e:List id="viewList" x="16" y="284" itemRendererSkinName="GaimItemListItemSKin" width="289">
+		<e:layout>
+			<e:HorizontalLayout gap="3"/>
+		</e:layout>
+	</e:List>
+	<e:Image x="32" y="264" source="get_tj"/>
+	<e:Group id="buyGrp" width="289.34" height="90.67" x="15.33" y="135"   visible="false">
+		<e:Image x="76.3" y="4.33" source="get_bg3"/>
+		<e:Label id="priceLab" text="价格:500元宝" size="18" horizontalCenter="3" stroke="2" verticalCenter="-27"/>
+		<e:Label text="数量" x="3.5" y="51" size="20" stroke="2" textColor="0xe5ddcf"/>
+		<e:Image source="com_bg_kuang_xian2" scale9Grid="3,3,18,18" height="36" width="77" x="53" y="42.5" />
+		<e:EditableText id="inputNum" width="66.34" height="26.67" text="0" size="20" textAlign="center" horizontalCenter="-52" bottom="17" restrict="0-9" verticalAlign="middle" textColor="0xff1ac2"/>
+		<e:Button id="addBtn" label="Button" x="132.5" y="44" skinName="Btn0Skin" icon="get_jj2" width="38" height="17"/>
+		<e:Button id="jianBtn" label="Button" x="132.5" y="62" skinName="Btn0Skin" icon="get_jj1" width="38" height="17"/>
+		<e:Button id="buyBtn" label="购  买" x="176" y="39" skinName="Btn9Skin"/>
+	</e:Group>
+</e:Skin>

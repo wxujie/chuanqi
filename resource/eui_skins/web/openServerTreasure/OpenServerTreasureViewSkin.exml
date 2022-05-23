@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenServerTreasureViewSkin" currentState="state1" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" width="874" height="556" states="state1,state2">
+	<e:Group width="614" height="556" left="0">
+		<e:Image source="apay_tab_bg" scale9Grid="59,52,8,13" width="614" height="556" />
+		<e:Image y="6" x="6" source="kf_xb_bg_png" source.state2="kf_xb_bg4_png" />
+		<e:Image id="againImg" source="kf_xb_t1" horizontalCenter="-1.5" verticalCenter="-234.5" />
+		<e:Label id="againCount" text="49" size="26" textColor="0x28ee01" stroke="2" horizontalCenter="-61.5"
+		         verticalCenter="-234" />
+		<e:Image y="70" source="kf_xb_t2" left="181" />
+		<e:Label id="extractCount" text="99/99" y="73" size="26" textColor="0xf3030c" stroke="2" left="372" x="372" />
+		<app:ItemBase id="extractItem" x="278" y="200" skinName="ItemBaseSkin" x.state2="271" y.state2="197" />
+		<e:Image id="isExtractImg" x="278" y="200" source="kf_xb_p1" x.state2="271" y.state2="197" />
+		<e:Group id="extractMc" verticalCenter="-44" horizontalCenter="-2" horizontalCenter.state2="-7"
+		         verticalCenter.state2="-49" />
+		<e:Group id="consumeGrp1" horizontalCenter="0" touchEnabled="false" bottom="180">
+			<e:Label id="labConsume" text="单次消耗" size="20" textColor="0xe7c590" stroke="1" x="0" verticalCenter="0" />
+			<e:Image id="moneyImg" source="icon_yuanbao" x="40" />
+			<e:Label id="extractMoney" text="100" size="20" textColor="0xe7c590" stroke="1" x="80" verticalCenter="0" />
+			<e:Label id="labConsume2" text="优先消耗消耗" size="20" textColor="0xe7c590" stroke="1" x="0" verticalCenter="0" />
+			<e:Image id="moneyImg2" source="icon_yuanbao" x="40" scaleX="0.6" scaleY="0.6" />
+			<e:Label id="extractMoney2" text="100" size="20" textColor="0xe7c590" stroke="1" x="80" verticalCenter="0" />
+			<e:layout>
+				<e:HorizontalLayout gap="0" verticalAlign="middle" />
+			</e:layout>
+		</e:Group>
+		<e:Group id="consumeGrp2" horizontalCenter="0" touchEnabled="false" bottom="189">
+			<e:Label id="labConsume_2" text="本次抽奖免费" size="20" textColor="0xe7c590" stroke="1" x="0" verticalCenter="0" />
+		</e:Group>
+		<e:Button id="receiveBtn" label="抽  奖" width="180" height="83" x="122" y="368">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="yk_btn"
+					         source.down="yk_btn" />
+					<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0x1f0000" bold="true" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="receiveBtn2" label="十连抽奖" width="180" height="83" x="312" y="368">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="yk_btn"
+					         source.down="yk_btn" />
+					<e:Label id="labelDisplay" size="20" horizontalCenter="0" verticalCenter="0" textColor="0x1f0000" bold="true" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="red" source="common_hongdian" x="269" y="381" touchEnabled="false" />
+		<e:Label text="剩余时间：" x="42.5" y="462" size="20" textColor="0xffe500" />
+		<e:Label text="活动内容：" x="41.5" y="486" size="20" textColor="0xFFE500" />
+		<e:Label id="actTime" text="" x="140" y="462" size="20" textColor="0x28ee01" />
+		<e:Label id="actDesc" text="" x="140" y="486" size="20" textColor="0xe7c590" width="409" />
+		<app:RuleTipsButton label="Button" left="14" top="13" ruleId="69" ruleId.state2="101" />
+		<e:Group x="455" y="200" height="53">
+			<e:Label id="labSurplus" text="剩余" size="20" textColor="0x17ff00" stroke="1" verticalCenter="-12.5" />
+			<e:Label id="labSurplus2" text="剩余" size="20" textColor="0x17ff00" stroke="1" verticalCenter="13.5" />
+			<e:Label id="labSurplusNum" text="10" size="20" textColor="0x17ff00" stroke="1" x="80" verticalCenter="-12.5" />
+			<e:Label id="labSurplusNum2" text="10" size="20" textColor="0x17ff00" stroke="1" x="80" verticalCenter="13.5" />
+			<e:Image id="moneyImg3" source="icon_yuanbao" x="40" verticalCenter="-13" />
+			<e:Image id="moneyImg4" source="icon_yuanbao" x="40" verticalCenter="13" scaleX="0.6" scaleY="0.6" />
+		</e:Group>
+	</e:Group>
+	<e:Group width="261" height="556" right="0">
+		<e:Image source="apay_tab_bg" scale9Grid="59,52,8,13" left="0" right="0" top="0" bottom="0" />
+		<e:Image source="kf_xb_bg2" horizontalCenter="2.5" verticalCenter="-252.5" />
+		<e:Image x="55" y="10" source="kf_xb_bt" />
+		<e:Image source="kf_xb_bg2" verticalCenter="50.5" horizontalCenter="2.5" />
+		<e:Image x="55" y="317" source="kf_xb_bt2" />
+		<e:Image x="8.99" y="43.66" source="kf_xb_bg3" scale9Grid="9,11,4,3" width="244.67" height="263.33" />
+		<e:Image x="9.66" y="348.06" source="kf_xb_bg3" scale9Grid="9,11,4,3" width="244" height="202.12" />
+		<e:Scroller id="highScroller" width="214" height="246" x="23" y="57" scrollPolicyH="off">
+			<e:List id="highList" itemRendererSkinName="ItemBaseSkin">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="3" horizontalGap="16" verticalGap="14" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="otherScroller" width="214" height="178" x="23" y="364" scrollPolicyH="off">
+			<e:List id="otherList" itemRendererSkinName="ItemBaseSkin">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="3" horizontalGap="15" verticalGap="14" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

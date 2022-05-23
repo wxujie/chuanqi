@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatWinSkin" width="910" height="645" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing">
+	<app:UIViewFrame id="dragDropUI" skinName="ViewBgWin1Skin" />
+	<e:Image id="bg" source="apay_tab_bg" x="178.38" y="47.48" scale9Grid="60,60,12,12" width="709.84" height="491.33"
+	         anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false" />
+	<e:Image source="apay_tab_bg" x="7.82" y="46.81" scale9Grid="60,60,12,12" width="172.47" height="564.67"
+	         anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false" />
+	<e:CheckBox id="cbNear" x="29" name="tabRed" y="501" skinName="CheckBox3" />
+	<e:CheckBox id="cbGuild" x="29" name="tabRed" y="538" skinName="CheckBox3" />
+	<e:CheckBox id="cbPrivate" x="29" name="tabRed" y="575" skinName="CheckBox3" />
+	<e:Label id="lbNear" text="接收附近频道" x="61" y="504" size="18" textColor="0xa6a197" />
+	<e:Label id="lbGuild" text="接收行会频道" x="61" y="541" size="18" textColor="0xa6a197" />
+	<e:Label id="lbPrivate" text="接收私聊频道" x="61" y="578" size="18" textColor="0xa6a197" />
+	<e:Image source="com_bg_kuang_4_png" x="174" y="52" />
+	<e:Scroller id="scroller" height="423" x="25.31" y="60" anchorOffsetX="0" width="147" anchorOffsetY="0">
+		<e:TabBar id="tabBar" height="375" itemRendererSkinName="TradeLineTabSkin">
+			<e:layout>
+				<e:VerticalLayout gap="-3" />
+			</e:layout>
+		</e:TabBar>
+	</e:Scroller>
+	<e:Image right="33" source="ltk_3" height="474" width="690.67" y="61.67" anchorOffsetX="0" anchorOffsetY="0"
+	         scale9Grid="5,7,5,4" visible="false" />
+	<e:Rect width="690" height="474" x="186" y="61" fillAlpha="0.3" />
+	<e:Scroller id="barList" width="688.81" height="472" x="185.67" y="63" skinName="skins.ScrollerSkin"
+	            scrollPolicyH="off">
+		<e:viewport>
+			<e:List id="chatList" left="0" right="11" top="0" bottom="0" itemRendererSkinName="chatListWinItemSkin">
+				<e:layout>
+					<e:VerticalLayout gap="13" />
+				</e:layout>
+			</e:List>
+		</e:viewport>
+	</e:Scroller>
+	<e:Image source="chat_ltbg" x="188" y="550" anchorOffsetX="0" width="556" scale9Grid="14,14,14,14" anchorOffsetY="0"
+	         height="46" />
+	<e:Button id="btnSend" label="发  送" x="791" y="550.33" skinName="Btn22Skin" icon="fasongjiantou2" />
+	<e:Button id="faceBtn" label="" x="749" y="552" width="38" height="38">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chat_tab_4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnChannel" label="附  近" x="187.69" y="552.32" skinName="Btn22Skin" icon="shangjiantou" />
+	<e:EditableText id="chatInput" width="410" text="" x="282" size="15" height="28.33" verticalAlign="middle" y="559"
+	                textAlign="left" maxChars="120" anchorOffsetY="0" anchorOffsetX="0" textColor="0xf0c896" />
+	<e:Label id="showPlayerListBtn" text="" size="15" bold="true" textColor="0xF2D10E" verticalCenter="251"  stroke="2" x="285"/>
+	<e:VScrollBar id="scrollBar1" width="8" height="478" x="875.98" y="58.67" autoVisibility="false" touchChildren="true"
+	              touchEnabled="true"  visible="false"/>
+	<e:Image height="469" x="880" y="65.01" source="m_lst_xian"/>
+	<e:VSlider id="scrollBar" name="verticalSlider" x="873" value="0" height="478" minimum="0" y="58.67"
+	           maximum="1000">
+		<e:Skin minWidth="20" minHeight="10">
+			<e:Image id="track" source="" scale9Grid="2,2,16,15" width="20" height="100%" verticalCenter="0" />
+			<e:Image id="thumb" source="m_lst_dian" rotation="0" x="2" />
+		</e:Skin>
+	</e:VSlider>
+	<app:ChatWinMenuView id="chatMenuView" x="188.97" y="351.21" skinName="ChatWinMenuSkin" visible="false" />
+	<e:Group id="faceGrpup" width="180" height="180" y="370" x="590" visible="false">
+		<e:Rect fillColor="0xFFFFFF" top="0" right="0" left="0" bottom="0"/>
+		<e:Group height="176" width="176" x="2" y="2">
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:layout>
+			<e:HorizontalLayout gap="24"/>
+		</e:layout>
+		</e:Group>
+		<e:Group width="176" height="176" y="2" x="2">
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:layout>
+			<e:VerticalLayout gap="24"/>
+		</e:layout>
+		</e:Group>
+		<e:Group id="faceImgGrpup" width="176" height="176" x="2" y="2" visible="true">
+		<e:Image name="face_0" visible="false"/>
+		<e:Image name="face_1" visible="false"/>
+		<e:Image name="face_2" visible="false"/>
+		<e:Image name="face_3" visible="false"/>
+		<e:Image name="face_4" visible="false"/>
+		<e:Image name="face_5" visible="false"/>
+		<e:Image name="face_6" visible="false"/>
+		<e:Image name="face_7" visible="false"/>
+		<e:Image name="face_8" visible="false"/>
+		<e:Image name="face_9" visible="false"/>
+		<e:Image name="face_10" visible="false"/>
+		<e:Image name="face_11" visible="false"/>
+		<e:Image name="face_12" visible="false"/>
+		<e:Image name="face_13" visible="false"/>
+		<e:Image name="face_14" visible="false"/>
+		<e:Image name="face_15" visible="false"/>
+		<e:Image name="face_16" visible="false"/>
+		<e:Image name="face_17" visible="false"/>
+		<e:Image name="face_18" visible="false"/>
+		<e:Image name="face_19" visible="false"/>
+		<e:Image name="face_20" visible="false"/>
+		<e:Image name="face_21" visible="false"/>
+		<e:Image name="face_22" visible="false"/>
+		<e:Image name="face_23" visible="false"/>
+		<e:Image name="face_24" visible="false"/>
+		<e:Image name="face_25" visible="false"/>
+		<e:Image name="face_26" visible="false"/>
+		<e:Image name="face_27" visible="false"/>
+		<e:Image name="face_28" visible="false"/>
+		<e:Image name="face_29" visible="false"/>
+		<e:Image name="face_30" visible="false"/>
+		<e:Image name="face_31" visible="false"/>
+		<e:Image name="face_32" visible="false"/>
+		<e:Image name="face_33" visible="false"/>
+		<e:Image name="face_34" visible="false"/>
+		<e:Image name="face_35" visible="false"/>
+		<e:Image name="face_36" visible="false"/>
+		<e:Image name="face_37" visible="false"/>
+		<e:Image name="face_38" visible="false"/>
+		<e:Image name="face_39" visible="false"/>
+		<e:Image name="face_40" visible="false"/>
+		<e:Image name="face_41" visible="false"/>
+		<e:Image name="face_42" visible="false"/>
+		<e:Image name="face_43" visible="false"/>
+		<e:Image name="face_44" visible="false"/>
+		<e:Image name="face_45" visible="false"/>
+		<e:Image name="face_46" visible="false"/>
+		<e:Image name="face_47" visible="false"/>
+		<e:Image name="face_48" visible="false"/>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="7" columnWidth="24" rowHeight="24" verticalGap="1" paddingLeft="1" paddingTop="1" horizontalGap="1"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="phoneFaceGrpup" width="180" height="180" y="370" x="590" visible="false">
+		<e:Rect fillColor="0xFFFFFF" top="0" right="0" left="0" bottom="0"/>
+		<e:Group height="176" width="176" x="2" y="2">
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:Image source="chat_bqbkuang" rotation="90" width="176"/>
+		<e:layout>
+			<e:HorizontalLayout gap="24"/>
+		</e:layout>
+		</e:Group>
+		<e:Group width="176" height="176" y="2" x="2">
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:Image source="chat_bqbkuang" width="176"/>
+		<e:layout>
+			<e:VerticalLayout gap="24"/>
+		</e:layout>
+		</e:Group>
+		<e:Group id="phoneFaceImgGrpup" width="176" height="176" x="2" y="2" visible="true">
+		<e:Image name="phoneFace_0" visible="false"/>
+		<e:Image name="phoneFace_1" visible="false"/>
+		<e:Image name="phoneFace_2" visible="false"/>
+		<e:Image name="phoneFace_3" visible="false"/>
+		<e:Image name="phoneFace_4" visible="false"/>
+		<e:Image name="phoneFace_5" visible="false"/>
+		<e:Image name="phoneFace_6" visible="false"/>
+		<e:Image name="phoneFace_7" visible="false"/>
+		<e:Image name="phoneFace_8" visible="false"/>
+		<e:Image name="phoneFace_9" visible="false"/>
+		<e:Image name="phoneFace_10" visible="false"/>
+		<e:Image name="phoneFace_11" visible="false"/>
+		<e:Image name="phoneFace_12" visible="false"/>
+		<e:Image name="phoneFace_13" visible="false"/>
+		<e:Image name="phoneFace_14" visible="false"/>
+		<e:Image name="phoneFace_15" visible="false"/>
+		<e:Image name="phoneFace_16" visible="false"/>
+		<e:Image name="phoneFace_17" visible="false"/>
+		<e:Image name="phoneFace_18" visible="false"/>
+		<e:Image name="phoneFace_19" visible="false"/>
+		<e:Image name="phoneFace_20" visible="false"/>
+		<e:Image name="phoneFace_21" visible="false"/>
+		<e:Image name="phoneFace_22" visible="false"/>
+		<e:Image name="phoneFace_23" visible="false"/>
+		<e:Image name="phoneFace_24" visible="false"/>
+		<e:Image name="phoneFace_25" visible="false"/>
+		<e:Image name="phoneFace_26" visible="false"/>
+		<e:Image name="phoneFace_27" visible="false"/>
+		<e:Image name="phoneFace_28" visible="false"/>
+		<e:Image name="phoneFace_29" visible="false"/>
+		<e:Image name="phoneFace_30" visible="false"/>
+		<e:Image name="phoneFace_31" visible="false"/>
+		<e:Image name="phoneFace_32" visible="false"/>
+		<e:Image name="phoneFace_33" visible="false"/>
+		<e:Image name="phoneFace_34" visible="false"/>
+		<e:Image name="phoneFace_35" visible="false"/>
+		<e:Image name="phoneFace_36" visible="false"/>
+		<e:Image name="phoneFace_37" visible="false"/>
+		<e:Image name="phoneFace_38" visible="false"/>
+		<e:Image name="phoneFace_39" visible="false"/>
+		<e:Image name="phoneFace_40" visible="false"/>
+		<e:Image name="phoneFace_41" visible="false"/>
+		<e:Image name="phoneFace_42" visible="false"/>
+		<e:Image name="phoneFace_43" visible="false"/>
+		<e:Image name="phoneFace_44" visible="false"/>
+		<e:Image name="phoneFace_45" visible="false"/>
+		<e:Image name="phoneFace_46" visible="false"/>
+		<e:Image name="phoneFace_47" visible="false"/>
+		<e:Image name="phoneFace_48" visible="false"/>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="7" columnWidth="24" rowHeight="24" verticalGap="1" paddingLeft="1" paddingTop="1" horizontalGap="1"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

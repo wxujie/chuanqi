@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipGaimItemWinSKin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        width="347" height="406">
+    <e:Image id="dragDropUI" source="tq_bg7_png" />
+    <e:Image id="consumeImg" x="163" scaleX="0.5" scaleY="0.5" y="229"  source="11001"/>
+    <e:Image id="consumeImg2" x="163" scaleX="0.5" scaleY="0.5" y="259"  source="11001"/>
+    <e:Group width="60" height="60" verticalCenter="-80" horizontalCenter="0">
+        <e:Image id="itemBg" source="quality_4" />
+        <e:Image id="itemIcon" source="11001" />
+        <e:Image id="itemNu" horizontalCenter="0" verticalCenter="0" />
+    </e:Group>
+    <e:Label id="itemName" text="道具名称" size="22" stroke="2" textColor="0xf0c896" horizontalCenter="0"
+             touchEnabled="false"  y="40"/>
+    <e:Label id="itemDesc" text="使用xxxx个高级特权卡激活特权" size="18" textColor="0xe5ddcf" stroke="2" width="300"
+             verticalAlign="middle" textAlign="center" lineSpacing="4" y="205"  x="24"/>
+	<e:Label id="itemDesc2" text="使用xxxx个高级特权" size="16" textColor="0xE5DDCF" stroke="2" width="310" verticalAlign="middle" textAlign="center" lineSpacing="4" y="300" x="19"/>
+    <e:Label id="priceLab" text="价格:500元宝" size="18" horizontalCenter="0.5" stroke="2" y="165" />
+    <e:Label id="consumeLab" text="已有：" x="114" y="235" size="20" stroke="2" textColor="0xE5DDCF" />
+    <e:Label id="consumeLab2" text="*0" size="20" textColor="0x28EE01" y="235" x="195" />
+    <e:Label id="consumeLab3" text="还差：" x="114" y="265" size="20" stroke="2" textColor="0xE5DDCF" />
+    <e:Label id="consumeLab4" text="*0" size="20" textColor="0x28EE01" y="265" x="195" />
+    <e:Button id="buyBtn" label="购  买" x="111" y="330" skinName="Btn9Skin" />
+    <e:Button id="btnClose" label="Button" skinName="CloseButtonSkin" top="20" right="14" />
+</e:Skin>

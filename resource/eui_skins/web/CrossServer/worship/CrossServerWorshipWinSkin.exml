@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrossServerWorshipWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*"
+        xmlns:w="http://ns.egret.com/wing" width="984" height="676">
+    <e:Image id="dragDropUI" source="kf_bg1_png" />
+    <e:Image id="titleImg" horizontalCenter="0" top="37" touchEnabled="false"  source="kf_kfmb"/>
+    <e:Group horizontalCenter="0" touchEnabled="false" touchChildren="true" touchThrough="true" y="88">
+        <app:CrossServerWorshipItem id="item0" skinName="CrossServerWorshipItemSkin" x="2" y="0" touchEnabled="false" />
+        <app:CrossServerWorshipItem id="item1" skinName="CrossServerWorshipItemSkin" x="289" y="0" touchEnabled="false" />
+        <app:CrossServerWorshipItem id="item2" skinName="CrossServerWorshipItemSkin" x="576" y="0" touchEnabled="false" />
+        <app:CrossServerWorshipItem id="item3" skinName="CrossServerWorshipItemSkin" x="2" y="283" touchEnabled="false" />
+        <app:CrossServerWorshipItem id="item4" skinName="CrossServerWorshipItemSkin" x="289" y="283" touchEnabled="false" />
+        <app:CrossServerWorshipItem id="item5" skinName="CrossServerWorshipItemSkin" x="576" y="283" touchEnabled="false" />
+    </e:Group>
+    <app:RuleTipsButton label="Button" ruleId="32" top="43" left="38" />
+    <e:Button id="closeBtn" label="" x="894" y="30" width="61" height="57">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image horizontalCenter="0" verticalCenter="0" source="apay_x2" source.down="apay_x2"
+                         source.disabled="apay_x2" scaleX.down="0.98" scaleY.down="0.98" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="btn6Skin" width="46" height="20" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image horizontalCenter="0" verticalCenter="0" source="yeqian_liaotian1"/>
+	<e:Image source="yeqian_liaotian1"/>
+	<e:Label id="labelDisplay" size="13" horizontalCenter="0" verticalCenter="0" bold="true" textColor="0x9e967c" text="Label" visible="false"/>
+	<e:Image id="iconDisplay" source="chat_t_7" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

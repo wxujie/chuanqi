@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamViewPageSkin" width="862" height="484.67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	<e:Group id="gHeader" width="862" height="42" x="0" >
+		<app:TeamHeaderView id="header" width="862" height="42"  skinName="TeamHederSkin"/>
+	</e:Group>
+	<e:Group id="gp" width="855" height="443" x="1" y="41" >
+		<e:Scroller id="scroller" width="855" height="440" x="-1"  scrollPolicyH="off">
+			<e:List id="gList" itemRendererSkinName="TeamCommonItemSkin">
+			</e:List>
+		</e:Scroller>
+		<e:Label id="noListTipsLb" text="当前未添加玩家成为好友"  textAlign="center" verticalAlign="middle" horizontalCenter="0" verticalCenter="0" textColor="0xdcd2be" stroke="2" size="24" lineSpacing="5"/>
+	</e:Group>
+</e:Skin>

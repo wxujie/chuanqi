@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShortcutKeyBtnSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="60" height="59"  >
+		<e:Image id="effect" source="anjian_guang" smoothing="false" horizontalCenter="-1" verticalCenter="0" visible="false"/>
+		<e:Image source="anjian_bg" smoothing="false" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="icon" smoothing="false" horizontalCenter="0" verticalCenter="0" source="anjian_sz" width="56" height="59"/>
+		<e:Label id="labelDisplay" touchEnabled="false"  size="18" textColor="0xA05245" bold="true" horizontalCenter="-2" verticalCenter="-8" text=""/>
+</e:Skin>

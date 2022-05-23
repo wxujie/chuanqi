@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightResultWinSkin8" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="415" height="856">
+	<e:Rect fillAlpha="0.2" width="100%" height="100%"/>
+	<e:Group width="415" height="628" horizontalCenter="0" verticalCenter="-114">
+		<e:Image id="bgIcon" source="result_win" verticalCenter="0" horizontalCenter="0" x="0" y="0"/>
+		<e:Image id="titleIcon" source="result_win1" left="144" verticalCenter="-153.5"/>
+		<e:Group id="failGrp" horizontalCenter="1" verticalCenter="-29.5" x="77" y="186" visible="false">
+			<e:Image source="result_lost2" horizontalCenter="0"/>
+			<e:Image y="60" source="result_lost3" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="listGrp" width="263" height="343" x="87" y="168" touchEnabled="false">
+			<e:Label id="bossName" text="" size="20" x="16" width="250" anchorOffsetY="0" height="20"  y="30" textColor="0x28ee01" stroke="2" verticalAlign="middle" textAlign="center"/>
+			<e:Label id="rankLab0" text="" size="20" width="253" height="154" y="57.36"  textColor="0xeee014" stroke="2" lineSpacing="10"/>
+			<e:Label text="以下奖励已通过邮件发放" size="20" x="7" width="250" y="216.32"  textColor="0xeee104" stroke="2"/>
+			<e:Scroller width="254" height="132" x="5" y="205" anchorOffsetY="0" visible="false">
+				<e:List id="itemList1" x="5" y="10" itemRendererSkinName="ItemBaseSkin" anchorOffsetX="0" width="243" anchorOffsetY="0" height="66">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="4" horizontalGap="4" verticalGap="11"/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Scroller width="254" height="63" x="0.98" y="246.68" anchorOffsetY="0">
+			<e:List id="itemList" x="5" y="10" itemRendererSkinName="ItemBaseSkin" anchorOffsetX="0" width="243" anchorOffsetY="0" height="177">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Label id="autoSuit" text="3秒后自动退出" size="21" horizontalCenter="5.5" bottom="64" x="126" y="485" textColor="0x28ee01" stroke="2"/>
+		<e:Button id="suitBtn" label="领取奖励" icon="result_btn" horizontalCenter="8" bottom="92" x="77" y="420" skinName="Btn9Skin"/>
+	</e:Group>
+</e:Skin>

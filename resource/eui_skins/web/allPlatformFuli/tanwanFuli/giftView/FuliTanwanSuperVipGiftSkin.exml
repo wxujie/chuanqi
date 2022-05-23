@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliTanwanSuperVipGiftSkin" width="868" height="545" xmlns:e="http://ns.egret.com/eui">
+	<e:Image x="5" y="5" source="banner_tanwanvip"/>
+	<e:Image x="7" y="148" source="bg_tanwanvip_png"/>
+	<e:Button id="rechargeBtn" label="" x="692" y="45" icon="t_lijichongzhi" width="137" height="56" skinName="Btn26Skin"/>
+	<e:Button id="codeBtn" label="" x="526" y="480" icon="t_erweima" width="137" height="56" skinName="Btn26Skin" scaleX="0.75" scaleY="0.75"/>
+	<e:Label id="lab" text="" x="46" y="506" textAlign="left" textColor="0xE5DDCF" size="22" stroke="1"/>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatShowFriendOrNearListSkin" width="765" height="341" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*">
+	
+    <app:UIViewFrame id="dragDropUI" width="478" height="340" x="0" y="0" skinName="ViewBgWin5Skin"/>
+	<e:Image x="16" y="43"  width="447" source="bg_bg2" scale9Grid="4,4,28,28"  height="280" visible="false"/>
+	<e:Image id="bg_right" x="498" y="3" source="chat_bg_tc2_png"/>
+	<e:Image source="bg_bg2" x="513" y="17"  width="228"  height="302" scale9Grid="17,16,2,2"/>
+	<e:Image source="ltk_4" x="63" y="141"  width="360"  height="32" scale9Grid="10,10,2,1"/>
+	<e:EditableText id="playerNameText" width="360" height="32" text=""   textAlign="center" horizontalCenter="-133" verticalCenter="-14" size="22" verticalAlign="middle"/>
+	<e:Label id="txt_enter_name" text="" x="63" y="98" size="18"/>
+	<e:Label id="txt_list_name" text="" x="588" y="29" textAlign="center" verticalAlign="middle" size="15" textColor="0xf7bb07"/>
+	<e:Scroller width="188" height="233" x="533" y="60"  >
+	<e:List id="playerList" width="173" height="235" x="-11" y="0"   itemRendererSkinName="ChatPrivatePlayerListItemskin">
+	</e:List>
+	</e:Scroller>
+	<e:Button id="ConfirmBtn" x="189" y="288" width="109" height="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" source.disabled="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"  size="20" textColor="0xf0c896" stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PhoneMainButtonSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="72" height="72" states="up,down" >
+	<e:Image id="iconDisplay" source="icon_beibao" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+	<e:Image id="redDot" width="20" height="20" source="common_hongdian" right="0" top="0" visible="false"/>
+	<e:Group id="ingGrp" touchEnabled="false" touchChildren="false" horizontalCenter="0" y="72" visible="false">
+		<e:Image x="0" y="0" source="icon_shachengdjs"/>
+		<e:Label id="timeLab" text="" size="18" textColor="0x28EE01" horizontalCenter="0" verticalCenter="0" stroke="2"/>
+	</e:Group>
+</e:Skin>

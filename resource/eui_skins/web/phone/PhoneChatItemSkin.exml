@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PhoneChatItemSkin" width="304" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="systemGrp" minHeight="24" width="54" height="24">
+		<e:Rect left="0" right="-6" top="-1" bottom="-1" fillColor="0xfc9219"/>
+		<e:Label id="chatChannelName" text=" [系统] " size="16" backgroundColor="0xfc9219" textColor="0xfffefc"   stroke="1" verticalCenter="0.5" horizontalCenter="3.5"/>
+		<e:Image x="0.32" source="lt_xitong" y="0" width="0" height="0" visible="false"/>
+	</e:Group>
+	<e:Group id="qqGrp" x="62" y="1" touchEnabled="false" touchChildren="false" visible="false">
+		<e:Image id="blueImg" x="-3" y="-1" source="name_lz_hh8"/>
+		<e:Image id="blueYearImg" x="7" y="9" source="name_lz_nf"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="txtGrp" x="65" y="0" minHeight="24">
+		<e:Rect id="bgColor" fillColor="0x0735fc" scaleX="1" scaleY="1" left="-3" right="-3" top="-1" bottom="-1"/>
+		<e:Label id="chatLab" size="16" backgroundColor="0x0735fc"   stroke="1" background="false" x="0" maxWidth="290" y="4" lineSpacing="3" textColor="0xe5ddcf" visible="true" text="哈哈哈哈"/>
+		<e:Group id="bqGroup" visible="true">
+			<e:Label id="bqLab" size="16" backgroundColor="0x0735FC"   stroke="1" background="false" maxWidth="290" lineSpacing="3" textColor="0xE5DDCF" y="0"/>
+        <e:Image id="icoImage"/>
+			<e:layout>
+				<e:HorizontalLayout gap="1" verticalAlign="middle"/>
+			</e:layout>
+        </e:Group>
+		<e:Image id="logo" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.4" scaleY="0.4" source="" visible="false"/>
+	</e:Group>
+</e:Skin>

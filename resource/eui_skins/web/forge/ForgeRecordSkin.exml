@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgeRecordSkin" xmlns:e="http://ns.egret.com/eui" xmlns:app="app.*" xmlns:w="http://ns.egret.com/wing" width="478" height="340">
+	<app:UIViewFrame id="dragDropUI"  horizontalCenter="0" bottom="0" width="478" height="340" skinName="ViewBgWin5Skin"/>
+	<e:Image source="chat_bg_bg2" scale9Grid="4,4,28,28" width="441" height="239" horizontalCenter="-0.5" bottom="58" visible="false"/>
+	<e:Scroller id="msgScroller" width="435" height="211" horizontalCenter="-2.5" bottom="71" anchorOffsetY="0">
+		<e:List id="msgList" itemRendererSkinName="ForgeRecordItemSkin">
+			<e:ArrayCollection>
+				<e:Array/>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="sure" label="确 定" horizontalCenter="-10.5" bottom="12" width="109" height="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="tips_btn" source.down="tips_btn" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xf0c896"  stroke="2"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

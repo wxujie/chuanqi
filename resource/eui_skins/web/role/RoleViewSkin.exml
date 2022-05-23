@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleViewSkin" xmlns:app="app.*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        height="641" width="427">
+	<e:Group height="641" touchEnabled="false" touchThrough="true">
+		<app:UIViewFrame id="dragDropUI" skinName="UIViewBgWinSkin" />
+		<e:Group id="type_group" width="382" height="440" x="23" y="92" touchEnabled="false" touchThrough="true" />
+		<e:Group id="attrGroup" x="428" y="73" touchEnabled="false" />
+		<e:Group id="stateGroup" x="688" y="113" touchEnabled="false" />
+		<e:Group id="skillDescGroup" x="428" y="113" touchEnabled="false" />
+		<e:Group id="title2Group" x="428" touchEnabled="false"  y="73"/>
+		<e:Group id="tab_group" cacheAsBitmap="true" height="39" y="115" x="-38" touchEnabled="false">
+			<e:layout>
+				<e:VerticalLayout gap="-25" />
+			</e:layout>
+		</e:Group>
+		<e:Group id="btnGroup" x="30" y="555" width="369">
+			<e:layout>
+				<e:HorizontalLayout gap="0" />
+			</e:layout>
+		</e:Group>
+		<app:RuleTipsButton id="helpBtn" label="Button" x="24" y="96" ruleId="4" />
+		<e:Image id="lineImg" y="539" source="role_k2" x="18.5" />
+	</e:Group>
+</e:Skin>
